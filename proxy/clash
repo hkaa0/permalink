@@ -4,1205 +4,701 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"TG频道:@hkaa0_1","server":"103.172.116.7","port":9008,"cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|新加坡_1","server":"47.241.191.179","port":"46104","uuid":"5b7f1d0e-4821-4108-e4bf-fa765ab28f2e","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"TG频道:@hkaa0_2","server":"103.172.116.8","port":9057,"cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_1","server":"185.167.116.24","port":9003,"cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
-  - {"type":"ss","name":"TG频道:@hkaa0_3","server":"103.172.116.8","port":9037,"cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_2","server":"185.167.116.24","port":9038,"cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_3","server":"185.167.116.252","port":9070,"cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"type":"ssr","name":"TG频道:@hkaa0_4","server":"103.172.116.9","port":9040,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"p9z5BVADH2YFs3MN"}
-  - {"type":"ss","name":"TG频道:@hkaa0_5","server":"103.172.116.8","port":9040,"cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_4","server":"185.167.116.24","port":9043,"cipher":"aes-256-cfb","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_5","server":"185.167.116.24","port":9040,"cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
-  - {"type":"ss","name":"TG频道:@hkaa0_6","server":"103.172.116.8","port":9079,"cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"type":"ss","name":"TG频道:@hkaa0_7","server":"103.172.116.7","port":9010,"cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_6","server":"185.167.116.24","port":9070,"cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_7","server":"185.167.116.252","port":9005,"cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_8","server":"185.167.116.252","port":9019,"cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_1","server":"85.208.108.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ssr","name":"TG频道:@hkaa0_8","server":"103.172.116.9","port":9088,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f8npKgNzdkss2ytn"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_2","server":"85.208.108.60","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|台湾","ws-opts":{"path":"/","headers":{"host":"61.222.202.140"}},"server":"61.222.202.140","port":"33792","uuid":"e55cd182-01b0-4fb7-a510-363701a491c5","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_3","server":"85.208.108.21","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_4","server":"85.208.108.21","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_5","server":"85.208.108.21","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ssr","name":"TG频道:@hkaa0_9","server":"103.172.116.9","port":9097,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"Sn5B7jTqr76aCJT8"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_6","server":"85.208.108.60","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|英国_1","server":"78.129.253.9","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_7","server":"85.208.108.62","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_8","server":"85.208.108.61","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_9","server":"85.208.108.62","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_10","server":"85.208.108.20","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_11","server":"85.208.108.90","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_12","server":"85.208.108.61","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_13","server":"85.208.108.60","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_14","server":"85.208.108.60","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_15","server":"85.208.108.20","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_16","server":"85.208.108.59","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_1","server":"85.208.108.60","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_2","server":"85.208.108.59","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_1","server":"213.183.59.191","port":9053,"cipher":"aes-256-cfb","password":"SBM7R883jBmnqe6C"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_3","server":"85.208.108.59","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_2","server":"213.183.59.211","port":9053,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"SBM7R883jBmnqe6C"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_3","server":"213.183.59.206","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
+  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_1","server":"213.183.63.219","port":9041,"cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_4","server":"85.208.108.60","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_5","server":"85.208.108.59","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_6","server":"85.208.108.60","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_4","server":"185.246.155.29","port":9020,"cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_5","server":"185.246.155.29","port":9015,"cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
+  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_2","server":"213.183.63.219","port":9010,"cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_6","server":"213.183.59.190","port":9041,"cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_7","server":"213.183.59.185","port":9045,"cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_7","server":"85.208.108.60","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_8","server":"213.183.59.191","port":9088,"cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_9","server":"185.246.155.29","port":9046,"cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|新加坡","ws-opts":{"path":"/images","headers":{"host":"v.qq.com"}},"server":"139.177.191.249","port":"80","uuid":"54756011-b1e6-46ca-911c-9263c47c9b54","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_10","server":"213.183.59.190","port":9027,"cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_3","server":"213.183.63.219","port":9097,"cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
+  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_4","server":"213.183.63.219","port":9042,"cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_11","server":"213.183.59.190","port":9031,"cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_12","server":"213.183.59.190","port":9038,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"gYCYXfkUQEs2TaJQ"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_13","server":"185.246.155.29","port":9005,"cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_14","server":"213.183.59.206","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_15","server":"213.183.59.190","port":9088,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f8npKgNzdkss2ytn"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_16","server":"185.246.155.29","port":9014,"cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_17","server":"213.183.59.211","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_8","server":"85.208.108.59","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_18","server":"213.183.59.206","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_19","server":"213.183.59.185","port":9008,"cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_20","server":"185.246.155.29","port":9064,"cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_1","server":"167.88.61.213","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"TG频道:@hkaa0|法国","server":"195.154.200.150","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_9","server":"85.208.108.60","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_10","server":"85.208.108.60","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_11","server":"85.208.108.59","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_21","server":"213.183.59.191","port":9010,"cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_2","server":"167.88.61.175","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"TG频道:@hkaa0|德国","server":"52.58.249.78","port":57824,"cipher":"chacha20-ietf-poly1305","password":"pryhyxya"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_12","server":"85.208.108.59","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_3","server":"167.88.61.213","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_22","server":"185.246.155.29","port":9027,"cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_13","server":"85.208.108.59","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_23","server":"213.183.59.190","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_24","server":"213.183.59.185","port":9031,"cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_14","server":"85.208.108.60","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_25","server":"92.38.184.228","port":2097,"cipher":"chacha20-ietf-poly1305","password":"jRKkoWqkrw2f"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_26","server":"185.246.155.29","port":9070,"cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_15","server":"85.208.108.18","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_27","server":"185.246.155.29","port":9094,"cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
+  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_1","server":"185.167.116.252","port":9070,"cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_4","server":"167.88.61.213","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|俄罗斯联邦","ws-opts":{"path":"/"},"server":"2.56.241.22","port":"80","uuid":"2b07ca92-8673-42fb-9553-6f1b391c9a85","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_16","server":"85.208.108.18","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
   - {"type":"ss","name":"TG频道:@hkaa0|日本_17","server":"85.208.108.60","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_18","server":"85.208.108.59","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_19","server":"85.208.108.59","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_20","server":"85.208.108.90","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_21","server":"85.208.108.90","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_22","server":"85.208.108.58","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_23","server":"85.208.108.90","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_24","server":"85.208.108.18","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_25","server":"85.208.108.20","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_26","server":"85.208.108.90","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_27","server":"85.208.108.21","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_28","server":"85.208.108.94","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_29","server":"85.208.108.94","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_30","server":"85.208.108.94","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_31","server":"85.208.108.94","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_32","server":"85.208.108.61","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_33","server":"85.208.108.94","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_34","server":"85.208.108.59","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_35","server":"85.208.108.62","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_36","server":"85.208.108.90","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_37","server":"85.208.108.60","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"TG频道:@hkaa0|英国_2","server":"78.129.253.9","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_38","server":"85.208.108.62","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_39","server":"85.208.108.20","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_40","server":"85.208.108.20","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_41","server":"85.208.108.62","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_42","server":"85.208.108.59","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_43","server":"85.208.108.62","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_44","server":"85.208.108.21","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_45","server":"85.208.108.94","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_46","server":"85.208.108.62","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_47","server":"85.208.108.94","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_48","server":"85.208.108.90","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_49","server":"85.208.108.94","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_50","server":"85.208.108.20","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_51","server":"85.208.108.62","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_52","server":"85.208.108.62","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_53","server":"85.208.108.90","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"TG频道:@hkaa0|新加坡_2","server":"81.90.189.152","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_54","server":"85.208.108.21","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_1","server":"213.183.59.211","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_55","server":"85.208.108.18","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_56","server":"85.208.108.59","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_2","server":"213.183.59.209","port":9001,"cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_3","server":"185.246.155.29","port":9018,"cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_57","server":"85.208.108.60","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_4","server":"213.183.59.206","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_9","server":"185.167.116.24","port":9019,"cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_10","server":"185.167.116.24","port":9056,"cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_5","server":"213.183.59.190","port":9027,"cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_6","server":"213.183.59.190","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_7","server":"213.183.59.209","port":9056,"cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_8","server":"213.183.59.231","port":9033,"cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_9","server":"185.246.155.29","port":9070,"cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_10","server":"213.183.59.211","port":9053,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"SBM7R883jBmnqe6C"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_11","server":"213.183.59.206","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_12","server":"213.183.59.206","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_1","server":"213.183.63.219","port":9079,"cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_2","server":"213.183.63.219","port":9042,"cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_13","server":"213.183.59.211","port":9043,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"HSZuyJQcWe8dxNdF"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_14","server":"213.183.59.231","port":9014,"cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
-  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_3","server":"213.183.63.219","port":9040,"cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_11","server":"185.167.116.252","port":9024,"cipher":"aes-256-cfb","password":"BejrQvtu9sqUeNuZ"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_58","server":"85.208.108.59","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_15","server":"185.246.155.29","port":9014,"cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_16","server":"213.183.59.190","port":9088,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f8npKgNzdkss2ytn"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_17","server":"213.183.59.185","port":9031,"cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_18","server":"213.183.59.185","port":9008,"cipher":"aes-256-cfb","password":"y9VURyNzJWNRYEGQ"}
-  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_4","server":"213.183.63.219","port":9041,"cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
-  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_12","server":"185.167.116.252","port":9033,"cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
-  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_5","server":"213.183.63.219","port":9097,"cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_59","server":"85.208.108.60","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_19","server":"185.246.155.29","port":9027,"cipher":"aes-256-cfb","password":"EXN3S3eQpjE7EJu8"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_20","server":"213.183.59.211","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_60","server":"85.208.108.94","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_21","server":"213.183.59.206","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
+  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_5","server":"213.183.63.219","port":9040,"cipher":"aes-256-cfb","password":"p9z5BVADH2YFs3MN"}
+  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_2","server":"185.167.116.252","port":9019,"cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_5","server":"167.88.61.213","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_6","server":"167.88.61.175","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
   - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_6","server":"213.183.63.219","port":9050,"cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_22","server":"213.183.59.185","port":9045,"cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|荷兰_23","server":"213.183.59.190","port":9038,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"gYCYXfkUQEs2TaJQ"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_24","server":"213.183.59.190","port":9037,"cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_25","server":"213.183.59.190","port":9031,"cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_26","server":"185.246.155.29","port":9020,"cipher":"aes-256-cfb","password":"BNmAXXxAHYpTRdzu"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|澳大利亚_13","server":"129.154.48.221","port":"37372","uuid":"6f4454a9-e732-46c6-c50f-73f13da31f7b","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_27","server":"213.183.59.191","port":9010,"cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_28","server":"213.183.59.190","port":9041,"cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_29","server":"185.246.155.29","port":9064,"cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_30","server":"213.183.59.191","port":9053,"cipher":"aes-256-cfb","password":"SBM7R883jBmnqe6C"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_61","server":"85.208.108.60","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_31","server":"213.183.59.190","port":9046,"cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_32","server":"213.183.59.191","port":9088,"cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_33","server":"213.183.59.209","port":9019,"cipher":"aes-256-cfb","password":"GA9KzeEgvfxNrgmM"}
-  - {"type":"ss","name":"TG频道:@hkaa0|新加坡_3","server":"139.99.123.85","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_34","server":"185.246.155.29","port":9046,"cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
-  - {"type":"ss","name":"TG频道:@hkaa0|新加坡_4","server":"139.99.120.234","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_35","server":"213.183.59.211","port":9094,"cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
-  - {"type":"ss","name":"TG频道:@hkaa0|美国","server":"198.181.56.163","port":238,"cipher":"aes-256-cfb","password":"bwhskrskr05"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_62","server":"85.208.108.20","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_36","server":"185.246.155.29","port":9094,"cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_37","server":"185.246.155.29","port":9015,"cipher":"aes-256-cfb","password":"ZpNDDKRu9MagNvaf"}
-  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_7","server":"213.183.63.219","port":9031,"cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN"}
-  - {"type":"ss","name":"TG频道:@hkaa0_10","server":"103.177.32.147","port":443,"cipher":"chacha20-ietf-poly1305","password":"8247a4cf6ed4","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"twd1000tw001.fengchiline.xyz"}}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_38","server":"185.246.155.29","port":9084,"cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
-  - {"type":"ss","name":"TG频道:@hkaa0_11","server":"103.172.116.8","port":9088,"cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_39","server":"185.246.155.29","port":9056,"cipher":"aes-256-cfb","password":"rNBfNuuANFCAk7KB"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_40","server":"185.246.155.23","port":9057,"cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_41","server":"185.246.155.29","port":9005,"cipher":"aes-256-cfb","password":"ZET59LF6DvCC8KVt"}
-  - {"type":"ss","name":"TG频道:@hkaa0|保加利亚_8","server":"213.183.63.219","port":9010,"cipher":"aes-256-cfb","password":"f63gg8EruDnUrmz4"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|澳大利亚_14","server":"45.77.48.44","port":8099,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_42","server":"185.246.155.29","port":9060,"cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_7","server":"167.88.61.213","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_8","server":"167.88.63.79","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_9","server":"167.88.62.68","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_28","server":"213.183.59.190","port":9046,"cipher":"aes-256-cfb","password":"NvS8N4Vf8qAGPSCL"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_10","server":"167.88.61.213","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_11","server":"167.88.61.175","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_29","server":"213.183.59.190","port":9037,"cipher":"aes-256-cfb","password":"TN2YqghxeFDKZfLU"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_12","server":"167.88.62.68","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_30","server":"185.246.155.29","port":9084,"cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_13","server":"167.88.61.2","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|泰国","server":"119.59.116.248","port":17159,"password":"PHnvNV7HGp","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_31","server":"213.183.59.211","port":9094,"cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_14","server":"167.88.61.2","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|中国_1","server":"120.233.29.214","port":3203,"protocol":"auth_aes128_md5","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","password":"di15PV","obfs-param":"WkVNMWRGcFRPVEpqUnpWdldWaFI","protocol-param":"91478:cUEBYr"}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_15","server":"167.88.61.2","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|中国_2","server":"120.233.29.214","port":6011,"protocol":"auth_aes128_md5","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","password":"di15PV","obfs-param":"WkVNMWRGcFRPVEpqUnpWdldWaFI","protocol-param":"91478:cUEBYr"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_18","server":"85.208.108.60","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|中国_3","server":"120.233.29.213","port":3212,"protocol":"auth_aes128_md5","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","password":"di15PV","obfs-param":"WkVNMWRGcFRPVEpqUnpWdldWaFI","protocol-param":"91478:cUEBYr"}
+  - {"type":"ss","name":"TG频道:@hkaa0|澳大利亚_3","server":"185.167.116.252","port":9033,"cipher":"aes-256-cfb","password":"UTJA57ypk2XKQpnm"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|中国_4","server":"120.233.29.214","port":3204,"protocol":"auth_aes128_md5","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","password":"di15PV","obfs-param":"WkVNMWRGcFRPVEpqUnpWdldWaFI","protocol-param":"91478:cUEBYr"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG频道:@hkaa0_1
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0_2
-      - TG频道:@hkaa0|澳大利亚_1
-      - TG频道:@hkaa0_3
-      - TG频道:@hkaa0|澳大利亚_2
-      - TG频道:@hkaa0|澳大利亚_3
-      - TG频道:@hkaa0_4
-      - TG频道:@hkaa0_5
-      - TG频道:@hkaa0|澳大利亚_4
-      - TG频道:@hkaa0|澳大利亚_5
-      - TG频道:@hkaa0_6
-      - TG频道:@hkaa0_7
-      - TG频道:@hkaa0|澳大利亚_6
-      - TG频道:@hkaa0|澳大利亚_7
-      - TG频道:@hkaa0|澳大利亚_8
       - TG频道:@hkaa0|日本_1
-      - TG频道:@hkaa0_8
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|日本_3
-      - TG频道:@hkaa0|日本_4
-      - TG频道:@hkaa0|日本_5
-      - TG频道:@hkaa0_9
-      - TG频道:@hkaa0|日本_6
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|日本_7
-      - TG频道:@hkaa0|日本_8
-      - TG频道:@hkaa0|日本_9
-      - TG频道:@hkaa0|日本_10
-      - TG频道:@hkaa0|日本_11
-      - TG频道:@hkaa0|日本_12
-      - TG频道:@hkaa0|日本_13
-      - TG频道:@hkaa0|日本_14
-      - TG频道:@hkaa0|日本_15
-      - TG频道:@hkaa0|日本_16
-      - TG频道:@hkaa0|日本_17
-      - TG频道:@hkaa0|日本_18
-      - TG频道:@hkaa0|日本_19
-      - TG频道:@hkaa0|日本_20
-      - TG频道:@hkaa0|日本_21
-      - TG频道:@hkaa0|日本_22
-      - TG频道:@hkaa0|日本_23
-      - TG频道:@hkaa0|日本_24
-      - TG频道:@hkaa0|日本_25
-      - TG频道:@hkaa0|日本_26
-      - TG频道:@hkaa0|日本_27
-      - TG频道:@hkaa0|日本_28
-      - TG频道:@hkaa0|日本_29
-      - TG频道:@hkaa0|日本_30
-      - TG频道:@hkaa0|日本_31
-      - TG频道:@hkaa0|日本_32
-      - TG频道:@hkaa0|日本_33
-      - TG频道:@hkaa0|日本_34
-      - TG频道:@hkaa0|日本_35
-      - TG频道:@hkaa0|日本_36
-      - TG频道:@hkaa0|日本_37
-      - TG频道:@hkaa0|英国_2
-      - TG频道:@hkaa0|日本_38
-      - TG频道:@hkaa0|日本_39
-      - TG频道:@hkaa0|日本_40
-      - TG频道:@hkaa0|日本_41
-      - TG频道:@hkaa0|日本_42
-      - TG频道:@hkaa0|日本_43
-      - TG频道:@hkaa0|日本_44
-      - TG频道:@hkaa0|日本_45
-      - TG频道:@hkaa0|日本_46
-      - TG频道:@hkaa0|日本_47
-      - TG频道:@hkaa0|日本_48
-      - TG频道:@hkaa0|日本_49
-      - TG频道:@hkaa0|日本_50
-      - TG频道:@hkaa0|日本_51
-      - TG频道:@hkaa0|日本_52
-      - TG频道:@hkaa0|日本_53
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|日本_54
       - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|日本_55
-      - TG频道:@hkaa0|日本_56
+      - TG频道:@hkaa0|日本_3
       - TG频道:@hkaa0|荷兰_2
       - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|日本_57
+      - TG频道:@hkaa0|保加利亚_1
+      - TG频道:@hkaa0|日本_4
+      - TG频道:@hkaa0|日本_5
+      - TG频道:@hkaa0|日本_6
       - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|澳大利亚_9
-      - TG频道:@hkaa0|澳大利亚_10
       - TG频道:@hkaa0|荷兰_5
+      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_6
       - TG频道:@hkaa0|荷兰_7
+      - TG频道:@hkaa0|日本_7
       - TG频道:@hkaa0|荷兰_8
       - TG频道:@hkaa0|荷兰_9
+      - TG频道:@hkaa0|新加坡
       - TG频道:@hkaa0|荷兰_10
+      - TG频道:@hkaa0|保加利亚_3
+      - TG频道:@hkaa0|保加利亚_4
       - TG频道:@hkaa0|荷兰_11
       - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|保加利亚_1
-      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_13
       - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|保加利亚_3
-      - TG频道:@hkaa0|澳大利亚_11
-      - TG频道:@hkaa0|日本_58
       - TG频道:@hkaa0|荷兰_15
       - TG频道:@hkaa0|荷兰_16
       - TG频道:@hkaa0|荷兰_17
+      - TG频道:@hkaa0|日本_8
       - TG频道:@hkaa0|荷兰_18
-      - TG频道:@hkaa0|保加利亚_4
-      - TG频道:@hkaa0|澳大利亚_12
-      - TG频道:@hkaa0|保加利亚_5
-      - TG频道:@hkaa0|日本_59
       - TG频道:@hkaa0|荷兰_19
       - TG频道:@hkaa0|荷兰_20
-      - TG频道:@hkaa0|日本_60
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|法国
+      - TG频道:@hkaa0|日本_9
+      - TG频道:@hkaa0|日本_10
+      - TG频道:@hkaa0|日本_11
       - TG频道:@hkaa0|荷兰_21
-      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|德国
+      - TG频道:@hkaa0|日本_12
+      - TG频道:@hkaa0|美国_3
       - TG频道:@hkaa0|荷兰_22
+      - TG频道:@hkaa0|日本_13
       - TG频道:@hkaa0|荷兰_23
       - TG频道:@hkaa0|荷兰_24
+      - TG频道:@hkaa0|日本_14
       - TG频道:@hkaa0|荷兰_25
       - TG频道:@hkaa0|荷兰_26
-      - TG频道:@hkaa0|澳大利亚_13
+      - TG频道:@hkaa0|日本_15
       - TG频道:@hkaa0|荷兰_27
+      - TG频道:@hkaa0|澳大利亚_1
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|俄罗斯联邦
+      - TG频道:@hkaa0|日本_16
+      - TG频道:@hkaa0|日本_17
+      - TG频道:@hkaa0|保加利亚_5
+      - TG频道:@hkaa0|澳大利亚_2
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_7
+      - TG频道:@hkaa0|美国_8
+      - TG频道:@hkaa0|美国_9
       - TG频道:@hkaa0|荷兰_28
+      - TG频道:@hkaa0|美国_10
+      - TG频道:@hkaa0|美国_11
       - TG频道:@hkaa0|荷兰_29
+      - TG频道:@hkaa0|美国_12
       - TG频道:@hkaa0|荷兰_30
-      - TG频道:@hkaa0|日本_61
+      - TG频道:@hkaa0|美国_13
+      - TG频道:@hkaa0|泰国
       - TG频道:@hkaa0|荷兰_31
-      - TG频道:@hkaa0|荷兰_32
-      - TG频道:@hkaa0|荷兰_33
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|荷兰_34
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|荷兰_35
-      - TG频道:@hkaa0|美国
-      - TG频道:@hkaa0|日本_62
-      - TG频道:@hkaa0|荷兰_36
-      - TG频道:@hkaa0|荷兰_37
-      - TG频道:@hkaa0|保加利亚_7
-      - TG频道:@hkaa0_10
-      - TG频道:@hkaa0|荷兰_38
-      - TG频道:@hkaa0_11
-      - TG频道:@hkaa0|荷兰_39
-      - TG频道:@hkaa0|荷兰_40
-      - TG频道:@hkaa0|荷兰_41
-      - TG频道:@hkaa0|保加利亚_8
-      - TG频道:@hkaa0|澳大利亚_14
-      - TG频道:@hkaa0|荷兰_42
+      - TG频道:@hkaa0|美国_14
+      - TG频道:@hkaa0|中国_1
+      - TG频道:@hkaa0|美国_15
+      - TG频道:@hkaa0|中国_2
+      - TG频道:@hkaa0|日本_18
+      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|澳大利亚_3
+      - TG频道:@hkaa0|中国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG频道:@hkaa0_1
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0_2
-      - TG频道:@hkaa0|澳大利亚_1
-      - TG频道:@hkaa0_3
-      - TG频道:@hkaa0|澳大利亚_2
-      - TG频道:@hkaa0|澳大利亚_3
-      - TG频道:@hkaa0_4
-      - TG频道:@hkaa0_5
-      - TG频道:@hkaa0|澳大利亚_4
-      - TG频道:@hkaa0|澳大利亚_5
-      - TG频道:@hkaa0_6
-      - TG频道:@hkaa0_7
-      - TG频道:@hkaa0|澳大利亚_6
-      - TG频道:@hkaa0|澳大利亚_7
-      - TG频道:@hkaa0|澳大利亚_8
       - TG频道:@hkaa0|日本_1
-      - TG频道:@hkaa0_8
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|日本_3
-      - TG频道:@hkaa0|日本_4
-      - TG频道:@hkaa0|日本_5
-      - TG频道:@hkaa0_9
-      - TG频道:@hkaa0|日本_6
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|日本_7
-      - TG频道:@hkaa0|日本_8
-      - TG频道:@hkaa0|日本_9
-      - TG频道:@hkaa0|日本_10
-      - TG频道:@hkaa0|日本_11
-      - TG频道:@hkaa0|日本_12
-      - TG频道:@hkaa0|日本_13
-      - TG频道:@hkaa0|日本_14
-      - TG频道:@hkaa0|日本_15
-      - TG频道:@hkaa0|日本_16
-      - TG频道:@hkaa0|日本_17
-      - TG频道:@hkaa0|日本_18
-      - TG频道:@hkaa0|日本_19
-      - TG频道:@hkaa0|日本_20
-      - TG频道:@hkaa0|日本_21
-      - TG频道:@hkaa0|日本_22
-      - TG频道:@hkaa0|日本_23
-      - TG频道:@hkaa0|日本_24
-      - TG频道:@hkaa0|日本_25
-      - TG频道:@hkaa0|日本_26
-      - TG频道:@hkaa0|日本_27
-      - TG频道:@hkaa0|日本_28
-      - TG频道:@hkaa0|日本_29
-      - TG频道:@hkaa0|日本_30
-      - TG频道:@hkaa0|日本_31
-      - TG频道:@hkaa0|日本_32
-      - TG频道:@hkaa0|日本_33
-      - TG频道:@hkaa0|日本_34
-      - TG频道:@hkaa0|日本_35
-      - TG频道:@hkaa0|日本_36
-      - TG频道:@hkaa0|日本_37
-      - TG频道:@hkaa0|英国_2
-      - TG频道:@hkaa0|日本_38
-      - TG频道:@hkaa0|日本_39
-      - TG频道:@hkaa0|日本_40
-      - TG频道:@hkaa0|日本_41
-      - TG频道:@hkaa0|日本_42
-      - TG频道:@hkaa0|日本_43
-      - TG频道:@hkaa0|日本_44
-      - TG频道:@hkaa0|日本_45
-      - TG频道:@hkaa0|日本_46
-      - TG频道:@hkaa0|日本_47
-      - TG频道:@hkaa0|日本_48
-      - TG频道:@hkaa0|日本_49
-      - TG频道:@hkaa0|日本_50
-      - TG频道:@hkaa0|日本_51
-      - TG频道:@hkaa0|日本_52
-      - TG频道:@hkaa0|日本_53
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|日本_54
       - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|日本_55
-      - TG频道:@hkaa0|日本_56
+      - TG频道:@hkaa0|日本_3
       - TG频道:@hkaa0|荷兰_2
       - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|日本_57
+      - TG频道:@hkaa0|保加利亚_1
+      - TG频道:@hkaa0|日本_4
+      - TG频道:@hkaa0|日本_5
+      - TG频道:@hkaa0|日本_6
       - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|澳大利亚_9
-      - TG频道:@hkaa0|澳大利亚_10
       - TG频道:@hkaa0|荷兰_5
+      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_6
       - TG频道:@hkaa0|荷兰_7
+      - TG频道:@hkaa0|日本_7
       - TG频道:@hkaa0|荷兰_8
       - TG频道:@hkaa0|荷兰_9
+      - TG频道:@hkaa0|新加坡
       - TG频道:@hkaa0|荷兰_10
+      - TG频道:@hkaa0|保加利亚_3
+      - TG频道:@hkaa0|保加利亚_4
       - TG频道:@hkaa0|荷兰_11
       - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|保加利亚_1
-      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_13
       - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|保加利亚_3
-      - TG频道:@hkaa0|澳大利亚_11
-      - TG频道:@hkaa0|日本_58
       - TG频道:@hkaa0|荷兰_15
       - TG频道:@hkaa0|荷兰_16
       - TG频道:@hkaa0|荷兰_17
+      - TG频道:@hkaa0|日本_8
       - TG频道:@hkaa0|荷兰_18
-      - TG频道:@hkaa0|保加利亚_4
-      - TG频道:@hkaa0|澳大利亚_12
-      - TG频道:@hkaa0|保加利亚_5
-      - TG频道:@hkaa0|日本_59
       - TG频道:@hkaa0|荷兰_19
       - TG频道:@hkaa0|荷兰_20
-      - TG频道:@hkaa0|日本_60
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|法国
+      - TG频道:@hkaa0|日本_9
+      - TG频道:@hkaa0|日本_10
+      - TG频道:@hkaa0|日本_11
       - TG频道:@hkaa0|荷兰_21
-      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|德国
+      - TG频道:@hkaa0|日本_12
+      - TG频道:@hkaa0|美国_3
       - TG频道:@hkaa0|荷兰_22
+      - TG频道:@hkaa0|日本_13
       - TG频道:@hkaa0|荷兰_23
       - TG频道:@hkaa0|荷兰_24
+      - TG频道:@hkaa0|日本_14
       - TG频道:@hkaa0|荷兰_25
       - TG频道:@hkaa0|荷兰_26
-      - TG频道:@hkaa0|澳大利亚_13
+      - TG频道:@hkaa0|日本_15
       - TG频道:@hkaa0|荷兰_27
+      - TG频道:@hkaa0|澳大利亚_1
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|俄罗斯联邦
+      - TG频道:@hkaa0|日本_16
+      - TG频道:@hkaa0|日本_17
+      - TG频道:@hkaa0|保加利亚_5
+      - TG频道:@hkaa0|澳大利亚_2
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_7
+      - TG频道:@hkaa0|美国_8
+      - TG频道:@hkaa0|美国_9
       - TG频道:@hkaa0|荷兰_28
+      - TG频道:@hkaa0|美国_10
+      - TG频道:@hkaa0|美国_11
       - TG频道:@hkaa0|荷兰_29
+      - TG频道:@hkaa0|美国_12
       - TG频道:@hkaa0|荷兰_30
-      - TG频道:@hkaa0|日本_61
+      - TG频道:@hkaa0|美国_13
+      - TG频道:@hkaa0|泰国
       - TG频道:@hkaa0|荷兰_31
-      - TG频道:@hkaa0|荷兰_32
-      - TG频道:@hkaa0|荷兰_33
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|荷兰_34
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|荷兰_35
-      - TG频道:@hkaa0|美国
-      - TG频道:@hkaa0|日本_62
-      - TG频道:@hkaa0|荷兰_36
-      - TG频道:@hkaa0|荷兰_37
-      - TG频道:@hkaa0|保加利亚_7
-      - TG频道:@hkaa0_10
-      - TG频道:@hkaa0|荷兰_38
-      - TG频道:@hkaa0_11
-      - TG频道:@hkaa0|荷兰_39
-      - TG频道:@hkaa0|荷兰_40
-      - TG频道:@hkaa0|荷兰_41
-      - TG频道:@hkaa0|保加利亚_8
-      - TG频道:@hkaa0|澳大利亚_14
-      - TG频道:@hkaa0|荷兰_42
+      - TG频道:@hkaa0|美国_14
+      - TG频道:@hkaa0|中国_1
+      - TG频道:@hkaa0|美国_15
+      - TG频道:@hkaa0|中国_2
+      - TG频道:@hkaa0|日本_18
+      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|澳大利亚_3
+      - TG频道:@hkaa0|中国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道:@hkaa0_1
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0_2
-      - TG频道:@hkaa0|澳大利亚_1
-      - TG频道:@hkaa0_3
-      - TG频道:@hkaa0|澳大利亚_2
-      - TG频道:@hkaa0|澳大利亚_3
-      - TG频道:@hkaa0_4
-      - TG频道:@hkaa0_5
-      - TG频道:@hkaa0|澳大利亚_4
-      - TG频道:@hkaa0|澳大利亚_5
-      - TG频道:@hkaa0_6
-      - TG频道:@hkaa0_7
-      - TG频道:@hkaa0|澳大利亚_6
-      - TG频道:@hkaa0|澳大利亚_7
-      - TG频道:@hkaa0|澳大利亚_8
       - TG频道:@hkaa0|日本_1
-      - TG频道:@hkaa0_8
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|日本_3
-      - TG频道:@hkaa0|日本_4
-      - TG频道:@hkaa0|日本_5
-      - TG频道:@hkaa0_9
-      - TG频道:@hkaa0|日本_6
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|日本_7
-      - TG频道:@hkaa0|日本_8
-      - TG频道:@hkaa0|日本_9
-      - TG频道:@hkaa0|日本_10
-      - TG频道:@hkaa0|日本_11
-      - TG频道:@hkaa0|日本_12
-      - TG频道:@hkaa0|日本_13
-      - TG频道:@hkaa0|日本_14
-      - TG频道:@hkaa0|日本_15
-      - TG频道:@hkaa0|日本_16
-      - TG频道:@hkaa0|日本_17
-      - TG频道:@hkaa0|日本_18
-      - TG频道:@hkaa0|日本_19
-      - TG频道:@hkaa0|日本_20
-      - TG频道:@hkaa0|日本_21
-      - TG频道:@hkaa0|日本_22
-      - TG频道:@hkaa0|日本_23
-      - TG频道:@hkaa0|日本_24
-      - TG频道:@hkaa0|日本_25
-      - TG频道:@hkaa0|日本_26
-      - TG频道:@hkaa0|日本_27
-      - TG频道:@hkaa0|日本_28
-      - TG频道:@hkaa0|日本_29
-      - TG频道:@hkaa0|日本_30
-      - TG频道:@hkaa0|日本_31
-      - TG频道:@hkaa0|日本_32
-      - TG频道:@hkaa0|日本_33
-      - TG频道:@hkaa0|日本_34
-      - TG频道:@hkaa0|日本_35
-      - TG频道:@hkaa0|日本_36
-      - TG频道:@hkaa0|日本_37
-      - TG频道:@hkaa0|英国_2
-      - TG频道:@hkaa0|日本_38
-      - TG频道:@hkaa0|日本_39
-      - TG频道:@hkaa0|日本_40
-      - TG频道:@hkaa0|日本_41
-      - TG频道:@hkaa0|日本_42
-      - TG频道:@hkaa0|日本_43
-      - TG频道:@hkaa0|日本_44
-      - TG频道:@hkaa0|日本_45
-      - TG频道:@hkaa0|日本_46
-      - TG频道:@hkaa0|日本_47
-      - TG频道:@hkaa0|日本_48
-      - TG频道:@hkaa0|日本_49
-      - TG频道:@hkaa0|日本_50
-      - TG频道:@hkaa0|日本_51
-      - TG频道:@hkaa0|日本_52
-      - TG频道:@hkaa0|日本_53
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|日本_54
       - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|日本_55
-      - TG频道:@hkaa0|日本_56
+      - TG频道:@hkaa0|日本_3
       - TG频道:@hkaa0|荷兰_2
       - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|日本_57
+      - TG频道:@hkaa0|保加利亚_1
+      - TG频道:@hkaa0|日本_4
+      - TG频道:@hkaa0|日本_5
+      - TG频道:@hkaa0|日本_6
       - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|澳大利亚_9
-      - TG频道:@hkaa0|澳大利亚_10
       - TG频道:@hkaa0|荷兰_5
+      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_6
       - TG频道:@hkaa0|荷兰_7
+      - TG频道:@hkaa0|日本_7
       - TG频道:@hkaa0|荷兰_8
       - TG频道:@hkaa0|荷兰_9
+      - TG频道:@hkaa0|新加坡
       - TG频道:@hkaa0|荷兰_10
+      - TG频道:@hkaa0|保加利亚_3
+      - TG频道:@hkaa0|保加利亚_4
       - TG频道:@hkaa0|荷兰_11
       - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|保加利亚_1
-      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_13
       - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|保加利亚_3
-      - TG频道:@hkaa0|澳大利亚_11
-      - TG频道:@hkaa0|日本_58
       - TG频道:@hkaa0|荷兰_15
       - TG频道:@hkaa0|荷兰_16
       - TG频道:@hkaa0|荷兰_17
+      - TG频道:@hkaa0|日本_8
       - TG频道:@hkaa0|荷兰_18
-      - TG频道:@hkaa0|保加利亚_4
-      - TG频道:@hkaa0|澳大利亚_12
-      - TG频道:@hkaa0|保加利亚_5
-      - TG频道:@hkaa0|日本_59
       - TG频道:@hkaa0|荷兰_19
       - TG频道:@hkaa0|荷兰_20
-      - TG频道:@hkaa0|日本_60
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|法国
+      - TG频道:@hkaa0|日本_9
+      - TG频道:@hkaa0|日本_10
+      - TG频道:@hkaa0|日本_11
       - TG频道:@hkaa0|荷兰_21
-      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|德国
+      - TG频道:@hkaa0|日本_12
+      - TG频道:@hkaa0|美国_3
       - TG频道:@hkaa0|荷兰_22
+      - TG频道:@hkaa0|日本_13
       - TG频道:@hkaa0|荷兰_23
       - TG频道:@hkaa0|荷兰_24
+      - TG频道:@hkaa0|日本_14
       - TG频道:@hkaa0|荷兰_25
       - TG频道:@hkaa0|荷兰_26
-      - TG频道:@hkaa0|澳大利亚_13
+      - TG频道:@hkaa0|日本_15
       - TG频道:@hkaa0|荷兰_27
+      - TG频道:@hkaa0|澳大利亚_1
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|俄罗斯联邦
+      - TG频道:@hkaa0|日本_16
+      - TG频道:@hkaa0|日本_17
+      - TG频道:@hkaa0|保加利亚_5
+      - TG频道:@hkaa0|澳大利亚_2
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_7
+      - TG频道:@hkaa0|美国_8
+      - TG频道:@hkaa0|美国_9
       - TG频道:@hkaa0|荷兰_28
+      - TG频道:@hkaa0|美国_10
+      - TG频道:@hkaa0|美国_11
       - TG频道:@hkaa0|荷兰_29
+      - TG频道:@hkaa0|美国_12
       - TG频道:@hkaa0|荷兰_30
-      - TG频道:@hkaa0|日本_61
+      - TG频道:@hkaa0|美国_13
+      - TG频道:@hkaa0|泰国
       - TG频道:@hkaa0|荷兰_31
-      - TG频道:@hkaa0|荷兰_32
-      - TG频道:@hkaa0|荷兰_33
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|荷兰_34
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|荷兰_35
-      - TG频道:@hkaa0|美国
-      - TG频道:@hkaa0|日本_62
-      - TG频道:@hkaa0|荷兰_36
-      - TG频道:@hkaa0|荷兰_37
-      - TG频道:@hkaa0|保加利亚_7
-      - TG频道:@hkaa0_10
-      - TG频道:@hkaa0|荷兰_38
-      - TG频道:@hkaa0_11
-      - TG频道:@hkaa0|荷兰_39
-      - TG频道:@hkaa0|荷兰_40
-      - TG频道:@hkaa0|荷兰_41
-      - TG频道:@hkaa0|保加利亚_8
-      - TG频道:@hkaa0|澳大利亚_14
-      - TG频道:@hkaa0|荷兰_42
+      - TG频道:@hkaa0|美国_14
+      - TG频道:@hkaa0|中国_1
+      - TG频道:@hkaa0|美国_15
+      - TG频道:@hkaa0|中国_2
+      - TG频道:@hkaa0|日本_18
+      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|澳大利亚_3
+      - TG频道:@hkaa0|中国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0_1
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0_2
-      - TG频道:@hkaa0|澳大利亚_1
-      - TG频道:@hkaa0_3
-      - TG频道:@hkaa0|澳大利亚_2
-      - TG频道:@hkaa0|澳大利亚_3
-      - TG频道:@hkaa0_4
-      - TG频道:@hkaa0_5
-      - TG频道:@hkaa0|澳大利亚_4
-      - TG频道:@hkaa0|澳大利亚_5
-      - TG频道:@hkaa0_6
-      - TG频道:@hkaa0_7
-      - TG频道:@hkaa0|澳大利亚_6
-      - TG频道:@hkaa0|澳大利亚_7
-      - TG频道:@hkaa0|澳大利亚_8
       - TG频道:@hkaa0|日本_1
-      - TG频道:@hkaa0_8
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|日本_3
-      - TG频道:@hkaa0|日本_4
-      - TG频道:@hkaa0|日本_5
-      - TG频道:@hkaa0_9
-      - TG频道:@hkaa0|日本_6
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|日本_7
-      - TG频道:@hkaa0|日本_8
-      - TG频道:@hkaa0|日本_9
-      - TG频道:@hkaa0|日本_10
-      - TG频道:@hkaa0|日本_11
-      - TG频道:@hkaa0|日本_12
-      - TG频道:@hkaa0|日本_13
-      - TG频道:@hkaa0|日本_14
-      - TG频道:@hkaa0|日本_15
-      - TG频道:@hkaa0|日本_16
-      - TG频道:@hkaa0|日本_17
-      - TG频道:@hkaa0|日本_18
-      - TG频道:@hkaa0|日本_19
-      - TG频道:@hkaa0|日本_20
-      - TG频道:@hkaa0|日本_21
-      - TG频道:@hkaa0|日本_22
-      - TG频道:@hkaa0|日本_23
-      - TG频道:@hkaa0|日本_24
-      - TG频道:@hkaa0|日本_25
-      - TG频道:@hkaa0|日本_26
-      - TG频道:@hkaa0|日本_27
-      - TG频道:@hkaa0|日本_28
-      - TG频道:@hkaa0|日本_29
-      - TG频道:@hkaa0|日本_30
-      - TG频道:@hkaa0|日本_31
-      - TG频道:@hkaa0|日本_32
-      - TG频道:@hkaa0|日本_33
-      - TG频道:@hkaa0|日本_34
-      - TG频道:@hkaa0|日本_35
-      - TG频道:@hkaa0|日本_36
-      - TG频道:@hkaa0|日本_37
-      - TG频道:@hkaa0|英国_2
-      - TG频道:@hkaa0|日本_38
-      - TG频道:@hkaa0|日本_39
-      - TG频道:@hkaa0|日本_40
-      - TG频道:@hkaa0|日本_41
-      - TG频道:@hkaa0|日本_42
-      - TG频道:@hkaa0|日本_43
-      - TG频道:@hkaa0|日本_44
-      - TG频道:@hkaa0|日本_45
-      - TG频道:@hkaa0|日本_46
-      - TG频道:@hkaa0|日本_47
-      - TG频道:@hkaa0|日本_48
-      - TG频道:@hkaa0|日本_49
-      - TG频道:@hkaa0|日本_50
-      - TG频道:@hkaa0|日本_51
-      - TG频道:@hkaa0|日本_52
-      - TG频道:@hkaa0|日本_53
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|日本_54
       - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|日本_55
-      - TG频道:@hkaa0|日本_56
+      - TG频道:@hkaa0|日本_3
       - TG频道:@hkaa0|荷兰_2
       - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|日本_57
+      - TG频道:@hkaa0|保加利亚_1
+      - TG频道:@hkaa0|日本_4
+      - TG频道:@hkaa0|日本_5
+      - TG频道:@hkaa0|日本_6
       - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|澳大利亚_9
-      - TG频道:@hkaa0|澳大利亚_10
       - TG频道:@hkaa0|荷兰_5
+      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_6
       - TG频道:@hkaa0|荷兰_7
+      - TG频道:@hkaa0|日本_7
       - TG频道:@hkaa0|荷兰_8
       - TG频道:@hkaa0|荷兰_9
+      - TG频道:@hkaa0|新加坡
       - TG频道:@hkaa0|荷兰_10
+      - TG频道:@hkaa0|保加利亚_3
+      - TG频道:@hkaa0|保加利亚_4
       - TG频道:@hkaa0|荷兰_11
       - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|保加利亚_1
-      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_13
       - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|保加利亚_3
-      - TG频道:@hkaa0|澳大利亚_11
-      - TG频道:@hkaa0|日本_58
       - TG频道:@hkaa0|荷兰_15
       - TG频道:@hkaa0|荷兰_16
       - TG频道:@hkaa0|荷兰_17
+      - TG频道:@hkaa0|日本_8
       - TG频道:@hkaa0|荷兰_18
-      - TG频道:@hkaa0|保加利亚_4
-      - TG频道:@hkaa0|澳大利亚_12
-      - TG频道:@hkaa0|保加利亚_5
-      - TG频道:@hkaa0|日本_59
       - TG频道:@hkaa0|荷兰_19
       - TG频道:@hkaa0|荷兰_20
-      - TG频道:@hkaa0|日本_60
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|法国
+      - TG频道:@hkaa0|日本_9
+      - TG频道:@hkaa0|日本_10
+      - TG频道:@hkaa0|日本_11
       - TG频道:@hkaa0|荷兰_21
-      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|德国
+      - TG频道:@hkaa0|日本_12
+      - TG频道:@hkaa0|美国_3
       - TG频道:@hkaa0|荷兰_22
+      - TG频道:@hkaa0|日本_13
       - TG频道:@hkaa0|荷兰_23
       - TG频道:@hkaa0|荷兰_24
+      - TG频道:@hkaa0|日本_14
       - TG频道:@hkaa0|荷兰_25
       - TG频道:@hkaa0|荷兰_26
-      - TG频道:@hkaa0|澳大利亚_13
+      - TG频道:@hkaa0|日本_15
       - TG频道:@hkaa0|荷兰_27
+      - TG频道:@hkaa0|澳大利亚_1
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|俄罗斯联邦
+      - TG频道:@hkaa0|日本_16
+      - TG频道:@hkaa0|日本_17
+      - TG频道:@hkaa0|保加利亚_5
+      - TG频道:@hkaa0|澳大利亚_2
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_7
+      - TG频道:@hkaa0|美国_8
+      - TG频道:@hkaa0|美国_9
       - TG频道:@hkaa0|荷兰_28
+      - TG频道:@hkaa0|美国_10
+      - TG频道:@hkaa0|美国_11
       - TG频道:@hkaa0|荷兰_29
+      - TG频道:@hkaa0|美国_12
       - TG频道:@hkaa0|荷兰_30
-      - TG频道:@hkaa0|日本_61
+      - TG频道:@hkaa0|美国_13
+      - TG频道:@hkaa0|泰国
       - TG频道:@hkaa0|荷兰_31
-      - TG频道:@hkaa0|荷兰_32
-      - TG频道:@hkaa0|荷兰_33
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|荷兰_34
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|荷兰_35
-      - TG频道:@hkaa0|美国
-      - TG频道:@hkaa0|日本_62
-      - TG频道:@hkaa0|荷兰_36
-      - TG频道:@hkaa0|荷兰_37
-      - TG频道:@hkaa0|保加利亚_7
-      - TG频道:@hkaa0_10
-      - TG频道:@hkaa0|荷兰_38
-      - TG频道:@hkaa0_11
-      - TG频道:@hkaa0|荷兰_39
-      - TG频道:@hkaa0|荷兰_40
-      - TG频道:@hkaa0|荷兰_41
-      - TG频道:@hkaa0|保加利亚_8
-      - TG频道:@hkaa0|澳大利亚_14
-      - TG频道:@hkaa0|荷兰_42
+      - TG频道:@hkaa0|美国_14
+      - TG频道:@hkaa0|中国_1
+      - TG频道:@hkaa0|美国_15
+      - TG频道:@hkaa0|中国_2
+      - TG频道:@hkaa0|日本_18
+      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|澳大利亚_3
+      - TG频道:@hkaa0|中国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG频道:@hkaa0_1
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0_2
-      - TG频道:@hkaa0|澳大利亚_1
-      - TG频道:@hkaa0_3
-      - TG频道:@hkaa0|澳大利亚_2
-      - TG频道:@hkaa0|澳大利亚_3
-      - TG频道:@hkaa0_4
-      - TG频道:@hkaa0_5
-      - TG频道:@hkaa0|澳大利亚_4
-      - TG频道:@hkaa0|澳大利亚_5
-      - TG频道:@hkaa0_6
-      - TG频道:@hkaa0_7
-      - TG频道:@hkaa0|澳大利亚_6
-      - TG频道:@hkaa0|澳大利亚_7
-      - TG频道:@hkaa0|澳大利亚_8
       - TG频道:@hkaa0|日本_1
-      - TG频道:@hkaa0_8
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|日本_3
-      - TG频道:@hkaa0|日本_4
-      - TG频道:@hkaa0|日本_5
-      - TG频道:@hkaa0_9
-      - TG频道:@hkaa0|日本_6
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|日本_7
-      - TG频道:@hkaa0|日本_8
-      - TG频道:@hkaa0|日本_9
-      - TG频道:@hkaa0|日本_10
-      - TG频道:@hkaa0|日本_11
-      - TG频道:@hkaa0|日本_12
-      - TG频道:@hkaa0|日本_13
-      - TG频道:@hkaa0|日本_14
-      - TG频道:@hkaa0|日本_15
-      - TG频道:@hkaa0|日本_16
-      - TG频道:@hkaa0|日本_17
-      - TG频道:@hkaa0|日本_18
-      - TG频道:@hkaa0|日本_19
-      - TG频道:@hkaa0|日本_20
-      - TG频道:@hkaa0|日本_21
-      - TG频道:@hkaa0|日本_22
-      - TG频道:@hkaa0|日本_23
-      - TG频道:@hkaa0|日本_24
-      - TG频道:@hkaa0|日本_25
-      - TG频道:@hkaa0|日本_26
-      - TG频道:@hkaa0|日本_27
-      - TG频道:@hkaa0|日本_28
-      - TG频道:@hkaa0|日本_29
-      - TG频道:@hkaa0|日本_30
-      - TG频道:@hkaa0|日本_31
-      - TG频道:@hkaa0|日本_32
-      - TG频道:@hkaa0|日本_33
-      - TG频道:@hkaa0|日本_34
-      - TG频道:@hkaa0|日本_35
-      - TG频道:@hkaa0|日本_36
-      - TG频道:@hkaa0|日本_37
-      - TG频道:@hkaa0|英国_2
-      - TG频道:@hkaa0|日本_38
-      - TG频道:@hkaa0|日本_39
-      - TG频道:@hkaa0|日本_40
-      - TG频道:@hkaa0|日本_41
-      - TG频道:@hkaa0|日本_42
-      - TG频道:@hkaa0|日本_43
-      - TG频道:@hkaa0|日本_44
-      - TG频道:@hkaa0|日本_45
-      - TG频道:@hkaa0|日本_46
-      - TG频道:@hkaa0|日本_47
-      - TG频道:@hkaa0|日本_48
-      - TG频道:@hkaa0|日本_49
-      - TG频道:@hkaa0|日本_50
-      - TG频道:@hkaa0|日本_51
-      - TG频道:@hkaa0|日本_52
-      - TG频道:@hkaa0|日本_53
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|日本_54
       - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|日本_55
-      - TG频道:@hkaa0|日本_56
+      - TG频道:@hkaa0|日本_3
       - TG频道:@hkaa0|荷兰_2
       - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|日本_57
+      - TG频道:@hkaa0|保加利亚_1
+      - TG频道:@hkaa0|日本_4
+      - TG频道:@hkaa0|日本_5
+      - TG频道:@hkaa0|日本_6
       - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|澳大利亚_9
-      - TG频道:@hkaa0|澳大利亚_10
       - TG频道:@hkaa0|荷兰_5
+      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_6
       - TG频道:@hkaa0|荷兰_7
+      - TG频道:@hkaa0|日本_7
       - TG频道:@hkaa0|荷兰_8
       - TG频道:@hkaa0|荷兰_9
+      - TG频道:@hkaa0|新加坡
       - TG频道:@hkaa0|荷兰_10
+      - TG频道:@hkaa0|保加利亚_3
+      - TG频道:@hkaa0|保加利亚_4
       - TG频道:@hkaa0|荷兰_11
       - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|保加利亚_1
-      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_13
       - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|保加利亚_3
-      - TG频道:@hkaa0|澳大利亚_11
-      - TG频道:@hkaa0|日本_58
       - TG频道:@hkaa0|荷兰_15
       - TG频道:@hkaa0|荷兰_16
       - TG频道:@hkaa0|荷兰_17
+      - TG频道:@hkaa0|日本_8
       - TG频道:@hkaa0|荷兰_18
-      - TG频道:@hkaa0|保加利亚_4
-      - TG频道:@hkaa0|澳大利亚_12
-      - TG频道:@hkaa0|保加利亚_5
-      - TG频道:@hkaa0|日本_59
       - TG频道:@hkaa0|荷兰_19
       - TG频道:@hkaa0|荷兰_20
-      - TG频道:@hkaa0|日本_60
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|法国
+      - TG频道:@hkaa0|日本_9
+      - TG频道:@hkaa0|日本_10
+      - TG频道:@hkaa0|日本_11
       - TG频道:@hkaa0|荷兰_21
-      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|德国
+      - TG频道:@hkaa0|日本_12
+      - TG频道:@hkaa0|美国_3
       - TG频道:@hkaa0|荷兰_22
+      - TG频道:@hkaa0|日本_13
       - TG频道:@hkaa0|荷兰_23
       - TG频道:@hkaa0|荷兰_24
+      - TG频道:@hkaa0|日本_14
       - TG频道:@hkaa0|荷兰_25
       - TG频道:@hkaa0|荷兰_26
-      - TG频道:@hkaa0|澳大利亚_13
+      - TG频道:@hkaa0|日本_15
       - TG频道:@hkaa0|荷兰_27
+      - TG频道:@hkaa0|澳大利亚_1
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|俄罗斯联邦
+      - TG频道:@hkaa0|日本_16
+      - TG频道:@hkaa0|日本_17
+      - TG频道:@hkaa0|保加利亚_5
+      - TG频道:@hkaa0|澳大利亚_2
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_7
+      - TG频道:@hkaa0|美国_8
+      - TG频道:@hkaa0|美国_9
       - TG频道:@hkaa0|荷兰_28
+      - TG频道:@hkaa0|美国_10
+      - TG频道:@hkaa0|美国_11
       - TG频道:@hkaa0|荷兰_29
+      - TG频道:@hkaa0|美国_12
       - TG频道:@hkaa0|荷兰_30
-      - TG频道:@hkaa0|日本_61
+      - TG频道:@hkaa0|美国_13
+      - TG频道:@hkaa0|泰国
       - TG频道:@hkaa0|荷兰_31
-      - TG频道:@hkaa0|荷兰_32
-      - TG频道:@hkaa0|荷兰_33
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|荷兰_34
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|荷兰_35
-      - TG频道:@hkaa0|美国
-      - TG频道:@hkaa0|日本_62
-      - TG频道:@hkaa0|荷兰_36
-      - TG频道:@hkaa0|荷兰_37
-      - TG频道:@hkaa0|保加利亚_7
-      - TG频道:@hkaa0_10
-      - TG频道:@hkaa0|荷兰_38
-      - TG频道:@hkaa0_11
-      - TG频道:@hkaa0|荷兰_39
-      - TG频道:@hkaa0|荷兰_40
-      - TG频道:@hkaa0|荷兰_41
-      - TG频道:@hkaa0|保加利亚_8
-      - TG频道:@hkaa0|澳大利亚_14
-      - TG频道:@hkaa0|荷兰_42
+      - TG频道:@hkaa0|美国_14
+      - TG频道:@hkaa0|中国_1
+      - TG频道:@hkaa0|美国_15
+      - TG频道:@hkaa0|中国_2
+      - TG频道:@hkaa0|日本_18
+      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|澳大利亚_3
+      - TG频道:@hkaa0|中国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0_1
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0_2
-      - TG频道:@hkaa0|澳大利亚_1
-      - TG频道:@hkaa0_3
-      - TG频道:@hkaa0|澳大利亚_2
-      - TG频道:@hkaa0|澳大利亚_3
-      - TG频道:@hkaa0_4
-      - TG频道:@hkaa0_5
-      - TG频道:@hkaa0|澳大利亚_4
-      - TG频道:@hkaa0|澳大利亚_5
-      - TG频道:@hkaa0_6
-      - TG频道:@hkaa0_7
-      - TG频道:@hkaa0|澳大利亚_6
-      - TG频道:@hkaa0|澳大利亚_7
-      - TG频道:@hkaa0|澳大利亚_8
       - TG频道:@hkaa0|日本_1
-      - TG频道:@hkaa0_8
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|日本_3
-      - TG频道:@hkaa0|日本_4
-      - TG频道:@hkaa0|日本_5
-      - TG频道:@hkaa0_9
-      - TG频道:@hkaa0|日本_6
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|日本_7
-      - TG频道:@hkaa0|日本_8
-      - TG频道:@hkaa0|日本_9
-      - TG频道:@hkaa0|日本_10
-      - TG频道:@hkaa0|日本_11
-      - TG频道:@hkaa0|日本_12
-      - TG频道:@hkaa0|日本_13
-      - TG频道:@hkaa0|日本_14
-      - TG频道:@hkaa0|日本_15
-      - TG频道:@hkaa0|日本_16
-      - TG频道:@hkaa0|日本_17
-      - TG频道:@hkaa0|日本_18
-      - TG频道:@hkaa0|日本_19
-      - TG频道:@hkaa0|日本_20
-      - TG频道:@hkaa0|日本_21
-      - TG频道:@hkaa0|日本_22
-      - TG频道:@hkaa0|日本_23
-      - TG频道:@hkaa0|日本_24
-      - TG频道:@hkaa0|日本_25
-      - TG频道:@hkaa0|日本_26
-      - TG频道:@hkaa0|日本_27
-      - TG频道:@hkaa0|日本_28
-      - TG频道:@hkaa0|日本_29
-      - TG频道:@hkaa0|日本_30
-      - TG频道:@hkaa0|日本_31
-      - TG频道:@hkaa0|日本_32
-      - TG频道:@hkaa0|日本_33
-      - TG频道:@hkaa0|日本_34
-      - TG频道:@hkaa0|日本_35
-      - TG频道:@hkaa0|日本_36
-      - TG频道:@hkaa0|日本_37
-      - TG频道:@hkaa0|英国_2
-      - TG频道:@hkaa0|日本_38
-      - TG频道:@hkaa0|日本_39
-      - TG频道:@hkaa0|日本_40
-      - TG频道:@hkaa0|日本_41
-      - TG频道:@hkaa0|日本_42
-      - TG频道:@hkaa0|日本_43
-      - TG频道:@hkaa0|日本_44
-      - TG频道:@hkaa0|日本_45
-      - TG频道:@hkaa0|日本_46
-      - TG频道:@hkaa0|日本_47
-      - TG频道:@hkaa0|日本_48
-      - TG频道:@hkaa0|日本_49
-      - TG频道:@hkaa0|日本_50
-      - TG频道:@hkaa0|日本_51
-      - TG频道:@hkaa0|日本_52
-      - TG频道:@hkaa0|日本_53
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|日本_54
       - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|日本_55
-      - TG频道:@hkaa0|日本_56
+      - TG频道:@hkaa0|日本_3
       - TG频道:@hkaa0|荷兰_2
       - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|日本_57
+      - TG频道:@hkaa0|保加利亚_1
+      - TG频道:@hkaa0|日本_4
+      - TG频道:@hkaa0|日本_5
+      - TG频道:@hkaa0|日本_6
       - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|澳大利亚_9
-      - TG频道:@hkaa0|澳大利亚_10
       - TG频道:@hkaa0|荷兰_5
+      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_6
       - TG频道:@hkaa0|荷兰_7
+      - TG频道:@hkaa0|日本_7
       - TG频道:@hkaa0|荷兰_8
       - TG频道:@hkaa0|荷兰_9
+      - TG频道:@hkaa0|新加坡
       - TG频道:@hkaa0|荷兰_10
+      - TG频道:@hkaa0|保加利亚_3
+      - TG频道:@hkaa0|保加利亚_4
       - TG频道:@hkaa0|荷兰_11
       - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|保加利亚_1
-      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_13
       - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|保加利亚_3
-      - TG频道:@hkaa0|澳大利亚_11
-      - TG频道:@hkaa0|日本_58
       - TG频道:@hkaa0|荷兰_15
       - TG频道:@hkaa0|荷兰_16
       - TG频道:@hkaa0|荷兰_17
+      - TG频道:@hkaa0|日本_8
       - TG频道:@hkaa0|荷兰_18
-      - TG频道:@hkaa0|保加利亚_4
-      - TG频道:@hkaa0|澳大利亚_12
-      - TG频道:@hkaa0|保加利亚_5
-      - TG频道:@hkaa0|日本_59
       - TG频道:@hkaa0|荷兰_19
       - TG频道:@hkaa0|荷兰_20
-      - TG频道:@hkaa0|日本_60
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|法国
+      - TG频道:@hkaa0|日本_9
+      - TG频道:@hkaa0|日本_10
+      - TG频道:@hkaa0|日本_11
       - TG频道:@hkaa0|荷兰_21
-      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|德国
+      - TG频道:@hkaa0|日本_12
+      - TG频道:@hkaa0|美国_3
       - TG频道:@hkaa0|荷兰_22
+      - TG频道:@hkaa0|日本_13
       - TG频道:@hkaa0|荷兰_23
       - TG频道:@hkaa0|荷兰_24
+      - TG频道:@hkaa0|日本_14
       - TG频道:@hkaa0|荷兰_25
       - TG频道:@hkaa0|荷兰_26
-      - TG频道:@hkaa0|澳大利亚_13
+      - TG频道:@hkaa0|日本_15
       - TG频道:@hkaa0|荷兰_27
+      - TG频道:@hkaa0|澳大利亚_1
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|俄罗斯联邦
+      - TG频道:@hkaa0|日本_16
+      - TG频道:@hkaa0|日本_17
+      - TG频道:@hkaa0|保加利亚_5
+      - TG频道:@hkaa0|澳大利亚_2
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_7
+      - TG频道:@hkaa0|美国_8
+      - TG频道:@hkaa0|美国_9
       - TG频道:@hkaa0|荷兰_28
+      - TG频道:@hkaa0|美国_10
+      - TG频道:@hkaa0|美国_11
       - TG频道:@hkaa0|荷兰_29
+      - TG频道:@hkaa0|美国_12
       - TG频道:@hkaa0|荷兰_30
-      - TG频道:@hkaa0|日本_61
+      - TG频道:@hkaa0|美国_13
+      - TG频道:@hkaa0|泰国
       - TG频道:@hkaa0|荷兰_31
-      - TG频道:@hkaa0|荷兰_32
-      - TG频道:@hkaa0|荷兰_33
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|荷兰_34
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|荷兰_35
-      - TG频道:@hkaa0|美国
-      - TG频道:@hkaa0|日本_62
-      - TG频道:@hkaa0|荷兰_36
-      - TG频道:@hkaa0|荷兰_37
-      - TG频道:@hkaa0|保加利亚_7
-      - TG频道:@hkaa0_10
-      - TG频道:@hkaa0|荷兰_38
-      - TG频道:@hkaa0_11
-      - TG频道:@hkaa0|荷兰_39
-      - TG频道:@hkaa0|荷兰_40
-      - TG频道:@hkaa0|荷兰_41
-      - TG频道:@hkaa0|保加利亚_8
-      - TG频道:@hkaa0|澳大利亚_14
-      - TG频道:@hkaa0|荷兰_42
+      - TG频道:@hkaa0|美国_14
+      - TG频道:@hkaa0|中国_1
+      - TG频道:@hkaa0|美国_15
+      - TG频道:@hkaa0|中国_2
+      - TG频道:@hkaa0|日本_18
+      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|澳大利亚_3
+      - TG频道:@hkaa0|中国_4
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道:@hkaa0_1
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0_2
-      - TG频道:@hkaa0|澳大利亚_1
-      - TG频道:@hkaa0_3
-      - TG频道:@hkaa0|澳大利亚_2
-      - TG频道:@hkaa0|澳大利亚_3
-      - TG频道:@hkaa0_4
-      - TG频道:@hkaa0_5
-      - TG频道:@hkaa0|澳大利亚_4
-      - TG频道:@hkaa0|澳大利亚_5
-      - TG频道:@hkaa0_6
-      - TG频道:@hkaa0_7
-      - TG频道:@hkaa0|澳大利亚_6
-      - TG频道:@hkaa0|澳大利亚_7
-      - TG频道:@hkaa0|澳大利亚_8
       - TG频道:@hkaa0|日本_1
-      - TG频道:@hkaa0_8
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|日本_3
-      - TG频道:@hkaa0|日本_4
-      - TG频道:@hkaa0|日本_5
-      - TG频道:@hkaa0_9
-      - TG频道:@hkaa0|日本_6
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|日本_7
-      - TG频道:@hkaa0|日本_8
-      - TG频道:@hkaa0|日本_9
-      - TG频道:@hkaa0|日本_10
-      - TG频道:@hkaa0|日本_11
-      - TG频道:@hkaa0|日本_12
-      - TG频道:@hkaa0|日本_13
-      - TG频道:@hkaa0|日本_14
-      - TG频道:@hkaa0|日本_15
-      - TG频道:@hkaa0|日本_16
-      - TG频道:@hkaa0|日本_17
-      - TG频道:@hkaa0|日本_18
-      - TG频道:@hkaa0|日本_19
-      - TG频道:@hkaa0|日本_20
-      - TG频道:@hkaa0|日本_21
-      - TG频道:@hkaa0|日本_22
-      - TG频道:@hkaa0|日本_23
-      - TG频道:@hkaa0|日本_24
-      - TG频道:@hkaa0|日本_25
-      - TG频道:@hkaa0|日本_26
-      - TG频道:@hkaa0|日本_27
-      - TG频道:@hkaa0|日本_28
-      - TG频道:@hkaa0|日本_29
-      - TG频道:@hkaa0|日本_30
-      - TG频道:@hkaa0|日本_31
-      - TG频道:@hkaa0|日本_32
-      - TG频道:@hkaa0|日本_33
-      - TG频道:@hkaa0|日本_34
-      - TG频道:@hkaa0|日本_35
-      - TG频道:@hkaa0|日本_36
-      - TG频道:@hkaa0|日本_37
-      - TG频道:@hkaa0|英国_2
-      - TG频道:@hkaa0|日本_38
-      - TG频道:@hkaa0|日本_39
-      - TG频道:@hkaa0|日本_40
-      - TG频道:@hkaa0|日本_41
-      - TG频道:@hkaa0|日本_42
-      - TG频道:@hkaa0|日本_43
-      - TG频道:@hkaa0|日本_44
-      - TG频道:@hkaa0|日本_45
-      - TG频道:@hkaa0|日本_46
-      - TG频道:@hkaa0|日本_47
-      - TG频道:@hkaa0|日本_48
-      - TG频道:@hkaa0|日本_49
-      - TG频道:@hkaa0|日本_50
-      - TG频道:@hkaa0|日本_51
-      - TG频道:@hkaa0|日本_52
-      - TG频道:@hkaa0|日本_53
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|日本_54
       - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|日本_55
-      - TG频道:@hkaa0|日本_56
+      - TG频道:@hkaa0|日本_3
       - TG频道:@hkaa0|荷兰_2
       - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|日本_57
+      - TG频道:@hkaa0|保加利亚_1
+      - TG频道:@hkaa0|日本_4
+      - TG频道:@hkaa0|日本_5
+      - TG频道:@hkaa0|日本_6
       - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|澳大利亚_9
-      - TG频道:@hkaa0|澳大利亚_10
       - TG频道:@hkaa0|荷兰_5
+      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_6
       - TG频道:@hkaa0|荷兰_7
+      - TG频道:@hkaa0|日本_7
       - TG频道:@hkaa0|荷兰_8
       - TG频道:@hkaa0|荷兰_9
+      - TG频道:@hkaa0|新加坡
       - TG频道:@hkaa0|荷兰_10
+      - TG频道:@hkaa0|保加利亚_3
+      - TG频道:@hkaa0|保加利亚_4
       - TG频道:@hkaa0|荷兰_11
       - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|保加利亚_1
-      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_13
       - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|保加利亚_3
-      - TG频道:@hkaa0|澳大利亚_11
-      - TG频道:@hkaa0|日本_58
       - TG频道:@hkaa0|荷兰_15
       - TG频道:@hkaa0|荷兰_16
       - TG频道:@hkaa0|荷兰_17
+      - TG频道:@hkaa0|日本_8
       - TG频道:@hkaa0|荷兰_18
-      - TG频道:@hkaa0|保加利亚_4
-      - TG频道:@hkaa0|澳大利亚_12
-      - TG频道:@hkaa0|保加利亚_5
-      - TG频道:@hkaa0|日本_59
       - TG频道:@hkaa0|荷兰_19
       - TG频道:@hkaa0|荷兰_20
-      - TG频道:@hkaa0|日本_60
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|法国
+      - TG频道:@hkaa0|日本_9
+      - TG频道:@hkaa0|日本_10
+      - TG频道:@hkaa0|日本_11
       - TG频道:@hkaa0|荷兰_21
-      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|德国
+      - TG频道:@hkaa0|日本_12
+      - TG频道:@hkaa0|美国_3
       - TG频道:@hkaa0|荷兰_22
+      - TG频道:@hkaa0|日本_13
       - TG频道:@hkaa0|荷兰_23
       - TG频道:@hkaa0|荷兰_24
+      - TG频道:@hkaa0|日本_14
       - TG频道:@hkaa0|荷兰_25
       - TG频道:@hkaa0|荷兰_26
-      - TG频道:@hkaa0|澳大利亚_13
+      - TG频道:@hkaa0|日本_15
       - TG频道:@hkaa0|荷兰_27
+      - TG频道:@hkaa0|澳大利亚_1
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|俄罗斯联邦
+      - TG频道:@hkaa0|日本_16
+      - TG频道:@hkaa0|日本_17
+      - TG频道:@hkaa0|保加利亚_5
+      - TG频道:@hkaa0|澳大利亚_2
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_7
+      - TG频道:@hkaa0|美国_8
+      - TG频道:@hkaa0|美国_9
       - TG频道:@hkaa0|荷兰_28
+      - TG频道:@hkaa0|美国_10
+      - TG频道:@hkaa0|美国_11
       - TG频道:@hkaa0|荷兰_29
+      - TG频道:@hkaa0|美国_12
       - TG频道:@hkaa0|荷兰_30
-      - TG频道:@hkaa0|日本_61
+      - TG频道:@hkaa0|美国_13
+      - TG频道:@hkaa0|泰国
       - TG频道:@hkaa0|荷兰_31
-      - TG频道:@hkaa0|荷兰_32
-      - TG频道:@hkaa0|荷兰_33
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|荷兰_34
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|荷兰_35
-      - TG频道:@hkaa0|美国
-      - TG频道:@hkaa0|日本_62
-      - TG频道:@hkaa0|荷兰_36
-      - TG频道:@hkaa0|荷兰_37
-      - TG频道:@hkaa0|保加利亚_7
-      - TG频道:@hkaa0_10
-      - TG频道:@hkaa0|荷兰_38
-      - TG频道:@hkaa0_11
-      - TG频道:@hkaa0|荷兰_39
-      - TG频道:@hkaa0|荷兰_40
-      - TG频道:@hkaa0|荷兰_41
-      - TG频道:@hkaa0|保加利亚_8
-      - TG频道:@hkaa0|澳大利亚_14
-      - TG频道:@hkaa0|荷兰_42
+      - TG频道:@hkaa0|美国_14
+      - TG频道:@hkaa0|中国_1
+      - TG频道:@hkaa0|美国_15
+      - TG频道:@hkaa0|中国_2
+      - TG频道:@hkaa0|日本_18
+      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|澳大利亚_3
+      - TG频道:@hkaa0|中国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1225,151 +721,88 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道:@hkaa0_1
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0_2
-      - TG频道:@hkaa0|澳大利亚_1
-      - TG频道:@hkaa0_3
-      - TG频道:@hkaa0|澳大利亚_2
-      - TG频道:@hkaa0|澳大利亚_3
-      - TG频道:@hkaa0_4
-      - TG频道:@hkaa0_5
-      - TG频道:@hkaa0|澳大利亚_4
-      - TG频道:@hkaa0|澳大利亚_5
-      - TG频道:@hkaa0_6
-      - TG频道:@hkaa0_7
-      - TG频道:@hkaa0|澳大利亚_6
-      - TG频道:@hkaa0|澳大利亚_7
-      - TG频道:@hkaa0|澳大利亚_8
       - TG频道:@hkaa0|日本_1
-      - TG频道:@hkaa0_8
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|日本_3
-      - TG频道:@hkaa0|日本_4
-      - TG频道:@hkaa0|日本_5
-      - TG频道:@hkaa0_9
-      - TG频道:@hkaa0|日本_6
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|日本_7
-      - TG频道:@hkaa0|日本_8
-      - TG频道:@hkaa0|日本_9
-      - TG频道:@hkaa0|日本_10
-      - TG频道:@hkaa0|日本_11
-      - TG频道:@hkaa0|日本_12
-      - TG频道:@hkaa0|日本_13
-      - TG频道:@hkaa0|日本_14
-      - TG频道:@hkaa0|日本_15
-      - TG频道:@hkaa0|日本_16
-      - TG频道:@hkaa0|日本_17
-      - TG频道:@hkaa0|日本_18
-      - TG频道:@hkaa0|日本_19
-      - TG频道:@hkaa0|日本_20
-      - TG频道:@hkaa0|日本_21
-      - TG频道:@hkaa0|日本_22
-      - TG频道:@hkaa0|日本_23
-      - TG频道:@hkaa0|日本_24
-      - TG频道:@hkaa0|日本_25
-      - TG频道:@hkaa0|日本_26
-      - TG频道:@hkaa0|日本_27
-      - TG频道:@hkaa0|日本_28
-      - TG频道:@hkaa0|日本_29
-      - TG频道:@hkaa0|日本_30
-      - TG频道:@hkaa0|日本_31
-      - TG频道:@hkaa0|日本_32
-      - TG频道:@hkaa0|日本_33
-      - TG频道:@hkaa0|日本_34
-      - TG频道:@hkaa0|日本_35
-      - TG频道:@hkaa0|日本_36
-      - TG频道:@hkaa0|日本_37
-      - TG频道:@hkaa0|英国_2
-      - TG频道:@hkaa0|日本_38
-      - TG频道:@hkaa0|日本_39
-      - TG频道:@hkaa0|日本_40
-      - TG频道:@hkaa0|日本_41
-      - TG频道:@hkaa0|日本_42
-      - TG频道:@hkaa0|日本_43
-      - TG频道:@hkaa0|日本_44
-      - TG频道:@hkaa0|日本_45
-      - TG频道:@hkaa0|日本_46
-      - TG频道:@hkaa0|日本_47
-      - TG频道:@hkaa0|日本_48
-      - TG频道:@hkaa0|日本_49
-      - TG频道:@hkaa0|日本_50
-      - TG频道:@hkaa0|日本_51
-      - TG频道:@hkaa0|日本_52
-      - TG频道:@hkaa0|日本_53
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|日本_54
       - TG频道:@hkaa0|荷兰_1
-      - TG频道:@hkaa0|日本_55
-      - TG频道:@hkaa0|日本_56
+      - TG频道:@hkaa0|日本_3
       - TG频道:@hkaa0|荷兰_2
       - TG频道:@hkaa0|荷兰_3
-      - TG频道:@hkaa0|日本_57
+      - TG频道:@hkaa0|保加利亚_1
+      - TG频道:@hkaa0|日本_4
+      - TG频道:@hkaa0|日本_5
+      - TG频道:@hkaa0|日本_6
       - TG频道:@hkaa0|荷兰_4
-      - TG频道:@hkaa0|澳大利亚_9
-      - TG频道:@hkaa0|澳大利亚_10
       - TG频道:@hkaa0|荷兰_5
+      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_6
       - TG频道:@hkaa0|荷兰_7
+      - TG频道:@hkaa0|日本_7
       - TG频道:@hkaa0|荷兰_8
       - TG频道:@hkaa0|荷兰_9
+      - TG频道:@hkaa0|新加坡
       - TG频道:@hkaa0|荷兰_10
+      - TG频道:@hkaa0|保加利亚_3
+      - TG频道:@hkaa0|保加利亚_4
       - TG频道:@hkaa0|荷兰_11
       - TG频道:@hkaa0|荷兰_12
-      - TG频道:@hkaa0|保加利亚_1
-      - TG频道:@hkaa0|保加利亚_2
       - TG频道:@hkaa0|荷兰_13
       - TG频道:@hkaa0|荷兰_14
-      - TG频道:@hkaa0|保加利亚_3
-      - TG频道:@hkaa0|澳大利亚_11
-      - TG频道:@hkaa0|日本_58
       - TG频道:@hkaa0|荷兰_15
       - TG频道:@hkaa0|荷兰_16
       - TG频道:@hkaa0|荷兰_17
+      - TG频道:@hkaa0|日本_8
       - TG频道:@hkaa0|荷兰_18
-      - TG频道:@hkaa0|保加利亚_4
-      - TG频道:@hkaa0|澳大利亚_12
-      - TG频道:@hkaa0|保加利亚_5
-      - TG频道:@hkaa0|日本_59
       - TG频道:@hkaa0|荷兰_19
       - TG频道:@hkaa0|荷兰_20
-      - TG频道:@hkaa0|日本_60
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|法国
+      - TG频道:@hkaa0|日本_9
+      - TG频道:@hkaa0|日本_10
+      - TG频道:@hkaa0|日本_11
       - TG频道:@hkaa0|荷兰_21
-      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|德国
+      - TG频道:@hkaa0|日本_12
+      - TG频道:@hkaa0|美国_3
       - TG频道:@hkaa0|荷兰_22
+      - TG频道:@hkaa0|日本_13
       - TG频道:@hkaa0|荷兰_23
       - TG频道:@hkaa0|荷兰_24
+      - TG频道:@hkaa0|日本_14
       - TG频道:@hkaa0|荷兰_25
       - TG频道:@hkaa0|荷兰_26
-      - TG频道:@hkaa0|澳大利亚_13
+      - TG频道:@hkaa0|日本_15
       - TG频道:@hkaa0|荷兰_27
+      - TG频道:@hkaa0|澳大利亚_1
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|俄罗斯联邦
+      - TG频道:@hkaa0|日本_16
+      - TG频道:@hkaa0|日本_17
+      - TG频道:@hkaa0|保加利亚_5
+      - TG频道:@hkaa0|澳大利亚_2
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|保加利亚_6
+      - TG频道:@hkaa0|美国_7
+      - TG频道:@hkaa0|美国_8
+      - TG频道:@hkaa0|美国_9
       - TG频道:@hkaa0|荷兰_28
+      - TG频道:@hkaa0|美国_10
+      - TG频道:@hkaa0|美国_11
       - TG频道:@hkaa0|荷兰_29
+      - TG频道:@hkaa0|美国_12
       - TG频道:@hkaa0|荷兰_30
-      - TG频道:@hkaa0|日本_61
+      - TG频道:@hkaa0|美国_13
+      - TG频道:@hkaa0|泰国
       - TG频道:@hkaa0|荷兰_31
-      - TG频道:@hkaa0|荷兰_32
-      - TG频道:@hkaa0|荷兰_33
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|荷兰_34
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|荷兰_35
-      - TG频道:@hkaa0|美国
-      - TG频道:@hkaa0|日本_62
-      - TG频道:@hkaa0|荷兰_36
-      - TG频道:@hkaa0|荷兰_37
-      - TG频道:@hkaa0|保加利亚_7
-      - TG频道:@hkaa0_10
-      - TG频道:@hkaa0|荷兰_38
-      - TG频道:@hkaa0_11
-      - TG频道:@hkaa0|荷兰_39
-      - TG频道:@hkaa0|荷兰_40
-      - TG频道:@hkaa0|荷兰_41
-      - TG频道:@hkaa0|保加利亚_8
-      - TG频道:@hkaa0|澳大利亚_14
-      - TG频道:@hkaa0|荷兰_42
+      - TG频道:@hkaa0|美国_14
+      - TG频道:@hkaa0|中国_1
+      - TG频道:@hkaa0|美国_15
+      - TG频道:@hkaa0|中国_2
+      - TG频道:@hkaa0|日本_18
+      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|澳大利亚_3
+      - TG频道:@hkaa0|中国_4
 rules:
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
