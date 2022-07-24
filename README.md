@@ -3,7 +3,7 @@
 **不定时更新。不好用的时候就更新订阅~**
 
 - 欢迎订阅节点分享频道：
- >**https://t.me/hkaa0**
+  >**https://t.me/hkaa0**
 
 - 投稿合作请直接私聊：
- >**https://t.me/HKAA0_bot**
+  >**https://t.me/HKAA0_bot**
