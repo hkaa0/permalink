@@ -1,168 +1,380 @@
+#
+#-------------------------------------------------------------#
+#  
+#  欢迎订阅TG频道:https://t.me/hka
+#  创建时间：2022-07-25 00:27:20
+#  模版：ACL4SSR
+#  节点数量：302
+#-------------------------------------------------------------#
+#
 mixed-port: 7890
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"TG频道:@hkaa0|法国_1","server":"195.154.200.150","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|荷兰","server":"92.38.184.228","port":2097,"cipher":"chacha20-ietf-poly1305","password":"jRKkoWqkrw2f"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|新加坡_1","ws-opts":{"path":"/images","headers":{"host":"v.qq.com"}},"server":"139.177.191.249","port":"80","uuid":"54756011-b1e6-46ca-911c-9263c47c9b54","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|中国_1","server":"111.45.29.75","port":30003,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true,"sni":"tw.speedasia.xyz"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|中国_2","server":"cm.spacez.cloud","port":30003,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true,"sni":"cm.spacez.cloud"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|美国_1","server":"s1.hazz.win","port":12340,"password":"dfbf0d67-f03d-4184-a224-c2d64a571f99","udp":true,"skip-cert-verify":true,"sni":"static.dingtalk.com"}
-  - {"type":"ss","name":"TG频道:@hkaa0|日本_1","server":"85.208.108.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|新加坡_2","server":"sg-04.licom.ml","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true,"sni":"sg-04.licom.ml"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|新加坡_3","server":"s4.hazz.win","port":12340,"password":"dfbf0d67-f03d-4184-a224-c2d64a571f99","udp":true,"skip-cert-verify":true,"sni":"static.dingtalk.com"}
-  - {"type":"ss","name":"TG频道:@hkaa0|美国_2","server":"172.99.188.71","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"TG频道:@hkaa0|加拿大_1","server":"134.195.196.149","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"TG频道:@hkaa0|加拿大_2","server":"134.195.196.89","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"TG频道:@hkaa0|美国_3","server":"38.143.66.20","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|印度","server":"in-01.licom.ml","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true,"sni":"in-01.licom.ml"}
-  - {"type":"ss","name":"TG频道:@hkaa0|英国_1","server":"51.195.136.209","port":50004,"cipher":"aes-256-cfb","password":"4415934295"}
-  - {"type":"ss","name":"TG频道:@hkaa0|法国_2","server":"195.154.200.150","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|加拿大_3","server":"134.195.196.149","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG频道:@hkaa0|加拿大_4","server":"196.247.59.154","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"TG频道:@hkaa0|加拿大_5","server":"196.247.59.154","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"TG频道:@hkaa0|加拿大_6","server":"196.247.59.154","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|新加坡_4","ws-opts":{"path":"/"},"server":"139.162.4.68","port":"80","uuid":"a8941bb8-19f8-43f7-ab52-1001d101a538","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"TG频道:@hkaa0|美国_4","server":"92.38.176.81","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|英国_2","ws-opts":{"path":"/"},"server":"88.80.189.108","port":"80","uuid":"a8941bb8-19f8-43f7-ab52-1001d101a538","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|日本_2","server":"140.83.57.80","port":"49840","uuid":"2969ad1b-9787-4927-94e6-22f597618de0","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|新加坡_5","server":"supersouth.xn--mesv7f5toqlp.club","port":12001,"password":"dd04c158-1bac-47cd-99c1-5c4f64796dd5","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_3","ws-opts":{"path":"/rocket","headers":{"host":"cn04.downloadmovie.cn"}},"server":"cn04.downloadmovie.cn","port":"65045","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_4","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_5","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65080","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_6","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_7","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_8","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_9","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_10","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_11","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_12","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65080","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_13","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_14","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_15","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_16","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_17","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65045","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_18","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65080","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_19","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65088","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_20","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_21","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_22","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65089","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"TG频道:@hkaa0|美国_5","server":"5.188.0.151","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_23","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_24","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_25","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65089","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"TG频道:@hkaa0|美国_6","server":"198.181.56.163","port":238,"cipher":"aes-256-cfb","password":"bwhskrskr05"}
-  - {"type":"ss","name":"TG频道:@hkaa0|加拿大_7","server":"138.197.166.205","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_26","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_27","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_28","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_29","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65080","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_30","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_31","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65079","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_32","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65077","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_33","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_34","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65015","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_35","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_36","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_37","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_38","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_39","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|新加坡_6","server":"supersouth.xn--mesv7f5toqlp.club","port":12003,"password":"dd04c158-1bac-47cd-99c1-5c4f64796dd5","udp":true,"skip-cert-verify":true,"sni":"supersouth.xn--mesv7f5toqlp.club"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_40","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65067","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_41","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65088","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_42","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_43","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_44","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_45","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_46","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_47","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65079","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0","ws-opts":{"path":"/sshkit/5206194863/62c7702a0ea8b/","headers":{"host":"sg1-v2ray.sshkit.org"}},"server":"104.18.24.139","port":"80","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_48","ws-opts":{"path":"/rocket","headers":{"host":"cn01.downloadmovie.cn"}},"server":"cn01.downloadmovie.cn","port":"65084","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_49","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65089","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_50","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_51","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_52","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_53","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_54","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_55","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_56","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_57","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65067","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_58","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65088","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_59","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_60","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_61","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"TG频道:@hkaa0|美国_7","server":"5.188.0.151","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_62","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_63","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_64","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_65","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_66","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|新加坡_7","server":"sg-03.licom.ml","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true,"sni":"sg-03.licom.ml"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_67","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65071","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_68","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_69","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65079","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_70","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65066","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_71","ws-opts":{"path":"/rocket","headers":{"host":"auto-moble.downloadmovie.cn"}},"server":"auto-moble.downloadmovie.cn","port":"65001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|中国_72","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65016","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|新加坡_1","ws-opts":{"path":"/images"},"server":"139.177.191.249","port":"80","uuid":"54756011-b1e6-46ca-911c-9263c47c9b54","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"TG频道:@hkaa0|荷兰_1","server":"92.38.184.228","port":2097,"cipher":"chacha20-ietf-poly1305","password":"jRKkoWqkrw2f"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|泰国","server":"119.59.116.248","port":17159,"password":"PHnvNV7HGp","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|美国_1","server":"s1.hazz.win","port":12340,"password":"dfbf0d67-f03d-4184-a224-c2d64a571f99","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|荷兰_2","server":"41.216.177.41","port":443,"password":"274c1b23-2bfe-40ac-943c-ebc1aa044b22","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0_1","server":"103.173.255.21","port":443,"password":"e8781c66-aeec-4655-984f-2aca65a64766","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"TG频道:@hkaa0_2","server":"103.173.255.234","port":443,"password":"e8781c66-aeec-4655-984f-2aca65a64766","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"TG频道:@hkaa0_3","server":"103.173.255.228","port":443,"password":"e8781c66-aeec-4655-984f-2aca65a64766","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"TG频道:@hkaa0_4","server":"103.173.255.127","port":443,"password":"e8781c66-aeec-4655-984f-2aca65a64766","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|中国_1","server":"gzyd2.52147.top","port":30010,"password":"e8781c66-aeec-4655-984f-2aca65a64766","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|中国_2","server":"hnyd.52147.top","port":30010,"password":"e8781c66-aeec-4655-984f-2aca65a64766","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|台湾","server":"hinet.52147.top","port":443,"password":"e8781c66-aeec-4655-984f-2aca65a64766","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|美国_2","server":"azgy001.xiba1.xyz","port":20711,"password":"7497242f-3044-3c77-bf48-14bb26c92a83","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|美国_3","server":"azgy001.xiba1.xyz","port":20712,"password":"7497242f-3044-3c77-bf48-14bb26c92a83","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|美国_4","server":"azgy001.xiba1.xyz","port":20710,"password":"7497242f-3044-3c77-bf48-14bb26c92a83","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|印度_1","server":"in-01.licom.ml","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true,"sni":"in-01.licom.ml"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|印度_2","server":"in-04.licom.ml","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true,"sni":"in-04.licom.ml"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|新加坡_2","server":"s4.hazz.win","port":12340,"password":"dfbf0d67-f03d-4184-a224-c2d64a571f99","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|新加坡_3","server":"youtube.bai-piao-wang-zhe.567568.ml","port":443,"password":"e88cb308-73f7-4302-89bf-b65c7386b117","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|卢森堡","server":"91.243.81.248","port":443,"password":"666dcf90-7f85-4f30-a36f-c1bffcf06b32","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|美国_5","server":"s2.hazz.win","port":12340,"password":"dfbf0d67-f03d-4184-a224-c2d64a571f99","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"TG频道:@hkaa0|美国_6","server":"92.38.176.81","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_1","server":"185.172.113.102","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"TG频道:@hkaa0|日本_2","server":"185.172.113.102","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_3","ws-opts":{"path":"/rocket","headers":{"host":"%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}},"server":"cn04.downloadmovie.cn","port":"65028","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"TG频道:@hkaa0|加拿大","server":"196.247.59.154","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|法国_1","ws-opts":{"path":"/path/273213070933","headers":{"host":"www.98272029.xyz"}},"server":"51.195.35.134","port":"443","uuid":"9f58234c-355b-4065-ae21-d4a63099aba5","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG频道:@hkaa0_5","ws-opts":{"path":"/Telegram@BDovo_qaq","headers":{"host":"bissen.114514cn.me"}},"server":"104.23.102.53","port":"443","uuid":"5c84e109-4772-4efb-a1cb-7b09d5a1791e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG频道:@hkaa0|美国_7","ws-opts":{"path":"/v116-DtoEwAEX","headers":{"host":"v116.v2dns.bar"}},"server":"v116.v2dns.bar","port":"80","uuid":"c97cf46e-1554-36cb-8b36-c3556b883dc4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_4","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v1.heisey.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|法国_2","server":"us-05.licom.ml","port":12501,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|中国_5","server":"cm.spacez.cloud","port":30003,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_6","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"YouTube-aweikeji"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_7","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|中国_8","server":"111.45.29.75","port":30003,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true,"sni":"tw.speedasia.xyz"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|中国_9","server":"pp1.zhengzhongfeizhu.xyz","port":34001,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
+  - {"type":"ss","name":"TG频道:@hkaa0|中国_10","server":"14.29.124.174","port":11016,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"TG频道:@hkaa0|英国","server":"51.195.136.209","port":50004,"cipher":"aes-256-cfb","password":"4415934295"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_11","ws-opts":{"path":"/rocket"},"server":"cn04.downloadmovie.cn","port":"65028","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_12","ws-opts":{"path":"/rocket"},"server":"cn03.downloadmovie.cn","port":"65027","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_13","ws-opts":{"path":"/rocket"},"server":"cn03.downloadmovie.cn","port":"65041","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|中国_14","server":"pp1.zhengzhongfeizhu.xyz","port":34003,"password":"7688df6f-bf65-3368-b55e-d78efea6a582","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|中国_15","server":"pp1.zhengzhongfeizhu.xyz","port":34000,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|中国_16","server":"pp1.zhengzhongfeizhu.xyz","port":32002,"password":"2f606ee8-3cfa-30b2-a191-f88efe912f5c","udp":true,"skip-cert-verify":true,"sni":"ip3884414509.mobgslb.tbcache.com"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|俄罗斯联邦","server":"141.98.168.251","port":443,"password":"LiX1tV","udp":true,"skip-cert-verify":true,"sni":"cdnu2.ft2.us"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_17","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65086","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_18","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65086","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_19","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_20","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_21","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_22","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65076","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_23","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_24","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_25","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_26","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65079","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_27","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_28","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_29","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_30","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_31","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_32","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65087","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_33","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65087","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_34","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65066","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_35","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65066","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_36","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_37","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_38","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65095","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_39","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65095","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_40","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65095","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_41","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65096","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_42","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65096","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_43","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65073","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_44","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65073","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_45","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65073","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_46","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65070","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_47","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65070","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_48","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65070","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_49","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_50","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_51","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_52","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_53","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_54","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_55","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_56","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_57","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_58","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_59","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_60","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65091","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_61","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65075","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_62","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65075","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_63","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65075","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_64","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65068","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_65","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65068","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_66","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65068","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_67","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65077","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_68","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65077","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_69","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65071","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_70","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65071","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_71","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65071","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_72","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_73","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_74","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65043","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_75","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65048","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_76","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65043","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_77","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65015","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_78","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65016","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_79","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65015","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_80","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65016","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_81","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_82","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65006","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_83","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65006","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_84","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65042","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_85","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65042","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_86","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65080","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_87","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65080","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_88","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65027","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_89","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65041","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_90","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65027","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_91","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65041","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_92","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65041","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_93","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65082","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_94","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_95","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65002","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_96","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65003","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_97","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65028","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_98","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65038","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_99","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_100","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65002","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_101","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65028","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_102","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65038","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_103","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65040","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_104","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65082","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_105","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65083","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_106","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65040","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_107","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65082","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_108","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65083","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_109","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_110","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65024","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_111","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65026","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_112","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65033","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_113","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65035","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_114","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65062","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_115","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65063","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_116","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65025","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_117","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65022","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_118","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65034","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_119","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65035","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_120","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65037","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_121","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65033","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_122","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65041","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_123","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65023","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_124","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65035","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_125","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65087","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_126","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_127","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65079","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_128","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_129","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65066","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_130","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_131","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65095","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_132","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65096","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_133","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65073","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_134","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_135","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_136","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_137","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_138","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65091","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_139","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65010","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_140","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_141","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65043","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_142","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65075","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_143","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65068","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_144","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65077","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_145","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65088","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_146","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65071","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_147","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65081","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_148","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65089","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_149","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65079","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_150","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65087","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_151","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_152","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65091","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_153","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65088","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_154","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65048","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_155","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65015","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_156","ws-opts":{"path":"/rocket"},"server":"120.233.150.146","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_157","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_158","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65006","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_159","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65003","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_160","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65022","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_161","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65023","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_162","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65034","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_163","ws-opts":{"path":"/rocket"},"server":"120.233.29.189","port":"65037","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_164","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65024","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_165","ws-opts":{"path":"/rocket"},"server":"36.134.156.5","port":"65023","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_166","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65026","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_167","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65036","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_168","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_169","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_170","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65070","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_171","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65048","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_172","ws-opts":{"path":"/rocket"},"server":"116.129.254.177","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_173","ws-opts":{"path":"/rocket","headers":{"host":"auto-moble.downloadmovie.cn"}},"server":"auto-moble.downloadmovie.cn","port":"65000","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_174","ws-opts":{"path":"/rocket","headers":{"host":"auto-moble.downloadmovie.cn"}},"server":"auto-moble.downloadmovie.cn","port":"65001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_175","ws-opts":{"path":"/rocket","headers":{"host":"cn02.downloadmovie.cn"}},"server":"cn02.downloadmovie.cn","port":"65003","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_176","ws-opts":{"path":"/rocket","headers":{"host":"cn04.downloadmovie.cn"}},"server":"cn04.downloadmovie.cn","port":"65028","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_177","ws-opts":{"path":"/rocket","headers":{"host":"cn05.downloadmovie.cn"}},"server":"cn05.downloadmovie.cn","port":"65038","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_178","ws-opts":{"path":"/rocket","headers":{"host":"cn03.downloadmovie.cn"}},"server":"cn03.downloadmovie.cn","port":"65041","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_179","ws-opts":{"path":"/rocket","headers":{"host":"cn04.downloadmovie.cn"}},"server":"cn04.downloadmovie.cn","port":"65082","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_180","ws-opts":{"path":"/rocket","headers":{"host":"cn05.downloadmovie.cn"}},"server":"cn05.downloadmovie.cn","port":"65083","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_181","ws-opts":{"path":"/rocket","headers":{"host":"cn03.downloadmovie.cn"}},"server":"cn03.downloadmovie.cn","port":"65035","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_182","ws-opts":{"path":"/rocket","headers":{"host":"cn04.downloadmovie.cn"}},"server":"cn04.downloadmovie.cn","port":"65036","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_183","ws-opts":{"path":"/rocket","headers":{"host":"cn04.downloadmovie.cn"}},"server":"cn04.downloadmovie.cn","port":"65045","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_184","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_185","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_186","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65064","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_187","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65043","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_188","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65043","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_189","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65048","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_190","ws-opts":{"path":"/rocket","headers":{"host":"cn01.downloadmovie.cn"}},"server":"cn01.downloadmovie.cn","port":"65084","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_191","ws-opts":{"path":"/rocket","headers":{"host":"cn02.downloadmovie.cn"}},"server":"cn02.downloadmovie.cn","port":"65084","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_192","ws-opts":{"path":"/rocket","headers":{"host":"cn03.downloadmovie.cn"}},"server":"cn03.downloadmovie.cn","port":"65084","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_193","ws-opts":{"path":"/rocket","headers":{"host":"cn04.downloadmovie.cn"}},"server":"cn04.downloadmovie.cn","port":"65084","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_194","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65096","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_195","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65096","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_196","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_197","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_198","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_199","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65072","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_200","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_201","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_202","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_203","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65091","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_204","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65091","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_205","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65091","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_206","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65091","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_207","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65087","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_208","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65087","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_209","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65087","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_210","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_211","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65090","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_212","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_213","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_214","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_215","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65069","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_216","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_217","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_218","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65093","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_219","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_220","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65078","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_221","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65077","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_222","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65077","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_223","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65077","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_224","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65077","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_225","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_226","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_227","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_228","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65097","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_229","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65068","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_230","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65068","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_231","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65068","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_232","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65071","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_233","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65071","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_234","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65071","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_235","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65075","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_236","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65075","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_237","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65075","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_238","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65075","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_239","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65081","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_240","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65079","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_241","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65079","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_242","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65079","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_243","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65095","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_244","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65095","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_245","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65095","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_246","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65076","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_247","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65076","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_248","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65076","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_249","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65076","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_250","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65067","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_251","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65067","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_252","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65067","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_253","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65067","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_254","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65088","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_255","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65088","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_256","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65088","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_257","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_258","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_259","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_260","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65065","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_261","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65066","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_262","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65066","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_263","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65066","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_264","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65066","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_265","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65086","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_266","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65086","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_267","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_268","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_269","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65057","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_270","ws-opts":{"path":"/rocket","headers":{"host":"best01.downloadmovie.cn"}},"server":"best01.downloadmovie.cn","port":"65031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_271","ws-opts":{"path":"/rocket","headers":{"host":"best02.downloadmovie.cn"}},"server":"best02.downloadmovie.cn","port":"65031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_272","ws-opts":{"path":"/rocket","headers":{"host":"best03.downloadmovie.cn"}},"server":"best03.downloadmovie.cn","port":"65031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|中国_273","ws-opts":{"path":"/rocket","headers":{"host":"best04.downloadmovie.cn"}},"server":"best04.downloadmovie.cn","port":"65031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG频道:@hkaa0|法国_1
-      - TG频道:@hkaa0|荷兰
       - TG频道:@hkaa0|新加坡_1
+      - TG频道:@hkaa0|荷兰_1
+      - TG频道:@hkaa0|泰国
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|荷兰_2
+      - TG频道:@hkaa0_1
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0_3
+      - TG频道:@hkaa0_4
       - TG频道:@hkaa0|中国_1
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|日本_1
+      - TG频道:@hkaa0|台湾
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|美国_3
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|印度_1
+      - TG频道:@hkaa0|印度_2
       - TG频道:@hkaa0|新加坡_2
       - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|加拿大_1
-      - TG频道:@hkaa0|加拿大_2
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|印度
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|法国_2
-      - TG频道:@hkaa0|加拿大_3
-      - TG频道:@hkaa0|加拿大_4
-      - TG频道:@hkaa0|加拿大_5
-      - TG频道:@hkaa0|加拿大_6
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|英国_2
+      - TG频道:@hkaa0|卢森堡
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|日本_1
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|新加坡_5
       - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|加拿大
+      - TG频道:@hkaa0|法国_1
+      - TG频道:@hkaa0_5
+      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_4
+      - TG频道:@hkaa0|法国_2
       - TG频道:@hkaa0|中国_5
       - TG频道:@hkaa0|中国_6
       - TG频道:@hkaa0|中国_7
       - TG频道:@hkaa0|中国_8
       - TG频道:@hkaa0|中国_9
       - TG频道:@hkaa0|中国_10
+      - TG频道:@hkaa0|英国
       - TG频道:@hkaa0|中国_11
       - TG频道:@hkaa0|中国_12
       - TG频道:@hkaa0|中国_13
       - TG频道:@hkaa0|中国_14
       - TG频道:@hkaa0|中国_15
       - TG频道:@hkaa0|中国_16
+      - TG频道:@hkaa0|俄罗斯联邦
       - TG频道:@hkaa0|中国_17
       - TG频道:@hkaa0|中国_18
       - TG频道:@hkaa0|中国_19
       - TG频道:@hkaa0|中国_20
       - TG频道:@hkaa0|中国_21
       - TG频道:@hkaa0|中国_22
-      - TG频道:@hkaa0|美国_5
       - TG频道:@hkaa0|中国_23
       - TG频道:@hkaa0|中国_24
       - TG频道:@hkaa0|中国_25
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|加拿大_7
       - TG频道:@hkaa0|中国_26
       - TG频道:@hkaa0|中国_27
       - TG频道:@hkaa0|中国_28
@@ -177,7 +389,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_37
       - TG频道:@hkaa0|中国_38
       - TG频道:@hkaa0|中国_39
-      - TG频道:@hkaa0|新加坡_6
       - TG频道:@hkaa0|中国_40
       - TG频道:@hkaa0|中国_41
       - TG频道:@hkaa0|中国_42
@@ -186,7 +397,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_45
       - TG频道:@hkaa0|中国_46
       - TG频道:@hkaa0|中国_47
-      - TG频道:@hkaa0
       - TG频道:@hkaa0|中国_48
       - TG频道:@hkaa0|中国_49
       - TG频道:@hkaa0|中国_50
@@ -201,76 +411,278 @@ proxy-groups:
       - TG频道:@hkaa0|中国_59
       - TG频道:@hkaa0|中国_60
       - TG频道:@hkaa0|中国_61
-      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_62
       - TG频道:@hkaa0|中国_63
       - TG频道:@hkaa0|中国_64
       - TG频道:@hkaa0|中国_65
       - TG频道:@hkaa0|中国_66
-      - TG频道:@hkaa0|新加坡_7
       - TG频道:@hkaa0|中国_67
       - TG频道:@hkaa0|中国_68
       - TG频道:@hkaa0|中国_69
       - TG频道:@hkaa0|中国_70
       - TG频道:@hkaa0|中国_71
       - TG频道:@hkaa0|中国_72
+      - TG频道:@hkaa0|中国_73
+      - TG频道:@hkaa0|中国_74
+      - TG频道:@hkaa0|中国_75
+      - TG频道:@hkaa0|中国_76
+      - TG频道:@hkaa0|中国_77
+      - TG频道:@hkaa0|中国_78
+      - TG频道:@hkaa0|中国_79
+      - TG频道:@hkaa0|中国_80
+      - TG频道:@hkaa0|中国_81
+      - TG频道:@hkaa0|中国_82
+      - TG频道:@hkaa0|中国_83
+      - TG频道:@hkaa0|中国_84
+      - TG频道:@hkaa0|中国_85
+      - TG频道:@hkaa0|中国_86
+      - TG频道:@hkaa0|中国_87
+      - TG频道:@hkaa0|中国_88
+      - TG频道:@hkaa0|中国_89
+      - TG频道:@hkaa0|中国_90
+      - TG频道:@hkaa0|中国_91
+      - TG频道:@hkaa0|中国_92
+      - TG频道:@hkaa0|中国_93
+      - TG频道:@hkaa0|中国_94
+      - TG频道:@hkaa0|中国_95
+      - TG频道:@hkaa0|中国_96
+      - TG频道:@hkaa0|中国_97
+      - TG频道:@hkaa0|中国_98
+      - TG频道:@hkaa0|中国_99
+      - TG频道:@hkaa0|中国_100
+      - TG频道:@hkaa0|中国_101
+      - TG频道:@hkaa0|中国_102
+      - TG频道:@hkaa0|中国_103
+      - TG频道:@hkaa0|中国_104
+      - TG频道:@hkaa0|中国_105
+      - TG频道:@hkaa0|中国_106
+      - TG频道:@hkaa0|中国_107
+      - TG频道:@hkaa0|中国_108
+      - TG频道:@hkaa0|中国_109
+      - TG频道:@hkaa0|中国_110
+      - TG频道:@hkaa0|中国_111
+      - TG频道:@hkaa0|中国_112
+      - TG频道:@hkaa0|中国_113
+      - TG频道:@hkaa0|中国_114
+      - TG频道:@hkaa0|中国_115
+      - TG频道:@hkaa0|中国_116
+      - TG频道:@hkaa0|中国_117
+      - TG频道:@hkaa0|中国_118
+      - TG频道:@hkaa0|中国_119
+      - TG频道:@hkaa0|中国_120
+      - TG频道:@hkaa0|中国_121
+      - TG频道:@hkaa0|中国_122
+      - TG频道:@hkaa0|中国_123
+      - TG频道:@hkaa0|中国_124
+      - TG频道:@hkaa0|中国_125
+      - TG频道:@hkaa0|中国_126
+      - TG频道:@hkaa0|中国_127
+      - TG频道:@hkaa0|中国_128
+      - TG频道:@hkaa0|中国_129
+      - TG频道:@hkaa0|中国_130
+      - TG频道:@hkaa0|中国_131
+      - TG频道:@hkaa0|中国_132
+      - TG频道:@hkaa0|中国_133
+      - TG频道:@hkaa0|中国_134
+      - TG频道:@hkaa0|中国_135
+      - TG频道:@hkaa0|中国_136
+      - TG频道:@hkaa0|中国_137
+      - TG频道:@hkaa0|中国_138
+      - TG频道:@hkaa0|中国_139
+      - TG频道:@hkaa0|中国_140
+      - TG频道:@hkaa0|中国_141
+      - TG频道:@hkaa0|中国_142
+      - TG频道:@hkaa0|中国_143
+      - TG频道:@hkaa0|中国_144
+      - TG频道:@hkaa0|中国_145
+      - TG频道:@hkaa0|中国_146
+      - TG频道:@hkaa0|中国_147
+      - TG频道:@hkaa0|中国_148
+      - TG频道:@hkaa0|中国_149
+      - TG频道:@hkaa0|中国_150
+      - TG频道:@hkaa0|中国_151
+      - TG频道:@hkaa0|中国_152
+      - TG频道:@hkaa0|中国_153
+      - TG频道:@hkaa0|中国_154
+      - TG频道:@hkaa0|中国_155
+      - TG频道:@hkaa0|中国_156
+      - TG频道:@hkaa0|中国_157
+      - TG频道:@hkaa0|中国_158
+      - TG频道:@hkaa0|中国_159
+      - TG频道:@hkaa0|中国_160
+      - TG频道:@hkaa0|中国_161
+      - TG频道:@hkaa0|中国_162
+      - TG频道:@hkaa0|中国_163
+      - TG频道:@hkaa0|中国_164
+      - TG频道:@hkaa0|中国_165
+      - TG频道:@hkaa0|中国_166
+      - TG频道:@hkaa0|中国_167
+      - TG频道:@hkaa0|中国_168
+      - TG频道:@hkaa0|中国_169
+      - TG频道:@hkaa0|中国_170
+      - TG频道:@hkaa0|中国_171
+      - TG频道:@hkaa0|中国_172
+      - TG频道:@hkaa0|中国_173
+      - TG频道:@hkaa0|中国_174
+      - TG频道:@hkaa0|中国_175
+      - TG频道:@hkaa0|中国_176
+      - TG频道:@hkaa0|中国_177
+      - TG频道:@hkaa0|中国_178
+      - TG频道:@hkaa0|中国_179
+      - TG频道:@hkaa0|中国_180
+      - TG频道:@hkaa0|中国_181
+      - TG频道:@hkaa0|中国_182
+      - TG频道:@hkaa0|中国_183
+      - TG频道:@hkaa0|中国_184
+      - TG频道:@hkaa0|中国_185
+      - TG频道:@hkaa0|中国_186
+      - TG频道:@hkaa0|中国_187
+      - TG频道:@hkaa0|中国_188
+      - TG频道:@hkaa0|中国_189
+      - TG频道:@hkaa0|中国_190
+      - TG频道:@hkaa0|中国_191
+      - TG频道:@hkaa0|中国_192
+      - TG频道:@hkaa0|中国_193
+      - TG频道:@hkaa0|中国_194
+      - TG频道:@hkaa0|中国_195
+      - TG频道:@hkaa0|中国_196
+      - TG频道:@hkaa0|中国_197
+      - TG频道:@hkaa0|中国_198
+      - TG频道:@hkaa0|中国_199
+      - TG频道:@hkaa0|中国_200
+      - TG频道:@hkaa0|中国_201
+      - TG频道:@hkaa0|中国_202
+      - TG频道:@hkaa0|中国_203
+      - TG频道:@hkaa0|中国_204
+      - TG频道:@hkaa0|中国_205
+      - TG频道:@hkaa0|中国_206
+      - TG频道:@hkaa0|中国_207
+      - TG频道:@hkaa0|中国_208
+      - TG频道:@hkaa0|中国_209
+      - TG频道:@hkaa0|中国_210
+      - TG频道:@hkaa0|中国_211
+      - TG频道:@hkaa0|中国_212
+      - TG频道:@hkaa0|中国_213
+      - TG频道:@hkaa0|中国_214
+      - TG频道:@hkaa0|中国_215
+      - TG频道:@hkaa0|中国_216
+      - TG频道:@hkaa0|中国_217
+      - TG频道:@hkaa0|中国_218
+      - TG频道:@hkaa0|中国_219
+      - TG频道:@hkaa0|中国_220
+      - TG频道:@hkaa0|中国_221
+      - TG频道:@hkaa0|中国_222
+      - TG频道:@hkaa0|中国_223
+      - TG频道:@hkaa0|中国_224
+      - TG频道:@hkaa0|中国_225
+      - TG频道:@hkaa0|中国_226
+      - TG频道:@hkaa0|中国_227
+      - TG频道:@hkaa0|中国_228
+      - TG频道:@hkaa0|中国_229
+      - TG频道:@hkaa0|中国_230
+      - TG频道:@hkaa0|中国_231
+      - TG频道:@hkaa0|中国_232
+      - TG频道:@hkaa0|中国_233
+      - TG频道:@hkaa0|中国_234
+      - TG频道:@hkaa0|中国_235
+      - TG频道:@hkaa0|中国_236
+      - TG频道:@hkaa0|中国_237
+      - TG频道:@hkaa0|中国_238
+      - TG频道:@hkaa0|中国_239
+      - TG频道:@hkaa0|中国_240
+      - TG频道:@hkaa0|中国_241
+      - TG频道:@hkaa0|中国_242
+      - TG频道:@hkaa0|中国_243
+      - TG频道:@hkaa0|中国_244
+      - TG频道:@hkaa0|中国_245
+      - TG频道:@hkaa0|中国_246
+      - TG频道:@hkaa0|中国_247
+      - TG频道:@hkaa0|中国_248
+      - TG频道:@hkaa0|中国_249
+      - TG频道:@hkaa0|中国_250
+      - TG频道:@hkaa0|中国_251
+      - TG频道:@hkaa0|中国_252
+      - TG频道:@hkaa0|中国_253
+      - TG频道:@hkaa0|中国_254
+      - TG频道:@hkaa0|中国_255
+      - TG频道:@hkaa0|中国_256
+      - TG频道:@hkaa0|中国_257
+      - TG频道:@hkaa0|中国_258
+      - TG频道:@hkaa0|中国_259
+      - TG频道:@hkaa0|中国_260
+      - TG频道:@hkaa0|中国_261
+      - TG频道:@hkaa0|中国_262
+      - TG频道:@hkaa0|中国_263
+      - TG频道:@hkaa0|中国_264
+      - TG频道:@hkaa0|中国_265
+      - TG频道:@hkaa0|中国_266
+      - TG频道:@hkaa0|中国_267
+      - TG频道:@hkaa0|中国_268
+      - TG频道:@hkaa0|中国_269
+      - TG频道:@hkaa0|中国_270
+      - TG频道:@hkaa0|中国_271
+      - TG频道:@hkaa0|中国_272
+      - TG频道:@hkaa0|中国_273
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG频道:@hkaa0|法国_1
-      - TG频道:@hkaa0|荷兰
       - TG频道:@hkaa0|新加坡_1
+      - TG频道:@hkaa0|荷兰_1
+      - TG频道:@hkaa0|泰国
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|荷兰_2
+      - TG频道:@hkaa0_1
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0_3
+      - TG频道:@hkaa0_4
       - TG频道:@hkaa0|中国_1
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|日本_1
+      - TG频道:@hkaa0|台湾
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|美国_3
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|印度_1
+      - TG频道:@hkaa0|印度_2
       - TG频道:@hkaa0|新加坡_2
       - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|加拿大_1
-      - TG频道:@hkaa0|加拿大_2
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|印度
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|法国_2
-      - TG频道:@hkaa0|加拿大_3
-      - TG频道:@hkaa0|加拿大_4
-      - TG频道:@hkaa0|加拿大_5
-      - TG频道:@hkaa0|加拿大_6
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|英国_2
+      - TG频道:@hkaa0|卢森堡
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|日本_1
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|新加坡_5
       - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|加拿大
+      - TG频道:@hkaa0|法国_1
+      - TG频道:@hkaa0_5
+      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_4
+      - TG频道:@hkaa0|法国_2
       - TG频道:@hkaa0|中国_5
       - TG频道:@hkaa0|中国_6
       - TG频道:@hkaa0|中国_7
       - TG频道:@hkaa0|中国_8
       - TG频道:@hkaa0|中国_9
       - TG频道:@hkaa0|中国_10
+      - TG频道:@hkaa0|英国
       - TG频道:@hkaa0|中国_11
       - TG频道:@hkaa0|中国_12
       - TG频道:@hkaa0|中国_13
       - TG频道:@hkaa0|中国_14
       - TG频道:@hkaa0|中国_15
       - TG频道:@hkaa0|中国_16
+      - TG频道:@hkaa0|俄罗斯联邦
       - TG频道:@hkaa0|中国_17
       - TG频道:@hkaa0|中国_18
       - TG频道:@hkaa0|中国_19
       - TG频道:@hkaa0|中国_20
       - TG频道:@hkaa0|中国_21
       - TG频道:@hkaa0|中国_22
-      - TG频道:@hkaa0|美国_5
       - TG频道:@hkaa0|中国_23
       - TG频道:@hkaa0|中国_24
       - TG频道:@hkaa0|中国_25
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|加拿大_7
       - TG频道:@hkaa0|中国_26
       - TG频道:@hkaa0|中国_27
       - TG频道:@hkaa0|中国_28
@@ -285,7 +697,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_37
       - TG频道:@hkaa0|中国_38
       - TG频道:@hkaa0|中国_39
-      - TG频道:@hkaa0|新加坡_6
       - TG频道:@hkaa0|中国_40
       - TG频道:@hkaa0|中国_41
       - TG频道:@hkaa0|中国_42
@@ -294,7 +705,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_45
       - TG频道:@hkaa0|中国_46
       - TG频道:@hkaa0|中国_47
-      - TG频道:@hkaa0
       - TG频道:@hkaa0|中国_48
       - TG频道:@hkaa0|中国_49
       - TG频道:@hkaa0|中国_50
@@ -309,76 +719,278 @@ proxy-groups:
       - TG频道:@hkaa0|中国_59
       - TG频道:@hkaa0|中国_60
       - TG频道:@hkaa0|中国_61
-      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_62
       - TG频道:@hkaa0|中国_63
       - TG频道:@hkaa0|中国_64
       - TG频道:@hkaa0|中国_65
       - TG频道:@hkaa0|中国_66
-      - TG频道:@hkaa0|新加坡_7
       - TG频道:@hkaa0|中国_67
       - TG频道:@hkaa0|中国_68
       - TG频道:@hkaa0|中国_69
       - TG频道:@hkaa0|中国_70
       - TG频道:@hkaa0|中国_71
       - TG频道:@hkaa0|中国_72
+      - TG频道:@hkaa0|中国_73
+      - TG频道:@hkaa0|中国_74
+      - TG频道:@hkaa0|中国_75
+      - TG频道:@hkaa0|中国_76
+      - TG频道:@hkaa0|中国_77
+      - TG频道:@hkaa0|中国_78
+      - TG频道:@hkaa0|中国_79
+      - TG频道:@hkaa0|中国_80
+      - TG频道:@hkaa0|中国_81
+      - TG频道:@hkaa0|中国_82
+      - TG频道:@hkaa0|中国_83
+      - TG频道:@hkaa0|中国_84
+      - TG频道:@hkaa0|中国_85
+      - TG频道:@hkaa0|中国_86
+      - TG频道:@hkaa0|中国_87
+      - TG频道:@hkaa0|中国_88
+      - TG频道:@hkaa0|中国_89
+      - TG频道:@hkaa0|中国_90
+      - TG频道:@hkaa0|中国_91
+      - TG频道:@hkaa0|中国_92
+      - TG频道:@hkaa0|中国_93
+      - TG频道:@hkaa0|中国_94
+      - TG频道:@hkaa0|中国_95
+      - TG频道:@hkaa0|中国_96
+      - TG频道:@hkaa0|中国_97
+      - TG频道:@hkaa0|中国_98
+      - TG频道:@hkaa0|中国_99
+      - TG频道:@hkaa0|中国_100
+      - TG频道:@hkaa0|中国_101
+      - TG频道:@hkaa0|中国_102
+      - TG频道:@hkaa0|中国_103
+      - TG频道:@hkaa0|中国_104
+      - TG频道:@hkaa0|中国_105
+      - TG频道:@hkaa0|中国_106
+      - TG频道:@hkaa0|中国_107
+      - TG频道:@hkaa0|中国_108
+      - TG频道:@hkaa0|中国_109
+      - TG频道:@hkaa0|中国_110
+      - TG频道:@hkaa0|中国_111
+      - TG频道:@hkaa0|中国_112
+      - TG频道:@hkaa0|中国_113
+      - TG频道:@hkaa0|中国_114
+      - TG频道:@hkaa0|中国_115
+      - TG频道:@hkaa0|中国_116
+      - TG频道:@hkaa0|中国_117
+      - TG频道:@hkaa0|中国_118
+      - TG频道:@hkaa0|中国_119
+      - TG频道:@hkaa0|中国_120
+      - TG频道:@hkaa0|中国_121
+      - TG频道:@hkaa0|中国_122
+      - TG频道:@hkaa0|中国_123
+      - TG频道:@hkaa0|中国_124
+      - TG频道:@hkaa0|中国_125
+      - TG频道:@hkaa0|中国_126
+      - TG频道:@hkaa0|中国_127
+      - TG频道:@hkaa0|中国_128
+      - TG频道:@hkaa0|中国_129
+      - TG频道:@hkaa0|中国_130
+      - TG频道:@hkaa0|中国_131
+      - TG频道:@hkaa0|中国_132
+      - TG频道:@hkaa0|中国_133
+      - TG频道:@hkaa0|中国_134
+      - TG频道:@hkaa0|中国_135
+      - TG频道:@hkaa0|中国_136
+      - TG频道:@hkaa0|中国_137
+      - TG频道:@hkaa0|中国_138
+      - TG频道:@hkaa0|中国_139
+      - TG频道:@hkaa0|中国_140
+      - TG频道:@hkaa0|中国_141
+      - TG频道:@hkaa0|中国_142
+      - TG频道:@hkaa0|中国_143
+      - TG频道:@hkaa0|中国_144
+      - TG频道:@hkaa0|中国_145
+      - TG频道:@hkaa0|中国_146
+      - TG频道:@hkaa0|中国_147
+      - TG频道:@hkaa0|中国_148
+      - TG频道:@hkaa0|中国_149
+      - TG频道:@hkaa0|中国_150
+      - TG频道:@hkaa0|中国_151
+      - TG频道:@hkaa0|中国_152
+      - TG频道:@hkaa0|中国_153
+      - TG频道:@hkaa0|中国_154
+      - TG频道:@hkaa0|中国_155
+      - TG频道:@hkaa0|中国_156
+      - TG频道:@hkaa0|中国_157
+      - TG频道:@hkaa0|中国_158
+      - TG频道:@hkaa0|中国_159
+      - TG频道:@hkaa0|中国_160
+      - TG频道:@hkaa0|中国_161
+      - TG频道:@hkaa0|中国_162
+      - TG频道:@hkaa0|中国_163
+      - TG频道:@hkaa0|中国_164
+      - TG频道:@hkaa0|中国_165
+      - TG频道:@hkaa0|中国_166
+      - TG频道:@hkaa0|中国_167
+      - TG频道:@hkaa0|中国_168
+      - TG频道:@hkaa0|中国_169
+      - TG频道:@hkaa0|中国_170
+      - TG频道:@hkaa0|中国_171
+      - TG频道:@hkaa0|中国_172
+      - TG频道:@hkaa0|中国_173
+      - TG频道:@hkaa0|中国_174
+      - TG频道:@hkaa0|中国_175
+      - TG频道:@hkaa0|中国_176
+      - TG频道:@hkaa0|中国_177
+      - TG频道:@hkaa0|中国_178
+      - TG频道:@hkaa0|中国_179
+      - TG频道:@hkaa0|中国_180
+      - TG频道:@hkaa0|中国_181
+      - TG频道:@hkaa0|中国_182
+      - TG频道:@hkaa0|中国_183
+      - TG频道:@hkaa0|中国_184
+      - TG频道:@hkaa0|中国_185
+      - TG频道:@hkaa0|中国_186
+      - TG频道:@hkaa0|中国_187
+      - TG频道:@hkaa0|中国_188
+      - TG频道:@hkaa0|中国_189
+      - TG频道:@hkaa0|中国_190
+      - TG频道:@hkaa0|中国_191
+      - TG频道:@hkaa0|中国_192
+      - TG频道:@hkaa0|中国_193
+      - TG频道:@hkaa0|中国_194
+      - TG频道:@hkaa0|中国_195
+      - TG频道:@hkaa0|中国_196
+      - TG频道:@hkaa0|中国_197
+      - TG频道:@hkaa0|中国_198
+      - TG频道:@hkaa0|中国_199
+      - TG频道:@hkaa0|中国_200
+      - TG频道:@hkaa0|中国_201
+      - TG频道:@hkaa0|中国_202
+      - TG频道:@hkaa0|中国_203
+      - TG频道:@hkaa0|中国_204
+      - TG频道:@hkaa0|中国_205
+      - TG频道:@hkaa0|中国_206
+      - TG频道:@hkaa0|中国_207
+      - TG频道:@hkaa0|中国_208
+      - TG频道:@hkaa0|中国_209
+      - TG频道:@hkaa0|中国_210
+      - TG频道:@hkaa0|中国_211
+      - TG频道:@hkaa0|中国_212
+      - TG频道:@hkaa0|中国_213
+      - TG频道:@hkaa0|中国_214
+      - TG频道:@hkaa0|中国_215
+      - TG频道:@hkaa0|中国_216
+      - TG频道:@hkaa0|中国_217
+      - TG频道:@hkaa0|中国_218
+      - TG频道:@hkaa0|中国_219
+      - TG频道:@hkaa0|中国_220
+      - TG频道:@hkaa0|中国_221
+      - TG频道:@hkaa0|中国_222
+      - TG频道:@hkaa0|中国_223
+      - TG频道:@hkaa0|中国_224
+      - TG频道:@hkaa0|中国_225
+      - TG频道:@hkaa0|中国_226
+      - TG频道:@hkaa0|中国_227
+      - TG频道:@hkaa0|中国_228
+      - TG频道:@hkaa0|中国_229
+      - TG频道:@hkaa0|中国_230
+      - TG频道:@hkaa0|中国_231
+      - TG频道:@hkaa0|中国_232
+      - TG频道:@hkaa0|中国_233
+      - TG频道:@hkaa0|中国_234
+      - TG频道:@hkaa0|中国_235
+      - TG频道:@hkaa0|中国_236
+      - TG频道:@hkaa0|中国_237
+      - TG频道:@hkaa0|中国_238
+      - TG频道:@hkaa0|中国_239
+      - TG频道:@hkaa0|中国_240
+      - TG频道:@hkaa0|中国_241
+      - TG频道:@hkaa0|中国_242
+      - TG频道:@hkaa0|中国_243
+      - TG频道:@hkaa0|中国_244
+      - TG频道:@hkaa0|中国_245
+      - TG频道:@hkaa0|中国_246
+      - TG频道:@hkaa0|中国_247
+      - TG频道:@hkaa0|中国_248
+      - TG频道:@hkaa0|中国_249
+      - TG频道:@hkaa0|中国_250
+      - TG频道:@hkaa0|中国_251
+      - TG频道:@hkaa0|中国_252
+      - TG频道:@hkaa0|中国_253
+      - TG频道:@hkaa0|中国_254
+      - TG频道:@hkaa0|中国_255
+      - TG频道:@hkaa0|中国_256
+      - TG频道:@hkaa0|中国_257
+      - TG频道:@hkaa0|中国_258
+      - TG频道:@hkaa0|中国_259
+      - TG频道:@hkaa0|中国_260
+      - TG频道:@hkaa0|中国_261
+      - TG频道:@hkaa0|中国_262
+      - TG频道:@hkaa0|中国_263
+      - TG频道:@hkaa0|中国_264
+      - TG频道:@hkaa0|中国_265
+      - TG频道:@hkaa0|中国_266
+      - TG频道:@hkaa0|中国_267
+      - TG频道:@hkaa0|中国_268
+      - TG频道:@hkaa0|中国_269
+      - TG频道:@hkaa0|中国_270
+      - TG频道:@hkaa0|中国_271
+      - TG频道:@hkaa0|中国_272
+      - TG频道:@hkaa0|中国_273
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道:@hkaa0|法国_1
-      - TG频道:@hkaa0|荷兰
       - TG频道:@hkaa0|新加坡_1
+      - TG频道:@hkaa0|荷兰_1
+      - TG频道:@hkaa0|泰国
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|荷兰_2
+      - TG频道:@hkaa0_1
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0_3
+      - TG频道:@hkaa0_4
       - TG频道:@hkaa0|中国_1
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|日本_1
+      - TG频道:@hkaa0|台湾
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|美国_3
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|印度_1
+      - TG频道:@hkaa0|印度_2
       - TG频道:@hkaa0|新加坡_2
       - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|加拿大_1
-      - TG频道:@hkaa0|加拿大_2
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|印度
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|法国_2
-      - TG频道:@hkaa0|加拿大_3
-      - TG频道:@hkaa0|加拿大_4
-      - TG频道:@hkaa0|加拿大_5
-      - TG频道:@hkaa0|加拿大_6
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|英国_2
+      - TG频道:@hkaa0|卢森堡
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|日本_1
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|新加坡_5
       - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|加拿大
+      - TG频道:@hkaa0|法国_1
+      - TG频道:@hkaa0_5
+      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_4
+      - TG频道:@hkaa0|法国_2
       - TG频道:@hkaa0|中国_5
       - TG频道:@hkaa0|中国_6
       - TG频道:@hkaa0|中国_7
       - TG频道:@hkaa0|中国_8
       - TG频道:@hkaa0|中国_9
       - TG频道:@hkaa0|中国_10
+      - TG频道:@hkaa0|英国
       - TG频道:@hkaa0|中国_11
       - TG频道:@hkaa0|中国_12
       - TG频道:@hkaa0|中国_13
       - TG频道:@hkaa0|中国_14
       - TG频道:@hkaa0|中国_15
       - TG频道:@hkaa0|中国_16
+      - TG频道:@hkaa0|俄罗斯联邦
       - TG频道:@hkaa0|中国_17
       - TG频道:@hkaa0|中国_18
       - TG频道:@hkaa0|中国_19
       - TG频道:@hkaa0|中国_20
       - TG频道:@hkaa0|中国_21
       - TG频道:@hkaa0|中国_22
-      - TG频道:@hkaa0|美国_5
       - TG频道:@hkaa0|中国_23
       - TG频道:@hkaa0|中国_24
       - TG频道:@hkaa0|中国_25
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|加拿大_7
       - TG频道:@hkaa0|中国_26
       - TG频道:@hkaa0|中国_27
       - TG频道:@hkaa0|中国_28
@@ -393,7 +1005,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_37
       - TG频道:@hkaa0|中国_38
       - TG频道:@hkaa0|中国_39
-      - TG频道:@hkaa0|新加坡_6
       - TG频道:@hkaa0|中国_40
       - TG频道:@hkaa0|中国_41
       - TG频道:@hkaa0|中国_42
@@ -402,7 +1013,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_45
       - TG频道:@hkaa0|中国_46
       - TG频道:@hkaa0|中国_47
-      - TG频道:@hkaa0
       - TG频道:@hkaa0|中国_48
       - TG频道:@hkaa0|中国_49
       - TG频道:@hkaa0|中国_50
@@ -417,75 +1027,277 @@ proxy-groups:
       - TG频道:@hkaa0|中国_59
       - TG频道:@hkaa0|中国_60
       - TG频道:@hkaa0|中国_61
-      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_62
       - TG频道:@hkaa0|中国_63
       - TG频道:@hkaa0|中国_64
       - TG频道:@hkaa0|中国_65
       - TG频道:@hkaa0|中国_66
-      - TG频道:@hkaa0|新加坡_7
       - TG频道:@hkaa0|中国_67
       - TG频道:@hkaa0|中国_68
       - TG频道:@hkaa0|中国_69
       - TG频道:@hkaa0|中国_70
       - TG频道:@hkaa0|中国_71
       - TG频道:@hkaa0|中国_72
+      - TG频道:@hkaa0|中国_73
+      - TG频道:@hkaa0|中国_74
+      - TG频道:@hkaa0|中国_75
+      - TG频道:@hkaa0|中国_76
+      - TG频道:@hkaa0|中国_77
+      - TG频道:@hkaa0|中国_78
+      - TG频道:@hkaa0|中国_79
+      - TG频道:@hkaa0|中国_80
+      - TG频道:@hkaa0|中国_81
+      - TG频道:@hkaa0|中国_82
+      - TG频道:@hkaa0|中国_83
+      - TG频道:@hkaa0|中国_84
+      - TG频道:@hkaa0|中国_85
+      - TG频道:@hkaa0|中国_86
+      - TG频道:@hkaa0|中国_87
+      - TG频道:@hkaa0|中国_88
+      - TG频道:@hkaa0|中国_89
+      - TG频道:@hkaa0|中国_90
+      - TG频道:@hkaa0|中国_91
+      - TG频道:@hkaa0|中国_92
+      - TG频道:@hkaa0|中国_93
+      - TG频道:@hkaa0|中国_94
+      - TG频道:@hkaa0|中国_95
+      - TG频道:@hkaa0|中国_96
+      - TG频道:@hkaa0|中国_97
+      - TG频道:@hkaa0|中国_98
+      - TG频道:@hkaa0|中国_99
+      - TG频道:@hkaa0|中国_100
+      - TG频道:@hkaa0|中国_101
+      - TG频道:@hkaa0|中国_102
+      - TG频道:@hkaa0|中国_103
+      - TG频道:@hkaa0|中国_104
+      - TG频道:@hkaa0|中国_105
+      - TG频道:@hkaa0|中国_106
+      - TG频道:@hkaa0|中国_107
+      - TG频道:@hkaa0|中国_108
+      - TG频道:@hkaa0|中国_109
+      - TG频道:@hkaa0|中国_110
+      - TG频道:@hkaa0|中国_111
+      - TG频道:@hkaa0|中国_112
+      - TG频道:@hkaa0|中国_113
+      - TG频道:@hkaa0|中国_114
+      - TG频道:@hkaa0|中国_115
+      - TG频道:@hkaa0|中国_116
+      - TG频道:@hkaa0|中国_117
+      - TG频道:@hkaa0|中国_118
+      - TG频道:@hkaa0|中国_119
+      - TG频道:@hkaa0|中国_120
+      - TG频道:@hkaa0|中国_121
+      - TG频道:@hkaa0|中国_122
+      - TG频道:@hkaa0|中国_123
+      - TG频道:@hkaa0|中国_124
+      - TG频道:@hkaa0|中国_125
+      - TG频道:@hkaa0|中国_126
+      - TG频道:@hkaa0|中国_127
+      - TG频道:@hkaa0|中国_128
+      - TG频道:@hkaa0|中国_129
+      - TG频道:@hkaa0|中国_130
+      - TG频道:@hkaa0|中国_131
+      - TG频道:@hkaa0|中国_132
+      - TG频道:@hkaa0|中国_133
+      - TG频道:@hkaa0|中国_134
+      - TG频道:@hkaa0|中国_135
+      - TG频道:@hkaa0|中国_136
+      - TG频道:@hkaa0|中国_137
+      - TG频道:@hkaa0|中国_138
+      - TG频道:@hkaa0|中国_139
+      - TG频道:@hkaa0|中国_140
+      - TG频道:@hkaa0|中国_141
+      - TG频道:@hkaa0|中国_142
+      - TG频道:@hkaa0|中国_143
+      - TG频道:@hkaa0|中国_144
+      - TG频道:@hkaa0|中国_145
+      - TG频道:@hkaa0|中国_146
+      - TG频道:@hkaa0|中国_147
+      - TG频道:@hkaa0|中国_148
+      - TG频道:@hkaa0|中国_149
+      - TG频道:@hkaa0|中国_150
+      - TG频道:@hkaa0|中国_151
+      - TG频道:@hkaa0|中国_152
+      - TG频道:@hkaa0|中国_153
+      - TG频道:@hkaa0|中国_154
+      - TG频道:@hkaa0|中国_155
+      - TG频道:@hkaa0|中国_156
+      - TG频道:@hkaa0|中国_157
+      - TG频道:@hkaa0|中国_158
+      - TG频道:@hkaa0|中国_159
+      - TG频道:@hkaa0|中国_160
+      - TG频道:@hkaa0|中国_161
+      - TG频道:@hkaa0|中国_162
+      - TG频道:@hkaa0|中国_163
+      - TG频道:@hkaa0|中国_164
+      - TG频道:@hkaa0|中国_165
+      - TG频道:@hkaa0|中国_166
+      - TG频道:@hkaa0|中国_167
+      - TG频道:@hkaa0|中国_168
+      - TG频道:@hkaa0|中国_169
+      - TG频道:@hkaa0|中国_170
+      - TG频道:@hkaa0|中国_171
+      - TG频道:@hkaa0|中国_172
+      - TG频道:@hkaa0|中国_173
+      - TG频道:@hkaa0|中国_174
+      - TG频道:@hkaa0|中国_175
+      - TG频道:@hkaa0|中国_176
+      - TG频道:@hkaa0|中国_177
+      - TG频道:@hkaa0|中国_178
+      - TG频道:@hkaa0|中国_179
+      - TG频道:@hkaa0|中国_180
+      - TG频道:@hkaa0|中国_181
+      - TG频道:@hkaa0|中国_182
+      - TG频道:@hkaa0|中国_183
+      - TG频道:@hkaa0|中国_184
+      - TG频道:@hkaa0|中国_185
+      - TG频道:@hkaa0|中国_186
+      - TG频道:@hkaa0|中国_187
+      - TG频道:@hkaa0|中国_188
+      - TG频道:@hkaa0|中国_189
+      - TG频道:@hkaa0|中国_190
+      - TG频道:@hkaa0|中国_191
+      - TG频道:@hkaa0|中国_192
+      - TG频道:@hkaa0|中国_193
+      - TG频道:@hkaa0|中国_194
+      - TG频道:@hkaa0|中国_195
+      - TG频道:@hkaa0|中国_196
+      - TG频道:@hkaa0|中国_197
+      - TG频道:@hkaa0|中国_198
+      - TG频道:@hkaa0|中国_199
+      - TG频道:@hkaa0|中国_200
+      - TG频道:@hkaa0|中国_201
+      - TG频道:@hkaa0|中国_202
+      - TG频道:@hkaa0|中国_203
+      - TG频道:@hkaa0|中国_204
+      - TG频道:@hkaa0|中国_205
+      - TG频道:@hkaa0|中国_206
+      - TG频道:@hkaa0|中国_207
+      - TG频道:@hkaa0|中国_208
+      - TG频道:@hkaa0|中国_209
+      - TG频道:@hkaa0|中国_210
+      - TG频道:@hkaa0|中国_211
+      - TG频道:@hkaa0|中国_212
+      - TG频道:@hkaa0|中国_213
+      - TG频道:@hkaa0|中国_214
+      - TG频道:@hkaa0|中国_215
+      - TG频道:@hkaa0|中国_216
+      - TG频道:@hkaa0|中国_217
+      - TG频道:@hkaa0|中国_218
+      - TG频道:@hkaa0|中国_219
+      - TG频道:@hkaa0|中国_220
+      - TG频道:@hkaa0|中国_221
+      - TG频道:@hkaa0|中国_222
+      - TG频道:@hkaa0|中国_223
+      - TG频道:@hkaa0|中国_224
+      - TG频道:@hkaa0|中国_225
+      - TG频道:@hkaa0|中国_226
+      - TG频道:@hkaa0|中国_227
+      - TG频道:@hkaa0|中国_228
+      - TG频道:@hkaa0|中国_229
+      - TG频道:@hkaa0|中国_230
+      - TG频道:@hkaa0|中国_231
+      - TG频道:@hkaa0|中国_232
+      - TG频道:@hkaa0|中国_233
+      - TG频道:@hkaa0|中国_234
+      - TG频道:@hkaa0|中国_235
+      - TG频道:@hkaa0|中国_236
+      - TG频道:@hkaa0|中国_237
+      - TG频道:@hkaa0|中国_238
+      - TG频道:@hkaa0|中国_239
+      - TG频道:@hkaa0|中国_240
+      - TG频道:@hkaa0|中国_241
+      - TG频道:@hkaa0|中国_242
+      - TG频道:@hkaa0|中国_243
+      - TG频道:@hkaa0|中国_244
+      - TG频道:@hkaa0|中国_245
+      - TG频道:@hkaa0|中国_246
+      - TG频道:@hkaa0|中国_247
+      - TG频道:@hkaa0|中国_248
+      - TG频道:@hkaa0|中国_249
+      - TG频道:@hkaa0|中国_250
+      - TG频道:@hkaa0|中国_251
+      - TG频道:@hkaa0|中国_252
+      - TG频道:@hkaa0|中国_253
+      - TG频道:@hkaa0|中国_254
+      - TG频道:@hkaa0|中国_255
+      - TG频道:@hkaa0|中国_256
+      - TG频道:@hkaa0|中国_257
+      - TG频道:@hkaa0|中国_258
+      - TG频道:@hkaa0|中国_259
+      - TG频道:@hkaa0|中国_260
+      - TG频道:@hkaa0|中国_261
+      - TG频道:@hkaa0|中国_262
+      - TG频道:@hkaa0|中国_263
+      - TG频道:@hkaa0|中国_264
+      - TG频道:@hkaa0|中国_265
+      - TG频道:@hkaa0|中国_266
+      - TG频道:@hkaa0|中国_267
+      - TG频道:@hkaa0|中国_268
+      - TG频道:@hkaa0|中国_269
+      - TG频道:@hkaa0|中国_270
+      - TG频道:@hkaa0|中国_271
+      - TG频道:@hkaa0|中国_272
+      - TG频道:@hkaa0|中国_273
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0|法国_1
-      - TG频道:@hkaa0|荷兰
       - TG频道:@hkaa0|新加坡_1
+      - TG频道:@hkaa0|荷兰_1
+      - TG频道:@hkaa0|泰国
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|荷兰_2
+      - TG频道:@hkaa0_1
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0_3
+      - TG频道:@hkaa0_4
       - TG频道:@hkaa0|中国_1
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|日本_1
+      - TG频道:@hkaa0|台湾
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|美国_3
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|印度_1
+      - TG频道:@hkaa0|印度_2
       - TG频道:@hkaa0|新加坡_2
       - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|加拿大_1
-      - TG频道:@hkaa0|加拿大_2
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|印度
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|法国_2
-      - TG频道:@hkaa0|加拿大_3
-      - TG频道:@hkaa0|加拿大_4
-      - TG频道:@hkaa0|加拿大_5
-      - TG频道:@hkaa0|加拿大_6
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|英国_2
+      - TG频道:@hkaa0|卢森堡
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|日本_1
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|新加坡_5
       - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|加拿大
+      - TG频道:@hkaa0|法国_1
+      - TG频道:@hkaa0_5
+      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_4
+      - TG频道:@hkaa0|法国_2
       - TG频道:@hkaa0|中国_5
       - TG频道:@hkaa0|中国_6
       - TG频道:@hkaa0|中国_7
       - TG频道:@hkaa0|中国_8
       - TG频道:@hkaa0|中国_9
       - TG频道:@hkaa0|中国_10
+      - TG频道:@hkaa0|英国
       - TG频道:@hkaa0|中国_11
       - TG频道:@hkaa0|中国_12
       - TG频道:@hkaa0|中国_13
       - TG频道:@hkaa0|中国_14
       - TG频道:@hkaa0|中国_15
       - TG频道:@hkaa0|中国_16
+      - TG频道:@hkaa0|俄罗斯联邦
       - TG频道:@hkaa0|中国_17
       - TG频道:@hkaa0|中国_18
       - TG频道:@hkaa0|中国_19
       - TG频道:@hkaa0|中国_20
       - TG频道:@hkaa0|中国_21
       - TG频道:@hkaa0|中国_22
-      - TG频道:@hkaa0|美国_5
       - TG频道:@hkaa0|中国_23
       - TG频道:@hkaa0|中国_24
       - TG频道:@hkaa0|中国_25
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|加拿大_7
       - TG频道:@hkaa0|中国_26
       - TG频道:@hkaa0|中国_27
       - TG频道:@hkaa0|中国_28
@@ -500,7 +1312,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_37
       - TG频道:@hkaa0|中国_38
       - TG频道:@hkaa0|中国_39
-      - TG频道:@hkaa0|新加坡_6
       - TG频道:@hkaa0|中国_40
       - TG频道:@hkaa0|中国_41
       - TG频道:@hkaa0|中国_42
@@ -509,7 +1320,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_45
       - TG频道:@hkaa0|中国_46
       - TG频道:@hkaa0|中国_47
-      - TG频道:@hkaa0
       - TG频道:@hkaa0|中国_48
       - TG频道:@hkaa0|中国_49
       - TG频道:@hkaa0|中国_50
@@ -524,75 +1334,277 @@ proxy-groups:
       - TG频道:@hkaa0|中国_59
       - TG频道:@hkaa0|中国_60
       - TG频道:@hkaa0|中国_61
-      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_62
       - TG频道:@hkaa0|中国_63
       - TG频道:@hkaa0|中国_64
       - TG频道:@hkaa0|中国_65
       - TG频道:@hkaa0|中国_66
-      - TG频道:@hkaa0|新加坡_7
       - TG频道:@hkaa0|中国_67
       - TG频道:@hkaa0|中国_68
       - TG频道:@hkaa0|中国_69
       - TG频道:@hkaa0|中国_70
       - TG频道:@hkaa0|中国_71
       - TG频道:@hkaa0|中国_72
+      - TG频道:@hkaa0|中国_73
+      - TG频道:@hkaa0|中国_74
+      - TG频道:@hkaa0|中国_75
+      - TG频道:@hkaa0|中国_76
+      - TG频道:@hkaa0|中国_77
+      - TG频道:@hkaa0|中国_78
+      - TG频道:@hkaa0|中国_79
+      - TG频道:@hkaa0|中国_80
+      - TG频道:@hkaa0|中国_81
+      - TG频道:@hkaa0|中国_82
+      - TG频道:@hkaa0|中国_83
+      - TG频道:@hkaa0|中国_84
+      - TG频道:@hkaa0|中国_85
+      - TG频道:@hkaa0|中国_86
+      - TG频道:@hkaa0|中国_87
+      - TG频道:@hkaa0|中国_88
+      - TG频道:@hkaa0|中国_89
+      - TG频道:@hkaa0|中国_90
+      - TG频道:@hkaa0|中国_91
+      - TG频道:@hkaa0|中国_92
+      - TG频道:@hkaa0|中国_93
+      - TG频道:@hkaa0|中国_94
+      - TG频道:@hkaa0|中国_95
+      - TG频道:@hkaa0|中国_96
+      - TG频道:@hkaa0|中国_97
+      - TG频道:@hkaa0|中国_98
+      - TG频道:@hkaa0|中国_99
+      - TG频道:@hkaa0|中国_100
+      - TG频道:@hkaa0|中国_101
+      - TG频道:@hkaa0|中国_102
+      - TG频道:@hkaa0|中国_103
+      - TG频道:@hkaa0|中国_104
+      - TG频道:@hkaa0|中国_105
+      - TG频道:@hkaa0|中国_106
+      - TG频道:@hkaa0|中国_107
+      - TG频道:@hkaa0|中国_108
+      - TG频道:@hkaa0|中国_109
+      - TG频道:@hkaa0|中国_110
+      - TG频道:@hkaa0|中国_111
+      - TG频道:@hkaa0|中国_112
+      - TG频道:@hkaa0|中国_113
+      - TG频道:@hkaa0|中国_114
+      - TG频道:@hkaa0|中国_115
+      - TG频道:@hkaa0|中国_116
+      - TG频道:@hkaa0|中国_117
+      - TG频道:@hkaa0|中国_118
+      - TG频道:@hkaa0|中国_119
+      - TG频道:@hkaa0|中国_120
+      - TG频道:@hkaa0|中国_121
+      - TG频道:@hkaa0|中国_122
+      - TG频道:@hkaa0|中国_123
+      - TG频道:@hkaa0|中国_124
+      - TG频道:@hkaa0|中国_125
+      - TG频道:@hkaa0|中国_126
+      - TG频道:@hkaa0|中国_127
+      - TG频道:@hkaa0|中国_128
+      - TG频道:@hkaa0|中国_129
+      - TG频道:@hkaa0|中国_130
+      - TG频道:@hkaa0|中国_131
+      - TG频道:@hkaa0|中国_132
+      - TG频道:@hkaa0|中国_133
+      - TG频道:@hkaa0|中国_134
+      - TG频道:@hkaa0|中国_135
+      - TG频道:@hkaa0|中国_136
+      - TG频道:@hkaa0|中国_137
+      - TG频道:@hkaa0|中国_138
+      - TG频道:@hkaa0|中国_139
+      - TG频道:@hkaa0|中国_140
+      - TG频道:@hkaa0|中国_141
+      - TG频道:@hkaa0|中国_142
+      - TG频道:@hkaa0|中国_143
+      - TG频道:@hkaa0|中国_144
+      - TG频道:@hkaa0|中国_145
+      - TG频道:@hkaa0|中国_146
+      - TG频道:@hkaa0|中国_147
+      - TG频道:@hkaa0|中国_148
+      - TG频道:@hkaa0|中国_149
+      - TG频道:@hkaa0|中国_150
+      - TG频道:@hkaa0|中国_151
+      - TG频道:@hkaa0|中国_152
+      - TG频道:@hkaa0|中国_153
+      - TG频道:@hkaa0|中国_154
+      - TG频道:@hkaa0|中国_155
+      - TG频道:@hkaa0|中国_156
+      - TG频道:@hkaa0|中国_157
+      - TG频道:@hkaa0|中国_158
+      - TG频道:@hkaa0|中国_159
+      - TG频道:@hkaa0|中国_160
+      - TG频道:@hkaa0|中国_161
+      - TG频道:@hkaa0|中国_162
+      - TG频道:@hkaa0|中国_163
+      - TG频道:@hkaa0|中国_164
+      - TG频道:@hkaa0|中国_165
+      - TG频道:@hkaa0|中国_166
+      - TG频道:@hkaa0|中国_167
+      - TG频道:@hkaa0|中国_168
+      - TG频道:@hkaa0|中国_169
+      - TG频道:@hkaa0|中国_170
+      - TG频道:@hkaa0|中国_171
+      - TG频道:@hkaa0|中国_172
+      - TG频道:@hkaa0|中国_173
+      - TG频道:@hkaa0|中国_174
+      - TG频道:@hkaa0|中国_175
+      - TG频道:@hkaa0|中国_176
+      - TG频道:@hkaa0|中国_177
+      - TG频道:@hkaa0|中国_178
+      - TG频道:@hkaa0|中国_179
+      - TG频道:@hkaa0|中国_180
+      - TG频道:@hkaa0|中国_181
+      - TG频道:@hkaa0|中国_182
+      - TG频道:@hkaa0|中国_183
+      - TG频道:@hkaa0|中国_184
+      - TG频道:@hkaa0|中国_185
+      - TG频道:@hkaa0|中国_186
+      - TG频道:@hkaa0|中国_187
+      - TG频道:@hkaa0|中国_188
+      - TG频道:@hkaa0|中国_189
+      - TG频道:@hkaa0|中国_190
+      - TG频道:@hkaa0|中国_191
+      - TG频道:@hkaa0|中国_192
+      - TG频道:@hkaa0|中国_193
+      - TG频道:@hkaa0|中国_194
+      - TG频道:@hkaa0|中国_195
+      - TG频道:@hkaa0|中国_196
+      - TG频道:@hkaa0|中国_197
+      - TG频道:@hkaa0|中国_198
+      - TG频道:@hkaa0|中国_199
+      - TG频道:@hkaa0|中国_200
+      - TG频道:@hkaa0|中国_201
+      - TG频道:@hkaa0|中国_202
+      - TG频道:@hkaa0|中国_203
+      - TG频道:@hkaa0|中国_204
+      - TG频道:@hkaa0|中国_205
+      - TG频道:@hkaa0|中国_206
+      - TG频道:@hkaa0|中国_207
+      - TG频道:@hkaa0|中国_208
+      - TG频道:@hkaa0|中国_209
+      - TG频道:@hkaa0|中国_210
+      - TG频道:@hkaa0|中国_211
+      - TG频道:@hkaa0|中国_212
+      - TG频道:@hkaa0|中国_213
+      - TG频道:@hkaa0|中国_214
+      - TG频道:@hkaa0|中国_215
+      - TG频道:@hkaa0|中国_216
+      - TG频道:@hkaa0|中国_217
+      - TG频道:@hkaa0|中国_218
+      - TG频道:@hkaa0|中国_219
+      - TG频道:@hkaa0|中国_220
+      - TG频道:@hkaa0|中国_221
+      - TG频道:@hkaa0|中国_222
+      - TG频道:@hkaa0|中国_223
+      - TG频道:@hkaa0|中国_224
+      - TG频道:@hkaa0|中国_225
+      - TG频道:@hkaa0|中国_226
+      - TG频道:@hkaa0|中国_227
+      - TG频道:@hkaa0|中国_228
+      - TG频道:@hkaa0|中国_229
+      - TG频道:@hkaa0|中国_230
+      - TG频道:@hkaa0|中国_231
+      - TG频道:@hkaa0|中国_232
+      - TG频道:@hkaa0|中国_233
+      - TG频道:@hkaa0|中国_234
+      - TG频道:@hkaa0|中国_235
+      - TG频道:@hkaa0|中国_236
+      - TG频道:@hkaa0|中国_237
+      - TG频道:@hkaa0|中国_238
+      - TG频道:@hkaa0|中国_239
+      - TG频道:@hkaa0|中国_240
+      - TG频道:@hkaa0|中国_241
+      - TG频道:@hkaa0|中国_242
+      - TG频道:@hkaa0|中国_243
+      - TG频道:@hkaa0|中国_244
+      - TG频道:@hkaa0|中国_245
+      - TG频道:@hkaa0|中国_246
+      - TG频道:@hkaa0|中国_247
+      - TG频道:@hkaa0|中国_248
+      - TG频道:@hkaa0|中国_249
+      - TG频道:@hkaa0|中国_250
+      - TG频道:@hkaa0|中国_251
+      - TG频道:@hkaa0|中国_252
+      - TG频道:@hkaa0|中国_253
+      - TG频道:@hkaa0|中国_254
+      - TG频道:@hkaa0|中国_255
+      - TG频道:@hkaa0|中国_256
+      - TG频道:@hkaa0|中国_257
+      - TG频道:@hkaa0|中国_258
+      - TG频道:@hkaa0|中国_259
+      - TG频道:@hkaa0|中国_260
+      - TG频道:@hkaa0|中国_261
+      - TG频道:@hkaa0|中国_262
+      - TG频道:@hkaa0|中国_263
+      - TG频道:@hkaa0|中国_264
+      - TG频道:@hkaa0|中国_265
+      - TG频道:@hkaa0|中国_266
+      - TG频道:@hkaa0|中国_267
+      - TG频道:@hkaa0|中国_268
+      - TG频道:@hkaa0|中国_269
+      - TG频道:@hkaa0|中国_270
+      - TG频道:@hkaa0|中国_271
+      - TG频道:@hkaa0|中国_272
+      - TG频道:@hkaa0|中国_273
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG频道:@hkaa0|法国_1
-      - TG频道:@hkaa0|荷兰
       - TG频道:@hkaa0|新加坡_1
+      - TG频道:@hkaa0|荷兰_1
+      - TG频道:@hkaa0|泰国
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|荷兰_2
+      - TG频道:@hkaa0_1
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0_3
+      - TG频道:@hkaa0_4
       - TG频道:@hkaa0|中国_1
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|日本_1
+      - TG频道:@hkaa0|台湾
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|美国_3
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|印度_1
+      - TG频道:@hkaa0|印度_2
       - TG频道:@hkaa0|新加坡_2
       - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|加拿大_1
-      - TG频道:@hkaa0|加拿大_2
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|印度
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|法国_2
-      - TG频道:@hkaa0|加拿大_3
-      - TG频道:@hkaa0|加拿大_4
-      - TG频道:@hkaa0|加拿大_5
-      - TG频道:@hkaa0|加拿大_6
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|英国_2
+      - TG频道:@hkaa0|卢森堡
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|日本_1
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|新加坡_5
       - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|加拿大
+      - TG频道:@hkaa0|法国_1
+      - TG频道:@hkaa0_5
+      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_4
+      - TG频道:@hkaa0|法国_2
       - TG频道:@hkaa0|中国_5
       - TG频道:@hkaa0|中国_6
       - TG频道:@hkaa0|中国_7
       - TG频道:@hkaa0|中国_8
       - TG频道:@hkaa0|中国_9
       - TG频道:@hkaa0|中国_10
+      - TG频道:@hkaa0|英国
       - TG频道:@hkaa0|中国_11
       - TG频道:@hkaa0|中国_12
       - TG频道:@hkaa0|中国_13
       - TG频道:@hkaa0|中国_14
       - TG频道:@hkaa0|中国_15
       - TG频道:@hkaa0|中国_16
+      - TG频道:@hkaa0|俄罗斯联邦
       - TG频道:@hkaa0|中国_17
       - TG频道:@hkaa0|中国_18
       - TG频道:@hkaa0|中国_19
       - TG频道:@hkaa0|中国_20
       - TG频道:@hkaa0|中国_21
       - TG频道:@hkaa0|中国_22
-      - TG频道:@hkaa0|美国_5
       - TG频道:@hkaa0|中国_23
       - TG频道:@hkaa0|中国_24
       - TG频道:@hkaa0|中国_25
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|加拿大_7
       - TG频道:@hkaa0|中国_26
       - TG频道:@hkaa0|中国_27
       - TG频道:@hkaa0|中国_28
@@ -607,7 +1619,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_37
       - TG频道:@hkaa0|中国_38
       - TG频道:@hkaa0|中国_39
-      - TG频道:@hkaa0|新加坡_6
       - TG频道:@hkaa0|中国_40
       - TG频道:@hkaa0|中国_41
       - TG频道:@hkaa0|中国_42
@@ -616,7 +1627,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_45
       - TG频道:@hkaa0|中国_46
       - TG频道:@hkaa0|中国_47
-      - TG频道:@hkaa0
       - TG频道:@hkaa0|中国_48
       - TG频道:@hkaa0|中国_49
       - TG频道:@hkaa0|中国_50
@@ -631,75 +1641,277 @@ proxy-groups:
       - TG频道:@hkaa0|中国_59
       - TG频道:@hkaa0|中国_60
       - TG频道:@hkaa0|中国_61
-      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_62
       - TG频道:@hkaa0|中国_63
       - TG频道:@hkaa0|中国_64
       - TG频道:@hkaa0|中国_65
       - TG频道:@hkaa0|中国_66
-      - TG频道:@hkaa0|新加坡_7
       - TG频道:@hkaa0|中国_67
       - TG频道:@hkaa0|中国_68
       - TG频道:@hkaa0|中国_69
       - TG频道:@hkaa0|中国_70
       - TG频道:@hkaa0|中国_71
       - TG频道:@hkaa0|中国_72
+      - TG频道:@hkaa0|中国_73
+      - TG频道:@hkaa0|中国_74
+      - TG频道:@hkaa0|中国_75
+      - TG频道:@hkaa0|中国_76
+      - TG频道:@hkaa0|中国_77
+      - TG频道:@hkaa0|中国_78
+      - TG频道:@hkaa0|中国_79
+      - TG频道:@hkaa0|中国_80
+      - TG频道:@hkaa0|中国_81
+      - TG频道:@hkaa0|中国_82
+      - TG频道:@hkaa0|中国_83
+      - TG频道:@hkaa0|中国_84
+      - TG频道:@hkaa0|中国_85
+      - TG频道:@hkaa0|中国_86
+      - TG频道:@hkaa0|中国_87
+      - TG频道:@hkaa0|中国_88
+      - TG频道:@hkaa0|中国_89
+      - TG频道:@hkaa0|中国_90
+      - TG频道:@hkaa0|中国_91
+      - TG频道:@hkaa0|中国_92
+      - TG频道:@hkaa0|中国_93
+      - TG频道:@hkaa0|中国_94
+      - TG频道:@hkaa0|中国_95
+      - TG频道:@hkaa0|中国_96
+      - TG频道:@hkaa0|中国_97
+      - TG频道:@hkaa0|中国_98
+      - TG频道:@hkaa0|中国_99
+      - TG频道:@hkaa0|中国_100
+      - TG频道:@hkaa0|中国_101
+      - TG频道:@hkaa0|中国_102
+      - TG频道:@hkaa0|中国_103
+      - TG频道:@hkaa0|中国_104
+      - TG频道:@hkaa0|中国_105
+      - TG频道:@hkaa0|中国_106
+      - TG频道:@hkaa0|中国_107
+      - TG频道:@hkaa0|中国_108
+      - TG频道:@hkaa0|中国_109
+      - TG频道:@hkaa0|中国_110
+      - TG频道:@hkaa0|中国_111
+      - TG频道:@hkaa0|中国_112
+      - TG频道:@hkaa0|中国_113
+      - TG频道:@hkaa0|中国_114
+      - TG频道:@hkaa0|中国_115
+      - TG频道:@hkaa0|中国_116
+      - TG频道:@hkaa0|中国_117
+      - TG频道:@hkaa0|中国_118
+      - TG频道:@hkaa0|中国_119
+      - TG频道:@hkaa0|中国_120
+      - TG频道:@hkaa0|中国_121
+      - TG频道:@hkaa0|中国_122
+      - TG频道:@hkaa0|中国_123
+      - TG频道:@hkaa0|中国_124
+      - TG频道:@hkaa0|中国_125
+      - TG频道:@hkaa0|中国_126
+      - TG频道:@hkaa0|中国_127
+      - TG频道:@hkaa0|中国_128
+      - TG频道:@hkaa0|中国_129
+      - TG频道:@hkaa0|中国_130
+      - TG频道:@hkaa0|中国_131
+      - TG频道:@hkaa0|中国_132
+      - TG频道:@hkaa0|中国_133
+      - TG频道:@hkaa0|中国_134
+      - TG频道:@hkaa0|中国_135
+      - TG频道:@hkaa0|中国_136
+      - TG频道:@hkaa0|中国_137
+      - TG频道:@hkaa0|中国_138
+      - TG频道:@hkaa0|中国_139
+      - TG频道:@hkaa0|中国_140
+      - TG频道:@hkaa0|中国_141
+      - TG频道:@hkaa0|中国_142
+      - TG频道:@hkaa0|中国_143
+      - TG频道:@hkaa0|中国_144
+      - TG频道:@hkaa0|中国_145
+      - TG频道:@hkaa0|中国_146
+      - TG频道:@hkaa0|中国_147
+      - TG频道:@hkaa0|中国_148
+      - TG频道:@hkaa0|中国_149
+      - TG频道:@hkaa0|中国_150
+      - TG频道:@hkaa0|中国_151
+      - TG频道:@hkaa0|中国_152
+      - TG频道:@hkaa0|中国_153
+      - TG频道:@hkaa0|中国_154
+      - TG频道:@hkaa0|中国_155
+      - TG频道:@hkaa0|中国_156
+      - TG频道:@hkaa0|中国_157
+      - TG频道:@hkaa0|中国_158
+      - TG频道:@hkaa0|中国_159
+      - TG频道:@hkaa0|中国_160
+      - TG频道:@hkaa0|中国_161
+      - TG频道:@hkaa0|中国_162
+      - TG频道:@hkaa0|中国_163
+      - TG频道:@hkaa0|中国_164
+      - TG频道:@hkaa0|中国_165
+      - TG频道:@hkaa0|中国_166
+      - TG频道:@hkaa0|中国_167
+      - TG频道:@hkaa0|中国_168
+      - TG频道:@hkaa0|中国_169
+      - TG频道:@hkaa0|中国_170
+      - TG频道:@hkaa0|中国_171
+      - TG频道:@hkaa0|中国_172
+      - TG频道:@hkaa0|中国_173
+      - TG频道:@hkaa0|中国_174
+      - TG频道:@hkaa0|中国_175
+      - TG频道:@hkaa0|中国_176
+      - TG频道:@hkaa0|中国_177
+      - TG频道:@hkaa0|中国_178
+      - TG频道:@hkaa0|中国_179
+      - TG频道:@hkaa0|中国_180
+      - TG频道:@hkaa0|中国_181
+      - TG频道:@hkaa0|中国_182
+      - TG频道:@hkaa0|中国_183
+      - TG频道:@hkaa0|中国_184
+      - TG频道:@hkaa0|中国_185
+      - TG频道:@hkaa0|中国_186
+      - TG频道:@hkaa0|中国_187
+      - TG频道:@hkaa0|中国_188
+      - TG频道:@hkaa0|中国_189
+      - TG频道:@hkaa0|中国_190
+      - TG频道:@hkaa0|中国_191
+      - TG频道:@hkaa0|中国_192
+      - TG频道:@hkaa0|中国_193
+      - TG频道:@hkaa0|中国_194
+      - TG频道:@hkaa0|中国_195
+      - TG频道:@hkaa0|中国_196
+      - TG频道:@hkaa0|中国_197
+      - TG频道:@hkaa0|中国_198
+      - TG频道:@hkaa0|中国_199
+      - TG频道:@hkaa0|中国_200
+      - TG频道:@hkaa0|中国_201
+      - TG频道:@hkaa0|中国_202
+      - TG频道:@hkaa0|中国_203
+      - TG频道:@hkaa0|中国_204
+      - TG频道:@hkaa0|中国_205
+      - TG频道:@hkaa0|中国_206
+      - TG频道:@hkaa0|中国_207
+      - TG频道:@hkaa0|中国_208
+      - TG频道:@hkaa0|中国_209
+      - TG频道:@hkaa0|中国_210
+      - TG频道:@hkaa0|中国_211
+      - TG频道:@hkaa0|中国_212
+      - TG频道:@hkaa0|中国_213
+      - TG频道:@hkaa0|中国_214
+      - TG频道:@hkaa0|中国_215
+      - TG频道:@hkaa0|中国_216
+      - TG频道:@hkaa0|中国_217
+      - TG频道:@hkaa0|中国_218
+      - TG频道:@hkaa0|中国_219
+      - TG频道:@hkaa0|中国_220
+      - TG频道:@hkaa0|中国_221
+      - TG频道:@hkaa0|中国_222
+      - TG频道:@hkaa0|中国_223
+      - TG频道:@hkaa0|中国_224
+      - TG频道:@hkaa0|中国_225
+      - TG频道:@hkaa0|中国_226
+      - TG频道:@hkaa0|中国_227
+      - TG频道:@hkaa0|中国_228
+      - TG频道:@hkaa0|中国_229
+      - TG频道:@hkaa0|中国_230
+      - TG频道:@hkaa0|中国_231
+      - TG频道:@hkaa0|中国_232
+      - TG频道:@hkaa0|中国_233
+      - TG频道:@hkaa0|中国_234
+      - TG频道:@hkaa0|中国_235
+      - TG频道:@hkaa0|中国_236
+      - TG频道:@hkaa0|中国_237
+      - TG频道:@hkaa0|中国_238
+      - TG频道:@hkaa0|中国_239
+      - TG频道:@hkaa0|中国_240
+      - TG频道:@hkaa0|中国_241
+      - TG频道:@hkaa0|中国_242
+      - TG频道:@hkaa0|中国_243
+      - TG频道:@hkaa0|中国_244
+      - TG频道:@hkaa0|中国_245
+      - TG频道:@hkaa0|中国_246
+      - TG频道:@hkaa0|中国_247
+      - TG频道:@hkaa0|中国_248
+      - TG频道:@hkaa0|中国_249
+      - TG频道:@hkaa0|中国_250
+      - TG频道:@hkaa0|中国_251
+      - TG频道:@hkaa0|中国_252
+      - TG频道:@hkaa0|中国_253
+      - TG频道:@hkaa0|中国_254
+      - TG频道:@hkaa0|中国_255
+      - TG频道:@hkaa0|中国_256
+      - TG频道:@hkaa0|中国_257
+      - TG频道:@hkaa0|中国_258
+      - TG频道:@hkaa0|中国_259
+      - TG频道:@hkaa0|中国_260
+      - TG频道:@hkaa0|中国_261
+      - TG频道:@hkaa0|中国_262
+      - TG频道:@hkaa0|中国_263
+      - TG频道:@hkaa0|中国_264
+      - TG频道:@hkaa0|中国_265
+      - TG频道:@hkaa0|中国_266
+      - TG频道:@hkaa0|中国_267
+      - TG频道:@hkaa0|中国_268
+      - TG频道:@hkaa0|中国_269
+      - TG频道:@hkaa0|中国_270
+      - TG频道:@hkaa0|中国_271
+      - TG频道:@hkaa0|中国_272
+      - TG频道:@hkaa0|中国_273
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0|法国_1
-      - TG频道:@hkaa0|荷兰
       - TG频道:@hkaa0|新加坡_1
+      - TG频道:@hkaa0|荷兰_1
+      - TG频道:@hkaa0|泰国
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|荷兰_2
+      - TG频道:@hkaa0_1
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0_3
+      - TG频道:@hkaa0_4
       - TG频道:@hkaa0|中国_1
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|日本_1
+      - TG频道:@hkaa0|台湾
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|美国_3
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|印度_1
+      - TG频道:@hkaa0|印度_2
       - TG频道:@hkaa0|新加坡_2
       - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|加拿大_1
-      - TG频道:@hkaa0|加拿大_2
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|印度
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|法国_2
-      - TG频道:@hkaa0|加拿大_3
-      - TG频道:@hkaa0|加拿大_4
-      - TG频道:@hkaa0|加拿大_5
-      - TG频道:@hkaa0|加拿大_6
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|英国_2
+      - TG频道:@hkaa0|卢森堡
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|日本_1
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|新加坡_5
       - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|加拿大
+      - TG频道:@hkaa0|法国_1
+      - TG频道:@hkaa0_5
+      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_4
+      - TG频道:@hkaa0|法国_2
       - TG频道:@hkaa0|中国_5
       - TG频道:@hkaa0|中国_6
       - TG频道:@hkaa0|中国_7
       - TG频道:@hkaa0|中国_8
       - TG频道:@hkaa0|中国_9
       - TG频道:@hkaa0|中国_10
+      - TG频道:@hkaa0|英国
       - TG频道:@hkaa0|中国_11
       - TG频道:@hkaa0|中国_12
       - TG频道:@hkaa0|中国_13
       - TG频道:@hkaa0|中国_14
       - TG频道:@hkaa0|中国_15
       - TG频道:@hkaa0|中国_16
+      - TG频道:@hkaa0|俄罗斯联邦
       - TG频道:@hkaa0|中国_17
       - TG频道:@hkaa0|中国_18
       - TG频道:@hkaa0|中国_19
       - TG频道:@hkaa0|中国_20
       - TG频道:@hkaa0|中国_21
       - TG频道:@hkaa0|中国_22
-      - TG频道:@hkaa0|美国_5
       - TG频道:@hkaa0|中国_23
       - TG频道:@hkaa0|中国_24
       - TG频道:@hkaa0|中国_25
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|加拿大_7
       - TG频道:@hkaa0|中国_26
       - TG频道:@hkaa0|中国_27
       - TG频道:@hkaa0|中国_28
@@ -714,7 +1926,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_37
       - TG频道:@hkaa0|中国_38
       - TG频道:@hkaa0|中国_39
-      - TG频道:@hkaa0|新加坡_6
       - TG频道:@hkaa0|中国_40
       - TG频道:@hkaa0|中国_41
       - TG频道:@hkaa0|中国_42
@@ -723,7 +1934,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_45
       - TG频道:@hkaa0|中国_46
       - TG频道:@hkaa0|中国_47
-      - TG频道:@hkaa0
       - TG频道:@hkaa0|中国_48
       - TG频道:@hkaa0|中国_49
       - TG频道:@hkaa0|中国_50
@@ -738,19 +1948,218 @@ proxy-groups:
       - TG频道:@hkaa0|中国_59
       - TG频道:@hkaa0|中国_60
       - TG频道:@hkaa0|中国_61
-      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_62
       - TG频道:@hkaa0|中国_63
       - TG频道:@hkaa0|中国_64
       - TG频道:@hkaa0|中国_65
       - TG频道:@hkaa0|中国_66
-      - TG频道:@hkaa0|新加坡_7
       - TG频道:@hkaa0|中国_67
       - TG频道:@hkaa0|中国_68
       - TG频道:@hkaa0|中国_69
       - TG频道:@hkaa0|中国_70
       - TG频道:@hkaa0|中国_71
       - TG频道:@hkaa0|中国_72
+      - TG频道:@hkaa0|中国_73
+      - TG频道:@hkaa0|中国_74
+      - TG频道:@hkaa0|中国_75
+      - TG频道:@hkaa0|中国_76
+      - TG频道:@hkaa0|中国_77
+      - TG频道:@hkaa0|中国_78
+      - TG频道:@hkaa0|中国_79
+      - TG频道:@hkaa0|中国_80
+      - TG频道:@hkaa0|中国_81
+      - TG频道:@hkaa0|中国_82
+      - TG频道:@hkaa0|中国_83
+      - TG频道:@hkaa0|中国_84
+      - TG频道:@hkaa0|中国_85
+      - TG频道:@hkaa0|中国_86
+      - TG频道:@hkaa0|中国_87
+      - TG频道:@hkaa0|中国_88
+      - TG频道:@hkaa0|中国_89
+      - TG频道:@hkaa0|中国_90
+      - TG频道:@hkaa0|中国_91
+      - TG频道:@hkaa0|中国_92
+      - TG频道:@hkaa0|中国_93
+      - TG频道:@hkaa0|中国_94
+      - TG频道:@hkaa0|中国_95
+      - TG频道:@hkaa0|中国_96
+      - TG频道:@hkaa0|中国_97
+      - TG频道:@hkaa0|中国_98
+      - TG频道:@hkaa0|中国_99
+      - TG频道:@hkaa0|中国_100
+      - TG频道:@hkaa0|中国_101
+      - TG频道:@hkaa0|中国_102
+      - TG频道:@hkaa0|中国_103
+      - TG频道:@hkaa0|中国_104
+      - TG频道:@hkaa0|中国_105
+      - TG频道:@hkaa0|中国_106
+      - TG频道:@hkaa0|中国_107
+      - TG频道:@hkaa0|中国_108
+      - TG频道:@hkaa0|中国_109
+      - TG频道:@hkaa0|中国_110
+      - TG频道:@hkaa0|中国_111
+      - TG频道:@hkaa0|中国_112
+      - TG频道:@hkaa0|中国_113
+      - TG频道:@hkaa0|中国_114
+      - TG频道:@hkaa0|中国_115
+      - TG频道:@hkaa0|中国_116
+      - TG频道:@hkaa0|中国_117
+      - TG频道:@hkaa0|中国_118
+      - TG频道:@hkaa0|中国_119
+      - TG频道:@hkaa0|中国_120
+      - TG频道:@hkaa0|中国_121
+      - TG频道:@hkaa0|中国_122
+      - TG频道:@hkaa0|中国_123
+      - TG频道:@hkaa0|中国_124
+      - TG频道:@hkaa0|中国_125
+      - TG频道:@hkaa0|中国_126
+      - TG频道:@hkaa0|中国_127
+      - TG频道:@hkaa0|中国_128
+      - TG频道:@hkaa0|中国_129
+      - TG频道:@hkaa0|中国_130
+      - TG频道:@hkaa0|中国_131
+      - TG频道:@hkaa0|中国_132
+      - TG频道:@hkaa0|中国_133
+      - TG频道:@hkaa0|中国_134
+      - TG频道:@hkaa0|中国_135
+      - TG频道:@hkaa0|中国_136
+      - TG频道:@hkaa0|中国_137
+      - TG频道:@hkaa0|中国_138
+      - TG频道:@hkaa0|中国_139
+      - TG频道:@hkaa0|中国_140
+      - TG频道:@hkaa0|中国_141
+      - TG频道:@hkaa0|中国_142
+      - TG频道:@hkaa0|中国_143
+      - TG频道:@hkaa0|中国_144
+      - TG频道:@hkaa0|中国_145
+      - TG频道:@hkaa0|中国_146
+      - TG频道:@hkaa0|中国_147
+      - TG频道:@hkaa0|中国_148
+      - TG频道:@hkaa0|中国_149
+      - TG频道:@hkaa0|中国_150
+      - TG频道:@hkaa0|中国_151
+      - TG频道:@hkaa0|中国_152
+      - TG频道:@hkaa0|中国_153
+      - TG频道:@hkaa0|中国_154
+      - TG频道:@hkaa0|中国_155
+      - TG频道:@hkaa0|中国_156
+      - TG频道:@hkaa0|中国_157
+      - TG频道:@hkaa0|中国_158
+      - TG频道:@hkaa0|中国_159
+      - TG频道:@hkaa0|中国_160
+      - TG频道:@hkaa0|中国_161
+      - TG频道:@hkaa0|中国_162
+      - TG频道:@hkaa0|中国_163
+      - TG频道:@hkaa0|中国_164
+      - TG频道:@hkaa0|中国_165
+      - TG频道:@hkaa0|中国_166
+      - TG频道:@hkaa0|中国_167
+      - TG频道:@hkaa0|中国_168
+      - TG频道:@hkaa0|中国_169
+      - TG频道:@hkaa0|中国_170
+      - TG频道:@hkaa0|中国_171
+      - TG频道:@hkaa0|中国_172
+      - TG频道:@hkaa0|中国_173
+      - TG频道:@hkaa0|中国_174
+      - TG频道:@hkaa0|中国_175
+      - TG频道:@hkaa0|中国_176
+      - TG频道:@hkaa0|中国_177
+      - TG频道:@hkaa0|中国_178
+      - TG频道:@hkaa0|中国_179
+      - TG频道:@hkaa0|中国_180
+      - TG频道:@hkaa0|中国_181
+      - TG频道:@hkaa0|中国_182
+      - TG频道:@hkaa0|中国_183
+      - TG频道:@hkaa0|中国_184
+      - TG频道:@hkaa0|中国_185
+      - TG频道:@hkaa0|中国_186
+      - TG频道:@hkaa0|中国_187
+      - TG频道:@hkaa0|中国_188
+      - TG频道:@hkaa0|中国_189
+      - TG频道:@hkaa0|中国_190
+      - TG频道:@hkaa0|中国_191
+      - TG频道:@hkaa0|中国_192
+      - TG频道:@hkaa0|中国_193
+      - TG频道:@hkaa0|中国_194
+      - TG频道:@hkaa0|中国_195
+      - TG频道:@hkaa0|中国_196
+      - TG频道:@hkaa0|中国_197
+      - TG频道:@hkaa0|中国_198
+      - TG频道:@hkaa0|中国_199
+      - TG频道:@hkaa0|中国_200
+      - TG频道:@hkaa0|中国_201
+      - TG频道:@hkaa0|中国_202
+      - TG频道:@hkaa0|中国_203
+      - TG频道:@hkaa0|中国_204
+      - TG频道:@hkaa0|中国_205
+      - TG频道:@hkaa0|中国_206
+      - TG频道:@hkaa0|中国_207
+      - TG频道:@hkaa0|中国_208
+      - TG频道:@hkaa0|中国_209
+      - TG频道:@hkaa0|中国_210
+      - TG频道:@hkaa0|中国_211
+      - TG频道:@hkaa0|中国_212
+      - TG频道:@hkaa0|中国_213
+      - TG频道:@hkaa0|中国_214
+      - TG频道:@hkaa0|中国_215
+      - TG频道:@hkaa0|中国_216
+      - TG频道:@hkaa0|中国_217
+      - TG频道:@hkaa0|中国_218
+      - TG频道:@hkaa0|中国_219
+      - TG频道:@hkaa0|中国_220
+      - TG频道:@hkaa0|中国_221
+      - TG频道:@hkaa0|中国_222
+      - TG频道:@hkaa0|中国_223
+      - TG频道:@hkaa0|中国_224
+      - TG频道:@hkaa0|中国_225
+      - TG频道:@hkaa0|中国_226
+      - TG频道:@hkaa0|中国_227
+      - TG频道:@hkaa0|中国_228
+      - TG频道:@hkaa0|中国_229
+      - TG频道:@hkaa0|中国_230
+      - TG频道:@hkaa0|中国_231
+      - TG频道:@hkaa0|中国_232
+      - TG频道:@hkaa0|中国_233
+      - TG频道:@hkaa0|中国_234
+      - TG频道:@hkaa0|中国_235
+      - TG频道:@hkaa0|中国_236
+      - TG频道:@hkaa0|中国_237
+      - TG频道:@hkaa0|中国_238
+      - TG频道:@hkaa0|中国_239
+      - TG频道:@hkaa0|中国_240
+      - TG频道:@hkaa0|中国_241
+      - TG频道:@hkaa0|中国_242
+      - TG频道:@hkaa0|中国_243
+      - TG频道:@hkaa0|中国_244
+      - TG频道:@hkaa0|中国_245
+      - TG频道:@hkaa0|中国_246
+      - TG频道:@hkaa0|中国_247
+      - TG频道:@hkaa0|中国_248
+      - TG频道:@hkaa0|中国_249
+      - TG频道:@hkaa0|中国_250
+      - TG频道:@hkaa0|中国_251
+      - TG频道:@hkaa0|中国_252
+      - TG频道:@hkaa0|中国_253
+      - TG频道:@hkaa0|中国_254
+      - TG频道:@hkaa0|中国_255
+      - TG频道:@hkaa0|中国_256
+      - TG频道:@hkaa0|中国_257
+      - TG频道:@hkaa0|中国_258
+      - TG频道:@hkaa0|中国_259
+      - TG频道:@hkaa0|中国_260
+      - TG频道:@hkaa0|中国_261
+      - TG频道:@hkaa0|中国_262
+      - TG频道:@hkaa0|中国_263
+      - TG频道:@hkaa0|中国_264
+      - TG频道:@hkaa0|中国_265
+      - TG频道:@hkaa0|中国_266
+      - TG频道:@hkaa0|中国_267
+      - TG频道:@hkaa0|中国_268
+      - TG频道:@hkaa0|中国_269
+      - TG频道:@hkaa0|中国_270
+      - TG频道:@hkaa0|中国_271
+      - TG频道:@hkaa0|中国_272
+      - TG频道:@hkaa0|中国_273
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -773,57 +2182,60 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道:@hkaa0|法国_1
-      - TG频道:@hkaa0|荷兰
       - TG频道:@hkaa0|新加坡_1
+      - TG频道:@hkaa0|荷兰_1
+      - TG频道:@hkaa0|泰国
+      - TG频道:@hkaa0|美国_1
+      - TG频道:@hkaa0|荷兰_2
+      - TG频道:@hkaa0_1
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0_3
+      - TG频道:@hkaa0_4
       - TG频道:@hkaa0|中国_1
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|日本_1
+      - TG频道:@hkaa0|台湾
+      - TG频道:@hkaa0|美国_2
+      - TG频道:@hkaa0|美国_3
+      - TG频道:@hkaa0|美国_4
+      - TG频道:@hkaa0|印度_1
+      - TG频道:@hkaa0|印度_2
       - TG频道:@hkaa0|新加坡_2
       - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|加拿大_1
-      - TG频道:@hkaa0|加拿大_2
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|印度
-      - TG频道:@hkaa0|英国_1
-      - TG频道:@hkaa0|法国_2
-      - TG频道:@hkaa0|加拿大_3
-      - TG频道:@hkaa0|加拿大_4
-      - TG频道:@hkaa0|加拿大_5
-      - TG频道:@hkaa0|加拿大_6
-      - TG频道:@hkaa0|新加坡_4
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|英国_2
+      - TG频道:@hkaa0|卢森堡
+      - TG频道:@hkaa0|美国_5
+      - TG频道:@hkaa0|美国_6
+      - TG频道:@hkaa0|日本_1
       - TG频道:@hkaa0|日本_2
-      - TG频道:@hkaa0|新加坡_5
       - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|加拿大
+      - TG频道:@hkaa0|法国_1
+      - TG频道:@hkaa0_5
+      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_4
+      - TG频道:@hkaa0|法国_2
       - TG频道:@hkaa0|中国_5
       - TG频道:@hkaa0|中国_6
       - TG频道:@hkaa0|中国_7
       - TG频道:@hkaa0|中国_8
       - TG频道:@hkaa0|中国_9
       - TG频道:@hkaa0|中国_10
+      - TG频道:@hkaa0|英国
       - TG频道:@hkaa0|中国_11
       - TG频道:@hkaa0|中国_12
       - TG频道:@hkaa0|中国_13
       - TG频道:@hkaa0|中国_14
       - TG频道:@hkaa0|中国_15
       - TG频道:@hkaa0|中国_16
+      - TG频道:@hkaa0|俄罗斯联邦
       - TG频道:@hkaa0|中国_17
       - TG频道:@hkaa0|中国_18
       - TG频道:@hkaa0|中国_19
       - TG频道:@hkaa0|中国_20
       - TG频道:@hkaa0|中国_21
       - TG频道:@hkaa0|中国_22
-      - TG频道:@hkaa0|美国_5
       - TG频道:@hkaa0|中国_23
       - TG频道:@hkaa0|中国_24
       - TG频道:@hkaa0|中国_25
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|加拿大_7
       - TG频道:@hkaa0|中国_26
       - TG频道:@hkaa0|中国_27
       - TG频道:@hkaa0|中国_28
@@ -838,7 +2250,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_37
       - TG频道:@hkaa0|中国_38
       - TG频道:@hkaa0|中国_39
-      - TG频道:@hkaa0|新加坡_6
       - TG频道:@hkaa0|中国_40
       - TG频道:@hkaa0|中国_41
       - TG频道:@hkaa0|中国_42
@@ -847,7 +2258,6 @@ proxy-groups:
       - TG频道:@hkaa0|中国_45
       - TG频道:@hkaa0|中国_46
       - TG频道:@hkaa0|中国_47
-      - TG频道:@hkaa0
       - TG频道:@hkaa0|中国_48
       - TG频道:@hkaa0|中国_49
       - TG频道:@hkaa0|中国_50
@@ -862,19 +2272,218 @@ proxy-groups:
       - TG频道:@hkaa0|中国_59
       - TG频道:@hkaa0|中国_60
       - TG频道:@hkaa0|中国_61
-      - TG频道:@hkaa0|美国_7
       - TG频道:@hkaa0|中国_62
       - TG频道:@hkaa0|中国_63
       - TG频道:@hkaa0|中国_64
       - TG频道:@hkaa0|中国_65
       - TG频道:@hkaa0|中国_66
-      - TG频道:@hkaa0|新加坡_7
       - TG频道:@hkaa0|中国_67
       - TG频道:@hkaa0|中国_68
       - TG频道:@hkaa0|中国_69
       - TG频道:@hkaa0|中国_70
       - TG频道:@hkaa0|中国_71
       - TG频道:@hkaa0|中国_72
+      - TG频道:@hkaa0|中国_73
+      - TG频道:@hkaa0|中国_74
+      - TG频道:@hkaa0|中国_75
+      - TG频道:@hkaa0|中国_76
+      - TG频道:@hkaa0|中国_77
+      - TG频道:@hkaa0|中国_78
+      - TG频道:@hkaa0|中国_79
+      - TG频道:@hkaa0|中国_80
+      - TG频道:@hkaa0|中国_81
+      - TG频道:@hkaa0|中国_82
+      - TG频道:@hkaa0|中国_83
+      - TG频道:@hkaa0|中国_84
+      - TG频道:@hkaa0|中国_85
+      - TG频道:@hkaa0|中国_86
+      - TG频道:@hkaa0|中国_87
+      - TG频道:@hkaa0|中国_88
+      - TG频道:@hkaa0|中国_89
+      - TG频道:@hkaa0|中国_90
+      - TG频道:@hkaa0|中国_91
+      - TG频道:@hkaa0|中国_92
+      - TG频道:@hkaa0|中国_93
+      - TG频道:@hkaa0|中国_94
+      - TG频道:@hkaa0|中国_95
+      - TG频道:@hkaa0|中国_96
+      - TG频道:@hkaa0|中国_97
+      - TG频道:@hkaa0|中国_98
+      - TG频道:@hkaa0|中国_99
+      - TG频道:@hkaa0|中国_100
+      - TG频道:@hkaa0|中国_101
+      - TG频道:@hkaa0|中国_102
+      - TG频道:@hkaa0|中国_103
+      - TG频道:@hkaa0|中国_104
+      - TG频道:@hkaa0|中国_105
+      - TG频道:@hkaa0|中国_106
+      - TG频道:@hkaa0|中国_107
+      - TG频道:@hkaa0|中国_108
+      - TG频道:@hkaa0|中国_109
+      - TG频道:@hkaa0|中国_110
+      - TG频道:@hkaa0|中国_111
+      - TG频道:@hkaa0|中国_112
+      - TG频道:@hkaa0|中国_113
+      - TG频道:@hkaa0|中国_114
+      - TG频道:@hkaa0|中国_115
+      - TG频道:@hkaa0|中国_116
+      - TG频道:@hkaa0|中国_117
+      - TG频道:@hkaa0|中国_118
+      - TG频道:@hkaa0|中国_119
+      - TG频道:@hkaa0|中国_120
+      - TG频道:@hkaa0|中国_121
+      - TG频道:@hkaa0|中国_122
+      - TG频道:@hkaa0|中国_123
+      - TG频道:@hkaa0|中国_124
+      - TG频道:@hkaa0|中国_125
+      - TG频道:@hkaa0|中国_126
+      - TG频道:@hkaa0|中国_127
+      - TG频道:@hkaa0|中国_128
+      - TG频道:@hkaa0|中国_129
+      - TG频道:@hkaa0|中国_130
+      - TG频道:@hkaa0|中国_131
+      - TG频道:@hkaa0|中国_132
+      - TG频道:@hkaa0|中国_133
+      - TG频道:@hkaa0|中国_134
+      - TG频道:@hkaa0|中国_135
+      - TG频道:@hkaa0|中国_136
+      - TG频道:@hkaa0|中国_137
+      - TG频道:@hkaa0|中国_138
+      - TG频道:@hkaa0|中国_139
+      - TG频道:@hkaa0|中国_140
+      - TG频道:@hkaa0|中国_141
+      - TG频道:@hkaa0|中国_142
+      - TG频道:@hkaa0|中国_143
+      - TG频道:@hkaa0|中国_144
+      - TG频道:@hkaa0|中国_145
+      - TG频道:@hkaa0|中国_146
+      - TG频道:@hkaa0|中国_147
+      - TG频道:@hkaa0|中国_148
+      - TG频道:@hkaa0|中国_149
+      - TG频道:@hkaa0|中国_150
+      - TG频道:@hkaa0|中国_151
+      - TG频道:@hkaa0|中国_152
+      - TG频道:@hkaa0|中国_153
+      - TG频道:@hkaa0|中国_154
+      - TG频道:@hkaa0|中国_155
+      - TG频道:@hkaa0|中国_156
+      - TG频道:@hkaa0|中国_157
+      - TG频道:@hkaa0|中国_158
+      - TG频道:@hkaa0|中国_159
+      - TG频道:@hkaa0|中国_160
+      - TG频道:@hkaa0|中国_161
+      - TG频道:@hkaa0|中国_162
+      - TG频道:@hkaa0|中国_163
+      - TG频道:@hkaa0|中国_164
+      - TG频道:@hkaa0|中国_165
+      - TG频道:@hkaa0|中国_166
+      - TG频道:@hkaa0|中国_167
+      - TG频道:@hkaa0|中国_168
+      - TG频道:@hkaa0|中国_169
+      - TG频道:@hkaa0|中国_170
+      - TG频道:@hkaa0|中国_171
+      - TG频道:@hkaa0|中国_172
+      - TG频道:@hkaa0|中国_173
+      - TG频道:@hkaa0|中国_174
+      - TG频道:@hkaa0|中国_175
+      - TG频道:@hkaa0|中国_176
+      - TG频道:@hkaa0|中国_177
+      - TG频道:@hkaa0|中国_178
+      - TG频道:@hkaa0|中国_179
+      - TG频道:@hkaa0|中国_180
+      - TG频道:@hkaa0|中国_181
+      - TG频道:@hkaa0|中国_182
+      - TG频道:@hkaa0|中国_183
+      - TG频道:@hkaa0|中国_184
+      - TG频道:@hkaa0|中国_185
+      - TG频道:@hkaa0|中国_186
+      - TG频道:@hkaa0|中国_187
+      - TG频道:@hkaa0|中国_188
+      - TG频道:@hkaa0|中国_189
+      - TG频道:@hkaa0|中国_190
+      - TG频道:@hkaa0|中国_191
+      - TG频道:@hkaa0|中国_192
+      - TG频道:@hkaa0|中国_193
+      - TG频道:@hkaa0|中国_194
+      - TG频道:@hkaa0|中国_195
+      - TG频道:@hkaa0|中国_196
+      - TG频道:@hkaa0|中国_197
+      - TG频道:@hkaa0|中国_198
+      - TG频道:@hkaa0|中国_199
+      - TG频道:@hkaa0|中国_200
+      - TG频道:@hkaa0|中国_201
+      - TG频道:@hkaa0|中国_202
+      - TG频道:@hkaa0|中国_203
+      - TG频道:@hkaa0|中国_204
+      - TG频道:@hkaa0|中国_205
+      - TG频道:@hkaa0|中国_206
+      - TG频道:@hkaa0|中国_207
+      - TG频道:@hkaa0|中国_208
+      - TG频道:@hkaa0|中国_209
+      - TG频道:@hkaa0|中国_210
+      - TG频道:@hkaa0|中国_211
+      - TG频道:@hkaa0|中国_212
+      - TG频道:@hkaa0|中国_213
+      - TG频道:@hkaa0|中国_214
+      - TG频道:@hkaa0|中国_215
+      - TG频道:@hkaa0|中国_216
+      - TG频道:@hkaa0|中国_217
+      - TG频道:@hkaa0|中国_218
+      - TG频道:@hkaa0|中国_219
+      - TG频道:@hkaa0|中国_220
+      - TG频道:@hkaa0|中国_221
+      - TG频道:@hkaa0|中国_222
+      - TG频道:@hkaa0|中国_223
+      - TG频道:@hkaa0|中国_224
+      - TG频道:@hkaa0|中国_225
+      - TG频道:@hkaa0|中国_226
+      - TG频道:@hkaa0|中国_227
+      - TG频道:@hkaa0|中国_228
+      - TG频道:@hkaa0|中国_229
+      - TG频道:@hkaa0|中国_230
+      - TG频道:@hkaa0|中国_231
+      - TG频道:@hkaa0|中国_232
+      - TG频道:@hkaa0|中国_233
+      - TG频道:@hkaa0|中国_234
+      - TG频道:@hkaa0|中国_235
+      - TG频道:@hkaa0|中国_236
+      - TG频道:@hkaa0|中国_237
+      - TG频道:@hkaa0|中国_238
+      - TG频道:@hkaa0|中国_239
+      - TG频道:@hkaa0|中国_240
+      - TG频道:@hkaa0|中国_241
+      - TG频道:@hkaa0|中国_242
+      - TG频道:@hkaa0|中国_243
+      - TG频道:@hkaa0|中国_244
+      - TG频道:@hkaa0|中国_245
+      - TG频道:@hkaa0|中国_246
+      - TG频道:@hkaa0|中国_247
+      - TG频道:@hkaa0|中国_248
+      - TG频道:@hkaa0|中国_249
+      - TG频道:@hkaa0|中国_250
+      - TG频道:@hkaa0|中国_251
+      - TG频道:@hkaa0|中国_252
+      - TG频道:@hkaa0|中国_253
+      - TG频道:@hkaa0|中国_254
+      - TG频道:@hkaa0|中国_255
+      - TG频道:@hkaa0|中国_256
+      - TG频道:@hkaa0|中国_257
+      - TG频道:@hkaa0|中国_258
+      - TG频道:@hkaa0|中国_259
+      - TG频道:@hkaa0|中国_260
+      - TG频道:@hkaa0|中国_261
+      - TG频道:@hkaa0|中国_262
+      - TG频道:@hkaa0|中国_263
+      - TG频道:@hkaa0|中国_264
+      - TG频道:@hkaa0|中国_265
+      - TG频道:@hkaa0|中国_266
+      - TG频道:@hkaa0|中国_267
+      - TG频道:@hkaa0|中国_268
+      - TG频道:@hkaa0|中国_269
+      - TG频道:@hkaa0|中国_270
+      - TG频道:@hkaa0|中国_271
+      - TG频道:@hkaa0|中国_272
+      - TG频道:@hkaa0|中国_273
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
