@@ -5,5 +5,5 @@
 - 欢迎订阅节点分享频道：
   >**https://t.me/hkaa0**
 
-- 投稿合作请直接私聊：
-  >**https://t.me/HKAA0_bot**
+- 欢迎加入白嫖闲聊群：
+  >**https://t.me/hkgzs01**
