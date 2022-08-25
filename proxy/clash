@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：TG频道:@hkaa0
-#  创建时间：2022-08-24 
+#  创建时间：2022-08-25
 #  模版：ACL4SSR_WithChinaIp_WithGFW
-#  节点数量：116
+#  节点数量：104
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -12,156 +12,153 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"TG@hkaa0🇨🇳1","server":"cm.spacez.cloud","port":30003,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0🇺🇸2","ws-opts":{"path":"/vpnneo","headers":{"host":"sanggoro6.nextvpn.cc"}},"server":"172.67.199.34","port":"80","uuid":"a55b7d77-d251-4e31-a76e-22d09ac69eb0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"TG@hkaa0🇨🇳3","server":"hzcm.henet.cyou","port":30012,"cipher":"chacha20-ietf-poly1305","password":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000"}
-  - {"type":"trojan","name":"TG@hkaa0🇨🇳4","server":"cm.spacez.cloud","port":30002,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇹🇼5","server":"tw01.henet.cyou","port":30000,"password":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0🇩🇪6","ws-opts":{"path":"/ws","headers":{"host":"germany-dusseldorf.mah3Hoet.com"}},"server":"germany-dusseldorf.mah3Hoet.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"TG@hkaa0🇨🇳1_1","server":"120.197.129.50","port":41530,"cipher":"aes-128-gcm","password":"05fcde25-f70c-4fb7-8172-6d5bf54ff76f"}
+  - {"type":"ss","name":"TG@hkaa0🇨🇳2","server":"120.197.129.50","port":60662,"cipher":"aes-128-gcm","password":"05fcde25-f70c-4fb7-8172-6d5bf54ff76f"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳3","server":"aliyun.install02.vnupgcn.cn","port":"11918","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳4_1","server":"aliyun.install04.vnupgcn.cn","port":"11916","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳5","server":"aliyun.install01.vnupgcn.cn","port":"11930","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"TG@hkaa0🇺🇸6","server":"38.91.107.37","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳7","server":"aliyun.moble.vnupgcn.cn","port":"9008","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"TG@hkaa0🇨🇭8","server":"185.126.116.123","port":9060,"cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
+  - {"type":"ss","name":"TG@hkaa0🇬🇧9","server":"51.195.136.209","port":50004,"cipher":"aes-256-cfb","password":"4415934295"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳10","server":"aliyun.install02.vnupgcn.cn","port":"11935","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳11","server":"aliyun.install03.vnupgcn.cn","port":"11935","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"TG@hkaa0🇨🇳12","server":"pp1.zhengzhongfeizhu.xyz","port":32003,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true,"sni":"ip3884414509.mobgslb.tbcache.com"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳13","server":"aliyun.install01.vnupgcn.cn","port":"11908","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳14","server":"aliyun.install02.vnupgcn.cn","port":"11903","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳15","server":"aliyun.install04.vnupgcn.cn","port":"11903","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳16","server":"aliyun.install02.vnupgcn.cn","port":"11908","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"TG@hkaa0🇨🇳17","server":"iiiieeepppplll.zhengzhongfeizhu.xyz","port":34001,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG@hkaa0🇨🇳18","server":"pp1.zhengzhongfeizhu.xyz","port":32003,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳19_1","server":"aliyun.moble.vnupgcn.cn","port":"9014","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"TG@hkaa0🇳🇱20","server":"37.218.245.212","port":443,"cipher":"chacha20-ietf-poly1305","password":"oP1qPVGDYwTi"}
+  - {"type":"trojan","name":"TG@hkaa0🇨🇳21","server":"iiiieeepppplll.zhengzhongfeizhu.xyz","port":34002,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳22","server":"aliyun.install02.vnupgcn.cn","port":"11911","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳23_1","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"TG@hkaa0🇨🇳24_1","server":"pp1.zhengzhongfeizhu.xyz","port":32002,"password":"2f606ee8-3cfa-30b2-a191-f88efe912f5c","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"TG@hkaa0🇨🇭25","server":"185.126.116.123","port":9042,"cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳26_1","server":"aliyun.install01.vnupgcn.cn","port":"11925","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳27_1","server":"aliyun.install02.vnupgcn.cn","port":"11929","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"TG@hkaa0🇨🇳28","server":"pp1.zhengzhongfeizhu.xyz","port":32000,"password":"2f606ee8-3cfa-30b2-a191-f88efe912f5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG@hkaa0🇨🇳1_2","server":"cm.spacez.cloud","port":30003,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG@hkaa0🇨🇳4_2","server":"cm.spacez.cloud","port":30002,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"TG@hkaa0🇩🇪6","ws-opts":{"path":"/ws"},"server":"germany-dusseldorf.mah3Hoet.com","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"TG@hkaa0🇸🇬7","server":"s4.hazz.win","port":12340,"password":"dfbf0d67-f03d-4184-a224-c2d64a571f99","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇸🇬8","server":"hk01.henet.cyou","port":30000,"password":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇸🇬9","server":"sg02.henet.cyou","port":30000,"password":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0🇸🇬10","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"sg02.henet.cyou","port":"20001","uuid":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"TG@hkaa0🇺🇸11","server":"us02.henet.cyou","port":30000,"password":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇺🇸12","server":"us01.henet.cyou","port":30001,"password":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇸🇬13","server":"sg01.henet.cyou","port":30000,"password":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0🇺🇸14","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"us01.henet.cyou","port":"20001","uuid":"f522480e-f7e9-4db9-bc4f-d0bd59ebd000","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG@hkaa0🇺🇸15","ws-opts":{"path":"/vpnneo","headers":{"host":"sanggoro6.nextvpn.cc"}},"server":"141.193.213.21","port":"80","uuid":"a55b7d77-d251-4e31-a76e-22d09ac69eb0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"TG@hkaa0🇨🇳16","server":"14.29.124.168","port":25233,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳17","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"tw-tpe-h-v2.jd.cjhh.mom","port":"10088","uuid":"d0aec6f9-a2d0-4238-893d-73571c4e9cee","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa018","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"us-sjc-ctg-02-v2.node.inforun.work","port":"888","uuid":"d0aec6f9-a2d0-4238-893d-73571c4e9cee","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳19","server":"aliyun.moble.vnupgcn.cn","port":"9008","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳20","server":"aliyun.install03.vnupgcn.cn","port":"11907","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳21","server":"aliyun.install02.vnupgcn.cn","port":"11907","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳22","server":"aliyun.install04.vnupgcn.cn","port":"11907","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳23","server":"aliyun.moble.vnupgcn.cn","port":"9007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳24","server":"aliyun.install03.vnupgcn.cn","port":"11923","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳25","server":"aliyun.install01.vnupgcn.cn","port":"11907","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳26","server":"aliyun.moble.vnupgcn.cn","port":"9012","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳27","server":"aliyun.moble.vnupgcn.cn","port":"9011","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇭🇰28","server":"16.162.100.9","port":"6688","uuid":"703a041f-b1f5-46e2-ca57-7329a9c62844","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳29","server":"aliyun.moble.vnupgcn.cn","port":"9009","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳30","server":"aliyun.install02.vnupgcn.cn","port":"11923","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳31","server":"aliyun.install01.vnupgcn.cn","port":"11923","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳32","server":"aliyun.moble.vnupgcn.cn","port":"9013","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳33","server":"aliyun.moble.vnupgcn.cn","port":"9016","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳34","server":"aliyun.install04.vnupgcn.cn","port":"11923","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳35","server":"aliyun.moble.vnupgcn.cn","port":"9034","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳36","server":"aliyun.moble.vnupgcn.cn","port":"9010","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳37","server":"aliyun.moble.vnupgcn.cn","port":"9044","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳38","server":"aliyun.moble.vnupgcn.cn","port":"9032","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳39","server":"aliyun.moble.vnupgcn.cn","port":"9042","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳40","server":"aliyun.moble.vnupgcn.cn","port":"9039","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳41","server":"aliyun.moble.vnupgcn.cn","port":"9030","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳42","server":"aliyun.moble.vnupgcn.cn","port":"9035","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳43","server":"aliyun.moble.vnupgcn.cn","port":"9038","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳44","server":"aliyun.install04.vnupgcn.cn","port":"11929","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳45","server":"aliyun.moble.vnupgcn.cn","port":"9043","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳46","server":"aliyun.moble.vnupgcn.cn","port":"9014","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳47","server":"aliyun.install03.vnupgcn.cn","port":"11929","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳48","server":"aliyun.moble.vnupgcn.cn","port":"9037","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳49","server":"aliyun.install02.vnupgcn.cn","port":"11929","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳50","server":"aliyun.moble.vnupgcn.cn","port":"9041","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳51","server":"aliyun.install01.vnupgcn.cn","port":"11929","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳52","server":"aliyun.moble.vnupgcn.cn","port":"9017","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳53","server":"aliyun.moble.vnupgcn.cn","port":"9020","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳54","server":"aliyun.moble.vnupgcn.cn","port":"9033","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳55","server":"aliyun.moble.vnupgcn.cn","port":"9036","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳56","server":"aliyun.moble.vnupgcn.cn","port":"9019","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳57","server":"aliyun.moble.vnupgcn.cn","port":"9021","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳58","server":"aliyun.moble.vnupgcn.cn","port":"9031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳59","server":"aliyun.install02.vnupgcn.cn","port":"11925","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳60","server":"aliyun.moble.vnupgcn.cn","port":"9018","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳61","server":"aliyun.install01.vnupgcn.cn","port":"11925","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳62","server":"aliyun.install03.vnupgcn.cn","port":"11925","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳63","server":"aliyun.install04.vnupgcn.cn","port":"11925","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳64","server":"aliyun.install04.vnupgcn.cn","port":"11908","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳65","server":"aliyun.install03.vnupgcn.cn","port":"11911","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳66","server":"aliyun.install01.vnupgcn.cn","port":"11911","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳67","server":"aliyun.install03.vnupgcn.cn","port":"11908","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳68","server":"aliyun.unicom.vnupgcn.cn","port":"9026","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳69","server":"aliyun.install02.vnupgcn.cn","port":"11908","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳70","server":"aliyun.unicom.vnupgcn.cn","port":"9022","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳71","server":"aliyun.install02.vnupgcn.cn","port":"11911","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳72","server":"aliyun.install01.vnupgcn.cn","port":"11908","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳73","server":"aliyun.install02.vnupgcn.cn","port":"11927","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳74","server":"aliyun.install02.vnupgcn.cn","port":"11934","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳75","server":"aliyun.install03.vnupgcn.cn","port":"11934","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳76","server":"aliyun.install04.vnupgcn.cn","port":"11934","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳77","server":"aliyun.install01.vnupgcn.cn","port":"11917","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳78","server":"aliyun.unicom.vnupgcn.cn","port":"9027","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳79","server":"aliyun.unicom.vnupgcn.cn","port":"9028","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳80","server":"aliyun.install01.vnupgcn.cn","port":"11902","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳81","server":"aliyun.install04.vnupgcn.cn","port":"11917","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳82","server":"aliyun.unicom.vnupgcn.cn","port":"9023","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳83","server":"aliyun.install01.vnupgcn.cn","port":"11934","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳84","server":"aliyun.install02.vnupgcn.cn","port":"11917","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳85","server":"aliyun.install03.vnupgcn.cn","port":"11927","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳86","server":"aliyun.install04.vnupgcn.cn","port":"11902","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳87","server":"aliyun.install03.vnupgcn.cn","port":"11917","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳88","server":"aliyun.install02.vnupgcn.cn","port":"11902","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳89","server":"aliyun.install01.vnupgcn.cn","port":"11927","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳90","server":"aliyun.install03.vnupgcn.cn","port":"11902","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳91","server":"aliyun.install04.vnupgcn.cn","port":"11909","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳92","server":"aliyun.install01.vnupgcn.cn","port":"11909","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳93","server":"aliyun.install04.vnupgcn.cn","port":"11927","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳94","server":"aliyun.install02.vnupgcn.cn","port":"11909","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳95","server":"aliyun.install03.vnupgcn.cn","port":"11931","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳19_2","server":"aliyun.moble.vnupgcn.cn","port":9008,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳23_2","server":"aliyun.moble.vnupgcn.cn","port":9007,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳24_2","server":"aliyun.install03.vnupgcn.cn","port":11923,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳26_2","server":"aliyun.moble.vnupgcn.cn","port":9012,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳27_2","server":"aliyun.moble.vnupgcn.cn","port":9011,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳29","server":"aliyun.moble.vnupgcn.cn","port":9009,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳30","server":"aliyun.install02.vnupgcn.cn","port":11923,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳31","server":"aliyun.install01.vnupgcn.cn","port":11923,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳32","server":"aliyun.moble.vnupgcn.cn","port":9013,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳33","server":"aliyun.moble.vnupgcn.cn","port":9016,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳34","server":"aliyun.install04.vnupgcn.cn","port":11923,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳35","server":"aliyun.moble.vnupgcn.cn","port":9034,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳36","server":"aliyun.moble.vnupgcn.cn","port":9010,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳37","server":"aliyun.moble.vnupgcn.cn","port":9044,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳39","server":"aliyun.moble.vnupgcn.cn","port":9042,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳40","server":"aliyun.moble.vnupgcn.cn","port":9039,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳41","server":"aliyun.moble.vnupgcn.cn","port":9030,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳42","server":"aliyun.moble.vnupgcn.cn","port":9035,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳43","server":"aliyun.moble.vnupgcn.cn","port":9038,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳44","server":"aliyun.install04.vnupgcn.cn","port":11929,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳45","server":"aliyun.moble.vnupgcn.cn","port":9043,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳46","server":"aliyun.moble.vnupgcn.cn","port":9014,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳47","server":"aliyun.install03.vnupgcn.cn","port":11929,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳48","server":"aliyun.moble.vnupgcn.cn","port":9037,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳49","server":"aliyun.install02.vnupgcn.cn","port":11929,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳52","server":"aliyun.moble.vnupgcn.cn","port":9017,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳53","server":"aliyun.moble.vnupgcn.cn","port":9020,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳54","server":"aliyun.moble.vnupgcn.cn","port":9033,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳55","server":"aliyun.moble.vnupgcn.cn","port":9036,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳56","server":"aliyun.moble.vnupgcn.cn","port":9019,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳59","server":"aliyun.install02.vnupgcn.cn","port":11925,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳61","server":"aliyun.install01.vnupgcn.cn","port":11925,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳62","server":"aliyun.install03.vnupgcn.cn","port":11925,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳64","server":"aliyun.install04.vnupgcn.cn","port":11908,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳68","server":"aliyun.unicom.vnupgcn.cn","port":9026,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳70","server":"aliyun.unicom.vnupgcn.cn","port":9022,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳71","server":"aliyun.install02.vnupgcn.cn","port":11911,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳72","server":"aliyun.install01.vnupgcn.cn","port":11908,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳73","server":"aliyun.install02.vnupgcn.cn","port":11927,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳74","server":"aliyun.install02.vnupgcn.cn","port":11934,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳75","server":"aliyun.install03.vnupgcn.cn","port":11934,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳77","server":"aliyun.install01.vnupgcn.cn","port":11917,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳78","server":"aliyun.unicom.vnupgcn.cn","port":9027,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳79","server":"aliyun.unicom.vnupgcn.cn","port":9028,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳80","server":"aliyun.install01.vnupgcn.cn","port":11902,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳82","server":"aliyun.unicom.vnupgcn.cn","port":9023,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳84","server":"aliyun.install02.vnupgcn.cn","port":11917,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳85","server":"aliyun.install03.vnupgcn.cn","port":11927,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳86","server":"aliyun.install04.vnupgcn.cn","port":11902,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳87","server":"aliyun.install03.vnupgcn.cn","port":11917,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳88","server":"aliyun.install02.vnupgcn.cn","port":11902,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳89","server":"aliyun.install01.vnupgcn.cn","port":11927,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳90","server":"aliyun.install03.vnupgcn.cn","port":11902,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳91","server":"aliyun.install04.vnupgcn.cn","port":11909,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳92","server":"aliyun.install01.vnupgcn.cn","port":11909,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳93","server":"aliyun.install04.vnupgcn.cn","port":11927,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳94","server":"aliyun.install02.vnupgcn.cn","port":11909,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳95","server":"aliyun.install03.vnupgcn.cn","port":11931,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"TG@hkaa0🇸🇬96","server":"singapore.anthoncloud.com","port":3306,"password":"6589ce99-9ff7-3c1b-a744-ca3f4abfe386","udp":true,"skip-cert-verify":true,"sni":"singapore.anthoncloud.com"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳97","server":"aliyun.install02.vnupgcn.cn","port":"11931","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳98","server":"aliyun.install04.vnupgcn.cn","port":"11931","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳99","server":"aliyun.install01.vnupgcn.cn","port":"11931","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳100","server":"aliyun.install03.vnupgcn.cn","port":"11910","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳101","server":"aliyun.install02.vnupgcn.cn","port":"11910","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳102","server":"aliyun.install01.vnupgcn.cn","port":"11910","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳103","server":"aliyun.unicom.vnupgcn.cn","port":"9024","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳104","server":"aliyun.install03.vnupgcn.cn","port":"11922","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳105","server":"aliyun.install01.vnupgcn.cn","port":"11935","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳106","server":"aliyun.install02.vnupgcn.cn","port":"11916","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳107","server":"aliyun.install04.vnupgcn.cn","port":"11922","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳108","server":"aliyun.install01.vnupgcn.cn","port":"11916","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳97","server":"aliyun.install02.vnupgcn.cn","port":11931,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳98","server":"aliyun.install04.vnupgcn.cn","port":11931,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳99","server":"aliyun.install01.vnupgcn.cn","port":11931,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳103","server":"aliyun.unicom.vnupgcn.cn","port":9024,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳104","server":"aliyun.install03.vnupgcn.cn","port":11922,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳105","server":"aliyun.install01.vnupgcn.cn","port":11935,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳106","server":"aliyun.install02.vnupgcn.cn","port":11916,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳107","server":"aliyun.install04.vnupgcn.cn","port":11922,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳108","server":"aliyun.install01.vnupgcn.cn","port":11916,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"TG@hkaa0🇨🇳109","server":"fscm.boomnat.com","port":38959,"password":"6589ce99-9ff7-3c1b-a744-ca3f4abfe386","udp":true,"skip-cert-verify":true,"sni":"singapore.anthoncloud.com"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳110","server":"aliyun.install03.vnupgcn.cn","port":"11928","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳111","server":"aliyun.install03.vnupgcn.cn","port":"11935","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳112","server":"aliyun.install04.vnupgcn.cn","port":"11928","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳113","server":"aliyun.install04.vnupgcn.cn","port":"11916","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳114","server":"aliyun.install01.vnupgcn.cn","port":"11919","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳115","server":"aliyun.install02.vnupgcn.cn","port":"11928","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳116","server":"aliyun.install03.vnupgcn.cn","port":"11916","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳111","server":"aliyun.install03.vnupgcn.cn","port":11935,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳114","server":"aliyun.install01.vnupgcn.cn","port":11919,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳116","server":"aliyun.install03.vnupgcn.cn","port":11916,"uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":0,"cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇨🇳1_1
+      - TG@hkaa0🇨🇳2
       - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇨🇳4
-      - TG@hkaa0🇹🇼5
-      - TG@hkaa0🇩🇪6
-      - TG@hkaa0🇸🇬7
-      - TG@hkaa0🇸🇬8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇸🇬10
-      - TG@hkaa0🇺🇸11
-      - TG@hkaa0🇺🇸12
-      - TG@hkaa0🇸🇬13
-      - TG@hkaa0🇺🇸14
-      - TG@hkaa0🇺🇸15
+      - TG@hkaa0🇨🇳4_1
+      - TG@hkaa0🇨🇳5
+      - TG@hkaa0🇺🇸6
+      - TG@hkaa0🇨🇳7
+      - TG@hkaa0🇨🇭8
+      - TG@hkaa0🇬🇧9
+      - TG@hkaa0🇨🇳10
+      - TG@hkaa0🇨🇳11
+      - TG@hkaa0🇨🇳12
+      - TG@hkaa0🇨🇳13
+      - TG@hkaa0🇨🇳14
+      - TG@hkaa0🇨🇳15
       - TG@hkaa0🇨🇳16
       - TG@hkaa0🇨🇳17
-      - TG@hkaa018
-      - TG@hkaa0🇨🇳19
-      - TG@hkaa0🇨🇳20
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19_1
+      - TG@hkaa0🇳🇱20
       - TG@hkaa0🇨🇳21
       - TG@hkaa0🇨🇳22
-      - TG@hkaa0🇨🇳23
-      - TG@hkaa0🇨🇳24
-      - TG@hkaa0🇨🇳25
-      - TG@hkaa0🇨🇳26
-      - TG@hkaa0🇨🇳27
-      - TG@hkaa0🇭🇰28
+      - TG@hkaa0🇨🇳23_1
+      - TG@hkaa0🇨🇳24_1
+      - TG@hkaa0🇨🇭25
+      - TG@hkaa0🇨🇳26_1
+      - TG@hkaa0🇨🇳27_1
+      - TG@hkaa0🇨🇳28
+      - TG@hkaa0🇨🇳1_2
+      - TG@hkaa0🇨🇳4_2
+      - TG@hkaa0🇩🇪6
+      - TG@hkaa0🇸🇬7
+      - TG@hkaa0🇨🇳19_2
+      - TG@hkaa0🇨🇳23_2
+      - TG@hkaa0🇨🇳24_2
+      - TG@hkaa0🇨🇳26_2
+      - TG@hkaa0🇨🇳27_2
       - TG@hkaa0🇨🇳29
       - TG@hkaa0🇨🇳30
       - TG@hkaa0🇨🇳31
@@ -171,7 +168,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳35
       - TG@hkaa0🇨🇳36
       - TG@hkaa0🇨🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa0🇨🇳40
       - TG@hkaa0🇨🇳41
@@ -183,40 +179,27 @@ proxy-groups:
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
       - TG@hkaa0🇨🇳49
-      - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
       - TG@hkaa0🇨🇳52
       - TG@hkaa0🇨🇳53
       - TG@hkaa0🇨🇳54
       - TG@hkaa0🇨🇳55
       - TG@hkaa0🇨🇳56
-      - TG@hkaa0🇨🇳57
-      - TG@hkaa0🇨🇳58
       - TG@hkaa0🇨🇳59
-      - TG@hkaa0🇨🇳60
       - TG@hkaa0🇨🇳61
       - TG@hkaa0🇨🇳62
-      - TG@hkaa0🇨🇳63
       - TG@hkaa0🇨🇳64
-      - TG@hkaa0🇨🇳65
-      - TG@hkaa0🇨🇳66
-      - TG@hkaa0🇨🇳67
       - TG@hkaa0🇨🇳68
-      - TG@hkaa0🇨🇳69
       - TG@hkaa0🇨🇳70
       - TG@hkaa0🇨🇳71
       - TG@hkaa0🇨🇳72
       - TG@hkaa0🇨🇳73
       - TG@hkaa0🇨🇳74
       - TG@hkaa0🇨🇳75
-      - TG@hkaa0🇨🇳76
       - TG@hkaa0🇨🇳77
       - TG@hkaa0🇨🇳78
       - TG@hkaa0🇨🇳79
       - TG@hkaa0🇨🇳80
-      - TG@hkaa0🇨🇳81
       - TG@hkaa0🇨🇳82
-      - TG@hkaa0🇨🇳83
       - TG@hkaa0🇨🇳84
       - TG@hkaa0🇨🇳85
       - TG@hkaa0🇨🇳86
@@ -233,9 +216,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳97
       - TG@hkaa0🇨🇳98
       - TG@hkaa0🇨🇳99
-      - TG@hkaa0🇨🇳100
-      - TG@hkaa0🇨🇳101
-      - TG@hkaa0🇨🇳102
       - TG@hkaa0🇨🇳103
       - TG@hkaa0🇨🇳104
       - TG@hkaa0🇨🇳105
@@ -243,12 +223,8 @@ proxy-groups:
       - TG@hkaa0🇨🇳107
       - TG@hkaa0🇨🇳108
       - TG@hkaa0🇨🇳109
-      - TG@hkaa0🇨🇳110
       - TG@hkaa0🇨🇳111
-      - TG@hkaa0🇨🇳112
-      - TG@hkaa0🇨🇳113
       - TG@hkaa0🇨🇳114
-      - TG@hkaa0🇨🇳115
       - TG@hkaa0🇨🇳116
   - name: ♻️ 自动选择
     type: url-test
@@ -256,34 +232,43 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇨🇳1_1
+      - TG@hkaa0🇨🇳2
       - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇨🇳4
-      - TG@hkaa0🇹🇼5
-      - TG@hkaa0🇩🇪6
-      - TG@hkaa0🇸🇬7
-      - TG@hkaa0🇸🇬8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇸🇬10
-      - TG@hkaa0🇺🇸11
-      - TG@hkaa0🇺🇸12
-      - TG@hkaa0🇸🇬13
-      - TG@hkaa0🇺🇸14
-      - TG@hkaa0🇺🇸15
+      - TG@hkaa0🇨🇳4_1
+      - TG@hkaa0🇨🇳5
+      - TG@hkaa0🇺🇸6
+      - TG@hkaa0🇨🇳7
+      - TG@hkaa0🇨🇭8
+      - TG@hkaa0🇬🇧9
+      - TG@hkaa0🇨🇳10
+      - TG@hkaa0🇨🇳11
+      - TG@hkaa0🇨🇳12
+      - TG@hkaa0🇨🇳13
+      - TG@hkaa0🇨🇳14
+      - TG@hkaa0🇨🇳15
       - TG@hkaa0🇨🇳16
       - TG@hkaa0🇨🇳17
-      - TG@hkaa018
-      - TG@hkaa0🇨🇳19
-      - TG@hkaa0🇨🇳20
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19_1
+      - TG@hkaa0🇳🇱20
       - TG@hkaa0🇨🇳21
       - TG@hkaa0🇨🇳22
-      - TG@hkaa0🇨🇳23
-      - TG@hkaa0🇨🇳24
-      - TG@hkaa0🇨🇳25
-      - TG@hkaa0🇨🇳26
-      - TG@hkaa0🇨🇳27
-      - TG@hkaa0🇭🇰28
+      - TG@hkaa0🇨🇳23_1
+      - TG@hkaa0🇨🇳24_1
+      - TG@hkaa0🇨🇭25
+      - TG@hkaa0🇨🇳26_1
+      - TG@hkaa0🇨🇳27_1
+      - TG@hkaa0🇨🇳28
+      - TG@hkaa0🇨🇳1_2
+      - TG@hkaa0🇨🇳4_2
+      - TG@hkaa0🇩🇪6
+      - TG@hkaa0🇸🇬7
+      - TG@hkaa0🇨🇳19_2
+      - TG@hkaa0🇨🇳23_2
+      - TG@hkaa0🇨🇳24_2
+      - TG@hkaa0🇨🇳26_2
+      - TG@hkaa0🇨🇳27_2
       - TG@hkaa0🇨🇳29
       - TG@hkaa0🇨🇳30
       - TG@hkaa0🇨🇳31
@@ -293,7 +278,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳35
       - TG@hkaa0🇨🇳36
       - TG@hkaa0🇨🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa0🇨🇳40
       - TG@hkaa0🇨🇳41
@@ -305,40 +289,27 @@ proxy-groups:
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
       - TG@hkaa0🇨🇳49
-      - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
       - TG@hkaa0🇨🇳52
       - TG@hkaa0🇨🇳53
       - TG@hkaa0🇨🇳54
       - TG@hkaa0🇨🇳55
       - TG@hkaa0🇨🇳56
-      - TG@hkaa0🇨🇳57
-      - TG@hkaa0🇨🇳58
       - TG@hkaa0🇨🇳59
-      - TG@hkaa0🇨🇳60
       - TG@hkaa0🇨🇳61
       - TG@hkaa0🇨🇳62
-      - TG@hkaa0🇨🇳63
       - TG@hkaa0🇨🇳64
-      - TG@hkaa0🇨🇳65
-      - TG@hkaa0🇨🇳66
-      - TG@hkaa0🇨🇳67
       - TG@hkaa0🇨🇳68
-      - TG@hkaa0🇨🇳69
       - TG@hkaa0🇨🇳70
       - TG@hkaa0🇨🇳71
       - TG@hkaa0🇨🇳72
       - TG@hkaa0🇨🇳73
       - TG@hkaa0🇨🇳74
       - TG@hkaa0🇨🇳75
-      - TG@hkaa0🇨🇳76
       - TG@hkaa0🇨🇳77
       - TG@hkaa0🇨🇳78
       - TG@hkaa0🇨🇳79
       - TG@hkaa0🇨🇳80
-      - TG@hkaa0🇨🇳81
       - TG@hkaa0🇨🇳82
-      - TG@hkaa0🇨🇳83
       - TG@hkaa0🇨🇳84
       - TG@hkaa0🇨🇳85
       - TG@hkaa0🇨🇳86
@@ -355,9 +326,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳97
       - TG@hkaa0🇨🇳98
       - TG@hkaa0🇨🇳99
-      - TG@hkaa0🇨🇳100
-      - TG@hkaa0🇨🇳101
-      - TG@hkaa0🇨🇳102
       - TG@hkaa0🇨🇳103
       - TG@hkaa0🇨🇳104
       - TG@hkaa0🇨🇳105
@@ -365,12 +333,8 @@ proxy-groups:
       - TG@hkaa0🇨🇳107
       - TG@hkaa0🇨🇳108
       - TG@hkaa0🇨🇳109
-      - TG@hkaa0🇨🇳110
       - TG@hkaa0🇨🇳111
-      - TG@hkaa0🇨🇳112
-      - TG@hkaa0🇨🇳113
       - TG@hkaa0🇨🇳114
-      - TG@hkaa0🇨🇳115
       - TG@hkaa0🇨🇳116
   - name: 🌍 国外媒体
     type: select
@@ -378,34 +342,43 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇨🇳1_1
+      - TG@hkaa0🇨🇳2
       - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇨🇳4
-      - TG@hkaa0🇹🇼5
-      - TG@hkaa0🇩🇪6
-      - TG@hkaa0🇸🇬7
-      - TG@hkaa0🇸🇬8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇸🇬10
-      - TG@hkaa0🇺🇸11
-      - TG@hkaa0🇺🇸12
-      - TG@hkaa0🇸🇬13
-      - TG@hkaa0🇺🇸14
-      - TG@hkaa0🇺🇸15
+      - TG@hkaa0🇨🇳4_1
+      - TG@hkaa0🇨🇳5
+      - TG@hkaa0🇺🇸6
+      - TG@hkaa0🇨🇳7
+      - TG@hkaa0🇨🇭8
+      - TG@hkaa0🇬🇧9
+      - TG@hkaa0🇨🇳10
+      - TG@hkaa0🇨🇳11
+      - TG@hkaa0🇨🇳12
+      - TG@hkaa0🇨🇳13
+      - TG@hkaa0🇨🇳14
+      - TG@hkaa0🇨🇳15
       - TG@hkaa0🇨🇳16
       - TG@hkaa0🇨🇳17
-      - TG@hkaa018
-      - TG@hkaa0🇨🇳19
-      - TG@hkaa0🇨🇳20
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19_1
+      - TG@hkaa0🇳🇱20
       - TG@hkaa0🇨🇳21
       - TG@hkaa0🇨🇳22
-      - TG@hkaa0🇨🇳23
-      - TG@hkaa0🇨🇳24
-      - TG@hkaa0🇨🇳25
-      - TG@hkaa0🇨🇳26
-      - TG@hkaa0🇨🇳27
-      - TG@hkaa0🇭🇰28
+      - TG@hkaa0🇨🇳23_1
+      - TG@hkaa0🇨🇳24_1
+      - TG@hkaa0🇨🇭25
+      - TG@hkaa0🇨🇳26_1
+      - TG@hkaa0🇨🇳27_1
+      - TG@hkaa0🇨🇳28
+      - TG@hkaa0🇨🇳1_2
+      - TG@hkaa0🇨🇳4_2
+      - TG@hkaa0🇩🇪6
+      - TG@hkaa0🇸🇬7
+      - TG@hkaa0🇨🇳19_2
+      - TG@hkaa0🇨🇳23_2
+      - TG@hkaa0🇨🇳24_2
+      - TG@hkaa0🇨🇳26_2
+      - TG@hkaa0🇨🇳27_2
       - TG@hkaa0🇨🇳29
       - TG@hkaa0🇨🇳30
       - TG@hkaa0🇨🇳31
@@ -415,7 +388,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳35
       - TG@hkaa0🇨🇳36
       - TG@hkaa0🇨🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa0🇨🇳40
       - TG@hkaa0🇨🇳41
@@ -427,40 +399,27 @@ proxy-groups:
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
       - TG@hkaa0🇨🇳49
-      - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
       - TG@hkaa0🇨🇳52
       - TG@hkaa0🇨🇳53
       - TG@hkaa0🇨🇳54
       - TG@hkaa0🇨🇳55
       - TG@hkaa0🇨🇳56
-      - TG@hkaa0🇨🇳57
-      - TG@hkaa0🇨🇳58
       - TG@hkaa0🇨🇳59
-      - TG@hkaa0🇨🇳60
       - TG@hkaa0🇨🇳61
       - TG@hkaa0🇨🇳62
-      - TG@hkaa0🇨🇳63
       - TG@hkaa0🇨🇳64
-      - TG@hkaa0🇨🇳65
-      - TG@hkaa0🇨🇳66
-      - TG@hkaa0🇨🇳67
       - TG@hkaa0🇨🇳68
-      - TG@hkaa0🇨🇳69
       - TG@hkaa0🇨🇳70
       - TG@hkaa0🇨🇳71
       - TG@hkaa0🇨🇳72
       - TG@hkaa0🇨🇳73
       - TG@hkaa0🇨🇳74
       - TG@hkaa0🇨🇳75
-      - TG@hkaa0🇨🇳76
       - TG@hkaa0🇨🇳77
       - TG@hkaa0🇨🇳78
       - TG@hkaa0🇨🇳79
       - TG@hkaa0🇨🇳80
-      - TG@hkaa0🇨🇳81
       - TG@hkaa0🇨🇳82
-      - TG@hkaa0🇨🇳83
       - TG@hkaa0🇨🇳84
       - TG@hkaa0🇨🇳85
       - TG@hkaa0🇨🇳86
@@ -477,9 +436,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳97
       - TG@hkaa0🇨🇳98
       - TG@hkaa0🇨🇳99
-      - TG@hkaa0🇨🇳100
-      - TG@hkaa0🇨🇳101
-      - TG@hkaa0🇨🇳102
       - TG@hkaa0🇨🇳103
       - TG@hkaa0🇨🇳104
       - TG@hkaa0🇨🇳105
@@ -487,46 +443,51 @@ proxy-groups:
       - TG@hkaa0🇨🇳107
       - TG@hkaa0🇨🇳108
       - TG@hkaa0🇨🇳109
-      - TG@hkaa0🇨🇳110
       - TG@hkaa0🇨🇳111
-      - TG@hkaa0🇨🇳112
-      - TG@hkaa0🇨🇳113
       - TG@hkaa0🇨🇳114
-      - TG@hkaa0🇨🇳115
       - TG@hkaa0🇨🇳116
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇨🇳1_1
+      - TG@hkaa0🇨🇳2
       - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇨🇳4
-      - TG@hkaa0🇹🇼5
-      - TG@hkaa0🇩🇪6
-      - TG@hkaa0🇸🇬7
-      - TG@hkaa0🇸🇬8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇸🇬10
-      - TG@hkaa0🇺🇸11
-      - TG@hkaa0🇺🇸12
-      - TG@hkaa0🇸🇬13
-      - TG@hkaa0🇺🇸14
-      - TG@hkaa0🇺🇸15
+      - TG@hkaa0🇨🇳4_1
+      - TG@hkaa0🇨🇳5
+      - TG@hkaa0🇺🇸6
+      - TG@hkaa0🇨🇳7
+      - TG@hkaa0🇨🇭8
+      - TG@hkaa0🇬🇧9
+      - TG@hkaa0🇨🇳10
+      - TG@hkaa0🇨🇳11
+      - TG@hkaa0🇨🇳12
+      - TG@hkaa0🇨🇳13
+      - TG@hkaa0🇨🇳14
+      - TG@hkaa0🇨🇳15
       - TG@hkaa0🇨🇳16
       - TG@hkaa0🇨🇳17
-      - TG@hkaa018
-      - TG@hkaa0🇨🇳19
-      - TG@hkaa0🇨🇳20
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19_1
+      - TG@hkaa0🇳🇱20
       - TG@hkaa0🇨🇳21
       - TG@hkaa0🇨🇳22
-      - TG@hkaa0🇨🇳23
-      - TG@hkaa0🇨🇳24
-      - TG@hkaa0🇨🇳25
-      - TG@hkaa0🇨🇳26
-      - TG@hkaa0🇨🇳27
-      - TG@hkaa0🇭🇰28
+      - TG@hkaa0🇨🇳23_1
+      - TG@hkaa0🇨🇳24_1
+      - TG@hkaa0🇨🇭25
+      - TG@hkaa0🇨🇳26_1
+      - TG@hkaa0🇨🇳27_1
+      - TG@hkaa0🇨🇳28
+      - TG@hkaa0🇨🇳1_2
+      - TG@hkaa0🇨🇳4_2
+      - TG@hkaa0🇩🇪6
+      - TG@hkaa0🇸🇬7
+      - TG@hkaa0🇨🇳19_2
+      - TG@hkaa0🇨🇳23_2
+      - TG@hkaa0🇨🇳24_2
+      - TG@hkaa0🇨🇳26_2
+      - TG@hkaa0🇨🇳27_2
       - TG@hkaa0🇨🇳29
       - TG@hkaa0🇨🇳30
       - TG@hkaa0🇨🇳31
@@ -536,7 +497,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳35
       - TG@hkaa0🇨🇳36
       - TG@hkaa0🇨🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa0🇨🇳40
       - TG@hkaa0🇨🇳41
@@ -548,40 +508,27 @@ proxy-groups:
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
       - TG@hkaa0🇨🇳49
-      - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
       - TG@hkaa0🇨🇳52
       - TG@hkaa0🇨🇳53
       - TG@hkaa0🇨🇳54
       - TG@hkaa0🇨🇳55
       - TG@hkaa0🇨🇳56
-      - TG@hkaa0🇨🇳57
-      - TG@hkaa0🇨🇳58
       - TG@hkaa0🇨🇳59
-      - TG@hkaa0🇨🇳60
       - TG@hkaa0🇨🇳61
       - TG@hkaa0🇨🇳62
-      - TG@hkaa0🇨🇳63
       - TG@hkaa0🇨🇳64
-      - TG@hkaa0🇨🇳65
-      - TG@hkaa0🇨🇳66
-      - TG@hkaa0🇨🇳67
       - TG@hkaa0🇨🇳68
-      - TG@hkaa0🇨🇳69
       - TG@hkaa0🇨🇳70
       - TG@hkaa0🇨🇳71
       - TG@hkaa0🇨🇳72
       - TG@hkaa0🇨🇳73
       - TG@hkaa0🇨🇳74
       - TG@hkaa0🇨🇳75
-      - TG@hkaa0🇨🇳76
       - TG@hkaa0🇨🇳77
       - TG@hkaa0🇨🇳78
       - TG@hkaa0🇨🇳79
       - TG@hkaa0🇨🇳80
-      - TG@hkaa0🇨🇳81
       - TG@hkaa0🇨🇳82
-      - TG@hkaa0🇨🇳83
       - TG@hkaa0🇨🇳84
       - TG@hkaa0🇨🇳85
       - TG@hkaa0🇨🇳86
@@ -598,9 +545,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳97
       - TG@hkaa0🇨🇳98
       - TG@hkaa0🇨🇳99
-      - TG@hkaa0🇨🇳100
-      - TG@hkaa0🇨🇳101
-      - TG@hkaa0🇨🇳102
       - TG@hkaa0🇨🇳103
       - TG@hkaa0🇨🇳104
       - TG@hkaa0🇨🇳105
@@ -608,46 +552,51 @@ proxy-groups:
       - TG@hkaa0🇨🇳107
       - TG@hkaa0🇨🇳108
       - TG@hkaa0🇨🇳109
-      - TG@hkaa0🇨🇳110
       - TG@hkaa0🇨🇳111
-      - TG@hkaa0🇨🇳112
-      - TG@hkaa0🇨🇳113
       - TG@hkaa0🇨🇳114
-      - TG@hkaa0🇨🇳115
       - TG@hkaa0🇨🇳116
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇨🇳1_1
+      - TG@hkaa0🇨🇳2
       - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇨🇳4
-      - TG@hkaa0🇹🇼5
-      - TG@hkaa0🇩🇪6
-      - TG@hkaa0🇸🇬7
-      - TG@hkaa0🇸🇬8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇸🇬10
-      - TG@hkaa0🇺🇸11
-      - TG@hkaa0🇺🇸12
-      - TG@hkaa0🇸🇬13
-      - TG@hkaa0🇺🇸14
-      - TG@hkaa0🇺🇸15
+      - TG@hkaa0🇨🇳4_1
+      - TG@hkaa0🇨🇳5
+      - TG@hkaa0🇺🇸6
+      - TG@hkaa0🇨🇳7
+      - TG@hkaa0🇨🇭8
+      - TG@hkaa0🇬🇧9
+      - TG@hkaa0🇨🇳10
+      - TG@hkaa0🇨🇳11
+      - TG@hkaa0🇨🇳12
+      - TG@hkaa0🇨🇳13
+      - TG@hkaa0🇨🇳14
+      - TG@hkaa0🇨🇳15
       - TG@hkaa0🇨🇳16
       - TG@hkaa0🇨🇳17
-      - TG@hkaa018
-      - TG@hkaa0🇨🇳19
-      - TG@hkaa0🇨🇳20
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19_1
+      - TG@hkaa0🇳🇱20
       - TG@hkaa0🇨🇳21
       - TG@hkaa0🇨🇳22
-      - TG@hkaa0🇨🇳23
-      - TG@hkaa0🇨🇳24
-      - TG@hkaa0🇨🇳25
-      - TG@hkaa0🇨🇳26
-      - TG@hkaa0🇨🇳27
-      - TG@hkaa0🇭🇰28
+      - TG@hkaa0🇨🇳23_1
+      - TG@hkaa0🇨🇳24_1
+      - TG@hkaa0🇨🇭25
+      - TG@hkaa0🇨🇳26_1
+      - TG@hkaa0🇨🇳27_1
+      - TG@hkaa0🇨🇳28
+      - TG@hkaa0🇨🇳1_2
+      - TG@hkaa0🇨🇳4_2
+      - TG@hkaa0🇩🇪6
+      - TG@hkaa0🇸🇬7
+      - TG@hkaa0🇨🇳19_2
+      - TG@hkaa0🇨🇳23_2
+      - TG@hkaa0🇨🇳24_2
+      - TG@hkaa0🇨🇳26_2
+      - TG@hkaa0🇨🇳27_2
       - TG@hkaa0🇨🇳29
       - TG@hkaa0🇨🇳30
       - TG@hkaa0🇨🇳31
@@ -657,7 +606,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳35
       - TG@hkaa0🇨🇳36
       - TG@hkaa0🇨🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa0🇨🇳40
       - TG@hkaa0🇨🇳41
@@ -669,40 +617,27 @@ proxy-groups:
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
       - TG@hkaa0🇨🇳49
-      - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
       - TG@hkaa0🇨🇳52
       - TG@hkaa0🇨🇳53
       - TG@hkaa0🇨🇳54
       - TG@hkaa0🇨🇳55
       - TG@hkaa0🇨🇳56
-      - TG@hkaa0🇨🇳57
-      - TG@hkaa0🇨🇳58
       - TG@hkaa0🇨🇳59
-      - TG@hkaa0🇨🇳60
       - TG@hkaa0🇨🇳61
       - TG@hkaa0🇨🇳62
-      - TG@hkaa0🇨🇳63
       - TG@hkaa0🇨🇳64
-      - TG@hkaa0🇨🇳65
-      - TG@hkaa0🇨🇳66
-      - TG@hkaa0🇨🇳67
       - TG@hkaa0🇨🇳68
-      - TG@hkaa0🇨🇳69
       - TG@hkaa0🇨🇳70
       - TG@hkaa0🇨🇳71
       - TG@hkaa0🇨🇳72
       - TG@hkaa0🇨🇳73
       - TG@hkaa0🇨🇳74
       - TG@hkaa0🇨🇳75
-      - TG@hkaa0🇨🇳76
       - TG@hkaa0🇨🇳77
       - TG@hkaa0🇨🇳78
       - TG@hkaa0🇨🇳79
       - TG@hkaa0🇨🇳80
-      - TG@hkaa0🇨🇳81
       - TG@hkaa0🇨🇳82
-      - TG@hkaa0🇨🇳83
       - TG@hkaa0🇨🇳84
       - TG@hkaa0🇨🇳85
       - TG@hkaa0🇨🇳86
@@ -719,9 +654,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳97
       - TG@hkaa0🇨🇳98
       - TG@hkaa0🇨🇳99
-      - TG@hkaa0🇨🇳100
-      - TG@hkaa0🇨🇳101
-      - TG@hkaa0🇨🇳102
       - TG@hkaa0🇨🇳103
       - TG@hkaa0🇨🇳104
       - TG@hkaa0🇨🇳105
@@ -729,46 +661,51 @@ proxy-groups:
       - TG@hkaa0🇨🇳107
       - TG@hkaa0🇨🇳108
       - TG@hkaa0🇨🇳109
-      - TG@hkaa0🇨🇳110
       - TG@hkaa0🇨🇳111
-      - TG@hkaa0🇨🇳112
-      - TG@hkaa0🇨🇳113
       - TG@hkaa0🇨🇳114
-      - TG@hkaa0🇨🇳115
       - TG@hkaa0🇨🇳116
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇨🇳1_1
+      - TG@hkaa0🇨🇳2
       - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇨🇳4
-      - TG@hkaa0🇹🇼5
-      - TG@hkaa0🇩🇪6
-      - TG@hkaa0🇸🇬7
-      - TG@hkaa0🇸🇬8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇸🇬10
-      - TG@hkaa0🇺🇸11
-      - TG@hkaa0🇺🇸12
-      - TG@hkaa0🇸🇬13
-      - TG@hkaa0🇺🇸14
-      - TG@hkaa0🇺🇸15
+      - TG@hkaa0🇨🇳4_1
+      - TG@hkaa0🇨🇳5
+      - TG@hkaa0🇺🇸6
+      - TG@hkaa0🇨🇳7
+      - TG@hkaa0🇨🇭8
+      - TG@hkaa0🇬🇧9
+      - TG@hkaa0🇨🇳10
+      - TG@hkaa0🇨🇳11
+      - TG@hkaa0🇨🇳12
+      - TG@hkaa0🇨🇳13
+      - TG@hkaa0🇨🇳14
+      - TG@hkaa0🇨🇳15
       - TG@hkaa0🇨🇳16
       - TG@hkaa0🇨🇳17
-      - TG@hkaa018
-      - TG@hkaa0🇨🇳19
-      - TG@hkaa0🇨🇳20
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19_1
+      - TG@hkaa0🇳🇱20
       - TG@hkaa0🇨🇳21
       - TG@hkaa0🇨🇳22
-      - TG@hkaa0🇨🇳23
-      - TG@hkaa0🇨🇳24
-      - TG@hkaa0🇨🇳25
-      - TG@hkaa0🇨🇳26
-      - TG@hkaa0🇨🇳27
-      - TG@hkaa0🇭🇰28
+      - TG@hkaa0🇨🇳23_1
+      - TG@hkaa0🇨🇳24_1
+      - TG@hkaa0🇨🇭25
+      - TG@hkaa0🇨🇳26_1
+      - TG@hkaa0🇨🇳27_1
+      - TG@hkaa0🇨🇳28
+      - TG@hkaa0🇨🇳1_2
+      - TG@hkaa0🇨🇳4_2
+      - TG@hkaa0🇩🇪6
+      - TG@hkaa0🇸🇬7
+      - TG@hkaa0🇨🇳19_2
+      - TG@hkaa0🇨🇳23_2
+      - TG@hkaa0🇨🇳24_2
+      - TG@hkaa0🇨🇳26_2
+      - TG@hkaa0🇨🇳27_2
       - TG@hkaa0🇨🇳29
       - TG@hkaa0🇨🇳30
       - TG@hkaa0🇨🇳31
@@ -778,7 +715,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳35
       - TG@hkaa0🇨🇳36
       - TG@hkaa0🇨🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa0🇨🇳40
       - TG@hkaa0🇨🇳41
@@ -790,40 +726,27 @@ proxy-groups:
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
       - TG@hkaa0🇨🇳49
-      - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
       - TG@hkaa0🇨🇳52
       - TG@hkaa0🇨🇳53
       - TG@hkaa0🇨🇳54
       - TG@hkaa0🇨🇳55
       - TG@hkaa0🇨🇳56
-      - TG@hkaa0🇨🇳57
-      - TG@hkaa0🇨🇳58
       - TG@hkaa0🇨🇳59
-      - TG@hkaa0🇨🇳60
       - TG@hkaa0🇨🇳61
       - TG@hkaa0🇨🇳62
-      - TG@hkaa0🇨🇳63
       - TG@hkaa0🇨🇳64
-      - TG@hkaa0🇨🇳65
-      - TG@hkaa0🇨🇳66
-      - TG@hkaa0🇨🇳67
       - TG@hkaa0🇨🇳68
-      - TG@hkaa0🇨🇳69
       - TG@hkaa0🇨🇳70
       - TG@hkaa0🇨🇳71
       - TG@hkaa0🇨🇳72
       - TG@hkaa0🇨🇳73
       - TG@hkaa0🇨🇳74
       - TG@hkaa0🇨🇳75
-      - TG@hkaa0🇨🇳76
       - TG@hkaa0🇨🇳77
       - TG@hkaa0🇨🇳78
       - TG@hkaa0🇨🇳79
       - TG@hkaa0🇨🇳80
-      - TG@hkaa0🇨🇳81
       - TG@hkaa0🇨🇳82
-      - TG@hkaa0🇨🇳83
       - TG@hkaa0🇨🇳84
       - TG@hkaa0🇨🇳85
       - TG@hkaa0🇨🇳86
@@ -840,9 +763,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳97
       - TG@hkaa0🇨🇳98
       - TG@hkaa0🇨🇳99
-      - TG@hkaa0🇨🇳100
-      - TG@hkaa0🇨🇳101
-      - TG@hkaa0🇨🇳102
       - TG@hkaa0🇨🇳103
       - TG@hkaa0🇨🇳104
       - TG@hkaa0🇨🇳105
@@ -850,12 +770,8 @@ proxy-groups:
       - TG@hkaa0🇨🇳107
       - TG@hkaa0🇨🇳108
       - TG@hkaa0🇨🇳109
-      - TG@hkaa0🇨🇳110
       - TG@hkaa0🇨🇳111
-      - TG@hkaa0🇨🇳112
-      - TG@hkaa0🇨🇳113
       - TG@hkaa0🇨🇳114
-      - TG@hkaa0🇨🇳115
       - TG@hkaa0🇨🇳116
   - name: 🎯 全球直连
     type: select
@@ -879,34 +795,43 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG@hkaa0🇨🇳1
-      - TG@hkaa0🇺🇸2
+      - TG@hkaa0🇨🇳1_1
+      - TG@hkaa0🇨🇳2
       - TG@hkaa0🇨🇳3
-      - TG@hkaa0🇨🇳4
-      - TG@hkaa0🇹🇼5
-      - TG@hkaa0🇩🇪6
-      - TG@hkaa0🇸🇬7
-      - TG@hkaa0🇸🇬8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇸🇬10
-      - TG@hkaa0🇺🇸11
-      - TG@hkaa0🇺🇸12
-      - TG@hkaa0🇸🇬13
-      - TG@hkaa0🇺🇸14
-      - TG@hkaa0🇺🇸15
+      - TG@hkaa0🇨🇳4_1
+      - TG@hkaa0🇨🇳5
+      - TG@hkaa0🇺🇸6
+      - TG@hkaa0🇨🇳7
+      - TG@hkaa0🇨🇭8
+      - TG@hkaa0🇬🇧9
+      - TG@hkaa0🇨🇳10
+      - TG@hkaa0🇨🇳11
+      - TG@hkaa0🇨🇳12
+      - TG@hkaa0🇨🇳13
+      - TG@hkaa0🇨🇳14
+      - TG@hkaa0🇨🇳15
       - TG@hkaa0🇨🇳16
       - TG@hkaa0🇨🇳17
-      - TG@hkaa018
-      - TG@hkaa0🇨🇳19
-      - TG@hkaa0🇨🇳20
+      - TG@hkaa0🇨🇳18
+      - TG@hkaa0🇨🇳19_1
+      - TG@hkaa0🇳🇱20
       - TG@hkaa0🇨🇳21
       - TG@hkaa0🇨🇳22
-      - TG@hkaa0🇨🇳23
-      - TG@hkaa0🇨🇳24
-      - TG@hkaa0🇨🇳25
-      - TG@hkaa0🇨🇳26
-      - TG@hkaa0🇨🇳27
-      - TG@hkaa0🇭🇰28
+      - TG@hkaa0🇨🇳23_1
+      - TG@hkaa0🇨🇳24_1
+      - TG@hkaa0🇨🇭25
+      - TG@hkaa0🇨🇳26_1
+      - TG@hkaa0🇨🇳27_1
+      - TG@hkaa0🇨🇳28
+      - TG@hkaa0🇨🇳1_2
+      - TG@hkaa0🇨🇳4_2
+      - TG@hkaa0🇩🇪6
+      - TG@hkaa0🇸🇬7
+      - TG@hkaa0🇨🇳19_2
+      - TG@hkaa0🇨🇳23_2
+      - TG@hkaa0🇨🇳24_2
+      - TG@hkaa0🇨🇳26_2
+      - TG@hkaa0🇨🇳27_2
       - TG@hkaa0🇨🇳29
       - TG@hkaa0🇨🇳30
       - TG@hkaa0🇨🇳31
@@ -916,7 +841,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳35
       - TG@hkaa0🇨🇳36
       - TG@hkaa0🇨🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa0🇨🇳40
       - TG@hkaa0🇨🇳41
@@ -928,40 +852,27 @@ proxy-groups:
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
       - TG@hkaa0🇨🇳49
-      - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
       - TG@hkaa0🇨🇳52
       - TG@hkaa0🇨🇳53
       - TG@hkaa0🇨🇳54
       - TG@hkaa0🇨🇳55
       - TG@hkaa0🇨🇳56
-      - TG@hkaa0🇨🇳57
-      - TG@hkaa0🇨🇳58
       - TG@hkaa0🇨🇳59
-      - TG@hkaa0🇨🇳60
       - TG@hkaa0🇨🇳61
       - TG@hkaa0🇨🇳62
-      - TG@hkaa0🇨🇳63
       - TG@hkaa0🇨🇳64
-      - TG@hkaa0🇨🇳65
-      - TG@hkaa0🇨🇳66
-      - TG@hkaa0🇨🇳67
       - TG@hkaa0🇨🇳68
-      - TG@hkaa0🇨🇳69
       - TG@hkaa0🇨🇳70
       - TG@hkaa0🇨🇳71
       - TG@hkaa0🇨🇳72
       - TG@hkaa0🇨🇳73
       - TG@hkaa0🇨🇳74
       - TG@hkaa0🇨🇳75
-      - TG@hkaa0🇨🇳76
       - TG@hkaa0🇨🇳77
       - TG@hkaa0🇨🇳78
       - TG@hkaa0🇨🇳79
       - TG@hkaa0🇨🇳80
-      - TG@hkaa0🇨🇳81
       - TG@hkaa0🇨🇳82
-      - TG@hkaa0🇨🇳83
       - TG@hkaa0🇨🇳84
       - TG@hkaa0🇨🇳85
       - TG@hkaa0🇨🇳86
@@ -978,9 +889,6 @@ proxy-groups:
       - TG@hkaa0🇨🇳97
       - TG@hkaa0🇨🇳98
       - TG@hkaa0🇨🇳99
-      - TG@hkaa0🇨🇳100
-      - TG@hkaa0🇨🇳101
-      - TG@hkaa0🇨🇳102
       - TG@hkaa0🇨🇳103
       - TG@hkaa0🇨🇳104
       - TG@hkaa0🇨🇳105
@@ -988,12 +896,8 @@ proxy-groups:
       - TG@hkaa0🇨🇳107
       - TG@hkaa0🇨🇳108
       - TG@hkaa0🇨🇳109
-      - TG@hkaa0🇨🇳110
       - TG@hkaa0🇨🇳111
-      - TG@hkaa0🇨🇳112
-      - TG@hkaa0🇨🇳113
       - TG@hkaa0🇨🇳114
-      - TG@hkaa0🇨🇳115
       - TG@hkaa0🇨🇳116
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
