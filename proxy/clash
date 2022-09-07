@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：TG频道:@hkaa0
-#  创建时间：2022-09-06 
+#  创建时间：2022-09-08 
 #  模版：ACL4SSR
-#  节点数量：53
+#  节点数量：29
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -12,410 +12,242 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"TG@hkaa0🇯🇵1","server":"52.199.190.20","port":443,"password":"iyinglong","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇹🇼2","server":"tw01.balala2016.xyz","port":20261,"password":"ED177480-E516-11EA-8B44-BBC4E882BA0B","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇸🇬3","server":"730tw01.ok365.cyou","port":443,"password":"d09d2305-24db-43c4-b309-0e1d2737329f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇭🇰4","server":"transit01.balala2016.xyz","port":20271,"password":"ED177480-E516-11EA-8B44-BBC4E882BA0B","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"TG@hkaa0🇯🇵5","server":"172.105.236.77","port":10005,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳6","server":"s2.mine.com.cn","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳7","server":"s1.mine.com.cn","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"TG@hkaa0🇺🇸8","server":"144.168.61.107","port":4441,"password":"1122","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"TG@hkaa0🇸🇬9","server":"sg.securevpn.cc","port":20020,"cipher":"aes-128-gcm","password":"200000000000000000000020","plugin":"obfs","plugin-opts":{"mode":"http","host":"TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}}
-  - {"type":"trojan","name":"TG@hkaa0🇨🇳10","server":"aws2.raytrack.cloud","port":24725,"password":"f6f16e37-c800-46d5-ac12-475b4b61c18b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇯🇵11","server":"musashino.freetrade.link","port":443,"password":"ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"TG@hkaa0🇸🇬12","server":"sg.securevpn.cc","port":20020,"cipher":"aes-128-gcm","password":"200000000000000000000020","plugin":"obfs","plugin-opts":{"mode":"http","host":"TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}}
+  - {"type":"vmess","name":"TG频道:@hkaa0|印度尼西亚|自建_1","ws-opts":{"path":"/fastssh/hkaa0/6315d6fd8ece0/"},"server":"id-herza.v2-ray.com","port":443,"uuid":"fbf78c1f-6f42-45e0-a1a9-67de703b90f8","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG频道:@hkaa0|印度尼西亚|自建_2","ws-opts":{"path":"/fastssh/hkaa0/6315d6fd8ece0/"},"server":"id-herza.v2-ray.com","port":80,"uuid":"fbf78c1f-6f42-45e0-a1a9-67de703b90f8","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"TG频道:@hkaa0|印度尼西亚|自建_3","server":"idtj-ikd.bonds.id","port":443,"password":"3dfddbb0-2d2f-11ed-b530-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|新加坡|自建_1","server":"sg8-trojan.bonds.id","port":443,"password":"723b0120-2d2f-11ed-9576-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|新加坡|自建_2","server":"sg6-trojan.bonds.id","port":443,"password":"941a3ea0-2d2f-11ed-9982-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|美国|自建_1","server":"us-trojan.bonds.id","port":443,"password":"66d798c0-2d30-11ed-9136-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|印度尼西亚|自建_4","server":"idtj-ikd.bonds.id","port":443,"password":"e7a0db30-2d2f-11ed-81cc-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|加拿大|自建_1","server":"ca-trojan.bonds.id","port":443,"password":"14529590-2d30-11ed-a165-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|加拿大|自建_2","server":"ca-trojan.bonds.id","port":443,"password":"3bb8a4b0-2d30-11ed-936b-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG频道:@hkaa0|泰国|自建","server":"th1-trojan.bonds.id","port":443,"password":"bbf55960-2d2f-11ed-98a9-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"TG频道:@hkaa0|加拿大|自建_3","ws-opts":{"path":"/vmess","headers":{"host":"ca1.vmess.tunnel.cx"}},"server":"ca1.vmess.tunnel.cx","port":80,"uuid":"0429f7ce-2c73-11ed-b9c2-8b16281b86ac","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG频道:@hkaa0|日本|自建","ws-opts":{"path":"/herbalserver","headers":{"host":"jpl-1.herbalv2ray.me"}},"server":"45.136.187.80","port":443,"uuid":"8ca71a4f-2f74-4c8d-bfd6-138c1ca55ed7","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG频道:@hkaa0|美国|自建_2","ws-opts":{"path":"/herbalserver","headers":{"host":"usl-1.herbalv2ray.me"}},"server":"45.136.187.80","port":443,"uuid":"76bace05-1cd8-4ae8-9e45-1ef496568aca","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG频道:@hkaa0|香港|自建","ws-opts":{"path":"/vpnjantit"},"server":"hk1.vpnjantit.com","port":10001,"uuid":"8299e20a-2ccc-11ed-87f2-00163e019e6e","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳6","server":"s2.mine.com.cn","port":4433,"uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳7","server":"s1.mine.com.cn","port":4433,"uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":0,"cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"TG@hkaa0🇺🇸13","server":"8.9.30.35","port":29544,"password":"rmo75mm5xK","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇩🇪14","server":"ty1-1.nigirocloud.com","port":443,"password":"4V4kxVXmcg5Yn2DqF2","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"TG@hkaa0🇨🇦15","server":"134.195.196.85","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"TG@hkaa0🇯🇵16","server":"172.105.236.40","port":10004,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"vmess","name":"TG@hkaa0🇻🇳17","ws-opts":{"path":"/","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hanoi05.vifast.net","port":"80","uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0🇻🇳17","ws-opts":{"path":"/"},"server":"hanoi05.vifast.net","port":80,"uuid":"4c2d3f00-8f9b-49c2-a43b-10f022b2fde5","alterId":0,"cipher":"auto","network":"ws"}
   - {"type":"ss","name":"TG@hkaa0🇺🇸18","server":"38.91.106.75","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"type":"ss","name":"TG@hkaa0🇺🇸19","server":"38.91.107.72","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"trojan","name":"TG@hkaa0🇺🇸20","server":"purchases.freetrade.link","port":443,"password":"ZeYaxlxBNuyjgp736e8l4I32aAZSOYRcqD3ESC8pwADKSCFDynO3a0FXTzC5R9","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"TG@hkaa0🇺🇸21","server":"38.75.136.34","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"TG@hkaa0🇺🇸22","server":"38.75.136.34","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"TG@hkaa0🇺🇸23","server":"38.75.136.34","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"TG@hkaa0🇺🇸24","server":"38.75.136.34","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"vmess","name":"TG@hkaa0🇧🇷25","ws-opts":{"path":"/zcjd","headers":{"host":"brasil.jcnf.app"}},"server":"brasil.jcnf.app","port":"443","uuid":"c753e8a8-e180-4e76-a486-c917273d718b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0🇧🇷26","ws-opts":{"path":"/zcjd"},"server":"brasil.jcnf.app","port":"443","uuid":"c753e8a8-e180-4e76-a486-c917273d718b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"TG@hkaa0🇺🇸27","server":"38.91.107.66","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳28","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.99684777.xyz"}},"server":"42.186.175.8","port":"443","uuid":"93503dd5-245a-4eb1-ae2a-57ab9f2b3c29","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"TG@hkaa0🇨🇦29","server":"134.195.196.143","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"TG@hkaa0🇨🇦30","server":"134.195.196.143","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"trojan","name":"TG@hkaa0🇩🇪31","server":"ty1-3.nigirocloud.com","port":443,"password":"4V4kxVXmcg5Yn2DqF2","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"TG@hkaa0🇨🇳32","server":"116.129.254.29","port":3384,"password":"d4e41ff772c7fd45","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳33","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"TG@hkaa0🇸🇬34","server":"simpang.freetrade.link","port":443,"password":"XEyN0OZ28xxCDO7C83DeAa3YcSjYKTgFA5n9IRpFwuB3qSz4aZClSapy3eRl6D","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"TG@hkaa0🇺🇸35","server":"169.197.141.5","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"trojan","name":"TG@hkaa0🇷🇺36","server":"823tw.tfzhc.top","port":443,"password":"d09d2305-24db-43c4-b309-0e1d2737329f","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0🇻🇳37","ws-opts":{"path":"/4g.mkvn.net"},"server":"hcm-1.4g.mkvn.net","port":"80","uuid":"952e97d2-17ef-4e42-b8aa-c9f892ca4eed","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳38","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.93147341.xyz"}},"server":"42.186.175.8","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳39","server":"43.142.87.128","port":"4816","uuid":"12bfc8c6-1b07-4f07-d3c3-f185e89e961c","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa040","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"us-nyc-ctg-04-v2.nodes.cjhh.one"}},"server":"us-nyc-ctg-04-v2.nodes.cjhh.one","port":"888","uuid":"fbc2efb0-786a-4074-81ea-8ab12ca5422c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳41","server":"121.41.86.94","port":"1","uuid":"3781e552-2d72-40e4-dc1f-f06e10c8c1fa","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳42","server":"4.3.1.fuckppppp.today","port":"58418","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"TG@hkaa0🇺🇸43","server":"54.188.168.172","port":443,"password":"iyinglong","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0🇸🇬44","server":"tw93.tfzhc.top","port":80,"password":"d09d2305-24db-43c4-b309-0e1d2737329f","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳45","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"TG@hkaa0🇺🇸46","server":"54.218.99.141","port":443,"password":"iyinglong","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳33","server":"106.55.234.95","port":31372,"uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳39","server":"43.142.87.128","port":4816,"uuid":"12bfc8c6-1b07-4f07-d3c3-f185e89e961c","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa040","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"us-nyc-ctg-04-v2.nodes.cjhh.one","port":888,"uuid":"fbc2efb0-786a-4074-81ea-8ab12ca5422c","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳41","server":"121.41.86.94","port":1,"uuid":"3781e552-2d72-40e4-dc1f-f06e10c8c1fa","alterId":64,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳42","server":"4.3.1.fuckppppp.today","port":58418,"uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":0,"cipher":"auto","network":"tcp"}
   - {"type":"ss","name":"TG@hkaa0🇨🇳47","server":"120.240.47.74","port":7716,"cipher":"rc4-md5","password":"5otzk5bmlo6","plugin":"obfs","plugin-opts":{"mode":"http","host":"84fbd78736.microsoft.com"}}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳48","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"TG@hkaa0🇨🇳49","server":"831sg.tfzhc.top","port":443,"password":"d09d2305-24db-43c4-b309-0e1d2737329f","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳50","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳51","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG@hkaa0🇨🇳52","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"TG@hkaa0🇷🇺53","server":"91.206.92.176","port":35030,"cipher":"chacha20-ietf-poly1305","password":"FCx0i7b33H9G"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳48","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":36679,"uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"TG@hkaa0🇨🇳50","ws-opts":{"path":"/hls/cctv5phd.m3u8"},"server":"ingress-i1.onebox6.org","port":38701,"uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":0,"cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG@hkaa0🇯🇵1
-      - TG@hkaa0🇹🇼2
-      - TG@hkaa0🇸🇬3
-      - TG@hkaa0🇭🇰4
-      - TG@hkaa0🇯🇵5
+      - TG频道:@hkaa0|印度尼西亚|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_2
+      - TG频道:@hkaa0|印度尼西亚|自建_3
+      - TG频道:@hkaa0|新加坡|自建_1
+      - TG频道:@hkaa0|新加坡|自建_2
+      - TG频道:@hkaa0|美国|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_4
+      - TG频道:@hkaa0|加拿大|自建_1
+      - TG频道:@hkaa0|加拿大|自建_2
+      - TG频道:@hkaa0|泰国|自建
+      - TG频道:@hkaa0|加拿大|自建_3
+      - TG频道:@hkaa0|日本|自建
+      - TG频道:@hkaa0|美国|自建_2
+      - TG频道:@hkaa0|香港|自建
       - TG@hkaa0🇨🇳6
       - TG@hkaa0🇨🇳7
-      - TG@hkaa0🇺🇸8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇨🇳10
-      - TG@hkaa0🇯🇵11
-      - TG@hkaa0🇸🇬12
       - TG@hkaa0🇺🇸13
-      - TG@hkaa0🇩🇪14
-      - TG@hkaa0🇨🇦15
-      - TG@hkaa0🇯🇵16
       - TG@hkaa0🇻🇳17
       - TG@hkaa0🇺🇸18
       - TG@hkaa0🇺🇸19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇺🇸21
-      - TG@hkaa0🇺🇸22
-      - TG@hkaa0🇺🇸23
-      - TG@hkaa0🇺🇸24
-      - TG@hkaa0🇧🇷25
-      - TG@hkaa0🇧🇷26
-      - TG@hkaa0🇺🇸27
-      - TG@hkaa0🇨🇳28
-      - TG@hkaa0🇨🇦29
-      - TG@hkaa0🇨🇦30
-      - TG@hkaa0🇩🇪31
       - TG@hkaa0🇨🇳32
       - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇸🇬34
-      - TG@hkaa0🇺🇸35
-      - TG@hkaa0🇷🇺36
-      - TG@hkaa0🇻🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa040
       - TG@hkaa0🇨🇳41
       - TG@hkaa0🇨🇳42
-      - TG@hkaa0🇺🇸43
-      - TG@hkaa0🇸🇬44
-      - TG@hkaa0🇨🇳45
-      - TG@hkaa0🇺🇸46
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
-      - TG@hkaa0🇨🇳49
       - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
-      - TG@hkaa0🇨🇳52
-      - TG@hkaa0🇷🇺53
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG@hkaa0🇯🇵1
-      - TG@hkaa0🇹🇼2
-      - TG@hkaa0🇸🇬3
-      - TG@hkaa0🇭🇰4
-      - TG@hkaa0🇯🇵5
+      - TG频道:@hkaa0|印度尼西亚|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_2
+      - TG频道:@hkaa0|印度尼西亚|自建_3
+      - TG频道:@hkaa0|新加坡|自建_1
+      - TG频道:@hkaa0|新加坡|自建_2
+      - TG频道:@hkaa0|美国|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_4
+      - TG频道:@hkaa0|加拿大|自建_1
+      - TG频道:@hkaa0|加拿大|自建_2
+      - TG频道:@hkaa0|泰国|自建
+      - TG频道:@hkaa0|加拿大|自建_3
+      - TG频道:@hkaa0|日本|自建
+      - TG频道:@hkaa0|美国|自建_2
+      - TG频道:@hkaa0|香港|自建
       - TG@hkaa0🇨🇳6
       - TG@hkaa0🇨🇳7
-      - TG@hkaa0🇺🇸8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇨🇳10
-      - TG@hkaa0🇯🇵11
-      - TG@hkaa0🇸🇬12
       - TG@hkaa0🇺🇸13
-      - TG@hkaa0🇩🇪14
-      - TG@hkaa0🇨🇦15
-      - TG@hkaa0🇯🇵16
       - TG@hkaa0🇻🇳17
       - TG@hkaa0🇺🇸18
       - TG@hkaa0🇺🇸19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇺🇸21
-      - TG@hkaa0🇺🇸22
-      - TG@hkaa0🇺🇸23
-      - TG@hkaa0🇺🇸24
-      - TG@hkaa0🇧🇷25
-      - TG@hkaa0🇧🇷26
-      - TG@hkaa0🇺🇸27
-      - TG@hkaa0🇨🇳28
-      - TG@hkaa0🇨🇦29
-      - TG@hkaa0🇨🇦30
-      - TG@hkaa0🇩🇪31
       - TG@hkaa0🇨🇳32
       - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇸🇬34
-      - TG@hkaa0🇺🇸35
-      - TG@hkaa0🇷🇺36
-      - TG@hkaa0🇻🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa040
       - TG@hkaa0🇨🇳41
       - TG@hkaa0🇨🇳42
-      - TG@hkaa0🇺🇸43
-      - TG@hkaa0🇸🇬44
-      - TG@hkaa0🇨🇳45
-      - TG@hkaa0🇺🇸46
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
-      - TG@hkaa0🇨🇳49
       - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
-      - TG@hkaa0🇨🇳52
-      - TG@hkaa0🇷🇺53
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG@hkaa0🇯🇵1
-      - TG@hkaa0🇹🇼2
-      - TG@hkaa0🇸🇬3
-      - TG@hkaa0🇭🇰4
-      - TG@hkaa0🇯🇵5
+      - TG频道:@hkaa0|印度尼西亚|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_2
+      - TG频道:@hkaa0|印度尼西亚|自建_3
+      - TG频道:@hkaa0|新加坡|自建_1
+      - TG频道:@hkaa0|新加坡|自建_2
+      - TG频道:@hkaa0|美国|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_4
+      - TG频道:@hkaa0|加拿大|自建_1
+      - TG频道:@hkaa0|加拿大|自建_2
+      - TG频道:@hkaa0|泰国|自建
+      - TG频道:@hkaa0|加拿大|自建_3
+      - TG频道:@hkaa0|日本|自建
+      - TG频道:@hkaa0|美国|自建_2
+      - TG频道:@hkaa0|香港|自建
       - TG@hkaa0🇨🇳6
       - TG@hkaa0🇨🇳7
-      - TG@hkaa0🇺🇸8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇨🇳10
-      - TG@hkaa0🇯🇵11
-      - TG@hkaa0🇸🇬12
       - TG@hkaa0🇺🇸13
-      - TG@hkaa0🇩🇪14
-      - TG@hkaa0🇨🇦15
-      - TG@hkaa0🇯🇵16
       - TG@hkaa0🇻🇳17
       - TG@hkaa0🇺🇸18
       - TG@hkaa0🇺🇸19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇺🇸21
-      - TG@hkaa0🇺🇸22
-      - TG@hkaa0🇺🇸23
-      - TG@hkaa0🇺🇸24
-      - TG@hkaa0🇧🇷25
-      - TG@hkaa0🇧🇷26
-      - TG@hkaa0🇺🇸27
-      - TG@hkaa0🇨🇳28
-      - TG@hkaa0🇨🇦29
-      - TG@hkaa0🇨🇦30
-      - TG@hkaa0🇩🇪31
       - TG@hkaa0🇨🇳32
       - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇸🇬34
-      - TG@hkaa0🇺🇸35
-      - TG@hkaa0🇷🇺36
-      - TG@hkaa0🇻🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa040
       - TG@hkaa0🇨🇳41
       - TG@hkaa0🇨🇳42
-      - TG@hkaa0🇺🇸43
-      - TG@hkaa0🇸🇬44
-      - TG@hkaa0🇨🇳45
-      - TG@hkaa0🇺🇸46
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
-      - TG@hkaa0🇨🇳49
       - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
-      - TG@hkaa0🇨🇳52
-      - TG@hkaa0🇷🇺53
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@hkaa0🇯🇵1
-      - TG@hkaa0🇹🇼2
-      - TG@hkaa0🇸🇬3
-      - TG@hkaa0🇭🇰4
-      - TG@hkaa0🇯🇵5
+      - TG频道:@hkaa0|印度尼西亚|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_2
+      - TG频道:@hkaa0|印度尼西亚|自建_3
+      - TG频道:@hkaa0|新加坡|自建_1
+      - TG频道:@hkaa0|新加坡|自建_2
+      - TG频道:@hkaa0|美国|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_4
+      - TG频道:@hkaa0|加拿大|自建_1
+      - TG频道:@hkaa0|加拿大|自建_2
+      - TG频道:@hkaa0|泰国|自建
+      - TG频道:@hkaa0|加拿大|自建_3
+      - TG频道:@hkaa0|日本|自建
+      - TG频道:@hkaa0|美国|自建_2
+      - TG频道:@hkaa0|香港|自建
       - TG@hkaa0🇨🇳6
       - TG@hkaa0🇨🇳7
-      - TG@hkaa0🇺🇸8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇨🇳10
-      - TG@hkaa0🇯🇵11
-      - TG@hkaa0🇸🇬12
       - TG@hkaa0🇺🇸13
-      - TG@hkaa0🇩🇪14
-      - TG@hkaa0🇨🇦15
-      - TG@hkaa0🇯🇵16
       - TG@hkaa0🇻🇳17
       - TG@hkaa0🇺🇸18
       - TG@hkaa0🇺🇸19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇺🇸21
-      - TG@hkaa0🇺🇸22
-      - TG@hkaa0🇺🇸23
-      - TG@hkaa0🇺🇸24
-      - TG@hkaa0🇧🇷25
-      - TG@hkaa0🇧🇷26
-      - TG@hkaa0🇺🇸27
-      - TG@hkaa0🇨🇳28
-      - TG@hkaa0🇨🇦29
-      - TG@hkaa0🇨🇦30
-      - TG@hkaa0🇩🇪31
       - TG@hkaa0🇨🇳32
       - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇸🇬34
-      - TG@hkaa0🇺🇸35
-      - TG@hkaa0🇷🇺36
-      - TG@hkaa0🇻🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa040
       - TG@hkaa0🇨🇳41
       - TG@hkaa0🇨🇳42
-      - TG@hkaa0🇺🇸43
-      - TG@hkaa0🇸🇬44
-      - TG@hkaa0🇨🇳45
-      - TG@hkaa0🇺🇸46
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
-      - TG@hkaa0🇨🇳49
       - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
-      - TG@hkaa0🇨🇳52
-      - TG@hkaa0🇷🇺53
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG@hkaa0🇯🇵1
-      - TG@hkaa0🇹🇼2
-      - TG@hkaa0🇸🇬3
-      - TG@hkaa0🇭🇰4
-      - TG@hkaa0🇯🇵5
+      - TG频道:@hkaa0|印度尼西亚|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_2
+      - TG频道:@hkaa0|印度尼西亚|自建_3
+      - TG频道:@hkaa0|新加坡|自建_1
+      - TG频道:@hkaa0|新加坡|自建_2
+      - TG频道:@hkaa0|美国|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_4
+      - TG频道:@hkaa0|加拿大|自建_1
+      - TG频道:@hkaa0|加拿大|自建_2
+      - TG频道:@hkaa0|泰国|自建
+      - TG频道:@hkaa0|加拿大|自建_3
+      - TG频道:@hkaa0|日本|自建
+      - TG频道:@hkaa0|美国|自建_2
+      - TG频道:@hkaa0|香港|自建
       - TG@hkaa0🇨🇳6
       - TG@hkaa0🇨🇳7
-      - TG@hkaa0🇺🇸8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇨🇳10
-      - TG@hkaa0🇯🇵11
-      - TG@hkaa0🇸🇬12
       - TG@hkaa0🇺🇸13
-      - TG@hkaa0🇩🇪14
-      - TG@hkaa0🇨🇦15
-      - TG@hkaa0🇯🇵16
       - TG@hkaa0🇻🇳17
       - TG@hkaa0🇺🇸18
       - TG@hkaa0🇺🇸19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇺🇸21
-      - TG@hkaa0🇺🇸22
-      - TG@hkaa0🇺🇸23
-      - TG@hkaa0🇺🇸24
-      - TG@hkaa0🇧🇷25
-      - TG@hkaa0🇧🇷26
-      - TG@hkaa0🇺🇸27
-      - TG@hkaa0🇨🇳28
-      - TG@hkaa0🇨🇦29
-      - TG@hkaa0🇨🇦30
-      - TG@hkaa0🇩🇪31
       - TG@hkaa0🇨🇳32
       - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇸🇬34
-      - TG@hkaa0🇺🇸35
-      - TG@hkaa0🇷🇺36
-      - TG@hkaa0🇻🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa040
       - TG@hkaa0🇨🇳41
       - TG@hkaa0🇨🇳42
-      - TG@hkaa0🇺🇸43
-      - TG@hkaa0🇸🇬44
-      - TG@hkaa0🇨🇳45
-      - TG@hkaa0🇺🇸46
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
-      - TG@hkaa0🇨🇳49
       - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
-      - TG@hkaa0🇨🇳52
-      - TG@hkaa0🇷🇺53
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG@hkaa0🇯🇵1
-      - TG@hkaa0🇹🇼2
-      - TG@hkaa0🇸🇬3
-      - TG@hkaa0🇭🇰4
-      - TG@hkaa0🇯🇵5
+      - TG频道:@hkaa0|印度尼西亚|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_2
+      - TG频道:@hkaa0|印度尼西亚|自建_3
+      - TG频道:@hkaa0|新加坡|自建_1
+      - TG频道:@hkaa0|新加坡|自建_2
+      - TG频道:@hkaa0|美国|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_4
+      - TG频道:@hkaa0|加拿大|自建_1
+      - TG频道:@hkaa0|加拿大|自建_2
+      - TG频道:@hkaa0|泰国|自建
+      - TG频道:@hkaa0|加拿大|自建_3
+      - TG频道:@hkaa0|日本|自建
+      - TG频道:@hkaa0|美国|自建_2
+      - TG频道:@hkaa0|香港|自建
       - TG@hkaa0🇨🇳6
       - TG@hkaa0🇨🇳7
-      - TG@hkaa0🇺🇸8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇨🇳10
-      - TG@hkaa0🇯🇵11
-      - TG@hkaa0🇸🇬12
       - TG@hkaa0🇺🇸13
-      - TG@hkaa0🇩🇪14
-      - TG@hkaa0🇨🇦15
-      - TG@hkaa0🇯🇵16
       - TG@hkaa0🇻🇳17
       - TG@hkaa0🇺🇸18
       - TG@hkaa0🇺🇸19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇺🇸21
-      - TG@hkaa0🇺🇸22
-      - TG@hkaa0🇺🇸23
-      - TG@hkaa0🇺🇸24
-      - TG@hkaa0🇧🇷25
-      - TG@hkaa0🇧🇷26
-      - TG@hkaa0🇺🇸27
-      - TG@hkaa0🇨🇳28
-      - TG@hkaa0🇨🇦29
-      - TG@hkaa0🇨🇦30
-      - TG@hkaa0🇩🇪31
       - TG@hkaa0🇨🇳32
       - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇸🇬34
-      - TG@hkaa0🇺🇸35
-      - TG@hkaa0🇷🇺36
-      - TG@hkaa0🇻🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa040
       - TG@hkaa0🇨🇳41
       - TG@hkaa0🇨🇳42
-      - TG@hkaa0🇺🇸43
-      - TG@hkaa0🇸🇬44
-      - TG@hkaa0🇨🇳45
-      - TG@hkaa0🇺🇸46
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
-      - TG@hkaa0🇨🇳49
       - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
-      - TG@hkaa0🇨🇳52
-      - TG@hkaa0🇷🇺53
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -438,59 +270,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG@hkaa0🇯🇵1
-      - TG@hkaa0🇹🇼2
-      - TG@hkaa0🇸🇬3
-      - TG@hkaa0🇭🇰4
-      - TG@hkaa0🇯🇵5
+      - TG频道:@hkaa0|印度尼西亚|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_2
+      - TG频道:@hkaa0|印度尼西亚|自建_3
+      - TG频道:@hkaa0|新加坡|自建_1
+      - TG频道:@hkaa0|新加坡|自建_2
+      - TG频道:@hkaa0|美国|自建_1
+      - TG频道:@hkaa0|印度尼西亚|自建_4
+      - TG频道:@hkaa0|加拿大|自建_1
+      - TG频道:@hkaa0|加拿大|自建_2
+      - TG频道:@hkaa0|泰国|自建
+      - TG频道:@hkaa0|加拿大|自建_3
+      - TG频道:@hkaa0|日本|自建
+      - TG频道:@hkaa0|美国|自建_2
+      - TG频道:@hkaa0|香港|自建
       - TG@hkaa0🇨🇳6
       - TG@hkaa0🇨🇳7
-      - TG@hkaa0🇺🇸8
-      - TG@hkaa0🇸🇬9
-      - TG@hkaa0🇨🇳10
-      - TG@hkaa0🇯🇵11
-      - TG@hkaa0🇸🇬12
       - TG@hkaa0🇺🇸13
-      - TG@hkaa0🇩🇪14
-      - TG@hkaa0🇨🇦15
-      - TG@hkaa0🇯🇵16
       - TG@hkaa0🇻🇳17
       - TG@hkaa0🇺🇸18
       - TG@hkaa0🇺🇸19
-      - TG@hkaa0🇺🇸20
-      - TG@hkaa0🇺🇸21
-      - TG@hkaa0🇺🇸22
-      - TG@hkaa0🇺🇸23
-      - TG@hkaa0🇺🇸24
-      - TG@hkaa0🇧🇷25
-      - TG@hkaa0🇧🇷26
-      - TG@hkaa0🇺🇸27
-      - TG@hkaa0🇨🇳28
-      - TG@hkaa0🇨🇦29
-      - TG@hkaa0🇨🇦30
-      - TG@hkaa0🇩🇪31
       - TG@hkaa0🇨🇳32
       - TG@hkaa0🇨🇳33
-      - TG@hkaa0🇸🇬34
-      - TG@hkaa0🇺🇸35
-      - TG@hkaa0🇷🇺36
-      - TG@hkaa0🇻🇳37
-      - TG@hkaa0🇨🇳38
       - TG@hkaa0🇨🇳39
       - TG@hkaa040
       - TG@hkaa0🇨🇳41
       - TG@hkaa0🇨🇳42
-      - TG@hkaa0🇺🇸43
-      - TG@hkaa0🇸🇬44
-      - TG@hkaa0🇨🇳45
-      - TG@hkaa0🇺🇸46
       - TG@hkaa0🇨🇳47
       - TG@hkaa0🇨🇳48
-      - TG@hkaa0🇨🇳49
       - TG@hkaa0🇨🇳50
-      - TG@hkaa0🇨🇳51
-      - TG@hkaa0🇨🇳52
-      - TG@hkaa0🇷🇺53
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
