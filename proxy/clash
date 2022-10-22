@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：TG频道:@hkaa0
-#  创建时间：2022-10-20 
+#  创建时间：2022-10-22
 #  模版：ACL4SSR
-#  节点数量：5
+#  节点数量：18
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -12,74 +12,165 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"TG:@hkaa0|新加坡|自建|无限流量_1","ws-opts":{"path":"/hkaa0"},"server":"sg118.hkaa0.tk","port":"20784","uuid":"c6295e62-0c09-40b7-d8f8-de94db5318ab","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG:@hkaa0|新加坡|自建|无限流量_2","ws-opts":{"path":"/hkaa0"},"server":"sg118.hkaa0.tk","port":"42649","uuid":"fbae0835-97f5-40c6-ec1a-60750c3c40cf","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG:@hkaa0|新加坡|自建|无限流量_3","ws-opts":{"path":"/hkaa0"},"server":"sg118.hkaa0.tk","port":"31323","uuid":"1af66f9c-da3f-49fd-8f30-6d161f519931","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG:@hkaa0|新加坡|自建|无限流量_4","ws-opts":{"path":"/hkaa0"},"server":"sg118.hkaa0.tk","port":"13691","uuid":"652f4263-bd86-4bf6-9f7e-d25e7516fb72","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG:@hkaa0|新加坡|自建|无限流量_5","ws-opts":{"path":"/hkaa0"},"server":"sg118.hkaa0.tk","port":"26772","uuid":"5223beb3-c348-4cbb-9b66-076564920784","alterId":"6","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|专属|泰国","ws-opts":{"path":"/vpnjantit"},"server":"th2.vpnjantit.com","port":10000,"uuid":"b8248e16-4f81-11ed-87e6-00163ed178a4","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|专属|西班牙","ws-opts":{"path":"/vpnjantit"},"server":"sp1.vpnjantit.com","port":10000,"uuid":"21790ffe-4f82-11ed-bec7-03f211755ed3","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|专属|捷克_1","ws-opts":{"path":"/vpnjantit"},"server":"cz1.vpnjantit.com","port":10000,"uuid":"b3a40b5e-4f82-11ed-918d-52cf00e461ad","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|专属|捷克_2","ws-opts":{"path":"/vpnjantit"},"server":"cz2.vpnjantit.com","port":10000,"uuid":"6cf953e4-4f82-11ed-b01d-bbe551e50693","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|专属|保加利亚_1","ws-opts":{"path":"/vpnjantit"},"server":"bg1.vpnjantit.com","port":10000,"uuid":"e8be0d9e-4f82-11ed-a0b2-8b344a3d9097","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|专属|保加利亚_2","ws-opts":{"path":"/vpnjantit"},"server":"bg2.vpnjantit.com","port":10000,"uuid":"198005ea-4f83-11ed-bdc0-0fb03e7c90f9","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|专属|保加利亚_3","ws-opts":{"path":"/vpnjantit"},"server":"bg3.vpnjantit.com","port":10000,"uuid":"4b8a23cc-4f83-11ed-988c-331a7ca7010a","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|专属|美国_1","ws-opts":{"path":"/vpnjantit"},"server":"usa3.vpnjantit.com","port":10000,"uuid":"79aa89b8-4f83-11ed-885a-52ac0064f50a","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|专属|美国_2","ws-opts":{"path":"/vpnjantit"},"server":"usa4.vpnjantit.com","port":10000,"uuid":"c6a44394-4f83-11ed-af9f-bb261eedc702","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG:@hkaa0|新加坡|自建|无限流量_1","ws-opts":{"path":"/hkaa0"},"server":"sg207.hkaa0.tk","port":16549,"uuid":"b19ff921-9863-4196-8cee-a37f77a05237","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG:@hkaa0|新加坡|自建|无限流量_2","ws-opts":{"path":"/hkaa0"},"server":"sg153.hkaa0.tk","port":14358,"uuid":"bbf423d8-6b78-416a-8f12-2546e1af87ef","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|新加坡|自建|无限流量_1","ws-opts":{"path":"/hkaa0"},"server":"sg202.hkaa0.tk","port":1018,"uuid":"bdf798f4-a990-4743-e9b2-9c78ba58fb04","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG:@hkaa0|泰国|专属_1","ws-opts":{"path":"/vpnjantit"},"server":"th1.vpnjantit.com","port":10000,"uuid":"3bd1529c-5024-11ed-8ec0-00163ea61c9a","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG:@hkaa0|泰国|专属_2","ws-opts":{"path":"/vpnjantit"},"server":"th2.vpnjantit.com","port":10000,"uuid":"91b3c708-5024-11ed-bad1-00163ed178a4","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG:@hkaa0|土耳其|专属_1","ws-opts":{"path":"/vpnjantit"},"server":"tr1.vpnjantit.com","port":10000,"uuid":"4fc145c0-501d-11ed-afe0-5313eef56e00","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG:@hkaa0|土耳其|专属_2","ws-opts":{"path":"/vpnjantit"},"server":"tr2.vpnjantit.com","port":10000,"uuid":"82f039ce-501d-11ed-b524-7f52a753e762","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG:@hkaa0|土耳其|专属_3","ws-opts":{"path":"/vpnjantit"},"server":"tr3.vpnjantit.com","port":10000,"uuid":"b5493696-501d-11ed-a746-6f83f69f647e","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|新加坡|自建|无限流量_2","ws-opts":{"path":"/hkaa0"},"server":"sg202.hkaa0.tk","port":1018,"uuid":"bdf798f4-a990-4743-e9b2-9c78ba58fb04","alterId":0,"cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - TG@hkaa0|专属|泰国
+      - TG@hkaa0|专属|西班牙
+      - TG@hkaa0|专属|捷克_1
+      - TG@hkaa0|专属|捷克_2
+      - TG@hkaa0|专属|保加利亚_1
+      - TG@hkaa0|专属|保加利亚_2
+      - TG@hkaa0|专属|保加利亚_3
+      - TG@hkaa0|专属|美国_1
+      - TG@hkaa0|专属|美国_2
       - TG:@hkaa0|新加坡|自建|无限流量_1
       - TG:@hkaa0|新加坡|自建|无限流量_2
-      - TG:@hkaa0|新加坡|自建|无限流量_3
-      - TG:@hkaa0|新加坡|自建|无限流量_4
-      - TG:@hkaa0|新加坡|自建|无限流量_5
+      - TG@hkaa0|新加坡|自建|无限流量_1
+      - TG:@hkaa0|泰国|专属_1
+      - TG:@hkaa0|泰国|专属_2
+      - TG:@hkaa0|土耳其|专属_1
+      - TG:@hkaa0|土耳其|专属_2
+      - TG:@hkaa0|土耳其|专属_3
+      - TG@hkaa0|新加坡|自建|无限流量_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - TG@hkaa0|专属|泰国
+      - TG@hkaa0|专属|西班牙
+      - TG@hkaa0|专属|捷克_1
+      - TG@hkaa0|专属|捷克_2
+      - TG@hkaa0|专属|保加利亚_1
+      - TG@hkaa0|专属|保加利亚_2
+      - TG@hkaa0|专属|保加利亚_3
+      - TG@hkaa0|专属|美国_1
+      - TG@hkaa0|专属|美国_2
       - TG:@hkaa0|新加坡|自建|无限流量_1
       - TG:@hkaa0|新加坡|自建|无限流量_2
-      - TG:@hkaa0|新加坡|自建|无限流量_3
-      - TG:@hkaa0|新加坡|自建|无限流量_4
-      - TG:@hkaa0|新加坡|自建|无限流量_5
+      - TG@hkaa0|新加坡|自建|无限流量_1
+      - TG:@hkaa0|泰国|专属_1
+      - TG:@hkaa0|泰国|专属_2
+      - TG:@hkaa0|土耳其|专属_1
+      - TG:@hkaa0|土耳其|专属_2
+      - TG:@hkaa0|土耳其|专属_3
+      - TG@hkaa0|新加坡|自建|无限流量_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG@hkaa0|专属|泰国
+      - TG@hkaa0|专属|西班牙
+      - TG@hkaa0|专属|捷克_1
+      - TG@hkaa0|专属|捷克_2
+      - TG@hkaa0|专属|保加利亚_1
+      - TG@hkaa0|专属|保加利亚_2
+      - TG@hkaa0|专属|保加利亚_3
+      - TG@hkaa0|专属|美国_1
+      - TG@hkaa0|专属|美国_2
       - TG:@hkaa0|新加坡|自建|无限流量_1
       - TG:@hkaa0|新加坡|自建|无限流量_2
-      - TG:@hkaa0|新加坡|自建|无限流量_3
-      - TG:@hkaa0|新加坡|自建|无限流量_4
-      - TG:@hkaa0|新加坡|自建|无限流量_5
+      - TG@hkaa0|新加坡|自建|无限流量_1
+      - TG:@hkaa0|泰国|专属_1
+      - TG:@hkaa0|泰国|专属_2
+      - TG:@hkaa0|土耳其|专属_1
+      - TG:@hkaa0|土耳其|专属_2
+      - TG:@hkaa0|土耳其|专属_3
+      - TG@hkaa0|新加坡|自建|无限流量_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - TG@hkaa0|专属|泰国
+      - TG@hkaa0|专属|西班牙
+      - TG@hkaa0|专属|捷克_1
+      - TG@hkaa0|专属|捷克_2
+      - TG@hkaa0|专属|保加利亚_1
+      - TG@hkaa0|专属|保加利亚_2
+      - TG@hkaa0|专属|保加利亚_3
+      - TG@hkaa0|专属|美国_1
+      - TG@hkaa0|专属|美国_2
       - TG:@hkaa0|新加坡|自建|无限流量_1
       - TG:@hkaa0|新加坡|自建|无限流量_2
-      - TG:@hkaa0|新加坡|自建|无限流量_3
-      - TG:@hkaa0|新加坡|自建|无限流量_4
-      - TG:@hkaa0|新加坡|自建|无限流量_5
+      - TG@hkaa0|新加坡|自建|无限流量_1
+      - TG:@hkaa0|泰国|专属_1
+      - TG:@hkaa0|泰国|专属_2
+      - TG:@hkaa0|土耳其|专属_1
+      - TG:@hkaa0|土耳其|专属_2
+      - TG:@hkaa0|土耳其|专属_3
+      - TG@hkaa0|新加坡|自建|无限流量_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - TG@hkaa0|专属|泰国
+      - TG@hkaa0|专属|西班牙
+      - TG@hkaa0|专属|捷克_1
+      - TG@hkaa0|专属|捷克_2
+      - TG@hkaa0|专属|保加利亚_1
+      - TG@hkaa0|专属|保加利亚_2
+      - TG@hkaa0|专属|保加利亚_3
+      - TG@hkaa0|专属|美国_1
+      - TG@hkaa0|专属|美国_2
       - TG:@hkaa0|新加坡|自建|无限流量_1
       - TG:@hkaa0|新加坡|自建|无限流量_2
-      - TG:@hkaa0|新加坡|自建|无限流量_3
-      - TG:@hkaa0|新加坡|自建|无限流量_4
-      - TG:@hkaa0|新加坡|自建|无限流量_5
+      - TG@hkaa0|新加坡|自建|无限流量_1
+      - TG:@hkaa0|泰国|专属_1
+      - TG:@hkaa0|泰国|专属_2
+      - TG:@hkaa0|土耳其|专属_1
+      - TG:@hkaa0|土耳其|专属_2
+      - TG:@hkaa0|土耳其|专属_3
+      - TG@hkaa0|新加坡|自建|无限流量_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - TG@hkaa0|专属|泰国
+      - TG@hkaa0|专属|西班牙
+      - TG@hkaa0|专属|捷克_1
+      - TG@hkaa0|专属|捷克_2
+      - TG@hkaa0|专属|保加利亚_1
+      - TG@hkaa0|专属|保加利亚_2
+      - TG@hkaa0|专属|保加利亚_3
+      - TG@hkaa0|专属|美国_1
+      - TG@hkaa0|专属|美国_2
       - TG:@hkaa0|新加坡|自建|无限流量_1
       - TG:@hkaa0|新加坡|自建|无限流量_2
-      - TG:@hkaa0|新加坡|自建|无限流量_3
-      - TG:@hkaa0|新加坡|自建|无限流量_4
-      - TG:@hkaa0|新加坡|自建|无限流量_5
+      - TG@hkaa0|新加坡|自建|无限流量_1
+      - TG:@hkaa0|泰国|专属_1
+      - TG:@hkaa0|泰国|专属_2
+      - TG:@hkaa0|土耳其|专属_1
+      - TG:@hkaa0|土耳其|专属_2
+      - TG:@hkaa0|土耳其|专属_3
+      - TG@hkaa0|新加坡|自建|无限流量_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -102,11 +193,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TG@hkaa0|专属|泰国
+      - TG@hkaa0|专属|西班牙
+      - TG@hkaa0|专属|捷克_1
+      - TG@hkaa0|专属|捷克_2
+      - TG@hkaa0|专属|保加利亚_1
+      - TG@hkaa0|专属|保加利亚_2
+      - TG@hkaa0|专属|保加利亚_3
+      - TG@hkaa0|专属|美国_1
+      - TG@hkaa0|专属|美国_2
       - TG:@hkaa0|新加坡|自建|无限流量_1
       - TG:@hkaa0|新加坡|自建|无限流量_2
-      - TG:@hkaa0|新加坡|自建|无限流量_3
-      - TG:@hkaa0|新加坡|自建|无限流量_4
-      - TG:@hkaa0|新加坡|自建|无限流量_5
+      - TG@hkaa0|新加坡|自建|无限流量_1
+      - TG:@hkaa0|泰国|专属_1
+      - TG:@hkaa0|泰国|专属_2
+      - TG:@hkaa0|土耳其|专属_1
+      - TG:@hkaa0|土耳其|专属_2
+      - TG:@hkaa0|土耳其|专属_3
+      - TG@hkaa0|新加坡|自建|无限流量_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
