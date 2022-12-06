@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：TG频道:@hkaa0
-#  创建时间：2022-11-25 
+#  创建时间：2022-12-06 
 #  模版：ACL4SSR_Mini
-#  节点数量：44
+#  节点数量：37
 #-------------------------------------------------------------#
 #
 mixed-port: 7890
@@ -23,49 +23,42 @@ dns:
     - tls://dns.google:853
 proxies:
   - {"type":"vmess","name":"TG@hkaa0|中国_1","server":"47.104.237.32","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0|美国_1","ws-opts":{"path":"/"},"server":"30.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0|澳大利亚","ws-opts":{"path":"/","headers":{"host":"tgunivstar.168-138-94-194.sslip.io"}},"server":"129.154.194.163","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"TG@hkaa0|美国_2","server":"51.81.211.171","port":443,"password":"2dab5d78-5c56-4252-850d-c037753a40db","udp":true,"skip-cert-verify":true,"sni":"ust1.sshocean.net"}
-  - {"type":"vmess","name":"TG@hkaa0|美国_3","ws-opts":{"path":"/","headers":{"host":"45.72img.xyz"}},"server":"45.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"TG@hkaa0|英国_1","server":"jgwcc1.gaox.ml","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TG@hkaa0|美国_4","server":"148.113.141.99","port":443,"password":"HdsUZmsHQW","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0|中国_2","server":"49.232.167.71","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0_1","ws-opts":{"path":"/"},"server":"21.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"TG@hkaa0_2","server":"103.172.116.7","port":9007,"cipher":"aes-256-cfb","password":"kSPmvwdFzGMMW5pY"}
-  - {"type":"ss","name":"TG@hkaa0_3","server":"103.172.116.7","port":9070,"cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH"}
-  - {"type":"ss","name":"TG@hkaa0_4","server":"103.172.116.8","port":9042,"cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
-  - {"type":"ss","name":"TG@hkaa0_5","server":"103.172.116.8","port":9032,"cipher":"aes-256-cfb","password":"UWZQeLRWnkqgkseq"}
-  - {"type":"ss","name":"TG@hkaa0_6","server":"103.172.116.7","port":9059,"cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
-  - {"type":"ss","name":"TG@hkaa0_7","server":"103.172.116.8","port":9050,"cipher":"aes-256-cfb","password":"FG5ddLsMPbV5CutE"}
-  - {"type":"ss","name":"TG@hkaa0_8","server":"103.172.116.8","port":9038,"cipher":"aes-256-cfb","password":"gYCYXfkUQEs2TaJQ"}
-  - {"type":"ss","name":"TG@hkaa0_9","server":"103.172.116.7","port":9001,"cipher":"aes-256-cfb","password":"UkXRsXvR6buDMG2Y"}
-  - {"type":"ss","name":"TG@hkaa0_10","server":"103.172.116.8","port":9094,"cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
-  - {"type":"ss","name":"TG@hkaa0_11","server":"103.172.116.8","port":9026,"cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
-  - {"type":"vmess","name":"TG@hkaa0|香港_1","ws-opts":{"path":"/","headers":{"host":"tgunivstar.168-138-94-194.sslip.io"}},"server":"219.76.13.169","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0_12","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"icook.hk","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"TG@hkaa0_13","server":"103.172.116.8","port":9057,"cipher":"aes-256-cfb","password":"wjTugX3ZtHMB9c3Z"}
-  - {"type":"ss","name":"TG@hkaa0_14","server":"103.172.116.8","port":9059,"cipher":"aes-256-cfb","password":"9XwYyZsK8SNzQDtY"}
-  - {"type":"vmess","name":"TG@hkaa0|荷兰","ws-opts":{"path":"/pkhhvws"},"server":"amshare.jingledev.me","port":"443","uuid":"532a5f12-cadb-46e4-963f-ee7c075e40f0","alterId":"0","cipher":"none","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0|英国_2","ws-opts":{"path":"/"},"server":"144.24.150.126","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"TG@hkaa0_15","server":"103.172.116.7","port":9026,"cipher":"aes-256-cfb","password":"QWDDvVE9npNurQfA"}
-  - {"type":"ss","name":"TG@hkaa0_16","server":"103.172.116.8","port":9060,"cipher":"aes-256-cfb","password":"ueLXVkvh4hckhErQ"}
-  - {"type":"vmess","name":"TG@hkaa0|英国_3","ws-opts":{"path":"/path/243535322906"},"server":"51.89.100.10","port":"443","uuid":"83a424d8-4bcb-4cee-b016-2c8f1db4a921","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"TG@hkaa0_17","server":"103.172.116.8","port":9041,"cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
-  - {"type":"vmess","name":"TG@hkaa0|美国_5","ws-opts":{"path":"/sshkit/401452697/635b464921141/","headers":{"host":"sg1-v2ray.sshkit.org"}},"server":"hynesconstruction.com","port":"443","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"TG@hkaa0|中国_3","server":"official.tokyometropolis.kiev.ua","port":2053,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TG@hkaa0|美国_6","ws-opts":{"path":"/ray","headers":{"host":"lg1.cfcdn1.xyz"}},"server":"172.64.154.222","port":"443","uuid":"fcfaec91-6096-44d8-956c-7868d9e874b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"TG@hkaa0_18","server":"103.172.116.7","port":9045,"cipher":"aes-256-cfb","password":"Lp27rqyJq72bZsqX"}
-  - {"type":"ss","name":"TG@hkaa0_19","server":"103.172.116.8","port":9073,"cipher":"aes-256-cfb","password":"daFYagqDdBdA6VTX"}
-  - {"type":"vmess","name":"TG@hkaa0|中国_4","server":"34.wgong1.top","port":"52234","uuid":"9fee262e-87e1-312a-8d8e-cbb9e01a5657","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG@hkaa0|香港_2","ws-opts":{"path":"/s/f1f3227.fm.apple.com:111548","headers":{"host":"api.skype.com"}},"server":"f1f3227.v3.glados-config.net","port":"3331","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0|美国_7","ws-opts":{"path":"/","headers":{"host":"155.248.241.52"}},"server":"155.248.241.52","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0|美国_8","ws-opts":{"path":"/"},"server":"155.248.241.52","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0|美国_9","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":"443","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0|新加坡_1","ws-opts":{"path":"/hkaa0"},"server":"172.104.162.207","port":"16510","uuid":"5f38801e-527a-4253-9a74-02a2eca9d88d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG@hkaa0|新加坡_2","ws-opts":{"path":"/hkaa0"},"server":"172.104.162.207","port":"16500","uuid":"b19ff921-9863-4196-8cee-a37f77a05237","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG@hkaa0|新加坡_3","ws-opts":{"path":"/hkaa0"},"server":"172.104.162.207","port":"16520","uuid":"1f145a5f-24dc-4252-e19f-8bfede2d15d8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG@hkaa0|新加坡_4","ws-opts":{"path":"/hkaa0"},"server":"172.104.162.207","port":"16530","uuid":"6fb03dca-1491-468f-8e15-4c305690ad46","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG@hkaa0|新加坡_5","ws-opts":{"path":"/hkaa0"},"server":"172.104.162.207","port":"16540","uuid":"3ec0f17f-bd2d-4b8b-ecb6-bf24d734ce5c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|日本_1","ws-opts":{"path":"/s/f1f3227.fm.apple.com:111548","headers":{"host":"api.skype.com"}},"server":"f1f3227.v3.glados-config.net","port":"3331","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0_1","ws-opts":{"path":"/pkhhvws"},"server":"amshare.jingledev.me","port":"443","uuid":"532a5f12-cadb-46e4-963f-ee7c075e40f0","alterId":"0","cipher":"none","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|美国_1","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":"443","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|美国_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.152.150","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"TG@hkaa0|美国_3","server":"38.114.114.19","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"TG@hkaa0|亚美尼亚_1","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"185.162.228.229","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|亚美尼亚_2","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"185.162.228.230","port":"443","uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|加拿大_1","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"23.227.38.39","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|新加坡","ws-opts":{"path":"/s/f1f3227.fm.apple.com:111548","headers":{"host":"tls.apple.com"}},"server":"f1f3227.f3.glados-config.net","port":"3331","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|塞浦路斯_1","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"203.24.108.9","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"TG@hkaa0|台湾_1","server":"211.72.35.152","port":3389,"password":"b09d2aaa443af97a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG@hkaa0|台湾_2","server":"211.72.35.157","port":3389,"password":"26a663656e575c0b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TG@hkaa0|台湾_3","server":"211.72.35.155","port":3389,"password":"6c8b18adb11737af","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"TG@hkaa0|美国_4","server":"38.114.114.69","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"TG@hkaa0|美国_5","server":"38.114.114.69","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"TG@hkaa0|美国_6","server":"38.114.114.69","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"TG@hkaa0|美国_7","server":"38.114.114.69","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"vmess","name":"TG@hkaa0|中国_2","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"106.75.218.112","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|中国_3","ws-opts":{"path":"/hls","headers":{"host":"mugua-in01.airport-v2.com"}},"server":"in02.my1188.org","port":"63051","uuid":"c1517df4-6454-39ce-9037-d5eccfc703b7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|香港","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"219.76.13.180","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|塞浦路斯_2","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.24.108.9","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0_2","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"190.93.244.3","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|伯利兹_1","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.188.189","port":"443","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|美国_8","ws-opts":{"path":"/roewesu","headers":{"host":"news.microsoft.com"}},"server":"141.147.181.219","port":"443","uuid":"0b873cff-11ab-4716-c41a-04f886135091","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|伯利兹_2","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"203.30.188.120","port":"443","uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|日本_2","ws-opts":{"path":"/s/f1f3227.fm.apple.com:111548","headers":{"host":"options.teams.microsoft.com"}},"server":"f1f3227.v3.glados-config.net","port":"3331","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|加拿大_2","ws-opts":{"path":"/vmess"},"server":"165.22.229.248","port":"80","uuid":"6b7261aa-1dea-4ab4-8e96-fa726b5a9feb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0_3","ws-opts":{"path":"/VHONOFZ3","headers":{"host":"lg1.cfcdn2.xyz"}},"server":"198.41.203.1","port":"443","uuid":"267a9f38-40d8-4ed6-ab58-cafc67e9c933","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|美国_9","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"34.145.145.76","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0|芬兰","ws-opts":{"path":"/"},"server":"135.181.41.63","port":"31908","uuid":"3f8a796e-d433-4c2c-e88a-9655cd380e5e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0_4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"141.101.114.102","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG@hkaa0_5","ws-opts":{"path":"/sshkit/fdfadsfa/63848bfe228fd/","headers":{"host":"us-lb.sshkit.org"}},"server":"uicdn.cf","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|美国_10","ws-opts":{"path":"/"},"server":"164.92.248.113","port":"8081","uuid":"974b5505-014f-41b9-df27-d6aae3d340f6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"TG@hkaa0|美国_11","server":"tj2.dalazhi.cyou","port":443,"password":"8f70fde3-a04c-4f6a-b705-aef7406f6ac1","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"TG@hkaa0|中国_4","ws-opts":{"path":"/","headers":{"host":"hkt3-cdn.tencent.best"}},"server":"in05.my1188.org","port":"63082","uuid":"c1517df4-6454-39ce-9037-d5eccfc703b7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG@hkaa0|中国_5","ws-opts":{"path":"/","headers":{"host":"hk-balancer.airport-v2.com"}},"server":"in01.my1188.org","port":"63078","uuid":"c1517df4-6454-39ce-9037-d5eccfc703b7","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -73,49 +66,42 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - TG@hkaa0|中国_1
+      - TG@hkaa0|日本_1
+      - TG@hkaa0_1
       - TG@hkaa0|美国_1
-      - TG@hkaa0|澳大利亚
       - TG@hkaa0|美国_2
       - TG@hkaa0|美国_3
-      - TG@hkaa0|英国_1
+      - TG@hkaa0|亚美尼亚_1
+      - TG@hkaa0|亚美尼亚_2
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|新加坡
+      - TG@hkaa0|塞浦路斯_1
+      - TG@hkaa0|台湾_1
+      - TG@hkaa0|台湾_2
+      - TG@hkaa0|台湾_3
       - TG@hkaa0|美国_4
+      - TG@hkaa0|美国_5
+      - TG@hkaa0|美国_6
+      - TG@hkaa0|美国_7
       - TG@hkaa0|中国_2
-      - TG@hkaa0_1
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|香港
+      - TG@hkaa0|塞浦路斯_2
       - TG@hkaa0_2
+      - TG@hkaa0|伯利兹_1
+      - TG@hkaa0|美国_8
+      - TG@hkaa0|伯利兹_2
+      - TG@hkaa0|日本_2
+      - TG@hkaa0|加拿大_2
       - TG@hkaa0_3
+      - TG@hkaa0|美国_9
+      - TG@hkaa0|芬兰
       - TG@hkaa0_4
       - TG@hkaa0_5
-      - TG@hkaa0_6
-      - TG@hkaa0_7
-      - TG@hkaa0_8
-      - TG@hkaa0_9
-      - TG@hkaa0_10
-      - TG@hkaa0_11
-      - TG@hkaa0|香港_1
-      - TG@hkaa0_12
-      - TG@hkaa0_13
-      - TG@hkaa0_14
-      - TG@hkaa0|荷兰
-      - TG@hkaa0|英国_2
-      - TG@hkaa0_15
-      - TG@hkaa0_16
-      - TG@hkaa0|英国_3
-      - TG@hkaa0_17
-      - TG@hkaa0|美国_5
-      - TG@hkaa0|中国_3
-      - TG@hkaa0|美国_6
-      - TG@hkaa0_18
-      - TG@hkaa0_19
+      - TG@hkaa0|美国_10
+      - TG@hkaa0|美国_11
       - TG@hkaa0|中国_4
-      - TG@hkaa0|香港_2
-      - TG@hkaa0|美国_7
-      - TG@hkaa0|美国_8
-      - TG@hkaa0|美国_9
-      - TG@hkaa0|新加坡_1
-      - TG@hkaa0|新加坡_2
-      - TG@hkaa0|新加坡_3
-      - TG@hkaa0|新加坡_4
-      - TG@hkaa0|新加坡_5
+      - TG@hkaa0|中国_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -123,49 +109,42 @@ proxy-groups:
     tolerance: 50
     proxies:
       - TG@hkaa0|中国_1
+      - TG@hkaa0|日本_1
+      - TG@hkaa0_1
       - TG@hkaa0|美国_1
-      - TG@hkaa0|澳大利亚
       - TG@hkaa0|美国_2
       - TG@hkaa0|美国_3
-      - TG@hkaa0|英国_1
+      - TG@hkaa0|亚美尼亚_1
+      - TG@hkaa0|亚美尼亚_2
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|新加坡
+      - TG@hkaa0|塞浦路斯_1
+      - TG@hkaa0|台湾_1
+      - TG@hkaa0|台湾_2
+      - TG@hkaa0|台湾_3
       - TG@hkaa0|美国_4
+      - TG@hkaa0|美国_5
+      - TG@hkaa0|美国_6
+      - TG@hkaa0|美国_7
       - TG@hkaa0|中国_2
-      - TG@hkaa0_1
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|香港
+      - TG@hkaa0|塞浦路斯_2
       - TG@hkaa0_2
+      - TG@hkaa0|伯利兹_1
+      - TG@hkaa0|美国_8
+      - TG@hkaa0|伯利兹_2
+      - TG@hkaa0|日本_2
+      - TG@hkaa0|加拿大_2
       - TG@hkaa0_3
+      - TG@hkaa0|美国_9
+      - TG@hkaa0|芬兰
       - TG@hkaa0_4
       - TG@hkaa0_5
-      - TG@hkaa0_6
-      - TG@hkaa0_7
-      - TG@hkaa0_8
-      - TG@hkaa0_9
-      - TG@hkaa0_10
-      - TG@hkaa0_11
-      - TG@hkaa0|香港_1
-      - TG@hkaa0_12
-      - TG@hkaa0_13
-      - TG@hkaa0_14
-      - TG@hkaa0|荷兰
-      - TG@hkaa0|英国_2
-      - TG@hkaa0_15
-      - TG@hkaa0_16
-      - TG@hkaa0|英国_3
-      - TG@hkaa0_17
-      - TG@hkaa0|美国_5
-      - TG@hkaa0|中国_3
-      - TG@hkaa0|美国_6
-      - TG@hkaa0_18
-      - TG@hkaa0_19
+      - TG@hkaa0|美国_10
+      - TG@hkaa0|美国_11
       - TG@hkaa0|中国_4
-      - TG@hkaa0|香港_2
-      - TG@hkaa0|美国_7
-      - TG@hkaa0|美国_8
-      - TG@hkaa0|美国_9
-      - TG@hkaa0|新加坡_1
-      - TG@hkaa0|新加坡_2
-      - TG@hkaa0|新加坡_3
-      - TG@hkaa0|新加坡_4
-      - TG@hkaa0|新加坡_5
+      - TG@hkaa0|中国_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -184,49 +163,42 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - TG@hkaa0|中国_1
+      - TG@hkaa0|日本_1
+      - TG@hkaa0_1
       - TG@hkaa0|美国_1
-      - TG@hkaa0|澳大利亚
       - TG@hkaa0|美国_2
       - TG@hkaa0|美国_3
-      - TG@hkaa0|英国_1
+      - TG@hkaa0|亚美尼亚_1
+      - TG@hkaa0|亚美尼亚_2
+      - TG@hkaa0|加拿大_1
+      - TG@hkaa0|新加坡
+      - TG@hkaa0|塞浦路斯_1
+      - TG@hkaa0|台湾_1
+      - TG@hkaa0|台湾_2
+      - TG@hkaa0|台湾_3
       - TG@hkaa0|美国_4
+      - TG@hkaa0|美国_5
+      - TG@hkaa0|美国_6
+      - TG@hkaa0|美国_7
       - TG@hkaa0|中国_2
-      - TG@hkaa0_1
+      - TG@hkaa0|中国_3
+      - TG@hkaa0|香港
+      - TG@hkaa0|塞浦路斯_2
       - TG@hkaa0_2
+      - TG@hkaa0|伯利兹_1
+      - TG@hkaa0|美国_8
+      - TG@hkaa0|伯利兹_2
+      - TG@hkaa0|日本_2
+      - TG@hkaa0|加拿大_2
       - TG@hkaa0_3
+      - TG@hkaa0|美国_9
+      - TG@hkaa0|芬兰
       - TG@hkaa0_4
       - TG@hkaa0_5
-      - TG@hkaa0_6
-      - TG@hkaa0_7
-      - TG@hkaa0_8
-      - TG@hkaa0_9
-      - TG@hkaa0_10
-      - TG@hkaa0_11
-      - TG@hkaa0|香港_1
-      - TG@hkaa0_12
-      - TG@hkaa0_13
-      - TG@hkaa0_14
-      - TG@hkaa0|荷兰
-      - TG@hkaa0|英国_2
-      - TG@hkaa0_15
-      - TG@hkaa0_16
-      - TG@hkaa0|英国_3
-      - TG@hkaa0_17
-      - TG@hkaa0|美国_5
-      - TG@hkaa0|中国_3
-      - TG@hkaa0|美国_6
-      - TG@hkaa0_18
-      - TG@hkaa0_19
+      - TG@hkaa0|美国_10
+      - TG@hkaa0|美国_11
       - TG@hkaa0|中国_4
-      - TG@hkaa0|香港_2
-      - TG@hkaa0|美国_7
-      - TG@hkaa0|美国_8
-      - TG@hkaa0|美国_9
-      - TG@hkaa0|新加坡_1
-      - TG@hkaa0|新加坡_2
-      - TG@hkaa0|新加坡_3
-      - TG@hkaa0|新加坡_4
-      - TG@hkaa0|新加坡_5
+      - TG@hkaa0|中国_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
