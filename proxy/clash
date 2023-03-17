@@ -1,10 +1,10 @@
 ####################################
-# 创建者：    五叶节点分享
-#         https://t.me/hkaa0
+# 创建者：     五叶节点分享
+#          https://t.me/hkaa0
 # 客户端：Clash
-# 创建时间：2023-03-15 
+# 创建时间：2023-03-17 
 # 使用模版：ACL4SSR_Online.ini
-# 节点数量：21
+# 节点数量：56
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -22,213 +22,493 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"TG:@hkaa0|中国_1","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"TG:@hkaa0|中国_2","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"TG:@hkaa0|中国_3","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"TG:@hkaa0|美国","type":"vmess","server":"hk-hytron.ilovescp.com","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
-  - {"name":"TG:@hkaa0|哥斯达黎加","type":"vmess","server":"190.93.245.1","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"clash1.ssr-free2.xyz"}}}
-  - {"name":"TG频道:@hkaa0|新加坡_1","type":"ss","server":"3.1.6.229","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"TG频道:@hkaa0|美国_1","type":"vmess","server":"1807516e-rr0tc0-1cwfu.hk.tcpbbr.net","port":8388,"cipher":"auto","uuid":"6550ed3c-f4de-11eb-a0fc-f23c913c8d2b","alterId":2,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"TG频道:@hkaa0|香港_1","type":"ssr","server":"116.49.242.93","port":443,"password":"mblank1port","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"t.me/vpnhat","protocol-param":"51025:o0159ww","group":"nodesCatch"}
-  - {"name":"TG频道:@hkaa0|新加坡_2","type":"trojan","server":"s-sg01.aikun.online","port":10000,"udp":true,"password":"ead1716b-06ab-4230-bd45-e231dd273388","skip-cert-verify":true}
-  - {"name":"TG频道:@hkaa0|英国","type":"ss","server":"51.104.214.61","port":14676,"password":"6vTa0zivzZXRHU3bRUyGZP","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"TG频道:@hkaa0|新加坡_3","type":"ss","server":"54.169.160.39","port":801,"password":"tvX1v#NSFP_LG_bJ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"TG频道:@hkaa0|美国_2","type":"vmess","server":"static.tcpbbr.net","port":80,"cipher":"auto","uuid":"67c2c86e-58df-11ec-bd7c-f23c913c8d2b","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.hgcbroadband.com"}}}
-  - {"name":"TG频道:@hkaa0|中国_1","type":"vmess","server":"39.103.165.178","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"TG频道:@hkaa0|台湾","type":"vmess","server":"polotw1.applebench.tech","port":56568,"cipher":"auto","uuid":"a33fcd7c-daa6-44f3-8de0-be74e17f0d8b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"TG频道:@hkaa0|俄罗斯联邦","type":"vmess","server":"31.129.22.11","port":10000,"cipher":"auto","uuid":"b91ace86-bdc5-11ed-aa93-77d68d2ad7fd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vpnjantit"}}
-  - {"name":"TG频道:@hkaa0|美国_3","type":"vmess","server":"89.117.18.151","port":80,"cipher":"auto","uuid":"67c2c86e-58df-11ec-bd7c-f23c913c8d2b","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG频道:@hkaa0|芬兰","type":"vmess","server":"f2.hub1.ir","port":4008,"cipher":"auto","uuid":"69e6fb57-9fef-40a0-90dd-d2baa64741d3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"f2.hub1.ir"}}}
-  - {"name":"TG频道:@hkaa0|香港_2","type":"vmess","server":"hgc1.tcpbbr.net","port":80,"cipher":"auto","uuid":"67c2c86e-58df-11ec-bd7c-f23c913c8d2b","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG频道:@hkaa0|美国_4","type":"trojan","server":"15.204.210.176","port":80,"udp":true,"password":"c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f","skip-cert-verify":true}
-  - {"name":"TG频道:@hkaa0|香港_3","type":"vmess","server":"58.152.67.136","port":80,"cipher":"auto","uuid":"67c2c86e-58df-11ec-bd7c-f23c913c8d2b","alterId":2,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG频道:@hkaa0|中国_2","type":"ss","server":"36.139.166.231","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|日本_1","type":"trojan","server":"awsjp.blowm1k.club","port":443,"udp":true,"password":"6ea0337d-ee2e-b495-0c0e-48db8524b39c","sni":"awsjp.blowm1k.club","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_1","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_2","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|香港_1","type":"vmess","server":"103.135.250.115","port":10512,"cipher":"auto","uuid":"58781eee-baba-6666-baba-2ca0ada6568b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|美国_1","type":"vmess","server":"140.99.21.19","port":29449,"cipher":"auto","uuid":"a892a7d3-c2cf-471b-af2f-658eb15031f7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|新加坡_1","type":"ss","server":"3.1.6.229","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG:@hkaa0|韩国_1","type":"ss","server":"43.201.86.41","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG:@hkaa0|香港_2","type":"vmess","server":"hk80-2.af49c4e4c2ef.sanfen001.pics","port":80,"cipher":"auto","uuid":"d1aaaf11-fd61-4ed3-8ed2-2b237cce1a4e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
+  - {"name":"TG:@hkaa0|美国_2","type":"trojan","server":"emmm.xiaolong.world","port":5555,"udp":true,"password":"Y1NE1HMxLh5Tm7Vk","sni":"emmm.xiaolong.world","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_3","type":"ss","server":"36.139.166.247","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|日本_2","type":"ss","server":"43.207.66.114","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG:@hkaa0|中国_4","type":"ss","server":"36.138.140.208","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|印度","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|香港_3","type":"vmess","server":"45.136.197.129","port":54321,"cipher":"auto","uuid":"5c0156ab-576b-424b-9bb5-34a2b368540b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_5","type":"vmess","server":"36.134.16.96","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_6","type":"ss","server":"36.139.166.252","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|中国_7","type":"ss","server":"36.137.106.115","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|中国_8","type":"vmess","server":"36.134.16.190","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|香港_4","type":"vmess","server":"b1.ss1011.top","port":1509,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|韩国_2","type":"ss","server":"43.201.57.87","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG:@hkaa0|中国_9","type":"vmess","server":"36.133.171.209","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_10","type":"ss","server":"36.138.193.128","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|日本_3","type":"ss","server":"85.208.108.60","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|日本_4","type":"ss","server":"85.208.108.60","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|日本_5","type":"ss","server":"85.208.108.60","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|新加坡_2","type":"vmess","server":"43.156.111.144","port":43972,"cipher":"auto","uuid":"ffd17b65-3ea1-42e6-a75a-9c90caebb530","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sg5/getData","headers":{"host":"sg5.linkeden.co"}}}
+  - {"name":"TG:@hkaa0|日本_6","type":"ss","server":"85.208.108.60","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|日本_7","type":"ss","server":"85.208.108.60","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|日本_8","type":"ss","server":"85.208.108.60","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|英国","type":"vmess","server":"185.193.30.158","port":443,"cipher":"auto","uuid":"A59E320C-BAC6-45E3-8A27-1518610708D0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.v2ray.online"}}}
+  - {"name":"TG:@hkaa0|日本_9","type":"ss","server":"85.208.108.60","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|美国_3","type":"vmess","server":"8908.v9966.shop","port":443,"cipher":"auto","uuid":"efde6d40-c1bf-11ed-b636-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"TG:@hkaa0|中国_11","type":"ss","server":"36.139.166.244","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|中国_12","type":"trojan","server":"hnm.xiaohouzi.club","port":27094,"udp":true,"password":"21e10785-99c6-316e-a184-a03384ee06e5","sni":"siga01.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_13","type":"ss","server":"36.139.166.231","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|美国_4","type":"vmess","server":"hax.smely.eu.org","port":80,"cipher":"auto","uuid":"58340bf3-d51d-45e2-87a8-effa78e4bca6","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hax02","headers":{"host":"hax.smely.eu.org"}}}
+  - {"name":"TG:@hkaa0|西班牙","type":"ss","server":"45.136.196.45","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"TG:@hkaa0|中国_14","type":"ss","server":"180.101.193.226","port":10068,"password":"RsDk3peCSuo76B68","cipher":"aes-256-cfb"}
+  - {"name":"TG:@hkaa0|中国_15","type":"trojan","server":"hn.xiaohouzi.club","port":18463,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"hn.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|日本_10","type":"ss","server":"moslb-x-aws-jptk.softether.net","port":25565,"password":"fuck_gfw","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|中国_16","type":"ss","server":"14.29.124.168","port":25217,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"TG:@hkaa0|中国_17","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|美国_5","type":"ss","server":"35.91.221.138","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG:@hkaa0|中国_18","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|新加坡_3","type":"ss","server":"13.229.201.5","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG:@hkaa0|韩国_3","type":"vmess","server":"petal.tk","port":443,"cipher":"auto","uuid":"b7718dc4-8c46-483b-d347-dd5d8209e023","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/jjpwvws","headers":{"host":"petal.tk"}}}
+  - {"name":"TG:@hkaa0|中国_19","type":"vmess","server":"39.103.165.178","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_20","type":"vmess","server":"39.103.165.178","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|日本_11","type":"ss","server":"85.208.108.60","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"TG:@hkaa0|香港_5","type":"vmess","server":"b1.ss1011.top","port":1507,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_21","type":"vmess","server":"36.134.16.171","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|香港_6","type":"vmess","server":"43.155.102.33","port":23802,"cipher":"auto","uuid":"4592247e-1528-4943-8bf3-cd9bb58b31c0","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hk6/getData","headers":{"host":"hk6.verichains.co"}}}
+  - {"name":"TG:@hkaa0|香港_7","type":"vmess","server":"103.117.101.104","port":51298,"cipher":"auto","uuid":"899c4e65-4129-4e9b-f65f-058f469bdd90","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/789"}}
+  - {"name":"TG:@hkaa0|中国_22","type":"trojan","server":"hnm.xiaohouzi.club","port":27482,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"hnm.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0|中国_23","type":"ss","server":"14.29.124.168","port":24003,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"TG:@hkaa0|中国_24","type":"trojan","server":"iplc.xiaohouzi.club","port":20032,"udp":true,"password":"0f098bb2-9fad-3cc3-8acf-2a3268c1eb27","sni":"$$hk-azure02.xiaohouzi.club","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - TG:@hkaa0|日本_1
       - TG:@hkaa0|中国_1
       - TG:@hkaa0|中国_2
+      - TG:@hkaa0|香港_1
+      - TG:@hkaa0|美国_1
+      - TG:@hkaa0|新加坡_1
+      - TG:@hkaa0|韩国_1
+      - TG:@hkaa0|香港_2
+      - TG:@hkaa0|美国_2
       - TG:@hkaa0|中国_3
-      - TG:@hkaa0|美国
-      - TG:@hkaa0|哥斯达黎加
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|英国
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|俄罗斯联邦
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|芬兰
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|香港_3
-      - TG频道:@hkaa0|中国_2
+      - TG:@hkaa0|日本_2
+      - TG:@hkaa0|中国_4
+      - TG:@hkaa0|印度
+      - TG:@hkaa0|香港_3
+      - TG:@hkaa0|中国_5
+      - TG:@hkaa0|中国_6
+      - TG:@hkaa0|中国_7
+      - TG:@hkaa0|中国_8
+      - TG:@hkaa0|香港_4
+      - TG:@hkaa0|韩国_2
+      - TG:@hkaa0|中国_9
+      - TG:@hkaa0|中国_10
+      - TG:@hkaa0|日本_3
+      - TG:@hkaa0|日本_4
+      - TG:@hkaa0|日本_5
+      - TG:@hkaa0|新加坡_2
+      - TG:@hkaa0|日本_6
+      - TG:@hkaa0|日本_7
+      - TG:@hkaa0|日本_8
+      - TG:@hkaa0|英国
+      - TG:@hkaa0|日本_9
+      - TG:@hkaa0|美国_3
+      - TG:@hkaa0|中国_11
+      - TG:@hkaa0|中国_12
+      - TG:@hkaa0|中国_13
+      - TG:@hkaa0|美国_4
+      - TG:@hkaa0|西班牙
+      - TG:@hkaa0|中国_14
+      - TG:@hkaa0|中国_15
+      - TG:@hkaa0|日本_10
+      - TG:@hkaa0|中国_16
+      - TG:@hkaa0|中国_17
+      - TG:@hkaa0|美国_5
+      - TG:@hkaa0|中国_18
+      - TG:@hkaa0|新加坡_3
+      - TG:@hkaa0|韩国_3
+      - TG:@hkaa0|中国_19
+      - TG:@hkaa0|中国_20
+      - TG:@hkaa0|日本_11
+      - TG:@hkaa0|香港_5
+      - TG:@hkaa0|中国_21
+      - TG:@hkaa0|香港_6
+      - TG:@hkaa0|香港_7
+      - TG:@hkaa0|中国_22
+      - TG:@hkaa0|中国_23
+      - TG:@hkaa0|中国_24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - TG:@hkaa0|日本_1
       - TG:@hkaa0|中国_1
       - TG:@hkaa0|中国_2
+      - TG:@hkaa0|香港_1
+      - TG:@hkaa0|美国_1
+      - TG:@hkaa0|新加坡_1
+      - TG:@hkaa0|韩国_1
+      - TG:@hkaa0|香港_2
+      - TG:@hkaa0|美国_2
       - TG:@hkaa0|中国_3
-      - TG:@hkaa0|美国
-      - TG:@hkaa0|哥斯达黎加
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|英国
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|俄罗斯联邦
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|芬兰
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|香港_3
-      - TG频道:@hkaa0|中国_2
+      - TG:@hkaa0|日本_2
+      - TG:@hkaa0|中国_4
+      - TG:@hkaa0|印度
+      - TG:@hkaa0|香港_3
+      - TG:@hkaa0|中国_5
+      - TG:@hkaa0|中国_6
+      - TG:@hkaa0|中国_7
+      - TG:@hkaa0|中国_8
+      - TG:@hkaa0|香港_4
+      - TG:@hkaa0|韩国_2
+      - TG:@hkaa0|中国_9
+      - TG:@hkaa0|中国_10
+      - TG:@hkaa0|日本_3
+      - TG:@hkaa0|日本_4
+      - TG:@hkaa0|日本_5
+      - TG:@hkaa0|新加坡_2
+      - TG:@hkaa0|日本_6
+      - TG:@hkaa0|日本_7
+      - TG:@hkaa0|日本_8
+      - TG:@hkaa0|英国
+      - TG:@hkaa0|日本_9
+      - TG:@hkaa0|美国_3
+      - TG:@hkaa0|中国_11
+      - TG:@hkaa0|中国_12
+      - TG:@hkaa0|中国_13
+      - TG:@hkaa0|美国_4
+      - TG:@hkaa0|西班牙
+      - TG:@hkaa0|中国_14
+      - TG:@hkaa0|中国_15
+      - TG:@hkaa0|日本_10
+      - TG:@hkaa0|中国_16
+      - TG:@hkaa0|中国_17
+      - TG:@hkaa0|美国_5
+      - TG:@hkaa0|中国_18
+      - TG:@hkaa0|新加坡_3
+      - TG:@hkaa0|韩国_3
+      - TG:@hkaa0|中国_19
+      - TG:@hkaa0|中国_20
+      - TG:@hkaa0|日本_11
+      - TG:@hkaa0|香港_5
+      - TG:@hkaa0|中国_21
+      - TG:@hkaa0|香港_6
+      - TG:@hkaa0|香港_7
+      - TG:@hkaa0|中国_22
+      - TG:@hkaa0|中国_23
+      - TG:@hkaa0|中国_24
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TG:@hkaa0|日本_1
       - TG:@hkaa0|中国_1
       - TG:@hkaa0|中国_2
+      - TG:@hkaa0|香港_1
+      - TG:@hkaa0|美国_1
+      - TG:@hkaa0|新加坡_1
+      - TG:@hkaa0|韩国_1
+      - TG:@hkaa0|香港_2
+      - TG:@hkaa0|美国_2
       - TG:@hkaa0|中国_3
-      - TG:@hkaa0|美国
-      - TG:@hkaa0|哥斯达黎加
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|英国
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|俄罗斯联邦
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|芬兰
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|香港_3
-      - TG频道:@hkaa0|中国_2
+      - TG:@hkaa0|日本_2
+      - TG:@hkaa0|中国_4
+      - TG:@hkaa0|印度
+      - TG:@hkaa0|香港_3
+      - TG:@hkaa0|中国_5
+      - TG:@hkaa0|中国_6
+      - TG:@hkaa0|中国_7
+      - TG:@hkaa0|中国_8
+      - TG:@hkaa0|香港_4
+      - TG:@hkaa0|韩国_2
+      - TG:@hkaa0|中国_9
+      - TG:@hkaa0|中国_10
+      - TG:@hkaa0|日本_3
+      - TG:@hkaa0|日本_4
+      - TG:@hkaa0|日本_5
+      - TG:@hkaa0|新加坡_2
+      - TG:@hkaa0|日本_6
+      - TG:@hkaa0|日本_7
+      - TG:@hkaa0|日本_8
+      - TG:@hkaa0|英国
+      - TG:@hkaa0|日本_9
+      - TG:@hkaa0|美国_3
+      - TG:@hkaa0|中国_11
+      - TG:@hkaa0|中国_12
+      - TG:@hkaa0|中国_13
+      - TG:@hkaa0|美国_4
+      - TG:@hkaa0|西班牙
+      - TG:@hkaa0|中国_14
+      - TG:@hkaa0|中国_15
+      - TG:@hkaa0|日本_10
+      - TG:@hkaa0|中国_16
+      - TG:@hkaa0|中国_17
+      - TG:@hkaa0|美国_5
+      - TG:@hkaa0|中国_18
+      - TG:@hkaa0|新加坡_3
+      - TG:@hkaa0|韩国_3
+      - TG:@hkaa0|中国_19
+      - TG:@hkaa0|中国_20
+      - TG:@hkaa0|日本_11
+      - TG:@hkaa0|香港_5
+      - TG:@hkaa0|中国_21
+      - TG:@hkaa0|香港_6
+      - TG:@hkaa0|香港_7
+      - TG:@hkaa0|中国_22
+      - TG:@hkaa0|中国_23
+      - TG:@hkaa0|中国_24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - TG:@hkaa0|日本_1
       - TG:@hkaa0|中国_1
       - TG:@hkaa0|中国_2
+      - TG:@hkaa0|香港_1
+      - TG:@hkaa0|美国_1
+      - TG:@hkaa0|新加坡_1
+      - TG:@hkaa0|韩国_1
+      - TG:@hkaa0|香港_2
+      - TG:@hkaa0|美国_2
       - TG:@hkaa0|中国_3
-      - TG:@hkaa0|美国
-      - TG:@hkaa0|哥斯达黎加
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|英国
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|俄罗斯联邦
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|芬兰
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|香港_3
-      - TG频道:@hkaa0|中国_2
+      - TG:@hkaa0|日本_2
+      - TG:@hkaa0|中国_4
+      - TG:@hkaa0|印度
+      - TG:@hkaa0|香港_3
+      - TG:@hkaa0|中国_5
+      - TG:@hkaa0|中国_6
+      - TG:@hkaa0|中国_7
+      - TG:@hkaa0|中国_8
+      - TG:@hkaa0|香港_4
+      - TG:@hkaa0|韩国_2
+      - TG:@hkaa0|中国_9
+      - TG:@hkaa0|中国_10
+      - TG:@hkaa0|日本_3
+      - TG:@hkaa0|日本_4
+      - TG:@hkaa0|日本_5
+      - TG:@hkaa0|新加坡_2
+      - TG:@hkaa0|日本_6
+      - TG:@hkaa0|日本_7
+      - TG:@hkaa0|日本_8
+      - TG:@hkaa0|英国
+      - TG:@hkaa0|日本_9
+      - TG:@hkaa0|美国_3
+      - TG:@hkaa0|中国_11
+      - TG:@hkaa0|中国_12
+      - TG:@hkaa0|中国_13
+      - TG:@hkaa0|美国_4
+      - TG:@hkaa0|西班牙
+      - TG:@hkaa0|中国_14
+      - TG:@hkaa0|中国_15
+      - TG:@hkaa0|日本_10
+      - TG:@hkaa0|中国_16
+      - TG:@hkaa0|中国_17
+      - TG:@hkaa0|美国_5
+      - TG:@hkaa0|中国_18
+      - TG:@hkaa0|新加坡_3
+      - TG:@hkaa0|韩国_3
+      - TG:@hkaa0|中国_19
+      - TG:@hkaa0|中国_20
+      - TG:@hkaa0|日本_11
+      - TG:@hkaa0|香港_5
+      - TG:@hkaa0|中国_21
+      - TG:@hkaa0|香港_6
+      - TG:@hkaa0|香港_7
+      - TG:@hkaa0|中国_22
+      - TG:@hkaa0|中国_23
+      - TG:@hkaa0|中国_24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - TG:@hkaa0|日本_1
       - TG:@hkaa0|中国_1
       - TG:@hkaa0|中国_2
+      - TG:@hkaa0|香港_1
+      - TG:@hkaa0|美国_1
+      - TG:@hkaa0|新加坡_1
+      - TG:@hkaa0|韩国_1
+      - TG:@hkaa0|香港_2
+      - TG:@hkaa0|美国_2
       - TG:@hkaa0|中国_3
-      - TG:@hkaa0|美国
-      - TG:@hkaa0|哥斯达黎加
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|英国
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|俄罗斯联邦
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|芬兰
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|香港_3
-      - TG频道:@hkaa0|中国_2
+      - TG:@hkaa0|日本_2
+      - TG:@hkaa0|中国_4
+      - TG:@hkaa0|印度
+      - TG:@hkaa0|香港_3
+      - TG:@hkaa0|中国_5
+      - TG:@hkaa0|中国_6
+      - TG:@hkaa0|中国_7
+      - TG:@hkaa0|中国_8
+      - TG:@hkaa0|香港_4
+      - TG:@hkaa0|韩国_2
+      - TG:@hkaa0|中国_9
+      - TG:@hkaa0|中国_10
+      - TG:@hkaa0|日本_3
+      - TG:@hkaa0|日本_4
+      - TG:@hkaa0|日本_5
+      - TG:@hkaa0|新加坡_2
+      - TG:@hkaa0|日本_6
+      - TG:@hkaa0|日本_7
+      - TG:@hkaa0|日本_8
+      - TG:@hkaa0|英国
+      - TG:@hkaa0|日本_9
+      - TG:@hkaa0|美国_3
+      - TG:@hkaa0|中国_11
+      - TG:@hkaa0|中国_12
+      - TG:@hkaa0|中国_13
+      - TG:@hkaa0|美国_4
+      - TG:@hkaa0|西班牙
+      - TG:@hkaa0|中国_14
+      - TG:@hkaa0|中国_15
+      - TG:@hkaa0|日本_10
+      - TG:@hkaa0|中国_16
+      - TG:@hkaa0|中国_17
+      - TG:@hkaa0|美国_5
+      - TG:@hkaa0|中国_18
+      - TG:@hkaa0|新加坡_3
+      - TG:@hkaa0|韩国_3
+      - TG:@hkaa0|中国_19
+      - TG:@hkaa0|中国_20
+      - TG:@hkaa0|日本_11
+      - TG:@hkaa0|香港_5
+      - TG:@hkaa0|中国_21
+      - TG:@hkaa0|香港_6
+      - TG:@hkaa0|香港_7
+      - TG:@hkaa0|中国_22
+      - TG:@hkaa0|中国_23
+      - TG:@hkaa0|中国_24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - TG:@hkaa0|日本_1
       - TG:@hkaa0|中国_1
       - TG:@hkaa0|中国_2
+      - TG:@hkaa0|香港_1
+      - TG:@hkaa0|美国_1
+      - TG:@hkaa0|新加坡_1
+      - TG:@hkaa0|韩国_1
+      - TG:@hkaa0|香港_2
+      - TG:@hkaa0|美国_2
       - TG:@hkaa0|中国_3
-      - TG:@hkaa0|美国
-      - TG:@hkaa0|哥斯达黎加
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|英国
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|俄罗斯联邦
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|芬兰
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|香港_3
-      - TG频道:@hkaa0|中国_2
+      - TG:@hkaa0|日本_2
+      - TG:@hkaa0|中国_4
+      - TG:@hkaa0|印度
+      - TG:@hkaa0|香港_3
+      - TG:@hkaa0|中国_5
+      - TG:@hkaa0|中国_6
+      - TG:@hkaa0|中国_7
+      - TG:@hkaa0|中国_8
+      - TG:@hkaa0|香港_4
+      - TG:@hkaa0|韩国_2
+      - TG:@hkaa0|中国_9
+      - TG:@hkaa0|中国_10
+      - TG:@hkaa0|日本_3
+      - TG:@hkaa0|日本_4
+      - TG:@hkaa0|日本_5
+      - TG:@hkaa0|新加坡_2
+      - TG:@hkaa0|日本_6
+      - TG:@hkaa0|日本_7
+      - TG:@hkaa0|日本_8
+      - TG:@hkaa0|英国
+      - TG:@hkaa0|日本_9
+      - TG:@hkaa0|美国_3
+      - TG:@hkaa0|中国_11
+      - TG:@hkaa0|中国_12
+      - TG:@hkaa0|中国_13
+      - TG:@hkaa0|美国_4
+      - TG:@hkaa0|西班牙
+      - TG:@hkaa0|中国_14
+      - TG:@hkaa0|中国_15
+      - TG:@hkaa0|日本_10
+      - TG:@hkaa0|中国_16
+      - TG:@hkaa0|中国_17
+      - TG:@hkaa0|美国_5
+      - TG:@hkaa0|中国_18
+      - TG:@hkaa0|新加坡_3
+      - TG:@hkaa0|韩国_3
+      - TG:@hkaa0|中国_19
+      - TG:@hkaa0|中国_20
+      - TG:@hkaa0|日本_11
+      - TG:@hkaa0|香港_5
+      - TG:@hkaa0|中国_21
+      - TG:@hkaa0|香港_6
+      - TG:@hkaa0|香港_7
+      - TG:@hkaa0|中国_22
+      - TG:@hkaa0|中国_23
+      - TG:@hkaa0|中国_24
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TG:@hkaa0|日本_1
       - TG:@hkaa0|中国_1
       - TG:@hkaa0|中国_2
+      - TG:@hkaa0|香港_1
+      - TG:@hkaa0|美国_1
+      - TG:@hkaa0|新加坡_1
+      - TG:@hkaa0|韩国_1
+      - TG:@hkaa0|香港_2
+      - TG:@hkaa0|美国_2
       - TG:@hkaa0|中国_3
-      - TG:@hkaa0|美国
-      - TG:@hkaa0|哥斯达黎加
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|英国
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|俄罗斯联邦
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|芬兰
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|香港_3
-      - TG频道:@hkaa0|中国_2
+      - TG:@hkaa0|日本_2
+      - TG:@hkaa0|中国_4
+      - TG:@hkaa0|印度
+      - TG:@hkaa0|香港_3
+      - TG:@hkaa0|中国_5
+      - TG:@hkaa0|中国_6
+      - TG:@hkaa0|中国_7
+      - TG:@hkaa0|中国_8
+      - TG:@hkaa0|香港_4
+      - TG:@hkaa0|韩国_2
+      - TG:@hkaa0|中国_9
+      - TG:@hkaa0|中国_10
+      - TG:@hkaa0|日本_3
+      - TG:@hkaa0|日本_4
+      - TG:@hkaa0|日本_5
+      - TG:@hkaa0|新加坡_2
+      - TG:@hkaa0|日本_6
+      - TG:@hkaa0|日本_7
+      - TG:@hkaa0|日本_8
+      - TG:@hkaa0|英国
+      - TG:@hkaa0|日本_9
+      - TG:@hkaa0|美国_3
+      - TG:@hkaa0|中国_11
+      - TG:@hkaa0|中国_12
+      - TG:@hkaa0|中国_13
+      - TG:@hkaa0|美国_4
+      - TG:@hkaa0|西班牙
+      - TG:@hkaa0|中国_14
+      - TG:@hkaa0|中国_15
+      - TG:@hkaa0|日本_10
+      - TG:@hkaa0|中国_16
+      - TG:@hkaa0|中国_17
+      - TG:@hkaa0|美国_5
+      - TG:@hkaa0|中国_18
+      - TG:@hkaa0|新加坡_3
+      - TG:@hkaa0|韩国_3
+      - TG:@hkaa0|中国_19
+      - TG:@hkaa0|中国_20
+      - TG:@hkaa0|日本_11
+      - TG:@hkaa0|香港_5
+      - TG:@hkaa0|中国_21
+      - TG:@hkaa0|香港_6
+      - TG:@hkaa0|香港_7
+      - TG:@hkaa0|中国_22
+      - TG:@hkaa0|中国_23
+      - TG:@hkaa0|中国_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -251,27 +531,62 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TG:@hkaa0|日本_1
       - TG:@hkaa0|中国_1
       - TG:@hkaa0|中国_2
+      - TG:@hkaa0|香港_1
+      - TG:@hkaa0|美国_1
+      - TG:@hkaa0|新加坡_1
+      - TG:@hkaa0|韩国_1
+      - TG:@hkaa0|香港_2
+      - TG:@hkaa0|美国_2
       - TG:@hkaa0|中国_3
-      - TG:@hkaa0|美国
-      - TG:@hkaa0|哥斯达黎加
-      - TG频道:@hkaa0|新加坡_1
-      - TG频道:@hkaa0|美国_1
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|新加坡_2
-      - TG频道:@hkaa0|英国
-      - TG频道:@hkaa0|新加坡_3
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|台湾
-      - TG频道:@hkaa0|俄罗斯联邦
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|芬兰
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|香港_3
-      - TG频道:@hkaa0|中国_2
+      - TG:@hkaa0|日本_2
+      - TG:@hkaa0|中国_4
+      - TG:@hkaa0|印度
+      - TG:@hkaa0|香港_3
+      - TG:@hkaa0|中国_5
+      - TG:@hkaa0|中国_6
+      - TG:@hkaa0|中国_7
+      - TG:@hkaa0|中国_8
+      - TG:@hkaa0|香港_4
+      - TG:@hkaa0|韩国_2
+      - TG:@hkaa0|中国_9
+      - TG:@hkaa0|中国_10
+      - TG:@hkaa0|日本_3
+      - TG:@hkaa0|日本_4
+      - TG:@hkaa0|日本_5
+      - TG:@hkaa0|新加坡_2
+      - TG:@hkaa0|日本_6
+      - TG:@hkaa0|日本_7
+      - TG:@hkaa0|日本_8
+      - TG:@hkaa0|英国
+      - TG:@hkaa0|日本_9
+      - TG:@hkaa0|美国_3
+      - TG:@hkaa0|中国_11
+      - TG:@hkaa0|中国_12
+      - TG:@hkaa0|中国_13
+      - TG:@hkaa0|美国_4
+      - TG:@hkaa0|西班牙
+      - TG:@hkaa0|中国_14
+      - TG:@hkaa0|中国_15
+      - TG:@hkaa0|日本_10
+      - TG:@hkaa0|中国_16
+      - TG:@hkaa0|中国_17
+      - TG:@hkaa0|美国_5
+      - TG:@hkaa0|中国_18
+      - TG:@hkaa0|新加坡_3
+      - TG:@hkaa0|韩国_3
+      - TG:@hkaa0|中国_19
+      - TG:@hkaa0|中国_20
+      - TG:@hkaa0|日本_11
+      - TG:@hkaa0|香港_5
+      - TG:@hkaa0|中国_21
+      - TG:@hkaa0|香港_6
+      - TG:@hkaa0|香港_7
+      - TG:@hkaa0|中国_22
+      - TG:@hkaa0|中国_23
+      - TG:@hkaa0|中国_24
 
 rules:
 # 本地/局域网地址
