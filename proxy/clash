@@ -1,10 +1,10 @@
 ####################################
 # 创建者：  五叶节点分享 https://t.me/hkaa0
 # 客户端：  Clash
-# 创建时间：2023-06-14 
+# 创建时间：2023-06-18 
 # 使用模版：ACL4SSR_Online_Mini.ini
-# 节点数量：63
-# 节点类型：vmess, trojan, ss, ssr
+# 节点数量：48
+# 节点类型：trojan, ss, vmess, ssr
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -22,207 +22,162 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"TG频道:@hkaa0 |美国_1","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"in.sharecentrepro.com"}}}
-  - {"name":"TG频道:@hkaa0 |印度_1","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |中国_1","type":"trojan","server":"assets.flareai.site","port":13543,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |美国_2","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"TG频道:@hkaa0 |中国_2","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG频道:@hkaa0 |香港_1","type":"trojan","server":"lu.stablize.top","port":443,"udp":true,"password":"fda51148-dd43-466b-a340-5160214f923a","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |美国_3","type":"ss","server":"216.52.183.243","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket","mux":false}}
-  - {"name":"TG频道:@hkaa0 |日本_1","type":"trojan","server":"fschk.fscloud123456789.com","port":443,"udp":true,"password":"f428337f-eb21-4aa1-8eb3-f817999b4086","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |中国_3","type":"ss","server":"14.29.124.168","port":24001,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"TG频道:@hkaa0 |日本_2","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"c6c74465-9600-4462-933c-bd0b2494f188","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_3","type":"trojan","server":"fscuk.fscloud123456789.com","port":443,"udp":true,"password":"40a3a006-66d4-4999-a1ee-52ed80467621","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_4","type":"trojan","server":"fscus.fscloud123456789.com","port":443,"udp":true,"password":"ce2c94f4-4de3-4704-a1f7-bc8b52df17b4","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_5","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"c6c74465-9600-4462-933c-bd0b2494f188","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_6","type":"trojan","server":"fschk.fscloud123456789.com","port":443,"udp":true,"password":"3d927416-3e74-45ce-ac16-df69c33c725a","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |中国_4","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |中国_5","type":"vmess","server":"36.134.16.96","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |中国_6","type":"vmess","server":"36.134.16.190","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |新加坡_1","type":"trojan","server":"usa.stablize.top","port":443,"udp":true,"password":"5d6ac741-9b0d-4e1f-a12d-3f68091da4b8","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_7","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"nodesCatch"}
-  - {"name":"TG频道:@hkaa0 |美国_4","type":"vmess","server":"104.25.96.171","port":443,"cipher":"auto","uuid":"3de4ec27-74b4-43e3-bf23-18e726ac80bc","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/P6kpn5UKG40MNLK2","headers":{"host":"GHTyoqrBZm.janbaroon.com"}}}
-  - {"name":"TG频道:@hkaa0 |新加坡_2","type":"trojan","server":"sg.stablize.top","port":443,"udp":true,"password":"159ab107-bfed-49b0-981d-5facd7e5e1c2","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |香港_2","type":"trojan","server":"kr.stablize.top","port":443,"udp":true,"password":"b88edfd4-23eb-4544-9bbc-a68914952905","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_8","type":"trojan","server":"usajs.stablize.top","port":443,"udp":true,"password":"b88edfd4-23eb-4544-9bbc-a68914952905","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_9","type":"trojan","server":"de.stablize.top","port":443,"udp":true,"password":"7864a4da-bfaf-4eea-bc1d-b7c829483df1","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |香港_3","type":"trojan","server":"ukjs.stablize.top","port":443,"udp":true,"password":"5d6ac741-9b0d-4e1f-a12d-3f68091da4b8","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |新加坡_3","type":"trojan","server":"jp.stablize.top","port":443,"udp":true,"password":"5d6ac741-9b0d-4e1f-a12d-3f68091da4b8","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |新加坡_4","type":"trojan","server":"ap.stablize.top","port":443,"udp":true,"password":"27509bd6-5096-4790-9eba-2c793cca7a8d","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |新加坡_5","type":"trojan","server":"in.stablize.top","port":443,"udp":true,"password":"b88edfd4-23eb-4544-9bbc-a68914952905","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |香港_4","type":"trojan","server":"dejs.stablize.top","port":443,"udp":true,"password":"159ab107-bfed-49b0-981d-5facd7e5e1c2","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_10","type":"trojan","server":"ca.stablize.top","port":443,"udp":true,"password":"159ab107-bfed-49b0-981d-5facd7e5e1c2","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_11","type":"ss","server":"13.230.137.173","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"TG频道:@hkaa0 |中国_7","type":"ss","server":"14.29.124.168","port":24000,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"TG频道:@hkaa0 |美国_5","type":"ss","server":"54.218.123.71","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"TG频道:@hkaa0 |新加坡_6","type":"ss","server":"13.212.204.108","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"TG频道:@hkaa0 |韩国_1","type":"ss","server":"43.200.1.53","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"TG频道:@hkaa0 |中国_8","type":"ss","server":"14.29.124.168","port":24006,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"TG频道:@hkaa0 |新加坡_7","type":"ss","server":"3.0.183.226","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"TG频道:@hkaa0 |法国","type":"ssr","server":"94.23.116.190","port":443,"password":"HowdyBypasser2022","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"nodesCatch"}
-  - {"name":"TG频道:@hkaa0 |美国_6","type":"vmess","server":"140.99.57.2","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |美国_7","type":"vmess","server":"137.175.61.130","port":46679,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |美国_8","type":"vmess","server":"64.32.4.6","port":50005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |美国_9","type":"vmess","server":"107.167.30.132","port":43900,"cipher":"auto","uuid":"58e560b4-bba6-4843-be5f-83321022fa0d","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_12","type":"vmess","server":"osakayzh.csi7.net","port":9001,"cipher":"auto","uuid":"e2b7549f-667f-41e8-d501-ae59fc82db60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video"}}
-  - {"name":"TG频道:@hkaa0 |巴西","type":"vmess","server":"saopaulo.csi7lahsc.com","port":9001,"cipher":"auto","uuid":"e2b7549f-667f-41e8-d501-ae59fc82db60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video"}}
-  - {"name":"TG频道:@hkaa0 |中国_9","type":"vmess","server":"36.133.171.209","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |美国_10","type":"vmess","server":"45.58.147.195","port":50022,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |印度_2","type":"vmess","server":"mumbaiamd.csi7lahsc.com","port":9001,"cipher":"auto","uuid":"e2b7549f-667f-41e8-d501-ae59fc82db60","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video"}}
-  - {"name":"TG频道:@hkaa0 |中国_10","type":"trojan","server":"iplc-enter-tw-xe.fib-sys.xyz","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |中国_11","type":"ssr","server":"shgez3.eucdurl.me","port":568,"password":"mblank1port","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_md5","protocol-param":"39052:Lwjz965516244","group":"nodesCatch"}
-  - {"name":"TG频道:@hkaa0 |以色列_1","type":"trojan","server":"149.50.70.83","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |以色列_2","type":"trojan","server":"149.50.71.124","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |美国_11","type":"vmess","server":"137.175.1.12","port":53403,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |美国_12","type":"vmess","server":"142.0.132.93","port":55502,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |日本_13","type":"trojan","server":"ovosg.ovogreat.com","port":443,"udp":true,"password":"6aeb67a8-b271-47c6-aefe-9f6a4d54eb06","sni":"ovosg.ovogreat.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |塞舌尔","type":"vmess","server":"156.251.130.159","port":443,"cipher":"auto","uuid":"4ab4a477-72db-4b88-a17a-a165a1ade668","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/2532e16141e/","headers":{"host":"156.251.130.159"}}}
-  - {"name":"TG频道:@hkaa0 |美国_13","type":"trojan","server":"163.123.192.57","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |美国_14","type":"trojan","server":"163.123.192.60","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |新加坡_8","type":"ss","server":"13.213.66.163","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"TG频道:@hkaa0 |韩国_2","type":"ss","server":"43.202.64.174","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"TG频道:@hkaa0 |中国_12","type":"ssr","server":"14.29.124.168","port":24008,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb","obfs":"plain","protocol":"origin","group":"nodesCatch"}
-  - {"name":"TG频道:@hkaa0 |中国_13","type":"vmess","server":"36.134.16.171","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG频道:@hkaa0 |中国_14","type":"vmess","server":"123.249.101.15","port":19709,"cipher":"auto","uuid":"2f278a45-940a-46c1-c886-77f3b2d33987","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"TG频道:@hkaa0 |美国_15","type":"vmess","server":"142.4.104.193","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_1","type":"trojan","server":"149.50.70.76","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_2","type":"trojan","server":"149.50.83.42","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_3","type":"trojan","server":"149.50.83.49","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |美国_1","type":"trojan","server":"148.59.74.52","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |韩国","type":"ss","server":"43.202.64.174","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG: @hkaa0 |美国_2","type":"ss","server":"216.52.183.243","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket","mux":false}}
+  - {"name":"TG: @hkaa0 |以色列_4","type":"trojan","server":"149.50.77.102","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_5","type":"trojan","server":"149.50.66.99","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_6","type":"trojan","server":"149.50.70.72","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_7","type":"trojan","server":"149.50.70.83","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |美国_3","type":"ss","server":"54.218.123.71","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG: @hkaa0 |印度尼西亚","type":"trojan","server":"103.169.7.11","port":80,"udp":true,"password":"c0d9da22-2569-4bed-a395-607d9e7ae687","sni":"sciencedirect.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |中国_1","type":"ss","server":"14.29.124.168","port":24006,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"TG: @hkaa0 |中国_2","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"TG: @hkaa0 |以色列_8","type":"trojan","server":"149.50.77.125","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_9","type":"trojan","server":"149.50.75.76","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_10","type":"trojan","server":"149.50.77.108","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |新加坡_1","type":"ss","server":"54.255.237.136","port":2333,"password":"doub.io","cipher":"aes-256-cfb"}
+  - {"name":"TG: @hkaa0 |日本_1","type":"trojan","server":"trs19.bolab.net","port":443,"udp":true,"password":"7a73f1dc97a70905870c0c0484b12145","sni":"trs19.bolab.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |印度","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |日本_2","type":"ss","server":"13.230.137.173","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG: @hkaa0 |以色列_11","type":"trojan","server":"149.50.77.95","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |新加坡_2","type":"ss","server":"3.0.183.226","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG: @hkaa0 |日本_3","type":"trojan","server":"ovosg.ovogreat.com","port":443,"udp":true,"password":"6aeb67a8-b271-47c6-aefe-9f6a4d54eb06","sni":"ovosg.ovogreat.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |美国_4","type":"trojan","server":"163.123.192.57","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |美国_5","type":"trojan","server":"163.123.192.145","port":443,"udp":true,"password":"f740ba77-32ef-472a-95f5-4e8c07bd9739","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_12","type":"trojan","server":"149.50.83.120","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_13","type":"trojan","server":"149.50.66.124","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_14","type":"trojan","server":"149.50.75.81","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_15","type":"trojan","server":"149.50.69.131","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_16","type":"trojan","server":"149.50.69.109","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |美国_6","type":"vmess","server":"192.74.237.58","port":30003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_17","type":"trojan","server":"149.50.69.127","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_18","type":"trojan","server":"149.50.71.124","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_19","type":"trojan","server":"149.50.71.155","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |新加坡_3","type":"ss","server":"13.213.66.163","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"TG: @hkaa0 |美国_7","type":"vmess","server":"104.19.204.9","port":8080,"cipher":"auto","uuid":"a67679a6-a186-4d62-f84e-f3f00dc7745e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/youlingkaishi01","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"TG: @hkaa0 |美国_8","type":"vmess","server":"137.175.1.13","port":53403,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_20","type":"trojan","server":"149.50.75.100","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_21","type":"trojan","server":"149.50.70.107","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_22","type":"trojan","server":"uk1.barbecuepie.com","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |以色列_23","type":"trojan","server":"nl3.barbecuepie.com","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |中国_3","type":"vmess","server":"120.233.43.68","port":51004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |美国_9","type":"vmess","server":"104.20.55.221","port":2052,"cipher":"auto","uuid":"19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yulingkaishi01","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"TG: @hkaa0 |美国_10","type":"vmess","server":"198.200.32.25","port":49988,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |美国_11","type":"vmess","server":"140.99.5.254","port":41823,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG: @hkaa0 |日本_4","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","protocol-param":"None"}
+  - {"name":"TG: @hkaa0 |美国_12","type":"vmess","server":"192.74.231.185","port":49202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG频道:@hkaa0 |美国_1
-      - TG频道:@hkaa0 |印度_1
-      - TG频道:@hkaa0 |中国_1
-      - TG频道:@hkaa0 |美国_2
-      - TG频道:@hkaa0 |中国_2
-      - TG频道:@hkaa0 |香港_1
-      - TG频道:@hkaa0 |美国_3
-      - TG频道:@hkaa0 |日本_1
-      - TG频道:@hkaa0 |中国_3
-      - TG频道:@hkaa0 |日本_2
-      - TG频道:@hkaa0 |日本_3
-      - TG频道:@hkaa0 |日本_4
-      - TG频道:@hkaa0 |日本_5
-      - TG频道:@hkaa0 |日本_6
-      - TG频道:@hkaa0 |中国_4
-      - TG频道:@hkaa0 |中国_5
-      - TG频道:@hkaa0 |中国_6
-      - TG频道:@hkaa0 |新加坡_1
-      - TG频道:@hkaa0 |日本_7
-      - TG频道:@hkaa0 |美国_4
-      - TG频道:@hkaa0 |新加坡_2
-      - TG频道:@hkaa0 |香港_2
-      - TG频道:@hkaa0 |日本_8
-      - TG频道:@hkaa0 |日本_9
-      - TG频道:@hkaa0 |香港_3
-      - TG频道:@hkaa0 |新加坡_3
-      - TG频道:@hkaa0 |新加坡_4
-      - TG频道:@hkaa0 |新加坡_5
-      - TG频道:@hkaa0 |香港_4
-      - TG频道:@hkaa0 |日本_10
-      - TG频道:@hkaa0 |日本_11
-      - TG频道:@hkaa0 |中国_7
-      - TG频道:@hkaa0 |美国_5
-      - TG频道:@hkaa0 |新加坡_6
-      - TG频道:@hkaa0 |韩国_1
-      - TG频道:@hkaa0 |中国_8
-      - TG频道:@hkaa0 |新加坡_7
-      - TG频道:@hkaa0 |法国
-      - TG频道:@hkaa0 |美国_6
-      - TG频道:@hkaa0 |美国_7
-      - TG频道:@hkaa0 |美国_8
-      - TG频道:@hkaa0 |美国_9
-      - TG频道:@hkaa0 |日本_12
-      - TG频道:@hkaa0 |巴西
-      - TG频道:@hkaa0 |中国_9
-      - TG频道:@hkaa0 |美国_10
-      - TG频道:@hkaa0 |印度_2
-      - TG频道:@hkaa0 |中国_10
-      - TG频道:@hkaa0 |中国_11
-      - TG频道:@hkaa0 |以色列_1
-      - TG频道:@hkaa0 |以色列_2
-      - TG频道:@hkaa0 |美国_11
-      - TG频道:@hkaa0 |美国_12
-      - TG频道:@hkaa0 |日本_13
-      - TG频道:@hkaa0 |塞舌尔
-      - TG频道:@hkaa0 |美国_13
-      - TG频道:@hkaa0 |美国_14
-      - TG频道:@hkaa0 |新加坡_8
-      - TG频道:@hkaa0 |韩国_2
-      - TG频道:@hkaa0 |中国_12
-      - TG频道:@hkaa0 |中国_13
-      - TG频道:@hkaa0 |中国_14
-      - TG频道:@hkaa0 |美国_15
+      - 'TG: @hkaa0 |以色列_1'
+      - 'TG: @hkaa0 |以色列_2'
+      - 'TG: @hkaa0 |以色列_3'
+      - 'TG: @hkaa0 |美国_1'
+      - 'TG: @hkaa0 |韩国'
+      - 'TG: @hkaa0 |美国_2'
+      - 'TG: @hkaa0 |以色列_4'
+      - 'TG: @hkaa0 |以色列_5'
+      - 'TG: @hkaa0 |以色列_6'
+      - 'TG: @hkaa0 |以色列_7'
+      - 'TG: @hkaa0 |美国_3'
+      - 'TG: @hkaa0 |印度尼西亚'
+      - 'TG: @hkaa0 |中国_1'
+      - 'TG: @hkaa0 |中国_2'
+      - 'TG: @hkaa0 |以色列_8'
+      - 'TG: @hkaa0 |以色列_9'
+      - 'TG: @hkaa0 |以色列_10'
+      - 'TG: @hkaa0 |新加坡_1'
+      - 'TG: @hkaa0 |日本_1'
+      - 'TG: @hkaa0 |印度'
+      - 'TG: @hkaa0 |日本_2'
+      - 'TG: @hkaa0 |以色列_11'
+      - 'TG: @hkaa0 |新加坡_2'
+      - 'TG: @hkaa0 |日本_3'
+      - 'TG: @hkaa0 |美国_4'
+      - 'TG: @hkaa0 |美国_5'
+      - 'TG: @hkaa0 |以色列_12'
+      - 'TG: @hkaa0 |以色列_13'
+      - 'TG: @hkaa0 |以色列_14'
+      - 'TG: @hkaa0 |以色列_15'
+      - 'TG: @hkaa0 |以色列_16'
+      - 'TG: @hkaa0 |美国_6'
+      - 'TG: @hkaa0 |以色列_17'
+      - 'TG: @hkaa0 |以色列_18'
+      - 'TG: @hkaa0 |以色列_19'
+      - 'TG: @hkaa0 |新加坡_3'
+      - 'TG: @hkaa0 |美国_7'
+      - 'TG: @hkaa0 |美国_8'
+      - 'TG: @hkaa0 |以色列_20'
+      - 'TG: @hkaa0 |以色列_21'
+      - 'TG: @hkaa0 |以色列_22'
+      - 'TG: @hkaa0 |以色列_23'
+      - 'TG: @hkaa0 |中国_3'
+      - 'TG: @hkaa0 |美国_9'
+      - 'TG: @hkaa0 |美国_10'
+      - 'TG: @hkaa0 |美国_11'
+      - 'TG: @hkaa0 |日本_4'
+      - 'TG: @hkaa0 |美国_12'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG频道:@hkaa0 |美国_1
-      - TG频道:@hkaa0 |印度_1
-      - TG频道:@hkaa0 |中国_1
-      - TG频道:@hkaa0 |美国_2
-      - TG频道:@hkaa0 |中国_2
-      - TG频道:@hkaa0 |香港_1
-      - TG频道:@hkaa0 |美国_3
-      - TG频道:@hkaa0 |日本_1
-      - TG频道:@hkaa0 |中国_3
-      - TG频道:@hkaa0 |日本_2
-      - TG频道:@hkaa0 |日本_3
-      - TG频道:@hkaa0 |日本_4
-      - TG频道:@hkaa0 |日本_5
-      - TG频道:@hkaa0 |日本_6
-      - TG频道:@hkaa0 |中国_4
-      - TG频道:@hkaa0 |中国_5
-      - TG频道:@hkaa0 |中国_6
-      - TG频道:@hkaa0 |新加坡_1
-      - TG频道:@hkaa0 |日本_7
-      - TG频道:@hkaa0 |美国_4
-      - TG频道:@hkaa0 |新加坡_2
-      - TG频道:@hkaa0 |香港_2
-      - TG频道:@hkaa0 |日本_8
-      - TG频道:@hkaa0 |日本_9
-      - TG频道:@hkaa0 |香港_3
-      - TG频道:@hkaa0 |新加坡_3
-      - TG频道:@hkaa0 |新加坡_4
-      - TG频道:@hkaa0 |新加坡_5
-      - TG频道:@hkaa0 |香港_4
-      - TG频道:@hkaa0 |日本_10
-      - TG频道:@hkaa0 |日本_11
-      - TG频道:@hkaa0 |中国_7
-      - TG频道:@hkaa0 |美国_5
-      - TG频道:@hkaa0 |新加坡_6
-      - TG频道:@hkaa0 |韩国_1
-      - TG频道:@hkaa0 |中国_8
-      - TG频道:@hkaa0 |新加坡_7
-      - TG频道:@hkaa0 |法国
-      - TG频道:@hkaa0 |美国_6
-      - TG频道:@hkaa0 |美国_7
-      - TG频道:@hkaa0 |美国_8
-      - TG频道:@hkaa0 |美国_9
-      - TG频道:@hkaa0 |日本_12
-      - TG频道:@hkaa0 |巴西
-      - TG频道:@hkaa0 |中国_9
-      - TG频道:@hkaa0 |美国_10
-      - TG频道:@hkaa0 |印度_2
-      - TG频道:@hkaa0 |中国_10
-      - TG频道:@hkaa0 |中国_11
-      - TG频道:@hkaa0 |以色列_1
-      - TG频道:@hkaa0 |以色列_2
-      - TG频道:@hkaa0 |美国_11
-      - TG频道:@hkaa0 |美国_12
-      - TG频道:@hkaa0 |日本_13
-      - TG频道:@hkaa0 |塞舌尔
-      - TG频道:@hkaa0 |美国_13
-      - TG频道:@hkaa0 |美国_14
-      - TG频道:@hkaa0 |新加坡_8
-      - TG频道:@hkaa0 |韩国_2
-      - TG频道:@hkaa0 |中国_12
-      - TG频道:@hkaa0 |中国_13
-      - TG频道:@hkaa0 |中国_14
-      - TG频道:@hkaa0 |美国_15
+      - 'TG: @hkaa0 |以色列_1'
+      - 'TG: @hkaa0 |以色列_2'
+      - 'TG: @hkaa0 |以色列_3'
+      - 'TG: @hkaa0 |美国_1'
+      - 'TG: @hkaa0 |韩国'
+      - 'TG: @hkaa0 |美国_2'
+      - 'TG: @hkaa0 |以色列_4'
+      - 'TG: @hkaa0 |以色列_5'
+      - 'TG: @hkaa0 |以色列_6'
+      - 'TG: @hkaa0 |以色列_7'
+      - 'TG: @hkaa0 |美国_3'
+      - 'TG: @hkaa0 |印度尼西亚'
+      - 'TG: @hkaa0 |中国_1'
+      - 'TG: @hkaa0 |中国_2'
+      - 'TG: @hkaa0 |以色列_8'
+      - 'TG: @hkaa0 |以色列_9'
+      - 'TG: @hkaa0 |以色列_10'
+      - 'TG: @hkaa0 |新加坡_1'
+      - 'TG: @hkaa0 |日本_1'
+      - 'TG: @hkaa0 |印度'
+      - 'TG: @hkaa0 |日本_2'
+      - 'TG: @hkaa0 |以色列_11'
+      - 'TG: @hkaa0 |新加坡_2'
+      - 'TG: @hkaa0 |日本_3'
+      - 'TG: @hkaa0 |美国_4'
+      - 'TG: @hkaa0 |美国_5'
+      - 'TG: @hkaa0 |以色列_12'
+      - 'TG: @hkaa0 |以色列_13'
+      - 'TG: @hkaa0 |以色列_14'
+      - 'TG: @hkaa0 |以色列_15'
+      - 'TG: @hkaa0 |以色列_16'
+      - 'TG: @hkaa0 |美国_6'
+      - 'TG: @hkaa0 |以色列_17'
+      - 'TG: @hkaa0 |以色列_18'
+      - 'TG: @hkaa0 |以色列_19'
+      - 'TG: @hkaa0 |新加坡_3'
+      - 'TG: @hkaa0 |美国_7'
+      - 'TG: @hkaa0 |美国_8'
+      - 'TG: @hkaa0 |以色列_20'
+      - 'TG: @hkaa0 |以色列_21'
+      - 'TG: @hkaa0 |以色列_22'
+      - 'TG: @hkaa0 |以色列_23'
+      - 'TG: @hkaa0 |中国_3'
+      - 'TG: @hkaa0 |美国_9'
+      - 'TG: @hkaa0 |美国_10'
+      - 'TG: @hkaa0 |美国_11'
+      - 'TG: @hkaa0 |日本_4'
+      - 'TG: @hkaa0 |美国_12'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -240,69 +195,54 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道:@hkaa0 |美国_1
-      - TG频道:@hkaa0 |印度_1
-      - TG频道:@hkaa0 |中国_1
-      - TG频道:@hkaa0 |美国_2
-      - TG频道:@hkaa0 |中国_2
-      - TG频道:@hkaa0 |香港_1
-      - TG频道:@hkaa0 |美国_3
-      - TG频道:@hkaa0 |日本_1
-      - TG频道:@hkaa0 |中国_3
-      - TG频道:@hkaa0 |日本_2
-      - TG频道:@hkaa0 |日本_3
-      - TG频道:@hkaa0 |日本_4
-      - TG频道:@hkaa0 |日本_5
-      - TG频道:@hkaa0 |日本_6
-      - TG频道:@hkaa0 |中国_4
-      - TG频道:@hkaa0 |中国_5
-      - TG频道:@hkaa0 |中国_6
-      - TG频道:@hkaa0 |新加坡_1
-      - TG频道:@hkaa0 |日本_7
-      - TG频道:@hkaa0 |美国_4
-      - TG频道:@hkaa0 |新加坡_2
-      - TG频道:@hkaa0 |香港_2
-      - TG频道:@hkaa0 |日本_8
-      - TG频道:@hkaa0 |日本_9
-      - TG频道:@hkaa0 |香港_3
-      - TG频道:@hkaa0 |新加坡_3
-      - TG频道:@hkaa0 |新加坡_4
-      - TG频道:@hkaa0 |新加坡_5
-      - TG频道:@hkaa0 |香港_4
-      - TG频道:@hkaa0 |日本_10
-      - TG频道:@hkaa0 |日本_11
-      - TG频道:@hkaa0 |中国_7
-      - TG频道:@hkaa0 |美国_5
-      - TG频道:@hkaa0 |新加坡_6
-      - TG频道:@hkaa0 |韩国_1
-      - TG频道:@hkaa0 |中国_8
-      - TG频道:@hkaa0 |新加坡_7
-      - TG频道:@hkaa0 |法国
-      - TG频道:@hkaa0 |美国_6
-      - TG频道:@hkaa0 |美国_7
-      - TG频道:@hkaa0 |美国_8
-      - TG频道:@hkaa0 |美国_9
-      - TG频道:@hkaa0 |日本_12
-      - TG频道:@hkaa0 |巴西
-      - TG频道:@hkaa0 |中国_9
-      - TG频道:@hkaa0 |美国_10
-      - TG频道:@hkaa0 |印度_2
-      - TG频道:@hkaa0 |中国_10
-      - TG频道:@hkaa0 |中国_11
-      - TG频道:@hkaa0 |以色列_1
-      - TG频道:@hkaa0 |以色列_2
-      - TG频道:@hkaa0 |美国_11
-      - TG频道:@hkaa0 |美国_12
-      - TG频道:@hkaa0 |日本_13
-      - TG频道:@hkaa0 |塞舌尔
-      - TG频道:@hkaa0 |美国_13
-      - TG频道:@hkaa0 |美国_14
-      - TG频道:@hkaa0 |新加坡_8
-      - TG频道:@hkaa0 |韩国_2
-      - TG频道:@hkaa0 |中国_12
-      - TG频道:@hkaa0 |中国_13
-      - TG频道:@hkaa0 |中国_14
-      - TG频道:@hkaa0 |美国_15
+      - 'TG: @hkaa0 |以色列_1'
+      - 'TG: @hkaa0 |以色列_2'
+      - 'TG: @hkaa0 |以色列_3'
+      - 'TG: @hkaa0 |美国_1'
+      - 'TG: @hkaa0 |韩国'
+      - 'TG: @hkaa0 |美国_2'
+      - 'TG: @hkaa0 |以色列_4'
+      - 'TG: @hkaa0 |以色列_5'
+      - 'TG: @hkaa0 |以色列_6'
+      - 'TG: @hkaa0 |以色列_7'
+      - 'TG: @hkaa0 |美国_3'
+      - 'TG: @hkaa0 |印度尼西亚'
+      - 'TG: @hkaa0 |中国_1'
+      - 'TG: @hkaa0 |中国_2'
+      - 'TG: @hkaa0 |以色列_8'
+      - 'TG: @hkaa0 |以色列_9'
+      - 'TG: @hkaa0 |以色列_10'
+      - 'TG: @hkaa0 |新加坡_1'
+      - 'TG: @hkaa0 |日本_1'
+      - 'TG: @hkaa0 |印度'
+      - 'TG: @hkaa0 |日本_2'
+      - 'TG: @hkaa0 |以色列_11'
+      - 'TG: @hkaa0 |新加坡_2'
+      - 'TG: @hkaa0 |日本_3'
+      - 'TG: @hkaa0 |美国_4'
+      - 'TG: @hkaa0 |美国_5'
+      - 'TG: @hkaa0 |以色列_12'
+      - 'TG: @hkaa0 |以色列_13'
+      - 'TG: @hkaa0 |以色列_14'
+      - 'TG: @hkaa0 |以色列_15'
+      - 'TG: @hkaa0 |以色列_16'
+      - 'TG: @hkaa0 |美国_6'
+      - 'TG: @hkaa0 |以色列_17'
+      - 'TG: @hkaa0 |以色列_18'
+      - 'TG: @hkaa0 |以色列_19'
+      - 'TG: @hkaa0 |新加坡_3'
+      - 'TG: @hkaa0 |美国_7'
+      - 'TG: @hkaa0 |美国_8'
+      - 'TG: @hkaa0 |以色列_20'
+      - 'TG: @hkaa0 |以色列_21'
+      - 'TG: @hkaa0 |以色列_22'
+      - 'TG: @hkaa0 |以色列_23'
+      - 'TG: @hkaa0 |中国_3'
+      - 'TG: @hkaa0 |美国_9'
+      - 'TG: @hkaa0 |美国_10'
+      - 'TG: @hkaa0 |美国_11'
+      - 'TG: @hkaa0 |日本_4'
+      - 'TG: @hkaa0 |美国_12'
 
 rules:
 # 本地/局域网地址
@@ -2172,7 +2112,7 @@ rules:
 # YouTubeMusic
   - DOMAIN-SUFFIX,edgedatg.com,🚀 节点选择
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
-#,USER-AGENT,AbemaTV*,🚀 节点选择
+#   - USER-AGENT,AbemaTV*,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
   - DOMAIN,api-abematv.bucketeer.jp,🚀 节点选择
   - DOMAIN-SUFFIX,abema-tv.com,🚀 节点选择
@@ -2181,7 +2121,7 @@ rules:
   - DOMAIN-SUFFIX,ameba.jp,🚀 节点选择
   - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
   - DOMAIN-SUFFIX,hayabusa.media,🚀 节点选择
-#,USER-AGENT,All4*,🚀 节点选择
+#   - USER-AGENT,All4*,🚀 节点选择
   - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
   - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
   - DOMAIN-KEYWORD,avoddashs,🚀 节点选择
@@ -2203,14 +2143,14 @@ rules:
   - DOMAIN-SUFFIX,amazonvideo.com,🚀 节点选择
   - DOMAIN-SUFFIX,media-amazon.com,🚀 节点选择
   - DOMAIN-SUFFIX,pv-cdn.net,🚀 节点选择
-#,URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🚀 节点选择
-#,USER-AGENT,AppleNews*,🚀 节点选择
-#,USER-AGENT,com.apple.news*,🚀 节点选择
+#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🚀 节点选择
+#   - USER-AGENT,AppleNews*,🚀 节点选择
+#   - USER-AGENT,com.apple.news*,🚀 节点选择
   - DOMAIN,gspe1-ssl.ls.apple.com,🚀 节点选择
   - DOMAIN,np-edge.itunes.apple.com,🚀 节点选择
   - DOMAIN,play-edge.itunes.apple.com,🚀 节点选择
   - DOMAIN-SUFFIX,tv.apple.com,🚀 节点选择
-#,USER-AGENT,BBCiPlayer*,🚀 节点选择
+#   - USER-AGENT,BBCiPlayer*,🚀 节点选择
   - DOMAIN-KEYWORD,bbcfmt,🚀 节点选择
   - DOMAIN-KEYWORD,uk-live,🚀 节点选择
   - DOMAIN,aod-dash-uk-live.akamaized.net,🚀 节点选择
@@ -2225,13 +2165,13 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🚀 节点选择
   - DOMAIN-SUFFIX,bbci.co.uk,🚀 节点选择
   - DOMAIN-SUFFIX,bidi.net.uk,🚀 节点选择
-#,USER-AGENT,Anime*,🚀 节点选择
+#   - USER-AGENT,Anime*,🚀 节点选择
   - DOMAIN,bahamut.akamaized.net,🚀 节点选择
   - DOMAIN,gamer-cds.cdn.hinet.net,🚀 节点选择
   - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
-#,USER-AGENT,DAZN*,🚀 节点选择
+#   - USER-AGENT,DAZN*,🚀 节点选择
   - DOMAIN-KEYWORD,voddazn,🚀 节点选择
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
@@ -2243,14 +2183,14 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🚀 节点选择
   - DOMAIN-SUFFIX,indaznlab.com,🚀 节点选择
   - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
-#,USER-AGENT,Deezer*,🚀 节点选择
+#   - USER-AGENT,Deezer*,🚀 节点选择
   - DOMAIN-SUFFIX,deezer.com,🚀 节点选择
   - DOMAIN-SUFFIX,dzcdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,disco-api.com,🚀 节点选择
   - DOMAIN-SUFFIX,discovery.com,🚀 节点选择
   - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
-#,USER-AGENT,Disney*,🚀 节点选择
-#,USER-AGENT,Disney+*,🚀 节点选择
+#   - USER-AGENT,Disney*,🚀 节点选择
+#   - USER-AGENT,Disney+*,🚀 节点选择
   - DOMAIN,cdn.registerdisney.go.com,🚀 节点选择
   - DOMAIN-SUFFIX,adobedtm.com,🚀 节点选择
   - DOMAIN-SUFFIX,bam.nr-data.net,🚀 节点选择
@@ -2271,24 +2211,24 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🚀 节点选择
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🚀 节点选择
-#,USER-AGENT,encoreTVB*,🚀 节点选择
+#   - USER-AGENT,encoreTVB*,🚀 节点选择
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🚀 节点选择
   - DOMAIN,content.jwplatform.com,🚀 节点选择
   - DOMAIN,edge.api.brightcove.com,🚀 节点选择
   - DOMAIN,videos-f.jwpsrv.com,🚀 节点选择
   - DOMAIN-SUFFIX,encoretvb.com,🚀 节点选择
-#,USER-AGENT,FOX%20NOW*,🚀 节点选择
+#   - USER-AGENT,FOX%20NOW*,🚀 节点选择
   - DOMAIN-SUFFIX,fox.com,🚀 节点选择
   - DOMAIN-SUFFIX,foxdcg.com,🚀 节点选择
   - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
-#,USER-AGENT,HBO%20NOW*,🚀 节点选择
-#,USER-AGENT,HBOMAX*,🚀 节点选择
+#   - USER-AGENT,HBO%20NOW*,🚀 节点选择
+#   - USER-AGENT,HBOMAX*,🚀 节点选择
   - DOMAIN-SUFFIX,hbo.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbogo.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
-#,USER-AGENT,HBO%20GO%20PROD*,🚀 节点选择
+#   - USER-AGENT,HBO%20GO%20PROD*,🚀 节点选择
   - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
   - DOMAIN-KEYWORD,hbogoasia,🚀 节点选择
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
@@ -2309,7 +2249,7 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbogoasia.hk,🚀 节点选择
-#,USER-AGENT,HWTVMobile*,🚀 节点选择
+#   - USER-AGENT,HWTVMobile*,🚀 节点选择
   - DOMAIN-SUFFIX,5itv.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🚀 节点选择
@@ -2325,12 +2265,12 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🚀 节点选择
   - DOMAIN-SUFFIX,streaks.jp,🚀 节点选择
   - DOMAIN-SUFFIX,yb.uncn.jp,🚀 节点选择
-#,USER-AGENT,ITV_Player*,🚀 节点选择
+#   - USER-AGENT,ITV_Player*,🚀 节点选择
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,itv.com,🚀 节点选择
   - DOMAIN-SUFFIX,itvstatic.com,🚀 节点选择
-#,USER-AGENT,JOOX*,🚀 节点选择
-#,USER-AGENT,WeMusic*,🚀 节点选择
+#   - USER-AGENT,JOOX*,🚀 节点选择
+#   - USER-AGENT,WeMusic*,🚀 节点选择
   - DOMAIN-KEYWORD,jooxweb-api,🚀 节点选择
   - DOMAIN-SUFFIX,joox.com,🚀 节点选择
   - DOMAIN-KEYWORD,japonx,🚀 节点选择
@@ -2346,32 +2286,32 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🚀 节点选择
   - DOMAIN-SUFFIX,kkbox.com,🚀 节点选择
   - DOMAIN-SUFFIX,kkbox.com.tw,🚀 节点选择
-#,USER-AGENT,KKTV*,🚀 节点选择
-#,USER-AGENT,com.kktv.ios.kktv*,🚀 节点选择
+#   - USER-AGENT,KKTV*,🚀 节点选择
+#   - USER-AGENT,com.kktv.ios.kktv*,🚀 节点选择
   - DOMAIN,kktv-theater.kk.stream,🚀 节点选择
   - DOMAIN,theater-kktv.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,kktv.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,kktv.me,🚀 节点选择
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,litv.tv,🚀 节点选择
-#,USER-AGENT,LINE%20TV*,🚀 节点选择
-#,USER-AGENT,LINE*,🚀 节点选择
+#   - USER-AGENT,LINE%20TV*,🚀 节点选择
+#   - USER-AGENT,LINE*,🚀 节点选择
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,linetv.tw,🚀 节点选择
   - DOMAIN-SUFFIX,profile.line-scdn.net,🚀 节点选择
-#,USER-AGENT,My5*,🚀 节点选择
+#   - USER-AGENT,My5*,🚀 节点选择
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,channel5.com,🚀 节点选择
   - DOMAIN-SUFFIX,my5.tv,🚀 节点选择
-#,USER-AGENT,mytv*,🚀 节点选择
+#   - USER-AGENT,mytv*,🚀 节点选择
   - DOMAIN-KEYWORD,nowtv100,🚀 节点选择
   - DOMAIN-KEYWORD,rthklive,🚀 节点选择
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🚀 节点选择
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 节点选择
   - DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
   - DOMAIN-SUFFIX,tvb.com,🚀 节点选择
-#,USER-AGENT,Argo*,🚀 节点选择
+#   - USER-AGENT,Argo*,🚀 节点选择
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🚀 节点选择
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 节点选择
   - DOMAIN-KEYWORD,netflixdnstest,🚀 节点选择
@@ -2411,7 +2351,7 @@ rules:
   - IP-CIDR,198.45.48.0/20,🚀 节点选择,no-resolve
   - IP-CIDR,207.45.72.0/22,🚀 节点选择,no-resolve
   - IP-CIDR,208.75.76.0/22,🚀 节点选择,no-resolve
-#,USER-AGENT,Niconico*,🚀 节点选择
+#   - USER-AGENT,Niconico*,🚀 节点选择
   - DOMAIN-SUFFIX,dmc.nico,🚀 节点选择
   - DOMAIN-SUFFIX,nicovideo.jp,🚀 节点选择
   - DOMAIN-SUFFIX,nimg.jp,🚀 节点选择
@@ -2435,20 +2375,20 @@ rules:
   - DOMAIN-SUFFIX,olevod.io,🚀 节点选择
   - DOMAIN-SUFFIX,olevod.tv,🚀 节点选择
   - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
-#,USER-AGENT,PBS*,🚀 节点选择
+#   - USER-AGENT,PBS*,🚀 节点选择
   - DOMAIN-SUFFIX,pbs.org,🚀 节点选择
-#,USER-AGENT,Pandora*,🚀 节点选择
+#   - USER-AGENT,Pandora*,🚀 节点选择
   - DOMAIN-SUFFIX,pandora.com,🚀 节点选择
   - DOMAIN-SUFFIX,phncdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,phprcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,pornhub.com,🚀 节点选择
   - DOMAIN-SUFFIX,pornhubpremium.com,🚀 节点选择
   - DOMAIN-SUFFIX,qobuz.com,🚀 节点选择
-#,USER-AGENT,SoundCloud*,🚀 节点选择
+#   - USER-AGENT,SoundCloud*,🚀 节点选择
   - DOMAIN-SUFFIX,p-cdn.us,🚀 节点选择
   - DOMAIN-SUFFIX,sndcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,soundcloud.com,🚀 节点选择
-#,USER-AGENT,Spotify*,🚀 节点选择
+#   - USER-AGENT,Spotify*,🚀 节点选择
   - DOMAIN-KEYWORD,-spotify-com,🚀 节点选择
   - DOMAIN-KEYWORD,spotify.com,🚀 节点选择
   - DOMAIN-SUFFIX,pscdn.co,🚀 节点选择
@@ -2457,14 +2397,14 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🚀 节点选择
   - DOMAIN-SUFFIX,spotifycdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,spotifycdn.net,🚀 节点选择
-#,USER-AGENT,TIDAL*,🚀 节点选择
+#   - USER-AGENT,TIDAL*,🚀 节点选择
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,tidal.com,🚀 节点选择
   - DOMAIN-SUFFIX,tidalhifi.com,🚀 节点选择
-#,USER-AGENT,TaiwanGood*,🚀 节点选择
+#   - USER-AGENT,TaiwanGood*,🚀 节点选择
   - DOMAIN,hamifans.emome.net,🚀 节点选择
   - DOMAIN-SUFFIX,skyking.com.tw,🚀 节点选择
-#,USER-AGENT,TikTok*,🚀 节点选择
+#   - USER-AGENT,TikTok*,🚀 节点选择
   - DOMAIN-KEYWORD,tiktokcdn-,🚀 节点选择
   - DOMAIN-SUFFIX,byteoversea.com,🚀 节点选择
   - DOMAIN-SUFFIX,ibytedtos.com,🚀 节点选择
@@ -2482,7 +2422,7 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🚀 节点选择
   - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
   - DOMAIN-SUFFIX,twitchcdn.net,🚀 节点选择
-#,USER-AGENT,Viu*,🚀 节点选择
+#   - USER-AGENT,Viu*,🚀 节点选择
   - PROCESS-NAME,com.viu.pad,🚀 节点选择
   - PROCESS-NAME,com.viu.phone,🚀 节点选择
   - PROCESS-NAME,com.vuclip.viu,🚀 节点选择
@@ -2498,9 +2438,9 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🚀 节点选择
   - DOMAIN-SUFFIX,viu.now.com,🚀 节点选择
   - DOMAIN-SUFFIX,viu.tv,🚀 节点选择
-#,USER-AGENT,*youtube*,🚀 节点选择
-#,USER-AGENT,YouTube*,🚀 节点选择
-#,USER-AGENT,com.google.ios.youtube*,🚀 节点选择
+#   - USER-AGENT,*youtube*,🚀 节点选择
+#   - USER-AGENT,YouTube*,🚀 节点选择
+#   - USER-AGENT,com.google.ios.youtube*,🚀 节点选择
   - DOMAIN-KEYWORD,youtube,🚀 节点选择
   - DOMAIN,youtubei.googleapis.com,🚀 节点选择
   - DOMAIN,yt3.ggpht.com,🚀 节点选择
@@ -2515,10 +2455,10 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🚀 节点选择
   - DOMAIN-SUFFIX,yt.be,🚀 节点选择
   - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
-#,USER-AGENT,*YouTubeMusic*,🚀 节点选择
-#,USER-AGENT,*com.google.ios.youtubemusic*,🚀 节点选择
-#,USER-AGENT,YouTubeMusic*,🚀 节点选择
-#,USER-AGENT,com.google.ios.youtubemusic*,🚀 节点选择
+#   - USER-AGENT,*YouTubeMusic*,🚀 节点选择
+#   - USER-AGENT,*com.google.ios.youtubemusic*,🚀 节点选择
+#   - USER-AGENT,YouTubeMusic*,🚀 节点选择
+#   - USER-AGENT,com.google.ios.youtubemusic*,🚀 节点选择
   - DOMAIN,music.youtube.com,🚀 节点选择
 # 代理列表
 # MyList && Other
