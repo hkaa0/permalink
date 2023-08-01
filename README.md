@@ -22,7 +22,7 @@ https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/%E8%8A%82%E7%82%B9%
 
 2.使用小猫咪订阅！</b>                      
 
-**不定时更新。不好用的时候就更新订阅~**
+*不定时更新。不好用的时候就更新订阅~
 =
 ✅五叶小铺/付费代理/苹果ID/邮箱/账号批发
  https://t.me/hkaa0_shop
