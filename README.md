@@ -6,8 +6,7 @@
 **👇GitHub托管永久订阅👇
 
 V2ray订阅链接：
-长按复制链接
- (https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray) 
+[长按复制链接](https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray) 
 Clash订阅链接:
 长按复制链接
 
