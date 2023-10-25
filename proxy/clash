@@ -3,7 +3,7 @@
 # 客户端：  Clash
 # 创建时间：2023-10-25 
 # 使用模版：ACL4SSR_Online_Mini_MultiMode.ini
-# 节点数量：29
+# 节点数量：30
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -115,6 +115,7 @@ proxies:
   - {"name":"TG:@hkaa0▓韩国_1","type":"vmess","server":"131.186.31.56","port":80,"cipher":"auto","uuid":"efcb7d7c-c582-46f5-eeff-0e553342528d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@hkaa0","headers":{"host":"br.gy.youxuan-1.66688888.xyz"}}}
   - {"name":"TG:@hkaa0▓韩国_2","type":"vmess","server":"146.56.146.131","port":80,"cipher":"auto","uuid":"efcb7d7c-c582-46f5-eeff-0e553342528d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@hkaa0","headers":{"host":"br.gy.youxuan-1.66688888.xyz"}}}
   - {"name":"TG:@hkaa0▓台湾","type":"vmess","server":"107.167.182.230","port":80,"cipher":"auto","uuid":"efcb7d7c-c582-46f5-eeff-0e553342528d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@hkaa0","headers":{"host":"br.gy.youxuan-1.66688888.xyz"}}}
+  - {"name":"TG频道:@hkaa0▓巴西▓自建","type":"vmess","server":"br.gy.youxuan-1.66688888.xyz","port":9025,"cipher":"auto","uuid":"a6bdc1ce-a612-4d99-81c4-fb3bd8dfd36b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tg@hkaa0","headers":{"host":"br.gy.youxuan-1.66688888.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -152,6 +153,7 @@ proxy-groups:
       - TG:@hkaa0▓韩国_1
       - TG:@hkaa0▓韩国_2
       - TG:@hkaa0▓台湾
+      - TG频道:@hkaa0▓巴西▓自建
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -187,6 +189,7 @@ proxy-groups:
       - TG:@hkaa0▓韩国_1
       - TG:@hkaa0▓韩国_2
       - TG:@hkaa0▓台湾
+      - TG频道:@hkaa0▓巴西▓自建
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -221,6 +224,7 @@ proxy-groups:
       - TG:@hkaa0▓韩国_1
       - TG:@hkaa0▓韩国_2
       - TG:@hkaa0▓台湾
+      - TG频道:@hkaa0▓巴西▓自建
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -255,6 +259,7 @@ proxy-groups:
       - TG:@hkaa0▓韩国_1
       - TG:@hkaa0▓韩国_2
       - TG:@hkaa0▓台湾
+      - TG频道:@hkaa0▓巴西▓自建
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -303,6 +308,7 @@ proxy-groups:
       - TG:@hkaa0▓韩国_1
       - TG:@hkaa0▓韩国_2
       - TG:@hkaa0▓台湾
+      - TG频道:@hkaa0▓巴西▓自建
 
 rules:
 # 本地/局域网地址
