@@ -1,9 +1,9 @@
 ####################################
-# 创建者：  https://hkaa0.shop/
+# 创建者： https://hkaa0.shop/
 # 客户端：  Clash
-# 创建时间：2023-12-18 
+# 创建时间：2023-12-19 
 # 使用模版：ACL4SSR_Online_Mini_MultiMode.ini
-# 节点数量：15
+# 节点数量：16
 # 节点类型：ss, trojan, vmess
 ####################################
 mixed-port: 7890
@@ -86,21 +86,22 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"TG:@hkaa0▓韩国荷兰","type":"ss","server":"45.87.154.143","port":1165,"password":"0cAOTNuOqZQuK1c9-mCXJQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"TG:@hkaa0▓韩国德国","type":"trojan","server":"5.104.107.143","port":443,"udp":true,"password":"ca67d9ab-5e39-453a-9419-3d7577358979","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国伊朗","type":"ss","server":"91.107.134.122","port":1080,"password":"nPEWRCG3QY20eUDfKE_luA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"TG:@hkaa0▓韩国香港_1","type":"trojan","server":"hk04.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国香港_2","type":"trojan","server":"ru01.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国香港_3","type":"trojan","server":"hk01.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国美国_1","type":"trojan","server":"tw02.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国美国_2","type":"trojan","server":"hk03.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","sni":"hk03.trojanyyds.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国加拿大_1","type":"trojan","server":"frontend.kuangbiaoyun.com","port":40003,"udp":true,"password":"9737c85e-ad5c-48f5-93f6-9bdb0361d04c","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国韩国","type":"trojan","server":"unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":20152,"udp":true,"password":"ff981c01-9f9a-4b27-bb09-0d98b7a4b7fa","sni":"13-231-155-134.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国法国","type":"ss","server":"54.36.174.181","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"TG:@hkaa0▓韩国加拿大_2","type":"trojan","server":"frontend.kuangbiaoyun.com","port":40006,"udp":true,"password":"9737c85e-ad5c-48f5-93f6-9bdb0361d04c","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国美国_3","type":"vmess","server":"45.91.81.15","port":59665,"cipher":"auto","uuid":"2197b938-a904-42d1-cf22-e68d5ca23726","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国美国_4","type":"vmess","server":"64.176.58.15","port":46154,"cipher":"auto","uuid":"adcbe160-3010-483d-b438-d6057f465b1d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"TG:@hkaa0▓韩国加拿大_3","type":"trojan","server":"frontend.kuangbiaoyun.com","port":40003,"udp":true,"password":"9737c85e-ad5c-48f5-93f6-9bdb0361d04c","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓荷兰","type":"ss","server":"45.87.154.143","port":1165,"password":"0cAOTNuOqZQuK1c9-mCXJQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG:@hkaa0▓德国_1","type":"trojan","server":"5.104.107.143","port":443,"udp":true,"password":"ca67d9ab-5e39-453a-9419-3d7577358979","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓瑞士","type":"trojan","server":"unlk5.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":25002,"udp":true,"password":"37d2266b-d239-47ea-8d26-35583da9e3d5","sni":"ip3691376078.mobgslb.tbcache.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓韩国_1","type":"trojan","server":"unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":20152,"udp":true,"password":"37d2266b-d239-47ea-8d26-35583da9e3d5","sni":"unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓香港_1","type":"trojan","server":"in01.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","sni":"in01.trojanyyds.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓香港_2","type":"trojan","server":"hk02.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","sni":"hk02.trojanyyds.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓美国_1","type":"trojan","server":"my02.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","sni":"my02.trojanyyds.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓韩国_2","type":"trojan","server":"unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":20802,"udp":true,"password":"37d2266b-d239-47ea-8d26-35583da9e3d5","sni":"206.237.5.220","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓德国_2","type":"trojan","server":"5.104.107.143","port":443,"udp":true,"password":"6befeeb3-702b-4948-9028-f9e072f2da98","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓美国_2","type":"trojan","server":"jp2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":443,"udp":true,"password":"37d2266b-d239-47ea-8d26-35583da9e3d5","sni":"13-231-155-134.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓美国_3","type":"trojan","server":"hk04.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓香港_3","type":"trojan","server":"ru01.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓香港_4","type":"trojan","server":"hk01.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓香港_5","type":"trojan","server":"tw02.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG:@hkaa0▓中国","type":"vmess","server":"us2.awslcn.info","port":25257,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us2.awslcn.info"}}}
+  - {"name":"TG:@hkaa0▓美国_4","type":"ss","server":"94.131.115.129","port":38108,"password":"bNUe0jR9rzsvLEzfPmI4Of","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -109,82 +110,86 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - TG:@hkaa0▓韩国荷兰
-      - TG:@hkaa0▓韩国德国
-      - TG:@hkaa0▓韩国伊朗
-      - TG:@hkaa0▓韩国香港_1
-      - TG:@hkaa0▓韩国香港_2
-      - TG:@hkaa0▓韩国香港_3
-      - TG:@hkaa0▓韩国美国_1
-      - TG:@hkaa0▓韩国美国_2
-      - TG:@hkaa0▓韩国加拿大_1
-      - TG:@hkaa0▓韩国韩国
-      - TG:@hkaa0▓韩国法国
-      - TG:@hkaa0▓韩国加拿大_2
-      - TG:@hkaa0▓韩国美国_3
-      - TG:@hkaa0▓韩国美国_4
-      - TG:@hkaa0▓韩国加拿大_3
+      - TG:@hkaa0▓荷兰
+      - TG:@hkaa0▓德国_1
+      - TG:@hkaa0▓瑞士
+      - TG:@hkaa0▓韩国_1
+      - TG:@hkaa0▓香港_1
+      - TG:@hkaa0▓香港_2
+      - TG:@hkaa0▓美国_1
+      - TG:@hkaa0▓韩国_2
+      - TG:@hkaa0▓德国_2
+      - TG:@hkaa0▓美国_2
+      - TG:@hkaa0▓美国_3
+      - TG:@hkaa0▓香港_3
+      - TG:@hkaa0▓香港_4
+      - TG:@hkaa0▓香港_5
+      - TG:@hkaa0▓中国
+      - TG:@hkaa0▓美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG:@hkaa0▓韩国荷兰
-      - TG:@hkaa0▓韩国德国
-      - TG:@hkaa0▓韩国伊朗
-      - TG:@hkaa0▓韩国香港_1
-      - TG:@hkaa0▓韩国香港_2
-      - TG:@hkaa0▓韩国香港_3
-      - TG:@hkaa0▓韩国美国_1
-      - TG:@hkaa0▓韩国美国_2
-      - TG:@hkaa0▓韩国加拿大_1
-      - TG:@hkaa0▓韩国韩国
-      - TG:@hkaa0▓韩国法国
-      - TG:@hkaa0▓韩国加拿大_2
-      - TG:@hkaa0▓韩国美国_3
-      - TG:@hkaa0▓韩国美国_4
-      - TG:@hkaa0▓韩国加拿大_3
+      - TG:@hkaa0▓荷兰
+      - TG:@hkaa0▓德国_1
+      - TG:@hkaa0▓瑞士
+      - TG:@hkaa0▓韩国_1
+      - TG:@hkaa0▓香港_1
+      - TG:@hkaa0▓香港_2
+      - TG:@hkaa0▓美国_1
+      - TG:@hkaa0▓韩国_2
+      - TG:@hkaa0▓德国_2
+      - TG:@hkaa0▓美国_2
+      - TG:@hkaa0▓美国_3
+      - TG:@hkaa0▓香港_3
+      - TG:@hkaa0▓香港_4
+      - TG:@hkaa0▓香港_5
+      - TG:@hkaa0▓中国
+      - TG:@hkaa0▓美国_4
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - TG:@hkaa0▓韩国荷兰
-      - TG:@hkaa0▓韩国德国
-      - TG:@hkaa0▓韩国伊朗
-      - TG:@hkaa0▓韩国香港_1
-      - TG:@hkaa0▓韩国香港_2
-      - TG:@hkaa0▓韩国香港_3
-      - TG:@hkaa0▓韩国美国_1
-      - TG:@hkaa0▓韩国美国_2
-      - TG:@hkaa0▓韩国加拿大_1
-      - TG:@hkaa0▓韩国韩国
-      - TG:@hkaa0▓韩国法国
-      - TG:@hkaa0▓韩国加拿大_2
-      - TG:@hkaa0▓韩国美国_3
-      - TG:@hkaa0▓韩国美国_4
-      - TG:@hkaa0▓韩国加拿大_3
+      - TG:@hkaa0▓荷兰
+      - TG:@hkaa0▓德国_1
+      - TG:@hkaa0▓瑞士
+      - TG:@hkaa0▓韩国_1
+      - TG:@hkaa0▓香港_1
+      - TG:@hkaa0▓香港_2
+      - TG:@hkaa0▓美国_1
+      - TG:@hkaa0▓韩国_2
+      - TG:@hkaa0▓德国_2
+      - TG:@hkaa0▓美国_2
+      - TG:@hkaa0▓美国_3
+      - TG:@hkaa0▓香港_3
+      - TG:@hkaa0▓香港_4
+      - TG:@hkaa0▓香港_5
+      - TG:@hkaa0▓中国
+      - TG:@hkaa0▓美国_4
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - TG:@hkaa0▓韩国荷兰
-      - TG:@hkaa0▓韩国德国
-      - TG:@hkaa0▓韩国伊朗
-      - TG:@hkaa0▓韩国香港_1
-      - TG:@hkaa0▓韩国香港_2
-      - TG:@hkaa0▓韩国香港_3
-      - TG:@hkaa0▓韩国美国_1
-      - TG:@hkaa0▓韩国美国_2
-      - TG:@hkaa0▓韩国加拿大_1
-      - TG:@hkaa0▓韩国韩国
-      - TG:@hkaa0▓韩国法国
-      - TG:@hkaa0▓韩国加拿大_2
-      - TG:@hkaa0▓韩国美国_3
-      - TG:@hkaa0▓韩国美国_4
-      - TG:@hkaa0▓韩国加拿大_3
+      - TG:@hkaa0▓荷兰
+      - TG:@hkaa0▓德国_1
+      - TG:@hkaa0▓瑞士
+      - TG:@hkaa0▓韩国_1
+      - TG:@hkaa0▓香港_1
+      - TG:@hkaa0▓香港_2
+      - TG:@hkaa0▓美国_1
+      - TG:@hkaa0▓韩国_2
+      - TG:@hkaa0▓德国_2
+      - TG:@hkaa0▓美国_2
+      - TG:@hkaa0▓美国_3
+      - TG:@hkaa0▓香港_3
+      - TG:@hkaa0▓香港_4
+      - TG:@hkaa0▓香港_5
+      - TG:@hkaa0▓中国
+      - TG:@hkaa0▓美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,21 +209,22 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - TG:@hkaa0▓韩国荷兰
-      - TG:@hkaa0▓韩国德国
-      - TG:@hkaa0▓韩国伊朗
-      - TG:@hkaa0▓韩国香港_1
-      - TG:@hkaa0▓韩国香港_2
-      - TG:@hkaa0▓韩国香港_3
-      - TG:@hkaa0▓韩国美国_1
-      - TG:@hkaa0▓韩国美国_2
-      - TG:@hkaa0▓韩国加拿大_1
-      - TG:@hkaa0▓韩国韩国
-      - TG:@hkaa0▓韩国法国
-      - TG:@hkaa0▓韩国加拿大_2
-      - TG:@hkaa0▓韩国美国_3
-      - TG:@hkaa0▓韩国美国_4
-      - TG:@hkaa0▓韩国加拿大_3
+      - TG:@hkaa0▓荷兰
+      - TG:@hkaa0▓德国_1
+      - TG:@hkaa0▓瑞士
+      - TG:@hkaa0▓韩国_1
+      - TG:@hkaa0▓香港_1
+      - TG:@hkaa0▓香港_2
+      - TG:@hkaa0▓美国_1
+      - TG:@hkaa0▓韩国_2
+      - TG:@hkaa0▓德国_2
+      - TG:@hkaa0▓美国_2
+      - TG:@hkaa0▓美国_3
+      - TG:@hkaa0▓香港_3
+      - TG:@hkaa0▓香港_4
+      - TG:@hkaa0▓香港_5
+      - TG:@hkaa0▓中国
+      - TG:@hkaa0▓美国_4
 
 rules:
 # 本地/局域网地址
