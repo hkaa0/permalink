@@ -1,9 +1,9 @@
 ####################################
-# 创建者：https://hkaa0.shop/
+# 创建者：https://hkaa0.shop
 # 客户端：Surge
-# 创建时间：2024-03-23
+# 创建时间：2024-03-27 
 # 使用模版：V2RaySE 默认模版
-# 节点数量：31
+# 节点数量：9
 ####################################
 
 [General]
@@ -29,49 +29,27 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-TG频道:@hkaa0▓英国 = ss,51.140.32.78,54295,encrypt-method=chacha20-ietf-poly1305,password=gevxg7mpES2FXZY1Q7B8FM,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_1 = ss,38.75.137.105,6697,encrypt-method=aes-256-gcm,password=TEzjfAYq2IjtuoS,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_2 = ss,38.75.137.42,2376,encrypt-method=aes-256-gcm,password=faBAoD54k87UJG7,tfo=false,udp-relay=false
-TG频道:@hkaa0▓直布罗陀 = trojan,95.164.68.116,2053,password=f37a931d-7092-48fe-b82f-a98da3040eb2,skip-cert-verify=true,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_3 = ss,38.75.136.33,5600,encrypt-method=aes-256-gcm,password=Y6R9pAtvxxzmGC,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_4 = ss,38.75.136.33,8881,encrypt-method=aes-256-gcm,password=kDWvXYZoTBcGkC4,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_5 = ss,38.75.137.42,5600,encrypt-method=aes-256-gcm,password=Y6R9pAtvxxzmGC,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_6 = ss,38.75.137.93,5500,encrypt-method=aes-256-gcm,password=KixLvKzwjekG00rm,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_7 = ss,38.75.136.33,5003,encrypt-method=aes-256-gcm,password=g5MeD6Ft3CWlJId,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_8 = ss,38.75.137.42,8882,encrypt-method=aes-256-gcm,password=kDWvXYZoTBcGkC4,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_9 = ss,38.75.136.33,6379,encrypt-method=aes-256-gcm,password=zDNVedRFPQexG9v,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_10 = ss,38.75.137.42,7002,encrypt-method=aes-256-gcm,password=RexnBgU7EV5ADxG,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_11 = ss,38.75.137.93,2375,encrypt-method=aes-256-gcm,password=faBAoD54k87UJG7,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_12 = ss,38.75.137.42,3389,encrypt-method=aes-256-gcm,password=Y6R9pAtvxxzmGC,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_13 = ss,38.75.137.42,7306,encrypt-method=aes-256-gcm,password=FoOiGlkAA9yPEGP,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_14 = ss,38.75.136.33,8118,encrypt-method=aes-256-gcm,password=cdBIDV42DCwnfIN,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_15 = ss,38.75.137.93,5001,encrypt-method=aes-256-gcm,password=Y6R9pAtvxxzmGC,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_16 = ss,38.75.136.33,2376,encrypt-method=aes-256-gcm,password=faBAoD54k87UJG7,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_17 = ss,38.75.137.93,2376,encrypt-method=aes-256-gcm,password=faBAoD54k87UJG7,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_18 = ss,38.75.137.42,8000,encrypt-method=aes-256-gcm,password=KixLvKzwjekG00rm,tfo=false,udp-relay=false
-TG频道:@hkaa0▓俄罗斯联邦 = ss,ru.sptnk.space,57456,encrypt-method=chacha20-ietf-poly1305,password=3fbeb668f48414f6,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_19 = ss,38.75.136.33,8882,encrypt-method=aes-256-gcm,password=kDWvXYZoTBcGkC4,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_20 = ss,38.75.137.105,9101,encrypt-method=aes-256-gcm,password=e4FCWrgpkji3QY,tfo=false,udp-relay=false
-TG频道:@hkaa0▓美国_21 = ss,38.75.136.33,6679,encrypt-method=aes-256-gcm,password=TEzjfAYq2IjtuoS,tfo=false,udp-relay=false
-TG频道:@hkaa0▓瑞典 = trojan,13.51.224.100,22222,password=telegram-id-privatevpns,skip-cert-verify=true,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_1 = trojan,ty12t.twty.dynu.net,18912,password=8258210b-4b61-4d96-be4f-4e6be911a6e7,skip-cert-verify=true,sni=ty12t.twty.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_2 = trojan,b22.ntbq.dynu.net,19489,password=a8edb463-0f11-4909-8bc7-2e1624c21ab3,skip-cert-verify=true,sni=b22.ntbq.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_3 = trojan,ty11t.twty.dynu.net,13761,password=6c7e728e-29d9-41be-8be0-1e56b536e840,skip-cert-verify=true,sni=ty11t.twty.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_4 = trojan,b12.ntbq.dynu.net,9755,password=a2db6566-32c7-4e6e-89d7-b258ff55959f,skip-cert-verify=true,sni=b12.ntbq.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_5 = trojan,b24.ntbq.dynu.net,3271,password=a2db6566-32c7-4e6e-89d7-b258ff55959f,skip-cert-verify=true,sni=b24.ntbq.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_6 = trojan,b13.ntbq.dynu.net,9489,password=a8edb463-0f11-4909-8bc7-2e1624c21ab3,skip-cert-verify=true,sni=b13.ntbq.dynu.net,tfo=false,udp-relay=false
+TG频道:@hkaa0▓英国 = ss,51.145.116.125,55227,encrypt-method=chacha20-ietf-poly1305,password=d2A9Z5Os3tlpRuBzABjVT7,tfo=false,udp-relay=false
+TG频道:@hkaa0▓俄罗斯联邦 = ss,62.133.61.35,61227,encrypt-method=chacha20-ietf-poly1305,password=tcaSLm0UOEFibwwXdoAYUQ,tfo=false,udp-relay=false
+TG频道:@hkaa0▓台湾_1 = trojan,b22.ntbq.dynu.net,19489,password=08c8768a-31ee-447e-81aa-845399553dbf,skip-cert-verify=true,sni=b22.ntbq.dynu.net,tfo=false,udp-relay=false
+TG频道:@hkaa0▓台湾_2 = trojan,ty11t.twty.dynu.net,13761,password=158141ca-528d-407d-88f2-c0ddca399b26,skip-cert-verify=true,sni=ty11t.twty.dynu.net,tfo=false,udp-relay=false
+TG频道:@hkaa0▓台湾_3 = trojan,ty12t.twty.dynu.net,18912,password=583017fb-7c2c-492c-ae6c-5be82f3dba8e,skip-cert-verify=true,sni=ty12t.twty.dynu.net,tfo=false,udp-relay=false
+TG频道:@hkaa0▓台湾_4 = trojan,b13.ntbq.dynu.net,9489,password=6152dab2-5a09-44fe-9c14-3ece9dbbc4b8,skip-cert-verify=true,sni=b13.ntbq.dynu.net,tfo=false,udp-relay=false
+TG频道:@hkaa0▓台湾_5 = trojan,b24.ntbq.dynu.net,3271,password=88bc7d94-8e1f-4d80-9549-ace0d0d98db2,skip-cert-verify=true,sni=b24.ntbq.dynu.net,tfo=false,udp-relay=false
+TG频道:@hkaa0▓台湾_6 = trojan,nc12.twtc.dynu.net,14656,password=583017fb-7c2c-492c-ae6c-5be82f3dba8e,skip-cert-verify=true,sni=nc12.twtc.dynu.net,tfo=false,udp-relay=false
+TG频道:@hkaa0▓台湾_7 = trojan,c11.twtc.dynu.net,13989,password=e63d3dd2-1fdc-45d7-857a-ab32e26c4f73,skip-cert-verify=true,sni=c11.twtc.dynu.net,tfo=false,udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓美国_1,TG频道:@hkaa0▓美国_2,TG频道:@hkaa0▓直布罗陀,TG频道:@hkaa0▓美国_3,TG频道:@hkaa0▓美国_4,TG频道:@hkaa0▓美国_5,TG频道:@hkaa0▓美国_6,TG频道:@hkaa0▓美国_7,TG频道:@hkaa0▓美国_8,TG频道:@hkaa0▓美国_9,TG频道:@hkaa0▓美国_10,TG频道:@hkaa0▓美国_11,TG频道:@hkaa0▓美国_12,TG频道:@hkaa0▓美国_13,TG频道:@hkaa0▓美国_14,TG频道:@hkaa0▓美国_15,TG频道:@hkaa0▓美国_16,TG频道:@hkaa0▓美国_17,TG频道:@hkaa0▓美国_18,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓美国_19,TG频道:@hkaa0▓美国_20,TG频道:@hkaa0▓美国_21,TG频道:@hkaa0▓瑞典,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6
-♻️ 自动选择 = url-test,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓美国_1,TG频道:@hkaa0▓美国_2,TG频道:@hkaa0▓直布罗陀,TG频道:@hkaa0▓美国_3,TG频道:@hkaa0▓美国_4,TG频道:@hkaa0▓美国_5,TG频道:@hkaa0▓美国_6,TG频道:@hkaa0▓美国_7,TG频道:@hkaa0▓美国_8,TG频道:@hkaa0▓美国_9,TG频道:@hkaa0▓美国_10,TG频道:@hkaa0▓美国_11,TG频道:@hkaa0▓美国_12,TG频道:@hkaa0▓美国_13,TG频道:@hkaa0▓美国_14,TG频道:@hkaa0▓美国_15,TG频道:@hkaa0▓美国_16,TG频道:@hkaa0▓美国_17,TG频道:@hkaa0▓美国_18,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓美国_19,TG频道:@hkaa0▓美国_20,TG频道:@hkaa0▓美国_21,TG频道:@hkaa0▓瑞典,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓美国_1,TG频道:@hkaa0▓美国_2,TG频道:@hkaa0▓直布罗陀,TG频道:@hkaa0▓美国_3,TG频道:@hkaa0▓美国_4,TG频道:@hkaa0▓美国_5,TG频道:@hkaa0▓美国_6,TG频道:@hkaa0▓美国_7,TG频道:@hkaa0▓美国_8,TG频道:@hkaa0▓美国_9,TG频道:@hkaa0▓美国_10,TG频道:@hkaa0▓美国_11,TG频道:@hkaa0▓美国_12,TG频道:@hkaa0▓美国_13,TG频道:@hkaa0▓美国_14,TG频道:@hkaa0▓美国_15,TG频道:@hkaa0▓美国_16,TG频道:@hkaa0▓美国_17,TG频道:@hkaa0▓美国_18,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓美国_19,TG频道:@hkaa0▓美国_20,TG频道:@hkaa0▓美国_21,TG频道:@hkaa0▓瑞典,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓美国_1,TG频道:@hkaa0▓美国_2,TG频道:@hkaa0▓直布罗陀,TG频道:@hkaa0▓美国_3,TG频道:@hkaa0▓美国_4,TG频道:@hkaa0▓美国_5,TG频道:@hkaa0▓美国_6,TG频道:@hkaa0▓美国_7,TG频道:@hkaa0▓美国_8,TG频道:@hkaa0▓美国_9,TG频道:@hkaa0▓美国_10,TG频道:@hkaa0▓美国_11,TG频道:@hkaa0▓美国_12,TG频道:@hkaa0▓美国_13,TG频道:@hkaa0▓美国_14,TG频道:@hkaa0▓美国_15,TG频道:@hkaa0▓美国_16,TG频道:@hkaa0▓美国_17,TG频道:@hkaa0▓美国_18,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓美国_19,TG频道:@hkaa0▓美国_20,TG频道:@hkaa0▓美国_21,TG频道:@hkaa0▓瑞典,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓美国_1,TG频道:@hkaa0▓美国_2,TG频道:@hkaa0▓直布罗陀,TG频道:@hkaa0▓美国_3,TG频道:@hkaa0▓美国_4,TG频道:@hkaa0▓美国_5,TG频道:@hkaa0▓美国_6,TG频道:@hkaa0▓美国_7,TG频道:@hkaa0▓美国_8,TG频道:@hkaa0▓美国_9,TG频道:@hkaa0▓美国_10,TG频道:@hkaa0▓美国_11,TG频道:@hkaa0▓美国_12,TG频道:@hkaa0▓美国_13,TG频道:@hkaa0▓美国_14,TG频道:@hkaa0▓美国_15,TG频道:@hkaa0▓美国_16,TG频道:@hkaa0▓美国_17,TG频道:@hkaa0▓美国_18,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓美国_19,TG频道:@hkaa0▓美国_20,TG频道:@hkaa0▓美国_21,TG频道:@hkaa0▓瑞典,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓美国_1,TG频道:@hkaa0▓美国_2,TG频道:@hkaa0▓直布罗陀,TG频道:@hkaa0▓美国_3,TG频道:@hkaa0▓美国_4,TG频道:@hkaa0▓美国_5,TG频道:@hkaa0▓美国_6,TG频道:@hkaa0▓美国_7,TG频道:@hkaa0▓美国_8,TG频道:@hkaa0▓美国_9,TG频道:@hkaa0▓美国_10,TG频道:@hkaa0▓美国_11,TG频道:@hkaa0▓美国_12,TG频道:@hkaa0▓美国_13,TG频道:@hkaa0▓美国_14,TG频道:@hkaa0▓美国_15,TG频道:@hkaa0▓美国_16,TG频道:@hkaa0▓美国_17,TG频道:@hkaa0▓美国_18,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓美国_19,TG频道:@hkaa0▓美国_20,TG频道:@hkaa0▓美国_21,TG频道:@hkaa0▓瑞典,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
+♻️ 自动选择 = url-test,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓美国_1,TG频道:@hkaa0▓美国_2,TG频道:@hkaa0▓直布罗陀,TG频道:@hkaa0▓美国_3,TG频道:@hkaa0▓美国_4,TG频道:@hkaa0▓美国_5,TG频道:@hkaa0▓美国_6,TG频道:@hkaa0▓美国_7,TG频道:@hkaa0▓美国_8,TG频道:@hkaa0▓美国_9,TG频道:@hkaa0▓美国_10,TG频道:@hkaa0▓美国_11,TG频道:@hkaa0▓美国_12,TG频道:@hkaa0▓美国_13,TG频道:@hkaa0▓美国_14,TG频道:@hkaa0▓美国_15,TG频道:@hkaa0▓美国_16,TG频道:@hkaa0▓美国_17,TG频道:@hkaa0▓美国_18,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓美国_19,TG频道:@hkaa0▓美国_20,TG频道:@hkaa0▓美国_21,TG频道:@hkaa0▓瑞典,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
 
 [Rule]
 # 本地/局域网地址
