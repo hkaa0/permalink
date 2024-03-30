@@ -1,9 +1,9 @@
 ####################################
-# 创建者：https://hkaa0.shop
+# 创建者：https://hkaa0.shop/
 # 客户端：Surge
-# 创建时间：2024-03-27 
+# 创建时间：2024-03-30 
 # 使用模版：V2RaySE 默认模版
-# 节点数量：9
+# 节点数量：18
 ####################################
 
 [General]
@@ -29,27 +29,36 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-TG频道:@hkaa0▓英国 = ss,51.145.116.125,55227,encrypt-method=chacha20-ietf-poly1305,password=d2A9Z5Os3tlpRuBzABjVT7,tfo=false,udp-relay=false
-TG频道:@hkaa0▓俄罗斯联邦 = ss,62.133.61.35,61227,encrypt-method=chacha20-ietf-poly1305,password=tcaSLm0UOEFibwwXdoAYUQ,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_1 = trojan,b22.ntbq.dynu.net,19489,password=08c8768a-31ee-447e-81aa-845399553dbf,skip-cert-verify=true,sni=b22.ntbq.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_2 = trojan,ty11t.twty.dynu.net,13761,password=158141ca-528d-407d-88f2-c0ddca399b26,skip-cert-verify=true,sni=ty11t.twty.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_3 = trojan,ty12t.twty.dynu.net,18912,password=583017fb-7c2c-492c-ae6c-5be82f3dba8e,skip-cert-verify=true,sni=ty12t.twty.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_4 = trojan,b13.ntbq.dynu.net,9489,password=6152dab2-5a09-44fe-9c14-3ece9dbbc4b8,skip-cert-verify=true,sni=b13.ntbq.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_5 = trojan,b24.ntbq.dynu.net,3271,password=88bc7d94-8e1f-4d80-9549-ace0d0d98db2,skip-cert-verify=true,sni=b24.ntbq.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_6 = trojan,nc12.twtc.dynu.net,14656,password=583017fb-7c2c-492c-ae6c-5be82f3dba8e,skip-cert-verify=true,sni=nc12.twtc.dynu.net,tfo=false,udp-relay=false
-TG频道:@hkaa0▓台湾_7 = trojan,c11.twtc.dynu.net,13989,password=e63d3dd2-1fdc-45d7-857a-ab32e26c4f73,skip-cert-verify=true,sni=c11.twtc.dynu.net,tfo=false,udp-relay=false
+TG频道:@hkaa0|卢森堡 = vmess,78.111.102.232,3389,username=9c050a86-d612-48f1-ec32-e573df08a1b7,tls=false,vmess-aead=true,tls13=false,sni=78.111.102.232,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|荷兰 = vmess,188.114.96.113,80,username=7022982f-da4c-48c9-c660-b2315abdcf7e,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"a.prapt4.ir",sni=188.114.96.113,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|美国_1 = vmess,104.21.234.52,80,username=7022982f-da4c-48c9-c660-b2315abdcf7e,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"a.prapt1.ir",sni=104.21.234.52,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|美国_2 = vmess,104.21.224.221,80,username=7022982f-da4c-48c9-c660-b2315abdcf7e,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"a.prapt1.ir",sni=104.21.224.221,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|加拿大 = vmess,134.122.41.160,3389,username=9c050a86-d612-48f1-ec32-e573df08a1b7,tls=false,vmess-aead=true,tls13=false,sni=134.122.41.160,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|日本_1 = ss,43.207.117.29,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+TG频道:@hkaa0|美国_3 = ss,54.186.125.168,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+TG频道:@hkaa0|日本_2 = ss,18.177.138.167,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+TG频道:@hkaa0|阿联酋 = vmess,94.140.0.110,8880,username=0d1bf26a-ce97-4707-a270-7f4d2ae37334,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"food.zhaal.ir",sni=94.140.0.110,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|日本_3 = ss,13.112.216.180,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+TG频道:@hkaa0|日本_4 = ss,52.69.81.42,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+TG频道:@hkaa0|中国 = vmess,47.106.112.114,80,username=7c1d9869-ecac-4ca6-b7e7-ecb60f503078,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,sni=47.106.112.114,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|美国_4 = vmess,172.67.204.84,80,username=c9e99213-170b-458a-b45b-79454ac7cf4b,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/vmess,ws-headers=host:"fi2-vmess.sshmax.xyz",sni=172.67.204.84,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|日本_5 = ss,13.231.154.132,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+TG频道:@hkaa0|韩国 = ss,54.180.9.46,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+TG频道:@hkaa0|新加坡 = ss,47.128.72.85,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+TG频道:@hkaa0|美国_5 = trojan,23.142.200.175,443,password=27876_t7d7f4e3f,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|台湾 = trojan,b24.ntbq.dynu.net,3271,password=5425aa49-ec9d-4df3-aaad-878270e78635,skip-cert-verify=true,sni=b24.ntbq.dynu.net,tfo=false,udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
-♻️ 自动选择 = url-test,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG频道:@hkaa0|卢森堡,TG频道:@hkaa0|荷兰,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|加拿大,TG频道:@hkaa0|日本_1,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|日本_2,TG频道:@hkaa0|阿联酋,TG频道:@hkaa0|日本_3,TG频道:@hkaa0|日本_4,TG频道:@hkaa0|中国,TG频道:@hkaa0|美国_4,TG频道:@hkaa0|日本_5,TG频道:@hkaa0|韩国,TG频道:@hkaa0|新加坡,TG频道:@hkaa0|美国_5,TG频道:@hkaa0|台湾
+♻️ 自动选择 = url-test,TG频道:@hkaa0|卢森堡,TG频道:@hkaa0|荷兰,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|加拿大,TG频道:@hkaa0|日本_1,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|日本_2,TG频道:@hkaa0|阿联酋,TG频道:@hkaa0|日本_3,TG频道:@hkaa0|日本_4,TG频道:@hkaa0|中国,TG频道:@hkaa0|美国_4,TG频道:@hkaa0|日本_5,TG频道:@hkaa0|韩国,TG频道:@hkaa0|新加坡,TG频道:@hkaa0|美国_5,TG频道:@hkaa0|台湾,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG频道:@hkaa0|卢森堡,TG频道:@hkaa0|荷兰,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|加拿大,TG频道:@hkaa0|日本_1,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|日本_2,TG频道:@hkaa0|阿联酋,TG频道:@hkaa0|日本_3,TG频道:@hkaa0|日本_4,TG频道:@hkaa0|中国,TG频道:@hkaa0|美国_4,TG频道:@hkaa0|日本_5,TG频道:@hkaa0|韩国,TG频道:@hkaa0|新加坡,TG频道:@hkaa0|美国_5,TG频道:@hkaa0|台湾
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0|卢森堡,TG频道:@hkaa0|荷兰,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|加拿大,TG频道:@hkaa0|日本_1,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|日本_2,TG频道:@hkaa0|阿联酋,TG频道:@hkaa0|日本_3,TG频道:@hkaa0|日本_4,TG频道:@hkaa0|中国,TG频道:@hkaa0|美国_4,TG频道:@hkaa0|日本_5,TG频道:@hkaa0|韩国,TG频道:@hkaa0|新加坡,TG频道:@hkaa0|美国_5,TG频道:@hkaa0|台湾
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG频道:@hkaa0|卢森堡,TG频道:@hkaa0|荷兰,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|加拿大,TG频道:@hkaa0|日本_1,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|日本_2,TG频道:@hkaa0|阿联酋,TG频道:@hkaa0|日本_3,TG频道:@hkaa0|日本_4,TG频道:@hkaa0|中国,TG频道:@hkaa0|美国_4,TG频道:@hkaa0|日本_5,TG频道:@hkaa0|韩国,TG频道:@hkaa0|新加坡,TG频道:@hkaa0|美国_5,TG频道:@hkaa0|台湾
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0|卢森堡,TG频道:@hkaa0|荷兰,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|加拿大,TG频道:@hkaa0|日本_1,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|日本_2,TG频道:@hkaa0|阿联酋,TG频道:@hkaa0|日本_3,TG频道:@hkaa0|日本_4,TG频道:@hkaa0|中国,TG频道:@hkaa0|美国_4,TG频道:@hkaa0|日本_5,TG频道:@hkaa0|韩国,TG频道:@hkaa0|新加坡,TG频道:@hkaa0|美国_5,TG频道:@hkaa0|台湾
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道:@hkaa0▓英国,TG频道:@hkaa0▓俄罗斯联邦,TG频道:@hkaa0▓台湾_1,TG频道:@hkaa0▓台湾_2,TG频道:@hkaa0▓台湾_3,TG频道:@hkaa0▓台湾_4,TG频道:@hkaa0▓台湾_5,TG频道:@hkaa0▓台湾_6,TG频道:@hkaa0▓台湾_7
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道:@hkaa0|卢森堡,TG频道:@hkaa0|荷兰,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|加拿大,TG频道:@hkaa0|日本_1,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|日本_2,TG频道:@hkaa0|阿联酋,TG频道:@hkaa0|日本_3,TG频道:@hkaa0|日本_4,TG频道:@hkaa0|中国,TG频道:@hkaa0|美国_4,TG频道:@hkaa0|日本_5,TG频道:@hkaa0|韩国,TG频道:@hkaa0|新加坡,TG频道:@hkaa0|美国_5,TG频道:@hkaa0|台湾
 
 [Rule]
 # 本地/局域网地址
