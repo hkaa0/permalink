@@ -3,7 +3,7 @@
 # 客户端：Surge
 # 创建时间：2024-04-10 
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：12
 ####################################
 
 [General]
@@ -29,26 +29,30 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-TG频道:@hkaa0|中国_1 = vmess,120.238.122.243,35601,username=418048af-a293-4b99-9b0c-98ca3580dd24,tls=false,vmess-aead=false,tls13=false,sni=120.238.122.243,skip-cert-verify=true,tfo=false,udp-relay=false
 TG频道:@hkaa0|美国_1 = vmess,fcdn.flha.ru,2095,username=7a737f41-b792-4260-94ff-3d864da67b80,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,sni=fcdn.flha.ru,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|中国_1 = ss,119.23.104.213,8474,encrypt-method=chacha20-ietf-poly1305,password=a501c82c72d790b8,tfo=false,udp-relay=false
+TG频道:@hkaa0|英属维尔京群岛_1 = vmess,89.39.161.122,8080,username=bdd22841-c4d2-4aa8-acf2-95aa9125f159,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=,sni=89.39.161.122,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|加拿大_1 = vmess,158.51.123.111,443,username=03fcc618-b93d-6796-6aed-8a38c975d581,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=/linkvws,sni=158.51.123.111,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|美国_2 = vmess,fcdn.flha.ru,2095,username=7a737f41-b792-4260-94ff-3d864da67b80,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,sni=fcdn.flha.ru,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|英属维尔京群岛_2 = vmess,89.39.161.122,8080,username=bdd22841-c4d2-4aa8-acf2-95aa9125f159,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=,sni=89.39.161.122,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|加拿大_2 = vmess,158.51.123.111,443,username=03fcc618-b93d-6796-6aed-8a38c975d581,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=/linkvws,sni=158.51.123.111,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|美国_3 = vmess,speed.cloudflare.com,8880,username=03fcc618-b93d-6796-6aed-8a38c975d581,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/nina.bond/linkvws,ws-headers=host:"nd-truth-210a8hwjhs.bonar11011.workers.dev",sni=speed.cloudflare.com,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|德意志联邦共和国_1 = vmess,23.158.56.60,443,username=03fcc618-b93d-6796-6aed-8a38c975d581,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=/linkvws,sni=23.158.56.60,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|德意志联邦共和国_2 = vmess,23.158.56.229,443,username=03fcc618-b93d-6796-6aed-8a38c975d581,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=/linkvws,sni=23.158.56.229,skip-cert-verify=true,tfo=false,udp-relay=false
 TG频道:@hkaa0|中国_2 = ss,119.23.104.213,8474,encrypt-method=chacha20-ietf-poly1305,password=a501c82c72d790b8,tfo=false,udp-relay=false
-TG频道:@hkaa0|中国_3 = ss,47.96.69.161,10001,encrypt-method=chacha20-ietf-poly1305,password=Rad33xaT,tfo=false,udp-relay=false
-TG频道:@hkaa0|美国_3 = vmess,104.21.234.122,8080,username=272733cb-3310-4eba-bb9f-8a39982c554e,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"us2.laobideng.xyz",sni=104.21.234.122,skip-cert-verify=true,tfo=false,udp-relay=false
-TG频道:@hkaa0|英属维尔京群岛 = vmess,89.39.161.122,8080,username=bdd22841-c4d2-4aa8-acf2-95aa9125f159,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=,sni=89.39.161.122,skip-cert-verify=true,tfo=false,udp-relay=false
-TG频道:@hkaa0|中国_4 = ss,lion02.t3o5wy.xyz,30021,encrypt-method=chacha20-ietf-poly1305,password=FZHTkxW73qkD4jOC,tfo=false,udp-relay=false
-TG频道:@hkaa0|美国_4 = vmess,s1c.v2.v001sss.xyz,2082,username=112ac36f-3f53-4e26-8371-d25c028e1b9a,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=,sni=s1c.v2.v001sss.xyz,skip-cert-verify=true,tfo=false,udp-relay=false
+TG频道:@hkaa0|美国_4 = vmess,fcdn.flha.ru,2095,username=7a737f41-b792-4260-94ff-3d864da67b80,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"fcdn.flha.ru",sni=fcdn.flha.ru,skip-cert-verify=true,tfo=false,udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|中国_3,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|英属维尔京群岛,TG频道:@hkaa0|中国_4,TG频道:@hkaa0|美国_4
-♻️ 自动选择 = url-test,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|中国_3,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|英属维尔京群岛,TG频道:@hkaa0|中国_4,TG频道:@hkaa0|美国_4,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|中国_3,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|英属维尔京群岛,TG频道:@hkaa0|中国_4,TG频道:@hkaa0|美国_4
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|中国_3,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|英属维尔京群岛,TG频道:@hkaa0|中国_4,TG频道:@hkaa0|美国_4
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|中国_3,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|英属维尔京群岛,TG频道:@hkaa0|中国_4,TG频道:@hkaa0|美国_4
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|中国_3,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|英属维尔京群岛,TG频道:@hkaa0|中国_4,TG频道:@hkaa0|美国_4
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|英属维尔京群岛_1,TG频道:@hkaa0|加拿大_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|英属维尔京群岛_2,TG频道:@hkaa0|加拿大_2,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|德意志联邦共和国_1,TG频道:@hkaa0|德意志联邦共和国_2,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|美国_4
+♻️ 自动选择 = url-test,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|英属维尔京群岛_1,TG频道:@hkaa0|加拿大_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|英属维尔京群岛_2,TG频道:@hkaa0|加拿大_2,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|德意志联邦共和国_1,TG频道:@hkaa0|德意志联邦共和国_2,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|美国_4,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|英属维尔京群岛_1,TG频道:@hkaa0|加拿大_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|英属维尔京群岛_2,TG频道:@hkaa0|加拿大_2,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|德意志联邦共和国_1,TG频道:@hkaa0|德意志联邦共和国_2,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|美国_4
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|英属维尔京群岛_1,TG频道:@hkaa0|加拿大_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|英属维尔京群岛_2,TG频道:@hkaa0|加拿大_2,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|德意志联邦共和国_1,TG频道:@hkaa0|德意志联邦共和国_2,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|美国_4
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|英属维尔京群岛_1,TG频道:@hkaa0|加拿大_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|英属维尔京群岛_2,TG频道:@hkaa0|加拿大_2,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|德意志联邦共和国_1,TG频道:@hkaa0|德意志联邦共和国_2,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|美国_4
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|英属维尔京群岛_1,TG频道:@hkaa0|加拿大_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|英属维尔京群岛_2,TG频道:@hkaa0|加拿大_2,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|德意志联邦共和国_1,TG频道:@hkaa0|德意志联邦共和国_2,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|美国_4
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|中国_3,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|英属维尔京群岛,TG频道:@hkaa0|中国_4,TG频道:@hkaa0|美国_4
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道:@hkaa0|美国_1,TG频道:@hkaa0|中国_1,TG频道:@hkaa0|英属维尔京群岛_1,TG频道:@hkaa0|加拿大_1,TG频道:@hkaa0|美国_2,TG频道:@hkaa0|英属维尔京群岛_2,TG频道:@hkaa0|加拿大_2,TG频道:@hkaa0|美国_3,TG频道:@hkaa0|德意志联邦共和国_1,TG频道:@hkaa0|德意志联邦共和国_2,TG频道:@hkaa0|中国_2,TG频道:@hkaa0|美国_4
 
 [Rule]
 # 本地/局域网地址
