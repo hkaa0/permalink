@@ -3,7 +3,7 @@
 # 客户端：QuantumultX
 # 创建时间：2024-04-10
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：12
 ####################################
 
 [general]
@@ -19,16 +19,16 @@ server = 1.0.0.1
 server = 8.8.8.8
 
 [policy]
-static = 🚀 节点选择, ♻️ 自动选择, DIRECT, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|中国_3, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|英属维尔京群岛, TG频道:@hkaa0|中国_4, TG频道:@hkaa0|美国_4
-url-latency-benchmark = ♻️ 自动选择, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|中国_3, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|英属维尔京群岛, TG频道:@hkaa0|中国_4, TG频道:@hkaa0|美国_4
-static = 🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|中国_3, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|英属维尔京群岛, TG频道:@hkaa0|中国_4, TG频道:@hkaa0|美国_4
-static = 📲 电报信息, 🚀 节点选择, 🎯 全球直连, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|中国_3, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|英属维尔京群岛, TG频道:@hkaa0|中国_4, TG频道:@hkaa0|美国_4
-static = Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|中国_3, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|英属维尔京群岛, TG频道:@hkaa0|中国_4, TG频道:@hkaa0|美国_4
-static = 🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|中国_3, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|英属维尔京群岛, TG频道:@hkaa0|中国_4, TG频道:@hkaa0|美国_4
+static = 🚀 节点选择, ♻️ 自动选择, DIRECT, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|英属维尔京群岛_1, TG频道:@hkaa0|加拿大_1, TG频道:@hkaa0|美国_2, TG频道:@hkaa0|英属维尔京群岛_2, TG频道:@hkaa0|加拿大_2, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|德意志联邦共和国_1, TG频道:@hkaa0|德意志联邦共和国_2, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|美国_4
+url-latency-benchmark = ♻️ 自动选择, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|英属维尔京群岛_1, TG频道:@hkaa0|加拿大_1, TG频道:@hkaa0|美国_2, TG频道:@hkaa0|英属维尔京群岛_2, TG频道:@hkaa0|加拿大_2, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|德意志联邦共和国_1, TG频道:@hkaa0|德意志联邦共和国_2, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|美国_4
+static = 🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|英属维尔京群岛_1, TG频道:@hkaa0|加拿大_1, TG频道:@hkaa0|美国_2, TG频道:@hkaa0|英属维尔京群岛_2, TG频道:@hkaa0|加拿大_2, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|德意志联邦共和国_1, TG频道:@hkaa0|德意志联邦共和国_2, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|美国_4
+static = 📲 电报信息, 🚀 节点选择, 🎯 全球直连, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|英属维尔京群岛_1, TG频道:@hkaa0|加拿大_1, TG频道:@hkaa0|美国_2, TG频道:@hkaa0|英属维尔京群岛_2, TG频道:@hkaa0|加拿大_2, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|德意志联邦共和国_1, TG频道:@hkaa0|德意志联邦共和国_2, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|美国_4
+static = Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|英属维尔京群岛_1, TG频道:@hkaa0|加拿大_1, TG频道:@hkaa0|美国_2, TG频道:@hkaa0|英属维尔京群岛_2, TG频道:@hkaa0|加拿大_2, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|德意志联邦共和国_1, TG频道:@hkaa0|德意志联邦共和国_2, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|美国_4
+static = 🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|英属维尔京群岛_1, TG频道:@hkaa0|加拿大_1, TG频道:@hkaa0|美国_2, TG频道:@hkaa0|英属维尔京群岛_2, TG频道:@hkaa0|加拿大_2, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|德意志联邦共和国_1, TG频道:@hkaa0|德意志联邦共和国_2, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|美国_4
 static = 🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择
 static = 🛑 全球拦截, REJECT, DIRECT
 static = 🍃 应用净化, REJECT, DIRECT
-static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|中国_3, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|英属维尔京群岛, TG频道:@hkaa0|中国_4, TG频道:@hkaa0|美国_4
+static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, TG频道:@hkaa0|美国_1, TG频道:@hkaa0|中国_1, TG频道:@hkaa0|英属维尔京群岛_1, TG频道:@hkaa0|加拿大_1, TG频道:@hkaa0|美国_2, TG频道:@hkaa0|英属维尔京群岛_2, TG频道:@hkaa0|加拿大_2, TG频道:@hkaa0|美国_3, TG频道:@hkaa0|德意志联邦共和国_1, TG频道:@hkaa0|德意志联邦共和国_2, TG频道:@hkaa0|中国_2, TG频道:@hkaa0|美国_4
 
 [server_remote]
 
@@ -37,14 +37,18 @@ static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动�
 [rewrite_remote]
 
 [server_local]
-vmess = 120.238.122.243:35601, method = chacha20-ietf-poly1305, password = 418048af-a293-4b99-9b0c-98ca3580dd24, aead = false, tls13 = false, fast-open = false, tag = TG频道:@hkaa0|中国_1
 vmess = fcdn.flha.ru:2095, method = chacha20-ietf-poly1305, password = 7a737f41-b792-4260-94ff-3d864da67b80, aead = true, tls13 = false, obfs = ws, obfs-uri = /, obfs-host = fcdn.flha.ru, fast-open = false, tag = TG频道:@hkaa0|美国_1
+shadowsocks = 119.23.104.213:8474, method = chacha20-ietf-poly1305, password = a501c82c72d790b8, fast-open = false, tag = TG频道:@hkaa0|中国_1
+vmess = 89.39.161.122:8080, method = chacha20-ietf-poly1305, password = bdd22841-c4d2-4aa8-acf2-95aa9125f159, aead = true, tls13 = false, obfs = ws, obfs-uri = , obfs-host = 89.39.161.122, fast-open = false, tag = TG频道:@hkaa0|英属维尔京群岛_1
+vmess = 158.51.123.111:443, method = chacha20-ietf-poly1305, password = 03fcc618-b93d-6796-6aed-8a38c975d581, aead = true, tls13 = true, obfs = wss, obfs-uri = /linkvws, obfs-host = 158.51.123.111, fast-open = false, tag = TG频道:@hkaa0|加拿大_1
+vmess = fcdn.flha.ru:2095, method = chacha20-ietf-poly1305, password = 7a737f41-b792-4260-94ff-3d864da67b80, aead = true, tls13 = false, obfs = ws, obfs-uri = /, obfs-host = fcdn.flha.ru, fast-open = false, tag = TG频道:@hkaa0|美国_2
+vmess = 89.39.161.122:8080, method = chacha20-ietf-poly1305, password = bdd22841-c4d2-4aa8-acf2-95aa9125f159, aead = true, tls13 = false, obfs = ws, obfs-uri = , obfs-host = 89.39.161.122, fast-open = false, tag = TG频道:@hkaa0|英属维尔京群岛_2
+vmess = 158.51.123.111:443, method = chacha20-ietf-poly1305, password = 03fcc618-b93d-6796-6aed-8a38c975d581, aead = true, tls13 = true, obfs = wss, obfs-uri = /linkvws, obfs-host = 158.51.123.111, fast-open = false, tag = TG频道:@hkaa0|加拿大_2
+vmess = speed.cloudflare.com:8880, method = chacha20-ietf-poly1305, password = 03fcc618-b93d-6796-6aed-8a38c975d581, aead = true, tls13 = false, obfs = ws, obfs-host = nd-truth-210a8hwjhs.bonar11011.workers.dev, obfs-uri = /nina.bond/linkvws, fast-open = false, tag = TG频道:@hkaa0|美国_3
+vmess = 23.158.56.60:443, method = chacha20-ietf-poly1305, password = 03fcc618-b93d-6796-6aed-8a38c975d581, aead = true, tls13 = true, obfs = wss, obfs-uri = /linkvws, obfs-host = 23.158.56.60, fast-open = false, tag = TG频道:@hkaa0|德意志联邦共和国_1
+vmess = 23.158.56.229:443, method = chacha20-ietf-poly1305, password = 03fcc618-b93d-6796-6aed-8a38c975d581, aead = true, tls13 = true, obfs = wss, obfs-uri = /linkvws, obfs-host = 23.158.56.229, fast-open = false, tag = TG频道:@hkaa0|德意志联邦共和国_2
 shadowsocks = 119.23.104.213:8474, method = chacha20-ietf-poly1305, password = a501c82c72d790b8, fast-open = false, tag = TG频道:@hkaa0|中国_2
-shadowsocks = 47.96.69.161:10001, method = chacha20-ietf-poly1305, password = Rad33xaT, fast-open = false, tag = TG频道:@hkaa0|中国_3
-vmess = 104.21.234.122:8080, method = chacha20-ietf-poly1305, password = 272733cb-3310-4eba-bb9f-8a39982c554e, aead = true, tls13 = false, obfs = ws, obfs-host = us2.laobideng.xyz, obfs-uri = /, fast-open = false, tag = TG频道:@hkaa0|美国_3
-vmess = 89.39.161.122:8080, method = chacha20-ietf-poly1305, password = bdd22841-c4d2-4aa8-acf2-95aa9125f159, aead = true, tls13 = false, obfs = ws, obfs-uri = , obfs-host = 89.39.161.122, fast-open = false, tag = TG频道:@hkaa0|英属维尔京群岛
-shadowsocks = lion02.t3o5wy.xyz:30021, method = chacha20-ietf-poly1305, password = FZHTkxW73qkD4jOC, fast-open = false, tag = TG频道:@hkaa0|中国_4
-vmess = s1c.v2.v001sss.xyz:2082, method = chacha20-ietf-poly1305, password = 112ac36f-3f53-4e26-8371-d25c028e1b9a, aead = true, tls13 = false, obfs = ws, obfs-uri = , obfs-host = s1c.v2.v001sss.xyz, fast-open = false, tag = TG频道:@hkaa0|美国_4
+vmess = fcdn.flha.ru:2095, method = chacha20-ietf-poly1305, password = 7a737f41-b792-4260-94ff-3d864da67b80, aead = true, tls13 = false, obfs = ws, obfs-host = fcdn.flha.ru, obfs-uri = /, fast-open = false, tag = TG频道:@hkaa0|美国_4
 
 [filter_local]
 # 本地/局域网地址
