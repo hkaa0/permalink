@@ -94,17 +94,21 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -112,17 +116,21 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -134,17 +142,21 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -152,17 +164,21 @@
       "tag": "🌌 Google",
       "type": "selector",
       "outbounds": [
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -170,17 +186,21 @@
       "tag": "📟 Telegram",
       "type": "selector",
       "outbounds": [
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -188,17 +208,21 @@
       "tag": "🐦 Twitter",
       "type": "selector",
       "outbounds": [
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -206,17 +230,21 @@
       "tag": "👤 Facebook",
       "type": "selector",
       "outbounds": [
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -225,17 +253,21 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -244,17 +276,21 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -263,17 +299,21 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -282,17 +322,21 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -308,17 +352,21 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -327,17 +375,21 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "TG频道:@hkaa0|美国_1",
-        "TG频道:@hkaa0|中国_1",
-        "TG频道:@hkaa0|英属维尔京群岛_1",
         "TG频道:@hkaa0|加拿大_1",
-        "TG频道:@hkaa0|美国_2",
-        "TG频道:@hkaa0|英属维尔京群岛_2",
+        "TG频道:@hkaa0|美国_1",
         "TG频道:@hkaa0|加拿大_2",
-        "TG频道:@hkaa0|美国_3",
-        "TG频道:@hkaa0|德意志联邦共和国_1",
-        "TG频道:@hkaa0|德意志联邦共和国_2",
+        "TG频道:@hkaa0|德意志联邦共和国",
+        "TG频道:@hkaa0|中国_1",
         "TG频道:@hkaa0|中国_2",
+        "TG频道:@hkaa0|法国_1",
+        "TG频道:@hkaa0|法国_2",
+        "TG频道:@hkaa0|法国_3",
+        "TG频道:@hkaa0|英国_1",
+        "TG频道:@hkaa0|英国_2",
+        "TG频道:@hkaa0|韩国",
+        "TG频道:@hkaa0|俄罗斯联邦",
+        "TG频道:@hkaa0|美国_2",
+        "TG频道:@hkaa0|美国_3",
         "TG频道:@hkaa0|美国_4"
       ]
     },
@@ -370,49 +422,6 @@
       "type": "dns"
     },
     {
-      "server": "fcdn.flha.ru",
-      "server_port": 2095,
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "TG频道:@hkaa0|美国_1",
-      "type": "vmess"
-    },
-    {
-      "server": "119.23.104.213",
-      "server_port": 8474,
-      "password": "a501c82c72d790b8",
-      "method": "chacha20-ietf-poly1305",
-      "tag": "TG频道:@hkaa0|中国_1",
-      "type": "shadowsocks"
-    },
-    {
-      "server": "89.39.161.122",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true
-      },
-      "transport": {
-        "path": "",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "bdd22841-c4d2-4aa8-acf2-95aa9125f159",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "TG频道:@hkaa0|英属维尔京群岛_1",
-      "type": "vmess"
-    },
-    {
       "server": "158.51.123.111",
       "server_port": 443,
       "tls": {
@@ -432,42 +441,23 @@
       "type": "vmess"
     },
     {
-      "server": "fcdn.flha.ru",
-      "server_port": 2095,
+      "server": "172.67.223.242",
+      "server_port": 2086,
       "transport": {
         "path": "/",
         "type": "ws",
         "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
-      "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+      "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
       "packet_encoding": "xudp",
       "security": "auto",
       "alter_id": 0,
-      "tag": "TG频道:@hkaa0|美国_2",
+      "tag": "TG频道:@hkaa0|美国_1",
       "type": "vmess"
     },
     {
-      "server": "89.39.161.122",
-      "server_port": 8080,
-      "tls": {
-        "enabled": true
-      },
-      "transport": {
-        "path": "",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "bdd22841-c4d2-4aa8-acf2-95aa9125f159",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "TG频道:@hkaa0|英属维尔京群岛_2",
-      "type": "vmess"
-    },
-    {
-      "server": "158.51.123.111",
+      "server": "158.51.121.36",
       "server_port": 443,
       "tls": {
         "enabled": true
@@ -486,22 +476,6 @@
       "type": "vmess"
     },
     {
-      "server": "speed.cloudflare.com",
-      "server_port": 8880,
-      "transport": {
-        "path": "/nina.bond/linkvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "TG频道:@hkaa0|美国_3",
-      "type": "vmess"
-    },
-    {
       "server": "23.158.56.60",
       "server_port": 443,
       "tls": {
@@ -517,27 +491,16 @@
       "packet_encoding": "xudp",
       "security": "auto",
       "alter_id": 0,
-      "tag": "TG频道:@hkaa0|德意志联邦共和国_1",
+      "tag": "TG频道:@hkaa0|德意志联邦共和国",
       "type": "vmess"
     },
     {
-      "server": "23.158.56.229",
-      "server_port": 443,
-      "tls": {
-        "enabled": true
-      },
-      "transport": {
-        "path": "/linkvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "TG频道:@hkaa0|德意志联邦共和国_2",
-      "type": "vmess"
+      "server": "nc.cm.xiaomi-api.xyz",
+      "server_port": 19593,
+      "password": "2bfaafe5-d825-424e-bb6b-471c8f4daef3",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "TG频道:@hkaa0|中国_1",
+      "type": "shadowsocks"
     },
     {
       "server": "119.23.104.213",
@@ -548,15 +511,125 @@
       "type": "shadowsocks"
     },
     {
-      "server": "fcdn.flha.ru",
-      "server_port": 2095,
+      "server": "fr01.freeflyingcloud.xyz",
+      "server_port": 30502,
+      "tls": {
+        "enabled": true,
+        "server_name": "fr01.freeflyingcloud.xyz",
+        "insecure": true
+      },
+      "password": "e68ecafd-6565-44e3-9de2-a37eb3234b62",
+      "tag": "TG频道:@hkaa0|法国_1",
+      "type": "trojan"
+    },
+    {
+      "server": "fr01.freeflyingcloud.xyz",
+      "server_port": 30502,
+      "tls": {
+        "enabled": true,
+        "server_name": "fr01.freeflyingcloud.xyz",
+        "insecure": true
+      },
+      "password": "99c36038-8c1f-44cb-8463-c9c555e80b58",
+      "tag": "TG频道:@hkaa0|法国_2",
+      "type": "trojan"
+    },
+    {
+      "server": "fr01.freeflyingcloud.xyz",
+      "server_port": 30502,
+      "tls": {
+        "enabled": true,
+        "server_name": "fr01.freeflyingcloud.xyz",
+        "insecure": true
+      },
+      "password": "25706894-07da-45cc-a119-6faa8e9cdd7b",
+      "tag": "TG频道:@hkaa0|法国_3",
+      "type": "trojan"
+    },
+    {
+      "server": "uk01.freeflyingcloud.xyz",
+      "server_port": 22252,
+      "tls": {
+        "enabled": true,
+        "server_name": "uk01.freeflyingcloud.xyz",
+        "insecure": true
+      },
+      "password": "99c36038-8c1f-44cb-8463-c9c555e80b58",
+      "tag": "TG频道:@hkaa0|英国_1",
+      "type": "trojan"
+    },
+    {
+      "server": "uk01.freeflyingcloud.xyz",
+      "server_port": 22252,
+      "tls": {
+        "enabled": true,
+        "server_name": "uk01.freeflyingcloud.xyz",
+        "insecure": true
+      },
+      "password": "25706894-07da-45cc-a119-6faa8e9cdd7b",
+      "tag": "TG频道:@hkaa0|英国_2",
+      "type": "trojan"
+    },
+    {
+      "server": "103.214.68.57",
+      "server_port": 10001,
+      "uuid": "ebca5f68-bf59-4081-e658-f158839c2f5c",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "TG频道:@hkaa0|韩国",
+      "type": "vmess"
+    },
+    {
+      "server": "ru01.freeflyingcloud.xyz",
+      "server_port": 30002,
+      "tls": {
+        "enabled": true,
+        "server_name": "ru01.freeflyingcloud.xyz",
+        "insecure": true
+      },
+      "password": "25706894-07da-45cc-a119-6faa8e9cdd7b",
+      "tag": "TG频道:@hkaa0|俄罗斯联邦",
+      "type": "trojan"
+    },
+    {
+      "server": "us219.netfilx.live",
+      "server_port": 80,
       "transport": {
-        "path": "/",
+        "path": "",
         "type": "ws",
         "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
-      "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+      "uuid": "1e65ec6d-9a42-4cd0-8c51-63030970134f",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "TG频道:@hkaa0|美国_2",
+      "type": "vmess"
+    },
+    {
+      "server": "3.17.105.88",
+      "server_port": 22222,
+      "tls": {
+        "enabled": true,
+        "server_name": "trojan.burgerip.co.uk",
+        "insecure": true
+      },
+      "password": "telegram-id-directvpn",
+      "tag": "TG频道:@hkaa0|美国_3",
+      "type": "trojan"
+    },
+    {
+      "server": "admin.arzonhost.ir",
+      "server_port": 2086,
+      "transport": {
+        "path": "",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7d93e992-48cf-42d4-84f8-75768e815a4c",
       "packet_encoding": "xudp",
       "security": "auto",
       "alter_id": 0,
