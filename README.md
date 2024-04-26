@@ -6,11 +6,11 @@
 ## 👇GitHub托管永久订阅👇
 <a>V2ray订阅链接：
 
-https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray
+https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray.txt
 
 Clash订阅链接:
 
-https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash
+https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash.yaml
 
 节点链接：
 
