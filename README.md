@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/%E8%8A%82%E7%82%B9%
 
 **✅五叶小铺/付费代理/苹果ID/邮箱/账号批发**
 
->**https://shop.hkaa0.top**
+>**https://hkaa0.shop**
 
 **广告投放请直接私聊 @HKGGZS_bot**
 
