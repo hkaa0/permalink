@@ -1,9 +1,9 @@
 ####################################
-# 创建者：五叶小铺 https://hkaa0.shop/
+# 创建者：五叶节点分享 https://t.me/hkaa0
 # 客户端：Clash
-# 创建时间：2024-05-15 23:48:04
+# 创建时间：2024-05-19 19:21:16
 # 使用模版：V2RaySE 默认模版
-# 节点数量：42
+# 节点数量：30
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -100,33 +100,21 @@ proxies:
   - {"name":"hkaa0.shop|中国_7","type":"vmess","server":"183.240.179.195","port":21003,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"hkaa0.shop|中国_8","type":"vmess","server":"120.232.240.38","port":8443,"cipher":"auto","uuid":"39ef8f5d-7286-41b0-9c11-c976925d2931","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"hkaa0.shop|俄罗斯联邦","type":"vmess","server":"45.136.245.240","port":12910,"cipher":"auto","uuid":"8259cb1c-dd6c-4739-9c88-af550d977525","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"hkaa0.shop|加拿大_1","type":"trojan","server":"3.96.208.171","port":14330,"udp":true,"password":"L2AsWcQpwR1P","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|加拿大_2","type":"trojan","server":"15.157.68.189","port":14339,"udp":true,"password":"bHOkAxQfhdsr","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|加拿大_3","type":"trojan","server":"35.182.29.193","port":14335,"udp":true,"password":"fIIQD5C2G)sR","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
   - {"name":"hkaa0.shop|中国_9","type":"vmess","server":"183.232.199.61","port":21006,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"hkaa0.shop|中国_10","type":"trojan","server":"36.151.195.48","port":20344,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|德国_1","type":"trojan","server":"35.156.231.138","port":14321,"udp":true,"password":"ji0I)1iMRhjA","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|德国_2","type":"trojan","server":"18.159.131.239","port":14349,"udp":true,"password":"xRwMBqdGAXAM","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|伊朗_1","type":"vmess","server":"178.239.150.174","port":80,"cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|伊朗_2","type":"vmess","server":"94.182.150.230","port":80,"cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|日本_1","type":"trojan","server":"54.248.129.106","port":14347,"udp":true,"password":"O7fY20AtKYys","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|美国_5","type":"trojan","server":"57.180.247.159","port":14330,"udp":true,"password":"DmgdHV9wb(7S","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|日本_2","type":"trojan","server":"52.195.5.70","port":14327,"udp":true,"password":"VGJU1Bk1kQ4I","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|日本_3","type":"trojan","server":"54.168.57.130","port":14332,"udp":true,"password":"pdIL8kUQ8JC6","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|日本_4","type":"trojan","server":"18.181.175.166","port":14314,"udp":true,"password":"uIt0ImHSbGgu","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|韩国_3","type":"trojan","server":"54.180.156.247","port":14325,"udp":true,"password":"7LTeN03HmuNr","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|韩国_4","type":"trojan","server":"54.180.231.160","port":14339,"udp":true,"password":"Pu(ol480gK99","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|韩国_5","type":"trojan","server":"43.201.16.34","port":14334,"udp":true,"password":"o4CY09z4eCA2","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|韩国_6","type":"trojan","server":"43.203.236.199","port":14330,"udp":true,"password":"Yyt1AC6itBZo","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|新加坡_1","type":"trojan","server":"54.255.185.213","port":14346,"udp":true,"password":"VZHDD3clXn2x","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|新加坡_2","type":"trojan","server":"18.142.53.208","port":14351,"udp":true,"password":"Yd28hVC0Szo(","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|新加坡_3","type":"trojan","server":"13.229.104.125","port":14316,"udp":true,"password":"caI0D(sqJ)rW","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|美国_6","type":"ss","server":"23.157.40.87","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"hkaa0.shop|美国_7","type":"trojan","server":"13.58.128.223","port":14333,"udp":true,"password":"2quoioNbfHrp","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|美国_8","type":"trojan","server":"52.91.207.83","port":14324,"udp":true,"password":"024Vj7lSaR1g","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|美国_9","type":"trojan","server":"54.187.83.119","port":14347,"udp":true,"password":"GiS5WOmkRBYu","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|美国_10","type":"trojan","server":"34.220.217.72","port":14329,"udp":true,"password":"ZyP(E2leEzbv","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|美国_11","type":"trojan","server":"35.88.25.60","port":14349,"udp":true,"password":"E272bO)oyHPB","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|中国_11","type":"ss","server":"deepf.hjkdsak2.com","port":20003,"password":"99301d55-a41f-4919-986b-1435996533aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"hkaa0.shop|中国_12","type":"vmess","server":"183.232.199.61","port":61001,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|中国_13","type":"ss","server":"ahuaweisb2.xn--z7x16bf6t.com","port":19112,"password":"b73b8dd6-0fab-4343-824f-bdd81c739585","cipher":"aes-128-gcm"}
+  - {"name":"hkaa0.shop|中国_14","type":"ss","server":"alibaba1.xn--z7x16bf6t.com","port":19112,"password":"8958d8d4-56e2-4643-9a17-d92a231683d9","cipher":"aes-128-gcm"}
+  - {"name":"hkaa0.shop|中国_15","type":"vmess","server":"tanz-us.01byx31qzn.download","port":35019,"cipher":"auto","uuid":"74901202-f9e0-3b4a-b406-8ea38150689f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|德国","type":"trojan","server":"18.199.221.139","port":16045,"udp":true,"password":"kP2dpcaIlOyd","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|美国_5","type":"ss","server":"172.232.36.182","port":80,"password":"FKYytuIxvB7lXiyXDeFImc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"hkaa0.shop|英国","type":"vmess","server":"109.74.197.173","port":40437,"cipher":"auto","uuid":"5bcc314f-c5b9-412f-8ff6-4040e7dc8518","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|日本","type":"vmess","server":"japanddns.baipiaoyumingjiexi.xyz","port":80,"cipher":"auto","uuid":"2fd3c154-312b-4e37-b133-df9326022c98","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"hkaa0.shop|韩国_3","type":"trojan","server":"54.180.231.108","port":16046,"udp":true,"password":"CSM6lnprlyM3","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|新加坡_1","type":"vmess","server":"31.192.234.7","port":12954,"cipher":"auto","uuid":"8259cb1c-dd6c-4739-9c88-af550d977525","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|新加坡_2","type":"trojan","server":"sg08.421421.xyz","port":20230,"udp":true,"password":"0f408453-2589-4fc2-bf9d-22e0cef8b8d2","sni":"421421.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|美国_6","type":"vmess","server":"atlasnet1.myatlasnet.ir","port":8443,"cipher":"auto","uuid":"63e54742-a244-4bb0-c9cb-17a545f4ca3f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -148,33 +136,21 @@ proxy-groups:
       - hkaa0.shop|中国_7
       - hkaa0.shop|中国_8
       - hkaa0.shop|俄罗斯联邦
-      - hkaa0.shop|加拿大_1
-      - hkaa0.shop|加拿大_2
-      - hkaa0.shop|加拿大_3
       - hkaa0.shop|中国_9
       - hkaa0.shop|中国_10
-      - hkaa0.shop|德国_1
-      - hkaa0.shop|德国_2
-      - hkaa0.shop|伊朗_1
-      - hkaa0.shop|伊朗_2
-      - hkaa0.shop|日本_1
+      - hkaa0.shop|中国_11
+      - hkaa0.shop|中国_12
+      - hkaa0.shop|中国_13
+      - hkaa0.shop|中国_14
+      - hkaa0.shop|中国_15
+      - hkaa0.shop|德国
       - hkaa0.shop|美国_5
-      - hkaa0.shop|日本_2
-      - hkaa0.shop|日本_3
-      - hkaa0.shop|日本_4
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本
       - hkaa0.shop|韩国_3
-      - hkaa0.shop|韩国_4
-      - hkaa0.shop|韩国_5
-      - hkaa0.shop|韩国_6
       - hkaa0.shop|新加坡_1
       - hkaa0.shop|新加坡_2
-      - hkaa0.shop|新加坡_3
       - hkaa0.shop|美国_6
-      - hkaa0.shop|美国_7
-      - hkaa0.shop|美国_8
-      - hkaa0.shop|美国_9
-      - hkaa0.shop|美国_10
-      - hkaa0.shop|美国_11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -196,33 +172,21 @@ proxy-groups:
       - hkaa0.shop|中国_7
       - hkaa0.shop|中国_8
       - hkaa0.shop|俄罗斯联邦
-      - hkaa0.shop|加拿大_1
-      - hkaa0.shop|加拿大_2
-      - hkaa0.shop|加拿大_3
       - hkaa0.shop|中国_9
       - hkaa0.shop|中国_10
-      - hkaa0.shop|德国_1
-      - hkaa0.shop|德国_2
-      - hkaa0.shop|伊朗_1
-      - hkaa0.shop|伊朗_2
-      - hkaa0.shop|日本_1
+      - hkaa0.shop|中国_11
+      - hkaa0.shop|中国_12
+      - hkaa0.shop|中国_13
+      - hkaa0.shop|中国_14
+      - hkaa0.shop|中国_15
+      - hkaa0.shop|德国
       - hkaa0.shop|美国_5
-      - hkaa0.shop|日本_2
-      - hkaa0.shop|日本_3
-      - hkaa0.shop|日本_4
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本
       - hkaa0.shop|韩国_3
-      - hkaa0.shop|韩国_4
-      - hkaa0.shop|韩国_5
-      - hkaa0.shop|韩国_6
       - hkaa0.shop|新加坡_1
       - hkaa0.shop|新加坡_2
-      - hkaa0.shop|新加坡_3
       - hkaa0.shop|美国_6
-      - hkaa0.shop|美国_7
-      - hkaa0.shop|美国_8
-      - hkaa0.shop|美国_9
-      - hkaa0.shop|美国_10
-      - hkaa0.shop|美国_11
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -244,33 +208,21 @@ proxy-groups:
       - hkaa0.shop|中国_7
       - hkaa0.shop|中国_8
       - hkaa0.shop|俄罗斯联邦
-      - hkaa0.shop|加拿大_1
-      - hkaa0.shop|加拿大_2
-      - hkaa0.shop|加拿大_3
       - hkaa0.shop|中国_9
       - hkaa0.shop|中国_10
-      - hkaa0.shop|德国_1
-      - hkaa0.shop|德国_2
-      - hkaa0.shop|伊朗_1
-      - hkaa0.shop|伊朗_2
-      - hkaa0.shop|日本_1
+      - hkaa0.shop|中国_11
+      - hkaa0.shop|中国_12
+      - hkaa0.shop|中国_13
+      - hkaa0.shop|中国_14
+      - hkaa0.shop|中国_15
+      - hkaa0.shop|德国
       - hkaa0.shop|美国_5
-      - hkaa0.shop|日本_2
-      - hkaa0.shop|日本_3
-      - hkaa0.shop|日本_4
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本
       - hkaa0.shop|韩国_3
-      - hkaa0.shop|韩国_4
-      - hkaa0.shop|韩国_5
-      - hkaa0.shop|韩国_6
       - hkaa0.shop|新加坡_1
       - hkaa0.shop|新加坡_2
-      - hkaa0.shop|新加坡_3
       - hkaa0.shop|美国_6
-      - hkaa0.shop|美国_7
-      - hkaa0.shop|美国_8
-      - hkaa0.shop|美国_9
-      - hkaa0.shop|美国_10
-      - hkaa0.shop|美国_11
   - name: 📲 电报信息
     type: select
     proxies:
@@ -291,33 +243,21 @@ proxy-groups:
       - hkaa0.shop|中国_7
       - hkaa0.shop|中国_8
       - hkaa0.shop|俄罗斯联邦
-      - hkaa0.shop|加拿大_1
-      - hkaa0.shop|加拿大_2
-      - hkaa0.shop|加拿大_3
       - hkaa0.shop|中国_9
       - hkaa0.shop|中国_10
-      - hkaa0.shop|德国_1
-      - hkaa0.shop|德国_2
-      - hkaa0.shop|伊朗_1
-      - hkaa0.shop|伊朗_2
-      - hkaa0.shop|日本_1
+      - hkaa0.shop|中国_11
+      - hkaa0.shop|中国_12
+      - hkaa0.shop|中国_13
+      - hkaa0.shop|中国_14
+      - hkaa0.shop|中国_15
+      - hkaa0.shop|德国
       - hkaa0.shop|美国_5
-      - hkaa0.shop|日本_2
-      - hkaa0.shop|日本_3
-      - hkaa0.shop|日本_4
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本
       - hkaa0.shop|韩国_3
-      - hkaa0.shop|韩国_4
-      - hkaa0.shop|韩国_5
-      - hkaa0.shop|韩国_6
       - hkaa0.shop|新加坡_1
       - hkaa0.shop|新加坡_2
-      - hkaa0.shop|新加坡_3
       - hkaa0.shop|美国_6
-      - hkaa0.shop|美国_7
-      - hkaa0.shop|美国_8
-      - hkaa0.shop|美国_9
-      - hkaa0.shop|美国_10
-      - hkaa0.shop|美国_11
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -338,33 +278,21 @@ proxy-groups:
       - hkaa0.shop|中国_7
       - hkaa0.shop|中国_8
       - hkaa0.shop|俄罗斯联邦
-      - hkaa0.shop|加拿大_1
-      - hkaa0.shop|加拿大_2
-      - hkaa0.shop|加拿大_3
       - hkaa0.shop|中国_9
       - hkaa0.shop|中国_10
-      - hkaa0.shop|德国_1
-      - hkaa0.shop|德国_2
-      - hkaa0.shop|伊朗_1
-      - hkaa0.shop|伊朗_2
-      - hkaa0.shop|日本_1
+      - hkaa0.shop|中国_11
+      - hkaa0.shop|中国_12
+      - hkaa0.shop|中国_13
+      - hkaa0.shop|中国_14
+      - hkaa0.shop|中国_15
+      - hkaa0.shop|德国
       - hkaa0.shop|美国_5
-      - hkaa0.shop|日本_2
-      - hkaa0.shop|日本_3
-      - hkaa0.shop|日本_4
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本
       - hkaa0.shop|韩国_3
-      - hkaa0.shop|韩国_4
-      - hkaa0.shop|韩国_5
-      - hkaa0.shop|韩国_6
       - hkaa0.shop|新加坡_1
       - hkaa0.shop|新加坡_2
-      - hkaa0.shop|新加坡_3
       - hkaa0.shop|美国_6
-      - hkaa0.shop|美国_7
-      - hkaa0.shop|美国_8
-      - hkaa0.shop|美国_9
-      - hkaa0.shop|美国_10
-      - hkaa0.shop|美国_11
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -385,33 +313,21 @@ proxy-groups:
       - hkaa0.shop|中国_7
       - hkaa0.shop|中国_8
       - hkaa0.shop|俄罗斯联邦
-      - hkaa0.shop|加拿大_1
-      - hkaa0.shop|加拿大_2
-      - hkaa0.shop|加拿大_3
       - hkaa0.shop|中国_9
       - hkaa0.shop|中国_10
-      - hkaa0.shop|德国_1
-      - hkaa0.shop|德国_2
-      - hkaa0.shop|伊朗_1
-      - hkaa0.shop|伊朗_2
-      - hkaa0.shop|日本_1
+      - hkaa0.shop|中国_11
+      - hkaa0.shop|中国_12
+      - hkaa0.shop|中国_13
+      - hkaa0.shop|中国_14
+      - hkaa0.shop|中国_15
+      - hkaa0.shop|德国
       - hkaa0.shop|美国_5
-      - hkaa0.shop|日本_2
-      - hkaa0.shop|日本_3
-      - hkaa0.shop|日本_4
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本
       - hkaa0.shop|韩国_3
-      - hkaa0.shop|韩国_4
-      - hkaa0.shop|韩国_5
-      - hkaa0.shop|韩国_6
       - hkaa0.shop|新加坡_1
       - hkaa0.shop|新加坡_2
-      - hkaa0.shop|新加坡_3
       - hkaa0.shop|美国_6
-      - hkaa0.shop|美国_7
-      - hkaa0.shop|美国_8
-      - hkaa0.shop|美国_9
-      - hkaa0.shop|美国_10
-      - hkaa0.shop|美国_11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -449,33 +365,21 @@ proxy-groups:
       - hkaa0.shop|中国_7
       - hkaa0.shop|中国_8
       - hkaa0.shop|俄罗斯联邦
-      - hkaa0.shop|加拿大_1
-      - hkaa0.shop|加拿大_2
-      - hkaa0.shop|加拿大_3
       - hkaa0.shop|中国_9
       - hkaa0.shop|中国_10
-      - hkaa0.shop|德国_1
-      - hkaa0.shop|德国_2
-      - hkaa0.shop|伊朗_1
-      - hkaa0.shop|伊朗_2
-      - hkaa0.shop|日本_1
+      - hkaa0.shop|中国_11
+      - hkaa0.shop|中国_12
+      - hkaa0.shop|中国_13
+      - hkaa0.shop|中国_14
+      - hkaa0.shop|中国_15
+      - hkaa0.shop|德国
       - hkaa0.shop|美国_5
-      - hkaa0.shop|日本_2
-      - hkaa0.shop|日本_3
-      - hkaa0.shop|日本_4
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本
       - hkaa0.shop|韩国_3
-      - hkaa0.shop|韩国_4
-      - hkaa0.shop|韩国_5
-      - hkaa0.shop|韩国_6
       - hkaa0.shop|新加坡_1
       - hkaa0.shop|新加坡_2
-      - hkaa0.shop|新加坡_3
       - hkaa0.shop|美国_6
-      - hkaa0.shop|美国_7
-      - hkaa0.shop|美国_8
-      - hkaa0.shop|美国_9
-      - hkaa0.shop|美国_10
-      - hkaa0.shop|美国_11
 
 rules:
 # 本地/局域网地址
