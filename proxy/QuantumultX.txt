@@ -1,9 +1,9 @@
 ####################################
 # 创建者：五叶小铺 https://hkaa0.shop/
 # 客户端：QuantumultX
-# 创建时间：2024-06-02 21:12:55
+# 创建时间：2024-06-07 20:45:06
 # 使用模版：V2RaySE 默认模版
-# 节点数量：28
+# 节点数量：24
 ####################################
 
 [general]
@@ -19,16 +19,16 @@ server = 1.0.0.1
 server = 8.8.8.8
 
 [policy]
-static = 🚀 节点选择, ♻️ 自动选择, DIRECT, hkaa0.shop|韩国_1, hkaa0.shop|中国_1, hkaa0.shop|韩国_2, hkaa0.shop|中国_2, hkaa0.shop|新加坡, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|中国_5, hkaa0.shop|美国_1, hkaa0.shop|加拿大, hkaa0.shop|中国_6, hkaa0.shop|中国_7, hkaa0.shop|中国_8, hkaa0.shop|中国_9, hkaa0.shop|中国_10, hkaa0.shop|中国_11, hkaa0.shop|中国_12, hkaa0.shop|中国_13, hkaa0.shop|中国_14, hkaa0.shop|中国_15, hkaa0.shop|中国_16, hkaa0.shop|中国_17, hkaa0.shop|中国_18, hkaa0.shop|中国_19, hkaa0.shop|中国_20, hkaa0.shop|中国_21, hkaa0.shop|美国_2, hkaa0.shop|美国_3
-url-latency-benchmark = ♻️ 自动选择, hkaa0.shop|韩国_1, hkaa0.shop|中国_1, hkaa0.shop|韩国_2, hkaa0.shop|中国_2, hkaa0.shop|新加坡, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|中国_5, hkaa0.shop|美国_1, hkaa0.shop|加拿大, hkaa0.shop|中国_6, hkaa0.shop|中国_7, hkaa0.shop|中国_8, hkaa0.shop|中国_9, hkaa0.shop|中国_10, hkaa0.shop|中国_11, hkaa0.shop|中国_12, hkaa0.shop|中国_13, hkaa0.shop|中国_14, hkaa0.shop|中国_15, hkaa0.shop|中国_16, hkaa0.shop|中国_17, hkaa0.shop|中国_18, hkaa0.shop|中国_19, hkaa0.shop|中国_20, hkaa0.shop|中国_21, hkaa0.shop|美国_2, hkaa0.shop|美国_3
-static = 🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, hkaa0.shop|韩国_1, hkaa0.shop|中国_1, hkaa0.shop|韩国_2, hkaa0.shop|中国_2, hkaa0.shop|新加坡, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|中国_5, hkaa0.shop|美国_1, hkaa0.shop|加拿大, hkaa0.shop|中国_6, hkaa0.shop|中国_7, hkaa0.shop|中国_8, hkaa0.shop|中国_9, hkaa0.shop|中国_10, hkaa0.shop|中国_11, hkaa0.shop|中国_12, hkaa0.shop|中国_13, hkaa0.shop|中国_14, hkaa0.shop|中国_15, hkaa0.shop|中国_16, hkaa0.shop|中国_17, hkaa0.shop|中国_18, hkaa0.shop|中国_19, hkaa0.shop|中国_20, hkaa0.shop|中国_21, hkaa0.shop|美国_2, hkaa0.shop|美国_3
-static = 📲 电报信息, 🚀 节点选择, 🎯 全球直连, hkaa0.shop|韩国_1, hkaa0.shop|中国_1, hkaa0.shop|韩国_2, hkaa0.shop|中国_2, hkaa0.shop|新加坡, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|中国_5, hkaa0.shop|美国_1, hkaa0.shop|加拿大, hkaa0.shop|中国_6, hkaa0.shop|中国_7, hkaa0.shop|中国_8, hkaa0.shop|中国_9, hkaa0.shop|中国_10, hkaa0.shop|中国_11, hkaa0.shop|中国_12, hkaa0.shop|中国_13, hkaa0.shop|中国_14, hkaa0.shop|中国_15, hkaa0.shop|中国_16, hkaa0.shop|中国_17, hkaa0.shop|中国_18, hkaa0.shop|中国_19, hkaa0.shop|中国_20, hkaa0.shop|中国_21, hkaa0.shop|美国_2, hkaa0.shop|美国_3
-static = Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, hkaa0.shop|韩国_1, hkaa0.shop|中国_1, hkaa0.shop|韩国_2, hkaa0.shop|中国_2, hkaa0.shop|新加坡, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|中国_5, hkaa0.shop|美国_1, hkaa0.shop|加拿大, hkaa0.shop|中国_6, hkaa0.shop|中国_7, hkaa0.shop|中国_8, hkaa0.shop|中国_9, hkaa0.shop|中国_10, hkaa0.shop|中国_11, hkaa0.shop|中国_12, hkaa0.shop|中国_13, hkaa0.shop|中国_14, hkaa0.shop|中国_15, hkaa0.shop|中国_16, hkaa0.shop|中国_17, hkaa0.shop|中国_18, hkaa0.shop|中国_19, hkaa0.shop|中国_20, hkaa0.shop|中国_21, hkaa0.shop|美国_2, hkaa0.shop|美国_3
-static = 🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, hkaa0.shop|韩国_1, hkaa0.shop|中国_1, hkaa0.shop|韩国_2, hkaa0.shop|中国_2, hkaa0.shop|新加坡, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|中国_5, hkaa0.shop|美国_1, hkaa0.shop|加拿大, hkaa0.shop|中国_6, hkaa0.shop|中国_7, hkaa0.shop|中国_8, hkaa0.shop|中国_9, hkaa0.shop|中国_10, hkaa0.shop|中国_11, hkaa0.shop|中国_12, hkaa0.shop|中国_13, hkaa0.shop|中国_14, hkaa0.shop|中国_15, hkaa0.shop|中国_16, hkaa0.shop|中国_17, hkaa0.shop|中国_18, hkaa0.shop|中国_19, hkaa0.shop|中国_20, hkaa0.shop|中国_21, hkaa0.shop|美国_2, hkaa0.shop|美国_3
+static = 🚀 节点选择, ♻️ 自动选择, DIRECT, hkaa0.shop|中国_1, hkaa0.shop|中国_2, hkaa0.shop|法国_1, hkaa0.shop|法国_2, hkaa0.shop|法国_3, hkaa0.shop|法国_4, hkaa0.shop|美国_1, hkaa0.shop|台湾, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|德国, hkaa0.shop|法国_5, hkaa0.shop|法国_6, hkaa0.shop|法国_7, hkaa0.shop|法国_8, hkaa0.shop|英国, hkaa0.shop|日本_1, hkaa0.shop|日本_2, hkaa0.shop|韩国, hkaa0.shop|美国_2, hkaa0.shop|俄罗斯联邦, hkaa0.shop|新加坡, hkaa0.shop|美国_3, hkaa0.shop|美国_4
+url-latency-benchmark = ♻️ 自动选择, hkaa0.shop|中国_1, hkaa0.shop|中国_2, hkaa0.shop|法国_1, hkaa0.shop|法国_2, hkaa0.shop|法国_3, hkaa0.shop|法国_4, hkaa0.shop|美国_1, hkaa0.shop|台湾, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|德国, hkaa0.shop|法国_5, hkaa0.shop|法国_6, hkaa0.shop|法国_7, hkaa0.shop|法国_8, hkaa0.shop|英国, hkaa0.shop|日本_1, hkaa0.shop|日本_2, hkaa0.shop|韩国, hkaa0.shop|美国_2, hkaa0.shop|俄罗斯联邦, hkaa0.shop|新加坡, hkaa0.shop|美国_3, hkaa0.shop|美国_4
+static = 🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, hkaa0.shop|中国_1, hkaa0.shop|中国_2, hkaa0.shop|法国_1, hkaa0.shop|法国_2, hkaa0.shop|法国_3, hkaa0.shop|法国_4, hkaa0.shop|美国_1, hkaa0.shop|台湾, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|德国, hkaa0.shop|法国_5, hkaa0.shop|法国_6, hkaa0.shop|法国_7, hkaa0.shop|法国_8, hkaa0.shop|英国, hkaa0.shop|日本_1, hkaa0.shop|日本_2, hkaa0.shop|韩国, hkaa0.shop|美国_2, hkaa0.shop|俄罗斯联邦, hkaa0.shop|新加坡, hkaa0.shop|美国_3, hkaa0.shop|美国_4
+static = 📲 电报信息, 🚀 节点选择, 🎯 全球直连, hkaa0.shop|中国_1, hkaa0.shop|中国_2, hkaa0.shop|法国_1, hkaa0.shop|法国_2, hkaa0.shop|法国_3, hkaa0.shop|法国_4, hkaa0.shop|美国_1, hkaa0.shop|台湾, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|德国, hkaa0.shop|法国_5, hkaa0.shop|法国_6, hkaa0.shop|法国_7, hkaa0.shop|法国_8, hkaa0.shop|英国, hkaa0.shop|日本_1, hkaa0.shop|日本_2, hkaa0.shop|韩国, hkaa0.shop|美国_2, hkaa0.shop|俄罗斯联邦, hkaa0.shop|新加坡, hkaa0.shop|美国_3, hkaa0.shop|美国_4
+static = Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, hkaa0.shop|中国_1, hkaa0.shop|中国_2, hkaa0.shop|法国_1, hkaa0.shop|法国_2, hkaa0.shop|法国_3, hkaa0.shop|法国_4, hkaa0.shop|美国_1, hkaa0.shop|台湾, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|德国, hkaa0.shop|法国_5, hkaa0.shop|法国_6, hkaa0.shop|法国_7, hkaa0.shop|法国_8, hkaa0.shop|英国, hkaa0.shop|日本_1, hkaa0.shop|日本_2, hkaa0.shop|韩国, hkaa0.shop|美国_2, hkaa0.shop|俄罗斯联邦, hkaa0.shop|新加坡, hkaa0.shop|美国_3, hkaa0.shop|美国_4
+static = 🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, hkaa0.shop|中国_1, hkaa0.shop|中国_2, hkaa0.shop|法国_1, hkaa0.shop|法国_2, hkaa0.shop|法国_3, hkaa0.shop|法国_4, hkaa0.shop|美国_1, hkaa0.shop|台湾, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|德国, hkaa0.shop|法国_5, hkaa0.shop|法国_6, hkaa0.shop|法国_7, hkaa0.shop|法国_8, hkaa0.shop|英国, hkaa0.shop|日本_1, hkaa0.shop|日本_2, hkaa0.shop|韩国, hkaa0.shop|美国_2, hkaa0.shop|俄罗斯联邦, hkaa0.shop|新加坡, hkaa0.shop|美国_3, hkaa0.shop|美国_4
 static = 🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择
 static = 🛑 全球拦截, REJECT, DIRECT
 static = 🍃 应用净化, REJECT, DIRECT
-static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, hkaa0.shop|韩国_1, hkaa0.shop|中国_1, hkaa0.shop|韩国_2, hkaa0.shop|中国_2, hkaa0.shop|新加坡, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|中国_5, hkaa0.shop|美国_1, hkaa0.shop|加拿大, hkaa0.shop|中国_6, hkaa0.shop|中国_7, hkaa0.shop|中国_8, hkaa0.shop|中国_9, hkaa0.shop|中国_10, hkaa0.shop|中国_11, hkaa0.shop|中国_12, hkaa0.shop|中国_13, hkaa0.shop|中国_14, hkaa0.shop|中国_15, hkaa0.shop|中国_16, hkaa0.shop|中国_17, hkaa0.shop|中国_18, hkaa0.shop|中国_19, hkaa0.shop|中国_20, hkaa0.shop|中国_21, hkaa0.shop|美国_2, hkaa0.shop|美国_3
+static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, hkaa0.shop|中国_1, hkaa0.shop|中国_2, hkaa0.shop|法国_1, hkaa0.shop|法国_2, hkaa0.shop|法国_3, hkaa0.shop|法国_4, hkaa0.shop|美国_1, hkaa0.shop|台湾, hkaa0.shop|中国_3, hkaa0.shop|中国_4, hkaa0.shop|德国, hkaa0.shop|法国_5, hkaa0.shop|法国_6, hkaa0.shop|法国_7, hkaa0.shop|法国_8, hkaa0.shop|英国, hkaa0.shop|日本_1, hkaa0.shop|日本_2, hkaa0.shop|韩国, hkaa0.shop|美国_2, hkaa0.shop|俄罗斯联邦, hkaa0.shop|新加坡, hkaa0.shop|美国_3, hkaa0.shop|美国_4
 
 [server_remote]
 
@@ -37,34 +37,30 @@ static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动�
 [rewrite_remote]
 
 [server_local]
-trojan = 103.214.68.57:10003, password = 6x8HcghsjS, over-tls = true, tls-host = yes998.chickenkiller.com, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|韩国_1
-vmess = 183.232.199.28:21006, method = chacha20-ietf-poly1305, password = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_1
-vmess = 103.214.68.57:10001, method = chacha20-ietf-poly1305, password = ebca5f68-bf59-4081-e658-f158839c2f5c, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|韩国_2
-trojan = 36.151.195.48:20344, password = TNDSJfNv, over-tls = true, tls-host = , tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|中国_2
-vmess = 31.192.234.7:12954, method = chacha20-ietf-poly1305, password = 8259cb1c-dd6c-4739-9c88-af550d977525, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|新加坡
-vmess = 183.232.142.179:48001, method = chacha20-ietf-poly1305, password = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_3
-vmess = 183.232.199.61:15610, method = chacha20-ietf-poly1305, password = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_4
-vmess = 183.232.142.179:61002, method = chacha20-ietf-poly1305, password = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_5
-trojan = 13.60.112.255:22222, password = telegram-id-directvpn, over-tls = true, tls-host = trojan.burgerip.co.uk, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|美国_1
-trojan = 35.182.149.143:22222, password = telegram-id-directvpn, over-tls = true, tls-host = trojan.burgerip.co.uk, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|加拿大
-shadowsocks = deepf.hjkdsak2.com:20003, method = chacha20-ietf-poly1305, password = 99301d55-a41f-4919-986b-1435996533aa, fast-open = false, tag = hkaa0.shop|中国_6
-shadowsocks = free.2weradf.xyz:36050, method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8, fast-open = false, tag = hkaa0.shop|中国_7
-shadowsocks = free.2weradf.xyz:36064, method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8, fast-open = false, tag = hkaa0.shop|中国_8
-shadowsocks = free.2weradf.xyz:36060, method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8, fast-open = false, tag = hkaa0.shop|中国_9
-shadowsocks = free.2weradf.xyz:36016, method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8, fast-open = false, tag = hkaa0.shop|中国_10
-shadowsocks = free.2weradf.xyz:36017, method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8, fast-open = false, tag = hkaa0.shop|中国_11
-shadowsocks = free.2weradf.xyz:36018, method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8, fast-open = false, tag = hkaa0.shop|中国_12
-vmess = 183.232.199.28:43002, method = chacha20-ietf-poly1305, password = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_13
-vmess = 879xhl1.hsspr5bu1-tw02.my777999.top:34998, method = chacha20-ietf-poly1305, password = 33aefd89-3285-4347-9083-6249711f02e9, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_14
-vmess = 183.232.199.61:45001, method = chacha20-ietf-poly1305, password = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_15
-vmess = 183.232.166.137:40396, method = chacha20-ietf-poly1305, password = 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da, aead = true, tls13 = false, obfs = ws, obfs-uri = , obfs-host = 183.232.166.137, fast-open = false, tag = hkaa0.shop|中国_16
-vmess = 786huix-ee.dc-zix4ssc1-hk03.my777999.top:35996, method = chacha20-ietf-poly1305, password = 33aefd89-3285-4347-9083-6249711f02e9, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_17
-vmess = 183.232.199.28:45001, method = chacha20-ietf-poly1305, password = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_18
-trojan = 183.232.139.22:41446, password = TNDSJfNv, over-tls = true, tls-host = , tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|中国_19
-trojan = 120.236.196.21:29529, password = TNDSJfNv, over-tls = true, tls-host = , tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|中国_20
-trojan = 36.151.195.48:4603, password = TNDSJfNv, over-tls = true, tls-host = , tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|中国_21
-shadowsocks = 185.200.191.49:443, method = chacha20-ietf-poly1305, password = Jh6Y8p-3UwrY9ej-3VrSag, fast-open = false, tag = hkaa0.shop|美国_2
-shadowsocks = 167.88.61.235:443, method = aes-256-gcm, password = pKEW8JPByTVTLtM, fast-open = false, tag = hkaa0.shop|美国_3
+shadowsocks = deepf.hjkdsak2.com:20003, method = chacha20-ietf-poly1305, password = 99301d55-a41f-4919-986b-1435996533aa, fast-open = false, tag = hkaa0.shop|中国_1
+vmess = 183.232.199.28:43002, method = chacha20-ietf-poly1305, password = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|中国_2
+shadowsocks = 149.202.82.172:5601, method = aes-256-gcm, password = Y6R9pAtvxxzmGC, fast-open = false, tag = hkaa0.shop|法国_1
+shadowsocks = 149.202.82.172:3306, method = aes-256-gcm, password = Y6R9pAtvxxzmGC, fast-open = false, tag = hkaa0.shop|法国_2
+shadowsocks = 149.202.82.172:3389, method = aes-256-gcm, password = Y6R9pAtvxxzmGC, fast-open = false, tag = hkaa0.shop|法国_3
+shadowsocks = 149.202.82.172:8119, method = aes-256-gcm, password = cdBIDV42DCwnfIN, fast-open = false, tag = hkaa0.shop|法国_4
+vmess = s1c.v2.v001sss.xyz:2082, method = chacha20-ietf-poly1305, password = 112ac36f-3f53-4e26-8371-d25c028e1b9a, aead = true, tls13 = false, obfs = ws, obfs-uri = , obfs-host = s1c.v2.v001sss.xyz, fast-open = false, tag = hkaa0.shop|美国_1
+vmess = in06.dns2024.org:61017, method = chacha20-ietf-poly1305, password = 9eac8830-5da5-3ee2-a4b2-b49598275623, aead = true, tls13 = false, fast-open = false, tag = hkaa0.shop|台湾
+trojan = dc0.forlive.live:41003, password = 187d7254-9574-4da1-9f53-0bbc02dbd027, over-tls = true, tls-host = ssl.sbgfw.info, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|中国_3
+trojan = 183.232.139.22:4027, password = gkviEOYc, over-tls = true, tls-host = , tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|中国_4
+trojan = 18.184.47.53:16140, password = Wj1cM)Tpo69C, over-tls = true, tls-host = appsvs.shop, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|德国
+shadowsocks = 149.202.82.172:6379, method = aes-256-gcm, password = zDNVedRFPQexG9v, fast-open = false, tag = hkaa0.shop|法国_5
+shadowsocks = 149.202.82.172:5003, method = aes-256-gcm, password = g5MeD6Ft3CWlJId, fast-open = false, tag = hkaa0.shop|法国_6
+shadowsocks = 149.202.82.172:8008, method = aes-256-gcm, password = XKFKl2rULjIp74, fast-open = false, tag = hkaa0.shop|法国_7
+trojan = 35.181.4.114:16161, password = 2EaBfR2w(5iB, over-tls = true, tls-host = appsvs.shop, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|法国_8
+trojan = 3.9.109.71:22222, password = telegram-id-directvpn, over-tls = true, tls-host = trojan.burgerip.co.uk, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|英国
+trojan = 52.195.8.61:16167, password = IGZvq)XBsAwX, over-tls = true, tls-host = appsvs.shop, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|日本_1
+trojan = 52.199.36.181:16141, password = Rp9JKrpAKWkV, over-tls = true, tls-host = appsvs.shop, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|日本_2
+trojan = 13.125.132.62:16171, password = 0ut7LZh45Pnh, over-tls = true, tls-host = appsvs.shop, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|韩国
+shadowsocks = 172.233.51.128:80, method = chacha20-ietf-poly1305, password = fLAIbz76BnOmJ6HNuK2qvm, fast-open = false, tag = hkaa0.shop|美国_2
+shadowsocks = 77.221.137.197:25067, method = chacha20-ietf-poly1305, password = MoxMpgM3MLhBw0DBDvPAnB, fast-open = false, tag = hkaa0.shop|俄罗斯联邦
+trojan = 13.213.48.68:16147, password = S3guraNkV0LE, over-tls = true, tls-host = appsvs.shop, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|新加坡
+trojan = 35.93.33.201:16139, password = AoC8s9t1L)VM, over-tls = true, tls-host = appsvs.shop, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|美国_3
+trojan = 35.92.36.138:16153, password = 3YxbLTe69spL, over-tls = true, tls-host = appsvs.shop, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = hkaa0.shop|美国_4
 
 [filter_local]
 # 本地/局域网地址
