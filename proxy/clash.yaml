@@ -1,9 +1,9 @@
 ####################################
 # 创建者：五叶小铺 https://hkaa0.shop/
 # 客户端：Clash
-# 创建时间：2024-06-02 21:10:42
+# 创建时间：2024-06-07 20:44:13
 # 使用模版：V2RaySE 默认模版
-# 节点数量：28
+# 节点数量：24
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,235 +85,207 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"hkaa0.shop|韩国_1","type":"trojan","server":"103.214.68.57","port":10003,"udp":true,"password":"6x8HcghsjS","sni":"yes998.chickenkiller.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_1","type":"vmess","server":"183.232.199.28","port":21006,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|韩国_2","type":"vmess","server":"103.214.68.57","port":10001,"cipher":"auto","uuid":"ebca5f68-bf59-4081-e658-f158839c2f5c","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_2","type":"trojan","server":"36.151.195.48","port":20344,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|新加坡","type":"vmess","server":"31.192.234.7","port":12954,"cipher":"auto","uuid":"8259cb1c-dd6c-4739-9c88-af550d977525","alterId":0,"tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_3","type":"vmess","server":"183.232.142.179","port":48001,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_4","type":"vmess","server":"183.232.199.61","port":15610,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_5","type":"vmess","server":"183.232.142.179","port":61002,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|美国_1","type":"trojan","server":"13.60.112.255","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|加拿大","type":"trojan","server":"35.182.149.143","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_6","type":"ss","server":"deepf.hjkdsak2.com","port":20003,"password":"99301d55-a41f-4919-986b-1435996533aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"hkaa0.shop|中国_7","type":"ss","server":"free.2weradf.xyz","port":36050,"password":"3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"hkaa0.shop|中国_8","type":"ss","server":"free.2weradf.xyz","port":36064,"password":"3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"hkaa0.shop|中国_9","type":"ss","server":"free.2weradf.xyz","port":36060,"password":"3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"hkaa0.shop|中国_10","type":"ss","server":"free.2weradf.xyz","port":36016,"password":"3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"hkaa0.shop|中国_11","type":"ss","server":"free.2weradf.xyz","port":36017,"password":"3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"hkaa0.shop|中国_12","type":"ss","server":"free.2weradf.xyz","port":36018,"password":"3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"hkaa0.shop|中国_13","type":"vmess","server":"183.232.199.28","port":43002,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_14","type":"vmess","server":"879xhl1.hsspr5bu1-tw02.my777999.top","port":34998,"cipher":"auto","uuid":"33aefd89-3285-4347-9083-6249711f02e9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_15","type":"vmess","server":"183.232.199.61","port":45001,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_16","type":"vmess","server":"183.232.166.137","port":40396,"cipher":"auto","uuid":"3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
-  - {"name":"hkaa0.shop|中国_17","type":"vmess","server":"786huix-ee.dc-zix4ssc1-hk03.my777999.top","port":35996,"cipher":"auto","uuid":"33aefd89-3285-4347-9083-6249711f02e9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_18","type":"vmess","server":"183.232.199.28","port":45001,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_19","type":"trojan","server":"183.232.139.22","port":41446,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_20","type":"trojan","server":"120.236.196.21","port":29529,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|中国_21","type":"trojan","server":"36.151.195.48","port":4603,"udp":true,"password":"TNDSJfNv","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"hkaa0.shop|美国_2","type":"ss","server":"185.200.191.49","port":443,"password":"Jh6Y8p-3UwrY9ej-3VrSag","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"hkaa0.shop|美国_3","type":"ss","server":"167.88.61.235","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"hkaa0.shop|中国_1","type":"ss","server":"deepf.hjkdsak2.com","port":20003,"password":"99301d55-a41f-4919-986b-1435996533aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"hkaa0.shop|中国_2","type":"vmess","server":"183.232.199.28","port":43002,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|法国_1","type":"ss","server":"149.202.82.172","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"hkaa0.shop|法国_2","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"hkaa0.shop|法国_3","type":"ss","server":"149.202.82.172","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"hkaa0.shop|法国_4","type":"ss","server":"149.202.82.172","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"hkaa0.shop|美国_1","type":"vmess","server":"s1c.v2.v001sss.xyz","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":""}}
+  - {"name":"hkaa0.shop|台湾","type":"vmess","server":"in06.dns2024.org","port":61017,"cipher":"auto","uuid":"9eac8830-5da5-3ee2-a4b2-b49598275623","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|中国_3","type":"trojan","server":"dc0.forlive.live","port":41003,"udp":true,"password":"187d7254-9574-4da1-9f53-0bbc02dbd027","sni":"ssl.sbgfw.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|中国_4","type":"trojan","server":"183.232.139.22","port":4027,"udp":true,"password":"gkviEOYc","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|德国","type":"trojan","server":"18.184.47.53","port":16140,"udp":true,"password":"Wj1cM)Tpo69C","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|法国_5","type":"ss","server":"149.202.82.172","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"hkaa0.shop|法国_6","type":"ss","server":"149.202.82.172","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"hkaa0.shop|法国_7","type":"ss","server":"149.202.82.172","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"hkaa0.shop|法国_8","type":"trojan","server":"35.181.4.114","port":16161,"udp":true,"password":"2EaBfR2w(5iB","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|英国","type":"trojan","server":"3.9.109.71","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|日本_1","type":"trojan","server":"52.195.8.61","port":16167,"udp":true,"password":"IGZvq)XBsAwX","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|日本_2","type":"trojan","server":"52.199.36.181","port":16141,"udp":true,"password":"Rp9JKrpAKWkV","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|韩国","type":"trojan","server":"13.125.132.62","port":16171,"udp":true,"password":"0ut7LZh45Pnh","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|美国_2","type":"ss","server":"172.233.51.128","port":80,"password":"fLAIbz76BnOmJ6HNuK2qvm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"hkaa0.shop|俄罗斯联邦","type":"ss","server":"77.221.137.197","port":25067,"password":"MoxMpgM3MLhBw0DBDvPAnB","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"hkaa0.shop|新加坡","type":"trojan","server":"13.213.48.68","port":16147,"udp":true,"password":"S3guraNkV0LE","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|美国_3","type":"trojan","server":"35.93.33.201","port":16139,"udp":true,"password":"AoC8s9t1L)VM","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"hkaa0.shop|美国_4","type":"trojan","server":"35.92.36.138","port":16153,"udp":true,"password":"3YxbLTe69spL","sni":"appsvs.shop","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - hkaa0.shop|韩国_1
       - hkaa0.shop|中国_1
-      - hkaa0.shop|韩国_2
       - hkaa0.shop|中国_2
-      - hkaa0.shop|新加坡
+      - hkaa0.shop|法国_1
+      - hkaa0.shop|法国_2
+      - hkaa0.shop|法国_3
+      - hkaa0.shop|法国_4
+      - hkaa0.shop|美国_1
+      - hkaa0.shop|台湾
       - hkaa0.shop|中国_3
       - hkaa0.shop|中国_4
-      - hkaa0.shop|中国_5
-      - hkaa0.shop|美国_1
-      - hkaa0.shop|加拿大
-      - hkaa0.shop|中国_6
-      - hkaa0.shop|中国_7
-      - hkaa0.shop|中国_8
-      - hkaa0.shop|中国_9
-      - hkaa0.shop|中国_10
-      - hkaa0.shop|中国_11
-      - hkaa0.shop|中国_12
-      - hkaa0.shop|中国_13
-      - hkaa0.shop|中国_14
-      - hkaa0.shop|中国_15
-      - hkaa0.shop|中国_16
-      - hkaa0.shop|中国_17
-      - hkaa0.shop|中国_18
-      - hkaa0.shop|中国_19
-      - hkaa0.shop|中国_20
-      - hkaa0.shop|中国_21
+      - hkaa0.shop|德国
+      - hkaa0.shop|法国_5
+      - hkaa0.shop|法国_6
+      - hkaa0.shop|法国_7
+      - hkaa0.shop|法国_8
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本_1
+      - hkaa0.shop|日本_2
+      - hkaa0.shop|韩国
       - hkaa0.shop|美国_2
+      - hkaa0.shop|俄罗斯联邦
+      - hkaa0.shop|新加坡
       - hkaa0.shop|美国_3
+      - hkaa0.shop|美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - hkaa0.shop|韩国_1
       - hkaa0.shop|中国_1
-      - hkaa0.shop|韩国_2
       - hkaa0.shop|中国_2
-      - hkaa0.shop|新加坡
+      - hkaa0.shop|法国_1
+      - hkaa0.shop|法国_2
+      - hkaa0.shop|法国_3
+      - hkaa0.shop|法国_4
+      - hkaa0.shop|美国_1
+      - hkaa0.shop|台湾
       - hkaa0.shop|中国_3
       - hkaa0.shop|中国_4
-      - hkaa0.shop|中国_5
-      - hkaa0.shop|美国_1
-      - hkaa0.shop|加拿大
-      - hkaa0.shop|中国_6
-      - hkaa0.shop|中国_7
-      - hkaa0.shop|中国_8
-      - hkaa0.shop|中国_9
-      - hkaa0.shop|中国_10
-      - hkaa0.shop|中国_11
-      - hkaa0.shop|中国_12
-      - hkaa0.shop|中国_13
-      - hkaa0.shop|中国_14
-      - hkaa0.shop|中国_15
-      - hkaa0.shop|中国_16
-      - hkaa0.shop|中国_17
-      - hkaa0.shop|中国_18
-      - hkaa0.shop|中国_19
-      - hkaa0.shop|中国_20
-      - hkaa0.shop|中国_21
+      - hkaa0.shop|德国
+      - hkaa0.shop|法国_5
+      - hkaa0.shop|法国_6
+      - hkaa0.shop|法国_7
+      - hkaa0.shop|法国_8
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本_1
+      - hkaa0.shop|日本_2
+      - hkaa0.shop|韩国
       - hkaa0.shop|美国_2
+      - hkaa0.shop|俄罗斯联邦
+      - hkaa0.shop|新加坡
       - hkaa0.shop|美国_3
+      - hkaa0.shop|美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - hkaa0.shop|韩国_1
       - hkaa0.shop|中国_1
-      - hkaa0.shop|韩国_2
       - hkaa0.shop|中国_2
-      - hkaa0.shop|新加坡
+      - hkaa0.shop|法国_1
+      - hkaa0.shop|法国_2
+      - hkaa0.shop|法国_3
+      - hkaa0.shop|法国_4
+      - hkaa0.shop|美国_1
+      - hkaa0.shop|台湾
       - hkaa0.shop|中国_3
       - hkaa0.shop|中国_4
-      - hkaa0.shop|中国_5
-      - hkaa0.shop|美国_1
-      - hkaa0.shop|加拿大
-      - hkaa0.shop|中国_6
-      - hkaa0.shop|中国_7
-      - hkaa0.shop|中国_8
-      - hkaa0.shop|中国_9
-      - hkaa0.shop|中国_10
-      - hkaa0.shop|中国_11
-      - hkaa0.shop|中国_12
-      - hkaa0.shop|中国_13
-      - hkaa0.shop|中国_14
-      - hkaa0.shop|中国_15
-      - hkaa0.shop|中国_16
-      - hkaa0.shop|中国_17
-      - hkaa0.shop|中国_18
-      - hkaa0.shop|中国_19
-      - hkaa0.shop|中国_20
-      - hkaa0.shop|中国_21
+      - hkaa0.shop|德国
+      - hkaa0.shop|法国_5
+      - hkaa0.shop|法国_6
+      - hkaa0.shop|法国_7
+      - hkaa0.shop|法国_8
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本_1
+      - hkaa0.shop|日本_2
+      - hkaa0.shop|韩国
       - hkaa0.shop|美国_2
+      - hkaa0.shop|俄罗斯联邦
+      - hkaa0.shop|新加坡
       - hkaa0.shop|美国_3
+      - hkaa0.shop|美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - hkaa0.shop|韩国_1
       - hkaa0.shop|中国_1
-      - hkaa0.shop|韩国_2
       - hkaa0.shop|中国_2
-      - hkaa0.shop|新加坡
+      - hkaa0.shop|法国_1
+      - hkaa0.shop|法国_2
+      - hkaa0.shop|法国_3
+      - hkaa0.shop|法国_4
+      - hkaa0.shop|美国_1
+      - hkaa0.shop|台湾
       - hkaa0.shop|中国_3
       - hkaa0.shop|中国_4
-      - hkaa0.shop|中国_5
-      - hkaa0.shop|美国_1
-      - hkaa0.shop|加拿大
-      - hkaa0.shop|中国_6
-      - hkaa0.shop|中国_7
-      - hkaa0.shop|中国_8
-      - hkaa0.shop|中国_9
-      - hkaa0.shop|中国_10
-      - hkaa0.shop|中国_11
-      - hkaa0.shop|中国_12
-      - hkaa0.shop|中国_13
-      - hkaa0.shop|中国_14
-      - hkaa0.shop|中国_15
-      - hkaa0.shop|中国_16
-      - hkaa0.shop|中国_17
-      - hkaa0.shop|中国_18
-      - hkaa0.shop|中国_19
-      - hkaa0.shop|中国_20
-      - hkaa0.shop|中国_21
+      - hkaa0.shop|德国
+      - hkaa0.shop|法国_5
+      - hkaa0.shop|法国_6
+      - hkaa0.shop|法国_7
+      - hkaa0.shop|法国_8
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本_1
+      - hkaa0.shop|日本_2
+      - hkaa0.shop|韩国
       - hkaa0.shop|美国_2
+      - hkaa0.shop|俄罗斯联邦
+      - hkaa0.shop|新加坡
       - hkaa0.shop|美国_3
+      - hkaa0.shop|美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - hkaa0.shop|韩国_1
       - hkaa0.shop|中国_1
-      - hkaa0.shop|韩国_2
       - hkaa0.shop|中国_2
-      - hkaa0.shop|新加坡
+      - hkaa0.shop|法国_1
+      - hkaa0.shop|法国_2
+      - hkaa0.shop|法国_3
+      - hkaa0.shop|法国_4
+      - hkaa0.shop|美国_1
+      - hkaa0.shop|台湾
       - hkaa0.shop|中国_3
       - hkaa0.shop|中国_4
-      - hkaa0.shop|中国_5
-      - hkaa0.shop|美国_1
-      - hkaa0.shop|加拿大
-      - hkaa0.shop|中国_6
-      - hkaa0.shop|中国_7
-      - hkaa0.shop|中国_8
-      - hkaa0.shop|中国_9
-      - hkaa0.shop|中国_10
-      - hkaa0.shop|中国_11
-      - hkaa0.shop|中国_12
-      - hkaa0.shop|中国_13
-      - hkaa0.shop|中国_14
-      - hkaa0.shop|中国_15
-      - hkaa0.shop|中国_16
-      - hkaa0.shop|中国_17
-      - hkaa0.shop|中国_18
-      - hkaa0.shop|中国_19
-      - hkaa0.shop|中国_20
-      - hkaa0.shop|中国_21
+      - hkaa0.shop|德国
+      - hkaa0.shop|法国_5
+      - hkaa0.shop|法国_6
+      - hkaa0.shop|法国_7
+      - hkaa0.shop|法国_8
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本_1
+      - hkaa0.shop|日本_2
+      - hkaa0.shop|韩国
       - hkaa0.shop|美国_2
+      - hkaa0.shop|俄罗斯联邦
+      - hkaa0.shop|新加坡
       - hkaa0.shop|美国_3
+      - hkaa0.shop|美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - hkaa0.shop|韩国_1
       - hkaa0.shop|中国_1
-      - hkaa0.shop|韩国_2
       - hkaa0.shop|中国_2
-      - hkaa0.shop|新加坡
+      - hkaa0.shop|法国_1
+      - hkaa0.shop|法国_2
+      - hkaa0.shop|法国_3
+      - hkaa0.shop|法国_4
+      - hkaa0.shop|美国_1
+      - hkaa0.shop|台湾
       - hkaa0.shop|中国_3
       - hkaa0.shop|中国_4
-      - hkaa0.shop|中国_5
-      - hkaa0.shop|美国_1
-      - hkaa0.shop|加拿大
-      - hkaa0.shop|中国_6
-      - hkaa0.shop|中国_7
-      - hkaa0.shop|中国_8
-      - hkaa0.shop|中国_9
-      - hkaa0.shop|中国_10
-      - hkaa0.shop|中国_11
-      - hkaa0.shop|中国_12
-      - hkaa0.shop|中国_13
-      - hkaa0.shop|中国_14
-      - hkaa0.shop|中国_15
-      - hkaa0.shop|中国_16
-      - hkaa0.shop|中国_17
-      - hkaa0.shop|中国_18
-      - hkaa0.shop|中国_19
-      - hkaa0.shop|中国_20
-      - hkaa0.shop|中国_21
+      - hkaa0.shop|德国
+      - hkaa0.shop|法国_5
+      - hkaa0.shop|法国_6
+      - hkaa0.shop|法国_7
+      - hkaa0.shop|法国_8
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本_1
+      - hkaa0.shop|日本_2
+      - hkaa0.shop|韩国
       - hkaa0.shop|美国_2
+      - hkaa0.shop|俄罗斯联邦
+      - hkaa0.shop|新加坡
       - hkaa0.shop|美国_3
+      - hkaa0.shop|美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -336,34 +308,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - hkaa0.shop|韩国_1
       - hkaa0.shop|中国_1
-      - hkaa0.shop|韩国_2
       - hkaa0.shop|中国_2
-      - hkaa0.shop|新加坡
+      - hkaa0.shop|法国_1
+      - hkaa0.shop|法国_2
+      - hkaa0.shop|法国_3
+      - hkaa0.shop|法国_4
+      - hkaa0.shop|美国_1
+      - hkaa0.shop|台湾
       - hkaa0.shop|中国_3
       - hkaa0.shop|中国_4
-      - hkaa0.shop|中国_5
-      - hkaa0.shop|美国_1
-      - hkaa0.shop|加拿大
-      - hkaa0.shop|中国_6
-      - hkaa0.shop|中国_7
-      - hkaa0.shop|中国_8
-      - hkaa0.shop|中国_9
-      - hkaa0.shop|中国_10
-      - hkaa0.shop|中国_11
-      - hkaa0.shop|中国_12
-      - hkaa0.shop|中国_13
-      - hkaa0.shop|中国_14
-      - hkaa0.shop|中国_15
-      - hkaa0.shop|中国_16
-      - hkaa0.shop|中国_17
-      - hkaa0.shop|中国_18
-      - hkaa0.shop|中国_19
-      - hkaa0.shop|中国_20
-      - hkaa0.shop|中国_21
+      - hkaa0.shop|德国
+      - hkaa0.shop|法国_5
+      - hkaa0.shop|法国_6
+      - hkaa0.shop|法国_7
+      - hkaa0.shop|法国_8
+      - hkaa0.shop|英国
+      - hkaa0.shop|日本_1
+      - hkaa0.shop|日本_2
+      - hkaa0.shop|韩国
       - hkaa0.shop|美国_2
+      - hkaa0.shop|俄罗斯联邦
+      - hkaa0.shop|新加坡
       - hkaa0.shop|美国_3
+      - hkaa0.shop|美国_4
 
 rules:
 # 本地/局域网地址
