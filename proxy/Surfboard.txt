@@ -1,9 +1,9 @@
 ####################################
 # 创建者：五叶小铺 https://hkaa0.shop/
 # 客户端：Surfboard
-# 创建时间：2024-06-02 21:12:19
+# 创建时间：2024-06-07 20:44:37
 # 使用模版：V2RaySE 默认模版
-# 节点数量：28
+# 节点数量：24
 ####################################
 
 [General]
@@ -17,46 +17,42 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-hkaa0.shop|韩国_1 = trojan, 103.214.68.57, 10003, password = 6x8HcghsjS, udp-delay = true, skip-cert-verify = true, sni = yes998.chickenkiller.com, ws = false
-hkaa0.shop|中国_1 = vmess, 183.232.199.28, 21006, username = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|韩国_2 = vmess, 103.214.68.57, 10001, username = ebca5f68-bf59-4081-e658-f158839c2f5c, tls = true, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_2 = trojan, 36.151.195.48, 20344, password = TNDSJfNv, udp-delay = true, skip-cert-verify = true, ws = false
-hkaa0.shop|新加坡 = vmess, 31.192.234.7, 12954, username = 8259cb1c-dd6c-4739-9c88-af550d977525, tls = true, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_3 = vmess, 183.232.142.179, 48001, username = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_4 = vmess, 183.232.199.61, 15610, username = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_5 = vmess, 183.232.142.179, 61002, username = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|美国_1 = trojan, 13.60.112.255, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
-hkaa0.shop|加拿大 = trojan, 35.182.149.143, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
-hkaa0.shop|中国_6 = ss, deepf.hjkdsak2.com, 20003, encrypt-method = chacha20-ietf-poly1305, password = 99301d55-a41f-4919-986b-1435996533aa
-hkaa0.shop|中国_7 = ss, free.2weradf.xyz, 36050, encrypt-method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8
-hkaa0.shop|中国_8 = ss, free.2weradf.xyz, 36064, encrypt-method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8
-hkaa0.shop|中国_9 = ss, free.2weradf.xyz, 36060, encrypt-method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8
-hkaa0.shop|中国_10 = ss, free.2weradf.xyz, 36016, encrypt-method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8
-hkaa0.shop|中国_11 = ss, free.2weradf.xyz, 36017, encrypt-method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8
-hkaa0.shop|中国_12 = ss, free.2weradf.xyz, 36018, encrypt-method = chacha20-ietf-poly1305, password = 3f396a5c-72ca-4ed7-9cc1-67e0aa534ea8
-hkaa0.shop|中国_13 = vmess, 183.232.199.28, 43002, username = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_14 = vmess, 879xhl1.hsspr5bu1-tw02.my777999.top, 34998, username = 33aefd89-3285-4347-9083-6249711f02e9, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_15 = vmess, 183.232.199.61, 45001, username = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_16 = vmess, 183.232.166.137, 40396, username = 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da, ws = true, tls = false, vmess-aead = true, ws-path = , skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_17 = vmess, 786huix-ee.dc-zix4ssc1-hk03.my777999.top, 35996, username = 33aefd89-3285-4347-9083-6249711f02e9, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_18 = vmess, 183.232.199.28, 45001, username = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
-hkaa0.shop|中国_19 = trojan, 183.232.139.22, 41446, password = TNDSJfNv, udp-delay = true, skip-cert-verify = true, ws = false
-hkaa0.shop|中国_20 = trojan, 120.236.196.21, 29529, password = TNDSJfNv, udp-delay = true, skip-cert-verify = true, ws = false
-hkaa0.shop|中国_21 = trojan, 36.151.195.48, 4603, password = TNDSJfNv, udp-delay = true, skip-cert-verify = true, ws = false
-hkaa0.shop|美国_2 = ss, 185.200.191.49, 443, encrypt-method = chacha20-ietf-poly1305, password = Jh6Y8p-3UwrY9ej-3VrSag
-hkaa0.shop|美国_3 = ss, 167.88.61.235, 443, encrypt-method = aes-256-gcm, password = pKEW8JPByTVTLtM
+hkaa0.shop|中国_1 = ss, deepf.hjkdsak2.com, 20003, encrypt-method = chacha20-ietf-poly1305, password = 99301d55-a41f-4919-986b-1435996533aa
+hkaa0.shop|中国_2 = vmess, 183.232.199.28, 43002, username = aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
+hkaa0.shop|法国_1 = ss, 149.202.82.172, 5601, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+hkaa0.shop|法国_2 = ss, 149.202.82.172, 3306, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+hkaa0.shop|法国_3 = ss, 149.202.82.172, 3389, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+hkaa0.shop|法国_4 = ss, 149.202.82.172, 8119, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
+hkaa0.shop|美国_1 = vmess, s1c.v2.v001sss.xyz, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = false, vmess-aead = true, ws-path = , skip-cert-verify = true, tfo = false
+hkaa0.shop|台湾 = vmess, in06.dns2024.org, 61017, username = 9eac8830-5da5-3ee2-a4b2-b49598275623, tls = false, vmess-aead = true, skip-cert-verify = true, tfo = false
+hkaa0.shop|中国_3 = trojan, dc0.forlive.live, 41003, password = 187d7254-9574-4da1-9f53-0bbc02dbd027, udp-delay = true, skip-cert-verify = true, sni = ssl.sbgfw.info, ws = false
+hkaa0.shop|中国_4 = trojan, 183.232.139.22, 4027, password = gkviEOYc, udp-delay = true, skip-cert-verify = true, ws = false
+hkaa0.shop|德国 = trojan, 18.184.47.53, 16140, password = Wj1cM)Tpo69C, udp-delay = true, skip-cert-verify = true, sni = appsvs.shop, ws = false
+hkaa0.shop|法国_5 = ss, 149.202.82.172, 6379, encrypt-method = aes-256-gcm, password = zDNVedRFPQexG9v
+hkaa0.shop|法国_6 = ss, 149.202.82.172, 5003, encrypt-method = aes-256-gcm, password = g5MeD6Ft3CWlJId
+hkaa0.shop|法国_7 = ss, 149.202.82.172, 8008, encrypt-method = aes-256-gcm, password = XKFKl2rULjIp74
+hkaa0.shop|法国_8 = trojan, 35.181.4.114, 16161, password = 2EaBfR2w(5iB, udp-delay = true, skip-cert-verify = true, sni = appsvs.shop, ws = false
+hkaa0.shop|英国 = trojan, 3.9.109.71, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
+hkaa0.shop|日本_1 = trojan, 52.195.8.61, 16167, password = IGZvq)XBsAwX, udp-delay = true, skip-cert-verify = true, sni = appsvs.shop, ws = false
+hkaa0.shop|日本_2 = trojan, 52.199.36.181, 16141, password = Rp9JKrpAKWkV, udp-delay = true, skip-cert-verify = true, sni = appsvs.shop, ws = false
+hkaa0.shop|韩国 = trojan, 13.125.132.62, 16171, password = 0ut7LZh45Pnh, udp-delay = true, skip-cert-verify = true, sni = appsvs.shop, ws = false
+hkaa0.shop|美国_2 = ss, 172.233.51.128, 80, encrypt-method = chacha20-ietf-poly1305, password = fLAIbz76BnOmJ6HNuK2qvm
+hkaa0.shop|俄罗斯联邦 = ss, 77.221.137.197, 25067, encrypt-method = chacha20-ietf-poly1305, password = MoxMpgM3MLhBw0DBDvPAnB
+hkaa0.shop|新加坡 = trojan, 13.213.48.68, 16147, password = S3guraNkV0LE, udp-delay = true, skip-cert-verify = true, sni = appsvs.shop, ws = false
+hkaa0.shop|美国_3 = trojan, 35.93.33.201, 16139, password = AoC8s9t1L)VM, udp-delay = true, skip-cert-verify = true, sni = appsvs.shop, ws = false
+hkaa0.shop|美国_4 = trojan, 35.92.36.138, 16153, password = 3YxbLTe69spL, udp-delay = true, skip-cert-verify = true, sni = appsvs.shop, ws = false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,hkaa0.shop|韩国_1,hkaa0.shop|中国_1,hkaa0.shop|韩国_2,hkaa0.shop|中国_2,hkaa0.shop|新加坡,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|中国_5,hkaa0.shop|美国_1,hkaa0.shop|加拿大,hkaa0.shop|中国_6,hkaa0.shop|中国_7,hkaa0.shop|中国_8,hkaa0.shop|中国_9,hkaa0.shop|中国_10,hkaa0.shop|中国_11,hkaa0.shop|中国_12,hkaa0.shop|中国_13,hkaa0.shop|中国_14,hkaa0.shop|中国_15,hkaa0.shop|中国_16,hkaa0.shop|中国_17,hkaa0.shop|中国_18,hkaa0.shop|中国_19,hkaa0.shop|中国_20,hkaa0.shop|中国_21,hkaa0.shop|美国_2,hkaa0.shop|美国_3
-♻️ 自动选择 = url-test,hkaa0.shop|韩国_1,hkaa0.shop|中国_1,hkaa0.shop|韩国_2,hkaa0.shop|中国_2,hkaa0.shop|新加坡,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|中国_5,hkaa0.shop|美国_1,hkaa0.shop|加拿大,hkaa0.shop|中国_6,hkaa0.shop|中国_7,hkaa0.shop|中国_8,hkaa0.shop|中国_9,hkaa0.shop|中国_10,hkaa0.shop|中国_11,hkaa0.shop|中国_12,hkaa0.shop|中国_13,hkaa0.shop|中国_14,hkaa0.shop|中国_15,hkaa0.shop|中国_16,hkaa0.shop|中国_17,hkaa0.shop|中国_18,hkaa0.shop|中国_19,hkaa0.shop|中国_20,hkaa0.shop|中国_21,hkaa0.shop|美国_2,hkaa0.shop|美国_3,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,hkaa0.shop|韩国_1,hkaa0.shop|中国_1,hkaa0.shop|韩国_2,hkaa0.shop|中国_2,hkaa0.shop|新加坡,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|中国_5,hkaa0.shop|美国_1,hkaa0.shop|加拿大,hkaa0.shop|中国_6,hkaa0.shop|中国_7,hkaa0.shop|中国_8,hkaa0.shop|中国_9,hkaa0.shop|中国_10,hkaa0.shop|中国_11,hkaa0.shop|中国_12,hkaa0.shop|中国_13,hkaa0.shop|中国_14,hkaa0.shop|中国_15,hkaa0.shop|中国_16,hkaa0.shop|中国_17,hkaa0.shop|中国_18,hkaa0.shop|中国_19,hkaa0.shop|中国_20,hkaa0.shop|中国_21,hkaa0.shop|美国_2,hkaa0.shop|美国_3
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,hkaa0.shop|韩国_1,hkaa0.shop|中国_1,hkaa0.shop|韩国_2,hkaa0.shop|中国_2,hkaa0.shop|新加坡,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|中国_5,hkaa0.shop|美国_1,hkaa0.shop|加拿大,hkaa0.shop|中国_6,hkaa0.shop|中国_7,hkaa0.shop|中国_8,hkaa0.shop|中国_9,hkaa0.shop|中国_10,hkaa0.shop|中国_11,hkaa0.shop|中国_12,hkaa0.shop|中国_13,hkaa0.shop|中国_14,hkaa0.shop|中国_15,hkaa0.shop|中国_16,hkaa0.shop|中国_17,hkaa0.shop|中国_18,hkaa0.shop|中国_19,hkaa0.shop|中国_20,hkaa0.shop|中国_21,hkaa0.shop|美国_2,hkaa0.shop|美国_3
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,hkaa0.shop|韩国_1,hkaa0.shop|中国_1,hkaa0.shop|韩国_2,hkaa0.shop|中国_2,hkaa0.shop|新加坡,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|中国_5,hkaa0.shop|美国_1,hkaa0.shop|加拿大,hkaa0.shop|中国_6,hkaa0.shop|中国_7,hkaa0.shop|中国_8,hkaa0.shop|中国_9,hkaa0.shop|中国_10,hkaa0.shop|中国_11,hkaa0.shop|中国_12,hkaa0.shop|中国_13,hkaa0.shop|中国_14,hkaa0.shop|中国_15,hkaa0.shop|中国_16,hkaa0.shop|中国_17,hkaa0.shop|中国_18,hkaa0.shop|中国_19,hkaa0.shop|中国_20,hkaa0.shop|中国_21,hkaa0.shop|美国_2,hkaa0.shop|美国_3
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,hkaa0.shop|韩国_1,hkaa0.shop|中国_1,hkaa0.shop|韩国_2,hkaa0.shop|中国_2,hkaa0.shop|新加坡,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|中国_5,hkaa0.shop|美国_1,hkaa0.shop|加拿大,hkaa0.shop|中国_6,hkaa0.shop|中国_7,hkaa0.shop|中国_8,hkaa0.shop|中国_9,hkaa0.shop|中国_10,hkaa0.shop|中国_11,hkaa0.shop|中国_12,hkaa0.shop|中国_13,hkaa0.shop|中国_14,hkaa0.shop|中国_15,hkaa0.shop|中国_16,hkaa0.shop|中国_17,hkaa0.shop|中国_18,hkaa0.shop|中国_19,hkaa0.shop|中国_20,hkaa0.shop|中国_21,hkaa0.shop|美国_2,hkaa0.shop|美国_3
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,hkaa0.shop|中国_1,hkaa0.shop|中国_2,hkaa0.shop|法国_1,hkaa0.shop|法国_2,hkaa0.shop|法国_3,hkaa0.shop|法国_4,hkaa0.shop|美国_1,hkaa0.shop|台湾,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|德国,hkaa0.shop|法国_5,hkaa0.shop|法国_6,hkaa0.shop|法国_7,hkaa0.shop|法国_8,hkaa0.shop|英国,hkaa0.shop|日本_1,hkaa0.shop|日本_2,hkaa0.shop|韩国,hkaa0.shop|美国_2,hkaa0.shop|俄罗斯联邦,hkaa0.shop|新加坡,hkaa0.shop|美国_3,hkaa0.shop|美国_4
+♻️ 自动选择 = url-test,hkaa0.shop|中国_1,hkaa0.shop|中国_2,hkaa0.shop|法国_1,hkaa0.shop|法国_2,hkaa0.shop|法国_3,hkaa0.shop|法国_4,hkaa0.shop|美国_1,hkaa0.shop|台湾,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|德国,hkaa0.shop|法国_5,hkaa0.shop|法国_6,hkaa0.shop|法国_7,hkaa0.shop|法国_8,hkaa0.shop|英国,hkaa0.shop|日本_1,hkaa0.shop|日本_2,hkaa0.shop|韩国,hkaa0.shop|美国_2,hkaa0.shop|俄罗斯联邦,hkaa0.shop|新加坡,hkaa0.shop|美国_3,hkaa0.shop|美国_4,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,hkaa0.shop|中国_1,hkaa0.shop|中国_2,hkaa0.shop|法国_1,hkaa0.shop|法国_2,hkaa0.shop|法国_3,hkaa0.shop|法国_4,hkaa0.shop|美国_1,hkaa0.shop|台湾,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|德国,hkaa0.shop|法国_5,hkaa0.shop|法国_6,hkaa0.shop|法国_7,hkaa0.shop|法国_8,hkaa0.shop|英国,hkaa0.shop|日本_1,hkaa0.shop|日本_2,hkaa0.shop|韩国,hkaa0.shop|美国_2,hkaa0.shop|俄罗斯联邦,hkaa0.shop|新加坡,hkaa0.shop|美国_3,hkaa0.shop|美国_4
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,hkaa0.shop|中国_1,hkaa0.shop|中国_2,hkaa0.shop|法国_1,hkaa0.shop|法国_2,hkaa0.shop|法国_3,hkaa0.shop|法国_4,hkaa0.shop|美国_1,hkaa0.shop|台湾,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|德国,hkaa0.shop|法国_5,hkaa0.shop|法国_6,hkaa0.shop|法国_7,hkaa0.shop|法国_8,hkaa0.shop|英国,hkaa0.shop|日本_1,hkaa0.shop|日本_2,hkaa0.shop|韩国,hkaa0.shop|美国_2,hkaa0.shop|俄罗斯联邦,hkaa0.shop|新加坡,hkaa0.shop|美国_3,hkaa0.shop|美国_4
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,hkaa0.shop|中国_1,hkaa0.shop|中国_2,hkaa0.shop|法国_1,hkaa0.shop|法国_2,hkaa0.shop|法国_3,hkaa0.shop|法国_4,hkaa0.shop|美国_1,hkaa0.shop|台湾,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|德国,hkaa0.shop|法国_5,hkaa0.shop|法国_6,hkaa0.shop|法国_7,hkaa0.shop|法国_8,hkaa0.shop|英国,hkaa0.shop|日本_1,hkaa0.shop|日本_2,hkaa0.shop|韩国,hkaa0.shop|美国_2,hkaa0.shop|俄罗斯联邦,hkaa0.shop|新加坡,hkaa0.shop|美国_3,hkaa0.shop|美国_4
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,hkaa0.shop|中国_1,hkaa0.shop|中国_2,hkaa0.shop|法国_1,hkaa0.shop|法国_2,hkaa0.shop|法国_3,hkaa0.shop|法国_4,hkaa0.shop|美国_1,hkaa0.shop|台湾,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|德国,hkaa0.shop|法国_5,hkaa0.shop|法国_6,hkaa0.shop|法国_7,hkaa0.shop|法国_8,hkaa0.shop|英国,hkaa0.shop|日本_1,hkaa0.shop|日本_2,hkaa0.shop|韩国,hkaa0.shop|美国_2,hkaa0.shop|俄罗斯联邦,hkaa0.shop|新加坡,hkaa0.shop|美国_3,hkaa0.shop|美国_4
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,hkaa0.shop|韩国_1,hkaa0.shop|中国_1,hkaa0.shop|韩国_2,hkaa0.shop|中国_2,hkaa0.shop|新加坡,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|中国_5,hkaa0.shop|美国_1,hkaa0.shop|加拿大,hkaa0.shop|中国_6,hkaa0.shop|中国_7,hkaa0.shop|中国_8,hkaa0.shop|中国_9,hkaa0.shop|中国_10,hkaa0.shop|中国_11,hkaa0.shop|中国_12,hkaa0.shop|中国_13,hkaa0.shop|中国_14,hkaa0.shop|中国_15,hkaa0.shop|中国_16,hkaa0.shop|中国_17,hkaa0.shop|中国_18,hkaa0.shop|中国_19,hkaa0.shop|中国_20,hkaa0.shop|中国_21,hkaa0.shop|美国_2,hkaa0.shop|美国_3
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,hkaa0.shop|中国_1,hkaa0.shop|中国_2,hkaa0.shop|法国_1,hkaa0.shop|法国_2,hkaa0.shop|法国_3,hkaa0.shop|法国_4,hkaa0.shop|美国_1,hkaa0.shop|台湾,hkaa0.shop|中国_3,hkaa0.shop|中国_4,hkaa0.shop|德国,hkaa0.shop|法国_5,hkaa0.shop|法国_6,hkaa0.shop|法国_7,hkaa0.shop|法国_8,hkaa0.shop|英国,hkaa0.shop|日本_1,hkaa0.shop|日本_2,hkaa0.shop|韩国,hkaa0.shop|美国_2,hkaa0.shop|俄罗斯联邦,hkaa0.shop|新加坡,hkaa0.shop|美国_3,hkaa0.shop|美国_4
 
 [Rule]
 # 本地/局域网地址
