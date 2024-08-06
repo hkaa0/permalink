@@ -1,9 +1,9 @@
 ####################################
-# 创建者：五叶小铺 https://hkaa0.shop/
+# 创建者五叶小铺 https://hkaa0.shop/
 # 客户端：QuantumultX
-# 创建时间：2024-07-29 02:29:16
+# 创建时间：2024-08-06 07:39:01
 # 使用模版：V2RaySE 默认模版
-# 节点数量：12
+# 节点数量：28
 ####################################
 
 [general]
@@ -19,16 +19,16 @@ server = 1.0.0.1
 server = 8.8.8.8
 
 [policy]
-static = 🚀 节点选择, ♻️ 自动选择, DIRECT, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|爱尔兰, TG:@hkaa0|英国_1, TG:@hkaa0|英国_2, TG:@hkaa0|新加坡_1, TG:@hkaa0|新加坡_2, TG:@hkaa0|加拿大, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6
-url-latency-benchmark = ♻️ 自动选择, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|爱尔兰, TG:@hkaa0|英国_1, TG:@hkaa0|英国_2, TG:@hkaa0|新加坡_1, TG:@hkaa0|新加坡_2, TG:@hkaa0|加拿大, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6
-static = 🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|爱尔兰, TG:@hkaa0|英国_1, TG:@hkaa0|英国_2, TG:@hkaa0|新加坡_1, TG:@hkaa0|新加坡_2, TG:@hkaa0|加拿大, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6
-static = 📲 电报信息, 🚀 节点选择, 🎯 全球直连, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|爱尔兰, TG:@hkaa0|英国_1, TG:@hkaa0|英国_2, TG:@hkaa0|新加坡_1, TG:@hkaa0|新加坡_2, TG:@hkaa0|加拿大, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6
-static = Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|爱尔兰, TG:@hkaa0|英国_1, TG:@hkaa0|英国_2, TG:@hkaa0|新加坡_1, TG:@hkaa0|新加坡_2, TG:@hkaa0|加拿大, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6
-static = 🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|爱尔兰, TG:@hkaa0|英国_1, TG:@hkaa0|英国_2, TG:@hkaa0|新加坡_1, TG:@hkaa0|新加坡_2, TG:@hkaa0|加拿大, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6
+static = 🚀 节点选择, ♻️ 自动选择, DIRECT, TG:@hkaa0|加拿大_1, TG:@hkaa0|加拿大_2, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6, TG:@hkaa0|美国_7, TG:@hkaa0|美国_8, TG:@hkaa0|美国_9, TG:@hkaa0|美国_10, TG:@hkaa0|美国_11, TG:@hkaa0|美国_12, TG:@hkaa0|美国_13, TG:@hkaa0|俄罗斯, TG:@hkaa0|加拿大_3, TG:@hkaa0|美国_14, TG:@hkaa0|美国_15, TG:@hkaa0|美国_16, TG:@hkaa0|美国_17, TG:@hkaa0|美国_18, TG:@hkaa0|中国, TG:@hkaa0|美国_19, TG:@hkaa0|美国_20, TG:@hkaa0|美国_21, TG:@hkaa0|美国_22, TG:@hkaa0|美国_23
+url-latency-benchmark = ♻️ 自动选择, TG:@hkaa0|加拿大_1, TG:@hkaa0|加拿大_2, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6, TG:@hkaa0|美国_7, TG:@hkaa0|美国_8, TG:@hkaa0|美国_9, TG:@hkaa0|美国_10, TG:@hkaa0|美国_11, TG:@hkaa0|美国_12, TG:@hkaa0|美国_13, TG:@hkaa0|俄罗斯, TG:@hkaa0|加拿大_3, TG:@hkaa0|美国_14, TG:@hkaa0|美国_15, TG:@hkaa0|美国_16, TG:@hkaa0|美国_17, TG:@hkaa0|美国_18, TG:@hkaa0|中国, TG:@hkaa0|美国_19, TG:@hkaa0|美国_20, TG:@hkaa0|美国_21, TG:@hkaa0|美国_22, TG:@hkaa0|美国_23
+static = 🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, TG:@hkaa0|加拿大_1, TG:@hkaa0|加拿大_2, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6, TG:@hkaa0|美国_7, TG:@hkaa0|美国_8, TG:@hkaa0|美国_9, TG:@hkaa0|美国_10, TG:@hkaa0|美国_11, TG:@hkaa0|美国_12, TG:@hkaa0|美国_13, TG:@hkaa0|俄罗斯, TG:@hkaa0|加拿大_3, TG:@hkaa0|美国_14, TG:@hkaa0|美国_15, TG:@hkaa0|美国_16, TG:@hkaa0|美国_17, TG:@hkaa0|美国_18, TG:@hkaa0|中国, TG:@hkaa0|美国_19, TG:@hkaa0|美国_20, TG:@hkaa0|美国_21, TG:@hkaa0|美国_22, TG:@hkaa0|美国_23
+static = 📲 电报信息, 🚀 节点选择, 🎯 全球直连, TG:@hkaa0|加拿大_1, TG:@hkaa0|加拿大_2, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6, TG:@hkaa0|美国_7, TG:@hkaa0|美国_8, TG:@hkaa0|美国_9, TG:@hkaa0|美国_10, TG:@hkaa0|美国_11, TG:@hkaa0|美国_12, TG:@hkaa0|美国_13, TG:@hkaa0|俄罗斯, TG:@hkaa0|加拿大_3, TG:@hkaa0|美国_14, TG:@hkaa0|美国_15, TG:@hkaa0|美国_16, TG:@hkaa0|美国_17, TG:@hkaa0|美国_18, TG:@hkaa0|中国, TG:@hkaa0|美国_19, TG:@hkaa0|美国_20, TG:@hkaa0|美国_21, TG:@hkaa0|美国_22, TG:@hkaa0|美国_23
+static = Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, TG:@hkaa0|加拿大_1, TG:@hkaa0|加拿大_2, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6, TG:@hkaa0|美国_7, TG:@hkaa0|美国_8, TG:@hkaa0|美国_9, TG:@hkaa0|美国_10, TG:@hkaa0|美国_11, TG:@hkaa0|美国_12, TG:@hkaa0|美国_13, TG:@hkaa0|俄罗斯, TG:@hkaa0|加拿大_3, TG:@hkaa0|美国_14, TG:@hkaa0|美国_15, TG:@hkaa0|美国_16, TG:@hkaa0|美国_17, TG:@hkaa0|美国_18, TG:@hkaa0|中国, TG:@hkaa0|美国_19, TG:@hkaa0|美国_20, TG:@hkaa0|美国_21, TG:@hkaa0|美国_22, TG:@hkaa0|美国_23
+static = 🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, TG:@hkaa0|加拿大_1, TG:@hkaa0|加拿大_2, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6, TG:@hkaa0|美国_7, TG:@hkaa0|美国_8, TG:@hkaa0|美国_9, TG:@hkaa0|美国_10, TG:@hkaa0|美国_11, TG:@hkaa0|美国_12, TG:@hkaa0|美国_13, TG:@hkaa0|俄罗斯, TG:@hkaa0|加拿大_3, TG:@hkaa0|美国_14, TG:@hkaa0|美国_15, TG:@hkaa0|美国_16, TG:@hkaa0|美国_17, TG:@hkaa0|美国_18, TG:@hkaa0|中国, TG:@hkaa0|美国_19, TG:@hkaa0|美国_20, TG:@hkaa0|美国_21, TG:@hkaa0|美国_22, TG:@hkaa0|美国_23
 static = 🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择
 static = 🛑 全球拦截, REJECT, DIRECT
 static = 🍃 应用净化, REJECT, DIRECT
-static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|爱尔兰, TG:@hkaa0|英国_1, TG:@hkaa0|英国_2, TG:@hkaa0|新加坡_1, TG:@hkaa0|新加坡_2, TG:@hkaa0|加拿大, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6
+static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, TG:@hkaa0|加拿大_1, TG:@hkaa0|加拿大_2, TG:@hkaa0|美国_1, TG:@hkaa0|美国_2, TG:@hkaa0|美国_3, TG:@hkaa0|美国_4, TG:@hkaa0|美国_5, TG:@hkaa0|美国_6, TG:@hkaa0|美国_7, TG:@hkaa0|美国_8, TG:@hkaa0|美国_9, TG:@hkaa0|美国_10, TG:@hkaa0|美国_11, TG:@hkaa0|美国_12, TG:@hkaa0|美国_13, TG:@hkaa0|俄罗斯, TG:@hkaa0|加拿大_3, TG:@hkaa0|美国_14, TG:@hkaa0|美国_15, TG:@hkaa0|美国_16, TG:@hkaa0|美国_17, TG:@hkaa0|美国_18, TG:@hkaa0|中国, TG:@hkaa0|美国_19, TG:@hkaa0|美国_20, TG:@hkaa0|美国_21, TG:@hkaa0|美国_22, TG:@hkaa0|美国_23
 
 [server_remote]
 
@@ -37,18 +37,34 @@ static = 🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动�
 [rewrite_remote]
 
 [server_local]
-vmess = 104.19.51.232:2086, method = chacha20-ietf-poly1305, password = 29eebb60-b27b-4a9d-bba5-947763d9205e, aead = true, tls13 = false, obfs = ws, obfs-host = ip005.dtku47.xyz, obfs-uri = github.com/Alvin9999, fast-open = false, tag = TG:@hkaa0|美国_1
-shadowsocks = 38.114.114.207:443, method = aes-256-gcm, password = pKEW8JPByTVTLtM, fast-open = false, tag = TG:@hkaa0|美国_2
-shadowsocks = 38.114.114.207:8009, method = aes-256-gcm, password = XKFKl2rULjIp74, fast-open = false, tag = TG:@hkaa0|美国_3
-shadowsocks = 13.69.184.84:7900, method = chacha20-ietf-poly1305, password = SyOvc5f9BBgMZHCv6H7EUe, fast-open = false, tag = TG:@hkaa0|爱尔兰
-shadowsocks = 51.103.233.181:37576, method = chacha20-ietf-poly1305, password = GeXlCLj6oV0CDlszmbL1LK, fast-open = false, tag = TG:@hkaa0|英国_1
-shadowsocks = 212.102.53.198:443, method = aes-128-gcm, password = shadowsocks, fast-open = false, tag = TG:@hkaa0|英国_2
-shadowsocks = 68.183.176.112:55064, method = chacha20-ietf-poly1305, password = eHdKAXQecCPCvmXi4pU7Yj, fast-open = false, tag = TG:@hkaa0|新加坡_1
-shadowsocks = 68.183.176.112:3127, method = chacha20-ietf-poly1305, password = GY1dECpxXiaqRD0bA7X9Wx, fast-open = false, tag = TG:@hkaa0|新加坡_2
-shadowsocks = 142.4.216.225:80, method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq, fast-open = false, tag = TG:@hkaa0|加拿大
-shadowsocks = 38.110.1.3:7002, method = aes-256-gcm, password = RexnBgU7EV5ADxG, fast-open = false, tag = TG:@hkaa0|美国_4
-trojan = 131.186.21.135:60954, password = huge123456, over-tls = true, tls-host = h.iveze.com, tls13 = false, fast-open = false, udp-relay = true, tls-verification = true, tag = TG:@hkaa0|美国_5
-shadowsocks = 38.114.114.207:8080, method = aes-256-gcm, password = KixLvKzwjekG00rm, fast-open = false, tag = TG:@hkaa0|美国_6
+shadowsocks = 142.4.216.225:80, method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq, fast-open = false, tag = TG:@hkaa0|加拿大_1
+shadowsocks = 142.4.216.225:80, method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq, fast-open = false, tag = TG:@hkaa0|加拿大_2
+shadowsocks = 38.110.1.105:5004, method = aes-256-gcm, password = g5MeD6Ft3CWlJId, fast-open = false, tag = TG:@hkaa0|美国_1
+shadowsocks = 38.110.1.105:5498, method = aes-256-gcm, password = lGqs95QkFHo2NV, fast-open = false, tag = TG:@hkaa0|美国_2
+shadowsocks = 38.110.1.105:443, method = aes-256-gcm, password = pKEW8JPByTVTLtM, fast-open = false, tag = TG:@hkaa0|美国_3
+shadowsocks = 38.110.1.105:8118, method = aes-256-gcm, password = cdBIDV42DCwnfIN, fast-open = false, tag = TG:@hkaa0|美国_4
+shadowsocks = 38.110.1.105:5601, method = aes-256-gcm, password = Y6R9pAtvxxzmGC, fast-open = false, tag = TG:@hkaa0|美国_5
+shadowsocks = 38.110.1.105:8080, method = aes-256-gcm, password = KixLvKzwjekG00rm, fast-open = false, tag = TG:@hkaa0|美国_6
+shadowsocks = 38.110.1.105:9101, method = aes-256-gcm, password = e4FCWrgpkji3QY, fast-open = false, tag = TG:@hkaa0|美国_7
+shadowsocks = 38.110.1.105:7307, method = aes-256-gcm, password = FoOiGlkAA9yPEGP, fast-open = false, tag = TG:@hkaa0|美国_8
+shadowsocks = 38.110.1.105:5003, method = aes-256-gcm, password = g5MeD6Ft3CWlJId, fast-open = false, tag = TG:@hkaa0|美国_9
+shadowsocks = 38.110.1.105:8009, method = aes-256-gcm, password = XKFKl2rULjIp74, fast-open = false, tag = TG:@hkaa0|美国_10
+shadowsocks = 38.110.1.105:8000, method = aes-256-gcm, password = KixLvKzwjekG00rm, fast-open = false, tag = TG:@hkaa0|美国_11
+shadowsocks = 38.110.1.105:8119, method = aes-256-gcm, password = cdBIDV42DCwnfIN, fast-open = false, tag = TG:@hkaa0|美国_12
+shadowsocks = 38.110.1.105:9102, method = aes-256-gcm, password = e4FCWrgpkji3QY, fast-open = false, tag = TG:@hkaa0|美国_13
+shadowsocks = 193.233.193.111:33708, method = chacha20-ietf-poly1305, password = Qkp2G5eizcw8XgTcGFhbME, fast-open = false, tag = TG:@hkaa0|俄罗斯
+shadowsocks = 142.4.216.225:80, method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq, fast-open = false, tag = TG:@hkaa0|加拿大_3
+vmess = 104.19.51.232:2086, method = chacha20-ietf-poly1305, password = 29eebb60-b27b-4a9d-bba5-947763d9205e, aead = true, tls13 = false, obfs = ws, obfs-host = ip005.dtku47.xyz, obfs-uri = github.com/Alvin9999, fast-open = false, tag = TG:@hkaa0|美国_14
+vmess = 104.26.0.56:2086, method = chacha20-ietf-poly1305, password = e9e3cc13-db48-4cc1-8c24-7626439a5339, aead = true, tls13 = false, obfs = ws, obfs-host = ip14.freegradely.xyz, obfs-uri = github.com/Alvin9999, fast-open = false, tag = TG:@hkaa0|美国_15
+vmess = kt01.898965.xyz:2052, method = chacha20-ietf-poly1305, password = 1b7eac5b-476b-4433-bb43-720e659e01ae, aead = true, tls13 = false, obfs = ws, obfs-host = kt01.898965.xyz, obfs-uri = /, fast-open = false, tag = TG:@hkaa0|美国_16
+vmess = cfcdn1.sanfencdn9.com:2052, method = chacha20-ietf-poly1305, password = 823b4a45-8728-425b-abb4-2d9ea30fd61e, aead = true, tls13 = false, obfs = ws, obfs-host = us1cPZiz8nb.fzbqfrse.xyz, obfs-uri = /video/6VBhAkCtV4/, fast-open = false, tag = TG:@hkaa0|美国_17
+shadowsocks = 38.110.1.105:8080, method = aes-256-gcm, password = KixLvKzwjekG00rm, fast-open = false, tag = TG:@hkaa0|美国_18
+vmess = mmjp11.micloud.buzz:46011, method = chacha20-ietf-poly1305, password = 638501f6-0ba0-47cb-bcfe-200cc1169e81, aead = true, tls13 = false, obfs = ws, obfs-host = mmjp11.micloud.buzz, obfs-uri = /zh-cn, fast-open = false, tag = TG:@hkaa0|中国
+shadowsocks = 38.110.1.105:5003, method = aes-256-gcm, password = g5MeD6Ft3CWlJId, fast-open = false, tag = TG:@hkaa0|美国_19
+shadowsocks = 38.110.1.105:8009, method = aes-256-gcm, password = XKFKl2rULjIp74, fast-open = false, tag = TG:@hkaa0|美国_20
+shadowsocks = 38.110.1.105:5004, method = aes-256-gcm, password = g5MeD6Ft3CWlJId, fast-open = false, tag = TG:@hkaa0|美国_21
+vmess = 104.21.8.157:2082, method = chacha20-ietf-poly1305, password = 112ac36f-3f53-4e26-8371-d25c028e1b9a, aead = true, tls13 = false, obfs = ws, obfs-host = s1c.v2.v001sss.xyz, obfs-uri = /, fast-open = false, tag = TG:@hkaa0|美国_22
+vmess = cfcdn2.sanfencdn9.com:2052, method = chacha20-ietf-poly1305, password = 823b4a45-8728-425b-abb4-2d9ea30fd61e, aead = true, tls13 = false, obfs = ws, obfs-host = jpafzyhfsg3.yofnhkfc.xyz, obfs-uri = /video/u4eCZTxW, fast-open = false, tag = TG:@hkaa0|美国_23
 
 [filter_local]
 # 本地/局域网地址
