@@ -1,9 +1,9 @@
 ####################################
-# 创建者五叶小铺 https://hkaa0.shop/
+# 创建者：五叶小铺 https://hkaa0.shop/
 # 客户端：Surge
-# 创建时间：2024-08-06 07:38:43
+# 创建时间：2024-08-17 06:58:53
 # 使用模版：V2RaySE 默认模版
-# 节点数量：28
+# 节点数量：10
 ####################################
 
 [General]
@@ -29,46 +29,28 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-TG:@hkaa0|加拿大_1 = ss,142.4.216.225,80,encrypt-method=chacha20-ietf-poly1305,password=JIhN6rBKkaEboLNXVSv5rq,tfo=false,udp-relay=false
-TG:@hkaa0|加拿大_2 = ss,142.4.216.225,80,encrypt-method=chacha20-ietf-poly1305,password=JIhN6rBKkaEboLNXVSv5rq,tfo=false,udp-relay=false
-TG:@hkaa0|美国_1 = ss,38.110.1.105,5004,encrypt-method=aes-256-gcm,password=g5MeD6Ft3CWlJId,tfo=false,udp-relay=false
-TG:@hkaa0|美国_2 = ss,38.110.1.105,5498,encrypt-method=aes-256-gcm,password=lGqs95QkFHo2NV,tfo=false,udp-relay=false
-TG:@hkaa0|美国_3 = ss,38.110.1.105,443,encrypt-method=aes-256-gcm,password=pKEW8JPByTVTLtM,tfo=false,udp-relay=false
-TG:@hkaa0|美国_4 = ss,38.110.1.105,8118,encrypt-method=aes-256-gcm,password=cdBIDV42DCwnfIN,tfo=false,udp-relay=false
-TG:@hkaa0|美国_5 = ss,38.110.1.105,5601,encrypt-method=aes-256-gcm,password=Y6R9pAtvxxzmGC,tfo=false,udp-relay=false
-TG:@hkaa0|美国_6 = ss,38.110.1.105,8080,encrypt-method=aes-256-gcm,password=KixLvKzwjekG00rm,tfo=false,udp-relay=false
-TG:@hkaa0|美国_7 = ss,38.110.1.105,9101,encrypt-method=aes-256-gcm,password=e4FCWrgpkji3QY,tfo=false,udp-relay=false
-TG:@hkaa0|美国_8 = ss,38.110.1.105,7307,encrypt-method=aes-256-gcm,password=FoOiGlkAA9yPEGP,tfo=false,udp-relay=false
-TG:@hkaa0|美国_9 = ss,38.110.1.105,5003,encrypt-method=aes-256-gcm,password=g5MeD6Ft3CWlJId,tfo=false,udp-relay=false
-TG:@hkaa0|美国_10 = ss,38.110.1.105,8009,encrypt-method=aes-256-gcm,password=XKFKl2rULjIp74,tfo=false,udp-relay=false
-TG:@hkaa0|美国_11 = ss,38.110.1.105,8000,encrypt-method=aes-256-gcm,password=KixLvKzwjekG00rm,tfo=false,udp-relay=false
-TG:@hkaa0|美国_12 = ss,38.110.1.105,8119,encrypt-method=aes-256-gcm,password=cdBIDV42DCwnfIN,tfo=false,udp-relay=false
-TG:@hkaa0|美国_13 = ss,38.110.1.105,9102,encrypt-method=aes-256-gcm,password=e4FCWrgpkji3QY,tfo=false,udp-relay=false
-TG:@hkaa0|俄罗斯 = ss,193.233.193.111,33708,encrypt-method=chacha20-ietf-poly1305,password=Qkp2G5eizcw8XgTcGFhbME,tfo=false,udp-relay=false
-TG:@hkaa0|加拿大_3 = ss,142.4.216.225,80,encrypt-method=chacha20-ietf-poly1305,password=JIhN6rBKkaEboLNXVSv5rq,tfo=false,udp-relay=false
-TG:@hkaa0|美国_14 = vmess,104.19.51.232,2086,username=29eebb60-b27b-4a9d-bba5-947763d9205e,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=github.com/Alvin9999,ws-headers=host:"ip005.dtku47.xyz",sni=104.19.51.232,skip-cert-verify=true,tfo=false,udp-relay=false
-TG:@hkaa0|美国_15 = vmess,104.26.0.56,2086,username=e9e3cc13-db48-4cc1-8c24-7626439a5339,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=github.com/Alvin9999,ws-headers=host:"ip14.freegradely.xyz",sni=104.26.0.56,skip-cert-verify=true,tfo=false,udp-relay=false
-TG:@hkaa0|美国_16 = vmess,kt01.898965.xyz,2052,username=1b7eac5b-476b-4433-bb43-720e659e01ae,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"kt01.898965.xyz",sni=kt01.898965.xyz,skip-cert-verify=true,tfo=false,udp-relay=false
-TG:@hkaa0|美国_17 = vmess,cfcdn1.sanfencdn9.com,2052,username=823b4a45-8728-425b-abb4-2d9ea30fd61e,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/video/6VBhAkCtV4/,ws-headers=host:"us1cPZiz8nb.fzbqfrse.xyz",sni=cfcdn1.sanfencdn9.com,skip-cert-verify=true,tfo=false,udp-relay=false
-TG:@hkaa0|美国_18 = ss,38.110.1.105,8080,encrypt-method=aes-256-gcm,password=KixLvKzwjekG00rm,tfo=false,udp-relay=false
-TG:@hkaa0|中国 = vmess,mmjp11.micloud.buzz,46011,username=638501f6-0ba0-47cb-bcfe-200cc1169e81,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/zh-cn,ws-headers=host:"mmjp11.micloud.buzz",sni=mmjp11.micloud.buzz,skip-cert-verify=true,tfo=false,udp-relay=false
-TG:@hkaa0|美国_19 = ss,38.110.1.105,5003,encrypt-method=aes-256-gcm,password=g5MeD6Ft3CWlJId,tfo=false,udp-relay=false
-TG:@hkaa0|美国_20 = ss,38.110.1.105,8009,encrypt-method=aes-256-gcm,password=XKFKl2rULjIp74,tfo=false,udp-relay=false
-TG:@hkaa0|美国_21 = ss,38.110.1.105,5004,encrypt-method=aes-256-gcm,password=g5MeD6Ft3CWlJId,tfo=false,udp-relay=false
-TG:@hkaa0|美国_22 = vmess,104.21.8.157,2082,username=112ac36f-3f53-4e26-8371-d25c028e1b9a,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"s1c.v2.v001sss.xyz",sni=104.21.8.157,skip-cert-verify=true,tfo=false,udp-relay=false
-TG:@hkaa0|美国_23 = vmess,cfcdn2.sanfencdn9.com,2052,username=823b4a45-8728-425b-abb4-2d9ea30fd61e,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/video/u4eCZTxW,ws-headers=host:"jpafzyhfsg3.yofnhkfc.xyz",sni=cfcdn2.sanfencdn9.com,skip-cert-verify=true,tfo=false,udp-relay=false
+TG:@hkaa0|加拿大 = ss,142.4.216.225,80,encrypt-method=chacha20-ietf-poly1305,password=JIhN6rBKkaEboLNXVSv5rq,tfo=false,udp-relay=false
+TG:@hkaa0|美国_1 = vmess,104.19.51.232,2086,username=29eebb60-b27b-4a9d-bba5-947763d9205e,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=github.com/Alvin9999,ws-headers=host:"ip005.dtku47.xyz",sni=104.19.51.232,skip-cert-verify=true,tfo=false,udp-relay=false
+TG:@hkaa0|美国_2 = vmess,104.26.0.56,2086,username=e9e3cc13-db48-4cc1-8c24-7626439a5339,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=github.com/Alvin9999,ws-headers=host:"ip14.freegradely.xyz",sni=104.26.0.56,skip-cert-verify=true,tfo=false,udp-relay=false
+TG:@hkaa0|美国_3 = vmess,104.21.8.157,2082,username=112ac36f-3f53-4e26-8371-d25c028e1b9a,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"s1c.v2.v001sss.xyz",sni=104.21.8.157,skip-cert-verify=true,tfo=false,udp-relay=false
+TG:@hkaa0|美国_4 = vmess,45.86.73.194,17327,username=8904baaf-c5cb-486c-ffab-caa7463467d8,tls=false,vmess-aead=true,tls13=false,sni=45.86.73.194,skip-cert-verify=true,tfo=false,udp-relay=false
+TG:@hkaa0|美国_5 = vmess,23.162.200.227,443,username=03fcc618-b93d-6796-6aed-8a38c975d581,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=/linkvws,sni=23.162.200.227,skip-cert-verify=true,tfo=false,udp-relay=false
+TG:@hkaa0|乌克兰 = trojan,cn1.cdn.xfltd-cdn.top,12012,password=3698a3e7-2877-4ded-a665-d81ee3cfd449,skip-cert-verify=true,sni=cn1.cdn.xfltd-cdn.top,tfo=false,udp-relay=false
+TG:@hkaa0|美国_6 = trojan,jp.mjt000.com,443,password=6ffa0d17-129b-44fd-9271-804c4b4a0cac,skip-cert-verify=true,tfo=false,udp-relay=false
+TG:@hkaa0|美国_7 = vmess,sg1.1vpn.sbs,443,username=1335b461-4941-4d13-936b-76a16eec9ad6,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=/oihuih6788,ws-headers=host:"sg1.1vpn.sbs",sni=sg1.1vpn.sbs,skip-cert-verify=true,tfo=false,udp-relay=false
+TG:@hkaa0|英国 = ss,212.102.53.79,443,encrypt-method=aes-128-gcm,password=shadowsocks,tfo=false,udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG:@hkaa0|加拿大_1,TG:@hkaa0|加拿大_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|俄罗斯,TG:@hkaa0|加拿大_3,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|中国,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23
-♻️ 自动选择 = url-test,TG:@hkaa0|加拿大_1,TG:@hkaa0|加拿大_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|俄罗斯,TG:@hkaa0|加拿大_3,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|中国,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG:@hkaa0|加拿大_1,TG:@hkaa0|加拿大_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|俄罗斯,TG:@hkaa0|加拿大_3,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|中国,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG:@hkaa0|加拿大_1,TG:@hkaa0|加拿大_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|俄罗斯,TG:@hkaa0|加拿大_3,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|中国,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG:@hkaa0|加拿大_1,TG:@hkaa0|加拿大_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|俄罗斯,TG:@hkaa0|加拿大_3,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|中国,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG:@hkaa0|加拿大_1,TG:@hkaa0|加拿大_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|俄罗斯,TG:@hkaa0|加拿大_3,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|中国,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG:@hkaa0|加拿大,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|乌克兰,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|英国
+♻️ 自动选择 = url-test,TG:@hkaa0|加拿大,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|乌克兰,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|英国,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG:@hkaa0|加拿大,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|乌克兰,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|英国
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG:@hkaa0|加拿大,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|乌克兰,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|英国
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG:@hkaa0|加拿大,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|乌克兰,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|英国
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG:@hkaa0|加拿大,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|乌克兰,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|英国
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG:@hkaa0|加拿大_1,TG:@hkaa0|加拿大_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|俄罗斯,TG:@hkaa0|加拿大_3,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|中国,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG:@hkaa0|加拿大,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|美国_5,TG:@hkaa0|乌克兰,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|英国
 
 [Rule]
 # 本地/局域网地址
