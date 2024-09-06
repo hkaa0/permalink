@@ -1,7 +1,7 @@
 ####################################
 # 创建者：五叶小铺 https://hkaa0.shop/
 # 客户端：Clash
-# 创建时间：2024-09-03 23:45:15
+# 创建时间：2024-09-05 23:23:30
 # 使用模版：V2RaySE 默认模版
 # 节点数量：10
 ####################################
@@ -89,12 +89,12 @@ proxies:
   - {"name":"TG:@hkaa0|美国_2","type":"vmess","server":"104.26.0.56","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
   - {"name":"TG:@hkaa0|美国_3","type":"vmess","server":"104.21.8.157","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
   - {"name":"TG:@hkaa0|美国_4","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {"name":"TG:@hkaa0|美国_5","type":"vmess","server":"172.64.229.209","port":80,"cipher":"auto","uuid":"5820093a-bb7d-4e15-8575-1a529f2d8282","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"rn2.hostmjj.com"}}}
-  - {"name":"TG:@hkaa0|美国_6","type":"vmess","server":"162.159.129.138","port":80,"cipher":"auto","uuid":"5820093a-bb7d-4e15-8575-1a529f2d8282","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"rn2.hostmjj.com"}}}
-  - {"name":"TG:@hkaa0|美国_7","type":"vmess","server":"162.159.136.106","port":80,"cipher":"auto","uuid":"5820093a-bb7d-4e15-8575-1a529f2d8282","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"rn2.hostmjj.com"}}}
   - {"name":"TG:@hkaa0|瑞士_1","type":"ss","server":"156.146.62.162","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"TG:@hkaa0|美国_8","type":"ss","server":"156.146.38.170","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"TG:@hkaa0|美国_5","type":"ss","server":"156.146.38.170","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
   - {"name":"TG:@hkaa0|瑞士_2","type":"ss","server":"156.146.62.164","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"TG:@hkaa0|美国_6","type":"vmess","server":"cfcdn3.sanfencdn9.com","port":80,"cipher":"auto","uuid":"dd6973d6-9af9-4edd-9140-c57eab178a0d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/VDXcaM7r","headers":{"host":"GWYp69Yujp2.yofnhkfc.xyz"}}}
+  - {"name":"TG:@hkaa0|中国","type":"ss","server":"hk1.mhw7e2.online","port":20001,"password":"70747514-fb14-4f31-8390-e1f0453eff6d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG:@hkaa0|美国_7","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"7786bd51-a965-4ae9-aac4-a224f9457243","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/QXjZG5u4F2","headers":{"host":"us3AJ8biuQx.fzbqfrse.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -105,12 +105,12 @@ proxy-groups:
       - TG:@hkaa0|美国_2
       - TG:@hkaa0|美国_3
       - TG:@hkaa0|美国_4
-      - TG:@hkaa0|美国_5
-      - TG:@hkaa0|美国_6
-      - TG:@hkaa0|美国_7
       - TG:@hkaa0|瑞士_1
-      - TG:@hkaa0|美国_8
+      - TG:@hkaa0|美国_5
       - TG:@hkaa0|瑞士_2
+      - TG:@hkaa0|美国_6
+      - TG:@hkaa0|中国
+      - TG:@hkaa0|美国_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -121,12 +121,12 @@ proxy-groups:
       - TG:@hkaa0|美国_2
       - TG:@hkaa0|美国_3
       - TG:@hkaa0|美国_4
-      - TG:@hkaa0|美国_5
-      - TG:@hkaa0|美国_6
-      - TG:@hkaa0|美国_7
       - TG:@hkaa0|瑞士_1
-      - TG:@hkaa0|美国_8
+      - TG:@hkaa0|美国_5
       - TG:@hkaa0|瑞士_2
+      - TG:@hkaa0|美国_6
+      - TG:@hkaa0|中国
+      - TG:@hkaa0|美国_7
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -137,12 +137,12 @@ proxy-groups:
       - TG:@hkaa0|美国_2
       - TG:@hkaa0|美国_3
       - TG:@hkaa0|美国_4
-      - TG:@hkaa0|美国_5
-      - TG:@hkaa0|美国_6
-      - TG:@hkaa0|美国_7
       - TG:@hkaa0|瑞士_1
-      - TG:@hkaa0|美国_8
+      - TG:@hkaa0|美国_5
       - TG:@hkaa0|瑞士_2
+      - TG:@hkaa0|美国_6
+      - TG:@hkaa0|中国
+      - TG:@hkaa0|美国_7
   - name: 📲 电报信息
     type: select
     proxies:
@@ -152,12 +152,12 @@ proxy-groups:
       - TG:@hkaa0|美国_2
       - TG:@hkaa0|美国_3
       - TG:@hkaa0|美国_4
-      - TG:@hkaa0|美国_5
-      - TG:@hkaa0|美国_6
-      - TG:@hkaa0|美国_7
       - TG:@hkaa0|瑞士_1
-      - TG:@hkaa0|美国_8
+      - TG:@hkaa0|美国_5
       - TG:@hkaa0|瑞士_2
+      - TG:@hkaa0|美国_6
+      - TG:@hkaa0|中国
+      - TG:@hkaa0|美国_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -167,12 +167,12 @@ proxy-groups:
       - TG:@hkaa0|美国_2
       - TG:@hkaa0|美国_3
       - TG:@hkaa0|美国_4
-      - TG:@hkaa0|美国_5
-      - TG:@hkaa0|美国_6
-      - TG:@hkaa0|美国_7
       - TG:@hkaa0|瑞士_1
-      - TG:@hkaa0|美国_8
+      - TG:@hkaa0|美国_5
       - TG:@hkaa0|瑞士_2
+      - TG:@hkaa0|美国_6
+      - TG:@hkaa0|中国
+      - TG:@hkaa0|美国_7
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -182,12 +182,12 @@ proxy-groups:
       - TG:@hkaa0|美国_2
       - TG:@hkaa0|美国_3
       - TG:@hkaa0|美国_4
-      - TG:@hkaa0|美国_5
-      - TG:@hkaa0|美国_6
-      - TG:@hkaa0|美国_7
       - TG:@hkaa0|瑞士_1
-      - TG:@hkaa0|美国_8
+      - TG:@hkaa0|美国_5
       - TG:@hkaa0|瑞士_2
+      - TG:@hkaa0|美国_6
+      - TG:@hkaa0|中国
+      - TG:@hkaa0|美国_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -214,12 +214,12 @@ proxy-groups:
       - TG:@hkaa0|美国_2
       - TG:@hkaa0|美国_3
       - TG:@hkaa0|美国_4
-      - TG:@hkaa0|美国_5
-      - TG:@hkaa0|美国_6
-      - TG:@hkaa0|美国_7
       - TG:@hkaa0|瑞士_1
-      - TG:@hkaa0|美国_8
+      - TG:@hkaa0|美国_5
       - TG:@hkaa0|瑞士_2
+      - TG:@hkaa0|美国_6
+      - TG:@hkaa0|中国
+      - TG:@hkaa0|美国_7
 
 rules:
 # 本地/局域网地址
