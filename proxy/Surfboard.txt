@@ -1,9 +1,9 @@
 ####################################
 # 创建者：五叶资源永久发布页 https://wy.hkaa0.top/
 # 客户端：Surfboard
-# 创建时间：2024-11-06 02:56:23
+# 创建时间：2024-11-12 03:45:21
 # 使用模版：V2RaySE 默认模版
-# 节点数量：80
+# 节点数量：132
 ####################################
 
 [General]
@@ -17,98 +17,808 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-TG:@hkaa0|英国_1 = ss, 212.102.53.195, 443, encrypt-method = aes-128-gcm, password = shadowsocks
-TG:@hkaa0|德国_1 = trojan, 18.199.0.55, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
-TG:@hkaa0|英国_2 = ss, 141.98.101.178, 443, encrypt-method = aes-128-gcm, password = shadowsocks
-TG:@hkaa0|美国_1 = ss, 212.102.47.131, 443, encrypt-method = aes-128-gcm, password = shadowsocks
-TG:@hkaa0|美国_2 = ss, 156.146.38.168, 443, encrypt-method = aes-128-gcm, password = shadowsocks
-TG:@hkaa0|美国_3 = ss, 142.202.49.119, 6679, encrypt-method = aes-256-gcm, password = TEzjfAYq2IjtuoS
-TG:@hkaa0|美国_4 = ss, 208.67.105.196, 42029, encrypt-method = chacha20-ietf-poly1305, password = SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
-TG:@hkaa0|英国_3 = ss, 141.98.101.182, 443, encrypt-method = aes-128-gcm, password = shadowsocks
-TG:@hkaa0|美国_5 = ss, 142.202.49.119, 5001, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
-TG:@hkaa0|美国_6 = ss, 142.202.49.119, 8080, encrypt-method = aes-256-gcm, password = KixLvKzwjekG00rm
-TG:@hkaa0|美国_7 = vmess, 172.64.166.16, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip14.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_8 = vmess, 104.19.47.65, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip8.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_9 = vmess, 104.21.8.157, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = false, vmess-aead = true, ws-path = /, ws-headers = Host:"s1c.v2.v001sss.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_10 = vmess, 104.19.46.103, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip19.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_11 = vmess, 172.64.175.88, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip6.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_12 = vmess, russia.com, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip6.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_13 = vmess, 104.20.17.186, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip6.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|英国_4 = trojan, a.522226.xyz, 45101, password = xjN4xcuPGg, udp-delay = true, skip-cert-verify = true, ws = false
-TG:@hkaa0|巴西 = vmess, br.aikx.me, 48679, username = 0ec2298b-b8b3-437a-8053-05bff19be248, ws = true, tls = false, vmess-aead = true, ws-path = /wada12222, ws-headers = Host:"br.aikx.me", skip-cert-verify = true, tfo = false
-TG:@hkaa0|日本_1 = trojan, ent1.imyourdaddy.top, 20983, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, udp-delay = true, skip-cert-verify = true, sni = sale.alibaba.com, ws = false
-TG:@hkaa0|荷兰_1 = ss, jqegya2k.wmdkwwurw.top, 19796, encrypt-method = aes-256-gcm, password = b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-TG:@hkaa0|荷兰_2 = ss, 78tel8ar.wmdkwwurw.top, 42140, encrypt-method = aes-256-gcm, password = b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-TG:@hkaa0|中国_1 = ss, private-forward-gg-763518.easay.xyz, 20027, encrypt-method = chacha20-ietf-poly1305, password = ccc45cca-9952-4b1c-aa83-db874c58bfe4
-TG:@hkaa0|中国_2 = ss, private-forward-gg-763518.easay.xyz, 20007, encrypt-method = chacha20-ietf-poly1305, password = ccc45cca-9952-4b1c-aa83-db874c58bfe4
-TG:@hkaa0|荷兰_3 = ss, bs0sl9j1.wmdkwwurw.top, 63118, encrypt-method = aes-256-gcm, password = b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-TG:@hkaa0|中国_3 = ss, private-forward-gg-763518.easay.xyz, 20037, encrypt-method = chacha20-ietf-poly1305, password = ccc45cca-9952-4b1c-aa83-db874c58bfe4
-TG:@hkaa0|荷兰_4 = ss, esbnsn6y.wmdkwwurw.top, 27047, encrypt-method = aes-256-gcm, password = b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-TG:@hkaa0|中国_4 = ss, private-forward-gg-763518.easay.xyz, 20001, encrypt-method = chacha20-ietf-poly1305, password = ccc45cca-9952-4b1c-aa83-db874c58bfe4
-TG:@hkaa0|法国_1 = vmess, discord.vpnsell.beauty, 443, username = a8ed942c-0c14-4061-89f7-c08b90ebea76, ws = true, tls = true, vmess-aead = true, ws-path = /29516/iliya, ws-headers = Host:"discord.vpnsell.beauty", skip-cert-verify = true, tfo = false
-TG:@hkaa0|法国_2 = ss, 62.210.88.22, 443, encrypt-method = chacha20-ietf-poly1305, password = p2lVw7jALqHDRNLwXDIAlm
-TG:@hkaa0|美国_14 = ss, 54.37.12.219, 8080, encrypt-method = aes-256-gcm, password = KixLvKzwjekG00rm
-TG:@hkaa0|美国_15 = ss, 54.37.12.219, 6379, encrypt-method = aes-256-gcm, password = zDNVedRFPQexG9v
-TG:@hkaa0|英国_5 = trojan, 51.44.49.89, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
-TG:@hkaa0|英国_6 = ss, 141.98.101.181, 443, encrypt-method = aes-128-gcm, password = shadowsocks
-TG:@hkaa0|爱尔兰 = trojan, 34.241.43.251, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
-TG:@hkaa0|韩国 = vmess, 193.123.244.147, 30359, username = 0ec2298b-b8b3-437a-8053-05bff19be248, ws = true, tls = false, vmess-aead = true, ws-path = /wada12222, ws-headers = Host:"193.123.244.147", skip-cert-verify = true, tfo = false
-TG:@hkaa0|日本_2 = trojan, ent1.imyourdaddy.top, 20987, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, udp-delay = true, skip-cert-verify = true, sni = sale.alibaba.com, ws = false
-TG:@hkaa0|德国_2 = ss, 45.87.175.192, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
-TG:@hkaa0|德国_3 = ss, 45.87.175.188, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-TG:@hkaa0|德国_4 = ss, 45.87.175.188, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
-TG:@hkaa0|德国_5 = ss, 45.87.175.192, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
-TG:@hkaa0|中国_5 = ss, private-forward-hr-777261.easay.xyz, 20006, encrypt-method = chacha20-ietf-poly1305, password = ccc45cca-9952-4b1c-aa83-db874c58bfe4
-TG:@hkaa0|新加坡 = ss, sg.premium404.web.id, 25056, encrypt-method = chacha20-ietf-poly1305, password = 1TB1N/FO5QA4NoIrAT8IFmf0x3gynq3ZzCIhctObHoY=
-TG:@hkaa0|美国_16 = ss, 142.202.49.119, 5003, encrypt-method = aes-256-gcm, password = g5MeD6Ft3CWlJId
-TG:@hkaa0|美国_17 = ss, 142.202.49.119, 5000, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
-TG:@hkaa0|美国_18 = vmess, e.pulan.homes, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, vmess-aead = true, ws-path = linkvws, ws-headers = Host:"e.pulan.homes", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_19 = vmess, us.aik.mom, 8008, username = 0ec2298b-b8b3-437a-8053-05bff19be248, ws = true, tls = false, vmess-aead = true, ws-path = /wada12222, ws-headers = Host:"us.aik.mom", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_20 = vmess, v2p-us-d.ywandy.top, 9444, username = b831381d-6324-4d53-ad4f-8cda48b30811, ws = true, tls = true, vmess-aead = true, ws-path = /blog, ws-headers = Host:"v2p-us-d.ywandy.top", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_21 = trojan, f.522226.xyz, 45601, password = xjN4xcuPGg, udp-delay = true, skip-cert-verify = true, ws = false
-TG:@hkaa0|美国_22 = trojan, 3.136.8.64, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
-TG:@hkaa0|美国_23 = vmess, shs.xiaoqi666.xyz, 2086, username = 3fd7b958-2161-46e1-b6fc-bd6bb2165312, ws = true, tls = false, vmess-aead = true, ws-path = /, ws-headers = Host:"shs.xiaoqi666.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_24 = vmess, c.jamekk.org, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, vmess-aead = true, ws-path = linkvws, ws-headers = Host:"c.jamekk.org", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_25 = vmess, ddd.zcr07.uS.KG, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = true, vmess-aead = true, ws-path = /linde06.indiavideo.sbs:443/linkws, ws-headers = Host:"ddd.zcr07.uS.KG", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_26 = vmess, IYUfgvPkjbHandzeJOTSNXmrGMpRuL.roxifa.ir, 443, username = 9f465c8d-7c5b-4912-ae86-b83c7ffe3a78, ws = true, tls = true, vmess-aead = true, ws-path = @RaFaV2Bot, ws-headers = Host:"IYUfgvPkjbHandzeJOTSNXmrGMpRuL.roxifa.ir", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_27 = vmess, nXmrkWUlQfCyIpaOhEVBtNSDPzFsAe.roxifa.ir, 443, username = 9f465c8d-7c5b-4912-ae86-b83c7ffe3a78, ws = true, tls = true, vmess-aead = true, ws-path = @RaFaV2Bot, ws-headers = Host:"nXmrkWUlQfCyIpaOhEVBtNSDPzFsAe.roxifa.ir", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_28 = vmess, EMtCQKsWjNBhFAzVxwYiZGkPegdyIc.roxifa.ir, 443, username = 9f465c8d-7c5b-4912-ae86-b83c7ffe3a78, ws = true, tls = true, vmess-aead = true, ws-path = @RaFaV2Bot, ws-headers = Host:"EMtCQKsWjNBhFAzVxwYiZGkPegdyIc.roxifa.ir", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_29 = vmess, TqvBhGPbMudcRlzwDrCpKEJLtIZQxo.roxifa.ir, 443, username = 9f465c8d-7c5b-4912-ae86-b83c7ffe3a78, ws = true, tls = true, vmess-aead = true, ws-path = @RaFaV2Bot, ws-headers = Host:"TqvBhGPbMudcRlzwDrCpKEJLtIZQxo.roxifa.ir", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_30 = vmess, zLMiXBYNAwsZqkpmdrbgtPRhTQuIcv.roxifa.ir, 443, username = 9f465c8d-7c5b-4912-ae86-b83c7ffe3a78, ws = true, tls = true, vmess-aead = true, ws-path = @RaFaV2Bot, ws-headers = Host:"zLMiXBYNAwsZqkpmdrbgtPRhTQuIcv.roxifa.ir", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_31 = vmess, s1c.v2.v001sss.xyz, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = false, vmess-aead = true, ws-path = /, ws-headers = Host:"s1c.v2.v001sss.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|中国_6 = trojan, bs1.loadingip.com, 443, password = 94d219c9-1afc-4d42-b090-8b3794764380, udp-delay = true, skip-cert-verify = true, ws = false
-TG:@hkaa0|中国_7 = ss, 183.240.255.75, 11001, encrypt-method = chacha20-ietf-poly1305, password = 1a9abdcb-57de-4027-8d00-d00efbfc4888
-TG:@hkaa0|中国_8 = ss, hzhz2.sssyun.xyz, 40016, encrypt-method = chacha20-ietf-poly1305, password = 38798780-6d99-4896-8e3d-258e630c1265
-TG:@hkaa0|中国_9 = ss, hzhz2.sssyun.xyz, 40015, encrypt-method = chacha20-ietf-poly1305, password = 38798780-6d99-4896-8e3d-258e630c1265
-TG:@hkaa0|美国_32 = vmess, 172.64.175.88, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_33 = vmess, 104.19.45.17, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_34 = vmess, fbi.gov, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_35 = vmess, 172.64.167.10, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_36 = vmess, 104.19.38.12, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_37 = vmess, 104.19.42.49, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip3.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_38 = vmess, 162.159.140.45, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip3.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_39 = vmess, 104.26.5.90, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_40 = vmess, singapore.com, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_41 = vmess, 104.19.21.230, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_42 = vmess, 172.64.167.44, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
-TG:@hkaa0|美国_43 = vmess, 104.16.60.8, 2082, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = false, vmess-aead = true, ws-path = /afrhms16v.bestxray.buzz/linkws, ws-headers = Host:"worker-noisy-paper-fa00.hetoj18200.workers.dev", skip-cert-verify = true, tfo = false
-TG:@hkaa0|中国_10 = ss, 117.176.203.229, 30017, encrypt-method = aes-256-gcm, password = 273a61f5-03b5-4449-9d18-7e914d3808c4
-TG:@hkaa0|英国_7 = trojan, 3.10.248.69, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
-TG:@hkaa0|荷兰_5 = ss, 1r3zcdlz.wmdkwwurw.top, 43761, encrypt-method = aes-256-gcm, password = b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-TG:@hkaa0|美国_44 = trojan, 13.49.181.197, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
-TG:@hkaa0|日本_3 = trojan, ent1.imyourdaddy.top, 20987, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, udp-delay = true, skip-cert-verify = true, ws = false
+TG:@hkaa0|美国_1
+ = ss, 23.157.40.89, 5003, encrypt-method = aes-256-gcm, password = g5MeD6Ft3CWlJId
+TG:@hkaa0|美国_2
+ = ss, 23.157.40.89, 5001, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_3
+ = ss, 23.157.40.89, 5004, encrypt-method = aes-256-gcm, password = g5MeD6Ft3CWlJId
+TG:@hkaa0|美国_4
+ = ss, 23.157.40.89, 443, encrypt-method = aes-256-gcm, password = pKEW8JPByTVTLtM
+TG:@hkaa0|美国_5
+ = ss, 23.157.40.89, 8888, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_6
+ = ss, 23.157.40.89, 8119, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
+TG:@hkaa0|美国_7
+ = ss, 23.157.40.89, 5000, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_8
+ = ss, 23.157.40.89, 9090, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|比利时_1 = vmess, 57.129.25.20, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, vmess-aead = true, ws-path = linkvws, ws-headers = Host:"57.129.25.20", skip-cert-verify = true, tfo = false
+TG:@hkaa0|英国_1
+ = ss, freakconfig.drroyazare.ir, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+TG:@hkaa0|中国_1
+ = ss, 203.23.128.33, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+TG:@hkaa0|德国_1
+ = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+TG:@hkaa0|德国_2
+ = ss, 45.87.175.181, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+TG:@hkaa0|荷兰_1
+ = ss, 107.181.155.244, 55330, encrypt-method = chacha20-ietf-poly1305, password = rtR4YX74vwqRJu9MGH3e1N3CQdGMWCUFkyLisijiFuvhkU9McV5TpygfkernJ4UQe63JtcDQkrQ9HfchzqQz1kLCnTRor8jg
+TG:@hkaa0|美国_9
+ = ss, mynode.work.gd, 20088, encrypt-method = chacha20-ietf-poly1305, password = ڦʺl٬TJ1q8DFgǪǥ
+TG:@hkaa0|英国_2
+ = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+TG:@hkaa0|美国_10
+ = ss, 67.220.72.41, 20088, encrypt-method = chacha20-ietf-poly1305, password = ڦʺl٬TJ1q8DFgǪǥ
+TG:@hkaa0|美国_11
+ = ss, 23.157.40.89, 3389, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_12
+ = ss, 23.157.40.89, 5498, encrypt-method = aes-256-gcm, password = lGqs95QkFHo2NV
+TG:@hkaa0|美国_13
+ = ss, 23.157.40.89, 8118, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
+TG:@hkaa0|美国_14
+ = ss, 23.157.40.89, 5601, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_15
+ = ss, 23.157.40.89, 8000, encrypt-method = aes-256-gcm, password = KixLvKzwjekG00rm
+TG:@hkaa0|美国_16
+ = ss, 23.157.40.89, 8881, encrypt-method = aes-256-gcm, password = kDWvXYZoTBcGkC4
+TG:@hkaa0|美国_17
+ = ss, 23.157.40.89, 7002, encrypt-method = aes-256-gcm, password = RexnBgU7EV5ADxG
+TG:@hkaa0|美国_18
+ = ss, 23.157.40.89, 7001, encrypt-method = aes-256-gcm, password = RexnBgU7EV5ADxG
+TG:@hkaa0|美国_19
+ = ss, 23.157.40.89, 9102, encrypt-method = aes-256-gcm, password = e4FCWrgpkji3QY
+TG:@hkaa0|美国_20
+ = ss, 23.157.40.113, 5004, encrypt-method = aes-256-gcm, password = g5MeD6Ft3CWlJId
+TG:@hkaa0|美国_21
+ = ss, 23.157.40.113, 2375, encrypt-method = aes-256-gcm, password = faBAoD54k87UJG7
+TG:@hkaa0|美国_22
+ = ss, 23.157.40.113, 5601, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_23
+ = ss, 23.157.40.113, 8119, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
+TG:@hkaa0|美国_24
+ = ss, 23.157.40.113, 8091, encrypt-method = aes-256-gcm, password = PCnnH6SQSnfoS27
+TG:@hkaa0|美国_25
+ = ss, 23.157.40.113, 7307, encrypt-method = aes-256-gcm, password = FoOiGlkAA9yPEGP
+TG:@hkaa0|美国_26
+ = ss, 23.157.40.113, 9090, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_27
+ = ss, 23.157.40.113, 8080, encrypt-method = aes-256-gcm, password = KixLvKzwjekG00rm
+TG:@hkaa0|美国_28
+ = ss, 23.157.40.113, 8008, encrypt-method = aes-256-gcm, password = XKFKl2rULjIp74
+TG:@hkaa0|美国_29
+ = ss, 23.157.40.113, 5001, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_30
+ = ss, 23.157.40.113, 443, encrypt-method = aes-256-gcm, password = pKEW8JPByTVTLtM
+TG:@hkaa0|美国_31
+ = ss, 23.157.40.113, 8882, encrypt-method = aes-256-gcm, password = kDWvXYZoTBcGkC4
+TG:@hkaa0|美国_32
+ = ss, 23.157.40.113, 8009, encrypt-method = aes-256-gcm, password = XKFKl2rULjIp74
+TG:@hkaa0|美国_33
+ = ss, 23.157.40.113, 5000, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_34
+ = ss, 23.157.40.113, 3306, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_35
+ = ss, 23.157.40.113, 3389, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_36
+ = ss, 38.110.1.51, 8091, encrypt-method = aes-256-gcm, password = PCnnH6SQSnfoS27
+TG:@hkaa0|美国_37 = vmess, 134.195.198.92, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, vmess-aead = true, ws-path = linkvws, ws-headers = Host:"134.195.198.92", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_38
+ = ss, 212.102.47.131, 443, encrypt-method = aes-128-gcm, password = shadowsocks
+TG:@hkaa0|美国_39
+ = ss, 38.68.134.202, 7306, encrypt-method = aes-256-gcm, password = FoOiGlkAA9yPEGP
+TG:@hkaa0|美国_40 = vmess, c.jamekk.org, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, vmess-aead = true, ws-path = linkvws, ws-headers = Host:"c.jamekk.org", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_41 = vmess, 104.19.45.50, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_42 = vmess, 104.21.8.157, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = false, vmess-aead = true, ws-path = /, ws-headers = Host:"s1c.v2.v001sss.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_43 = vmess, 172.64.167.5, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_44 = vmess, 172.67.130.140, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = false, vmess-aead = true, ws-path = /, ws-headers = Host:"s1c.v2.v001sss.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_45 = vmess, 172.64.167.35, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip21.6016725.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_46 = vmess, 172.64.166.8, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_47 = vmess, 104.19.21.63, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip21.6016725.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_48 = vmess, 104.19.55.49, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip27.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_49 = vmess, russia.com, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_50 = vmess, 172.64.167.10, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_51 = vmess, 104.20.17.186, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_52 = vmess, 104.19.42.49, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip3.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_53 = vmess, 172.64.99.22, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_54 = vmess, 172.64.167.35, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_55 = vmess, 172.64.175.213, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_56 = vmess, 162.159.140.45, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_57 = vmess, singapore.com, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_58 = vmess, 172.64.166.20, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_59 = vmess, 104.26.5.67, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_60 = vmess, 104.19.45.90, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip27.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_61 = vmess, malaysia.com, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_62 = vmess, www.visa.com, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip18.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_63 = vmess, 104.19.45.42, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip21.6016725.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_64 = vmess, 104.21.238.100, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip21.6016725.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|比利时_2 = vmess, 57.129.24.142, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, vmess-aead = true, ws-path = /linkvws, ws-headers = Host:"57.129.24.142", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_65 = vmess, 23.162.200.227, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, vmess-aead = true, ws-path = /linkvws, ws-headers = Host:"23.162.200.227", skip-cert-verify = true, tfo = false
+TG:@hkaa0|加拿大
+ = trojan, 52.60.59.39, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
+TG:@hkaa0|澳大利亚_1
+ = trojan, ent1.imyourdaddy.top, 20992, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, udp-delay = true, skip-cert-verify = true, sni = sale.alibaba.com, ws = false
+TG:@hkaa0|中国_2
+ = ss, 183.232.229.165, 11001, encrypt-method = chacha20-ietf-poly1305, password = 64f01e9c-30ec-45fc-ae4b-6f556e1aa4b0
+TG:@hkaa0|法国 = vmess, discord.vpnsell.beauty, 443, username = 57529232-b316-4b4e-abf1-9b6063ba0316, ws = true, tls = true, vmess-aead = true, ws-path = /29516/iliya, ws-headers = Host:"discord.vpnsell.beauty", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_66
+ = ss, 54.37.12.70, 5003, encrypt-method = aes-256-gcm, password = g5MeD6Ft3CWlJId
+TG:@hkaa0|英国_3
+ = ss, 3.10.155.19, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+TG:@hkaa0|英国_4
+ = trojan, 35.177.201.76, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = true, ws = false
+TG:@hkaa0|日本_1 = vmess, 92.38.178.93, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, vmess-aead = true, ws-path = linkvws, ws-headers = Host:"92.38.178.93", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_67
+ = trojan, plowman.meijireform.com, 443, password = an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA, udp-delay = true, skip-cert-verify = true, sni = plowman.meijireform.com, ws = false
+TG:@hkaa0|美国_68
+ = trojan, 154.31.114.10, 443, password = an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA, udp-delay = true, skip-cert-verify = true, sni = plowman.meijireform.com, ws = false
+TG:@hkaa0|日本_2
+ = trojan, n3.jp4589871.top, 8443, password = d90e5504-a42b-44c1-8289-3543471bf55a, udp-delay = true, skip-cert-verify = true, sni = n3.jp4589871.top, ws = false
+TG:@hkaa0|德国_3
+ = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+TG:@hkaa0|德国_4
+ = ss, 45.87.175.166, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+TG:@hkaa0|德国_5
+ = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = QCXDxuDlTTMD7jtgHUjIoj
+TG:@hkaa0|俄罗斯 = vmess, socks5tobefree.ydns.eu, 33026, username = 06053cbe-a299-4934-bca6-0707e1416dc7, ws = true, tls = true, vmess-aead = true, ws-path = /dangerzone, ws-headers = Host:"socks5tobefree.ydns.eu", skip-cert-verify = true, tfo = false
+TG:@hkaa0|荷兰_2
+ = trojan, aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz, 27001, password = f181b265-5fd4-456e-ad2d-c9b0446e0d51, udp-delay = true, skip-cert-verify = true, sni = q08m.vgraxiw73s.hasyaf.cn, ws = false
+TG:@hkaa0|乌克兰
+ = ss, pl1.ssproxy.xyz, 8388, encrypt-method = chacha20-ietf-poly1305, password = ODkwODVj
+TG:@hkaa0|美国_69
+ = ss, 38.110.1.102, 5001, encrypt-method = aes-256-gcm, password = Y6R9pAtvxxzmGC
+TG:@hkaa0|美国_70
+ = ss, 38.110.1.102, 6679, encrypt-method = aes-256-gcm, password = TEzjfAYq2IjtuoS
+TG:@hkaa0|美国_71
+ = ss, 38.68.134.202, 6379, encrypt-method = aes-256-gcm, password = zDNVedRFPQexG9v
+TG:@hkaa0|美国_72
+ = ss, 38.68.134.202, 7002, encrypt-method = aes-256-gcm, password = RexnBgU7EV5ADxG
+TG:@hkaa0|美国_73
+ = ss, 38.68.134.202, 8091, encrypt-method = aes-256-gcm, password = PCnnH6SQSnfoS27
+TG:@hkaa0|美国_74
+ = ss, 38.121.43.27, 8881, encrypt-method = aes-256-gcm, password = kDWvXYZoTBcGkC4
+TG:@hkaa0|美国_75
+ = ss, 38.121.43.27, 5004, encrypt-method = aes-256-gcm, password = g5MeD6Ft3CWlJId
+TG:@hkaa0|美国_76
+ = ss, 38.121.43.27, 2375, encrypt-method = aes-256-gcm, password = faBAoD54k87UJG7
+TG:@hkaa0|美国_77
+ = ss, 38.75.136.117, 5003, encrypt-method = aes-256-gcm, password = g5MeD6Ft3CWlJId
+TG:@hkaa0|美国_78
+ = ss, 38.121.43.27, 6697, encrypt-method = aes-256-gcm, password = TEzjfAYq2IjtuoS
+TG:@hkaa0|美国_79
+ = ss, 38.121.43.27, 8000, encrypt-method = aes-256-gcm, password = KixLvKzwjekG00rm
+TG:@hkaa0|美国_80
+ = ss, 38.121.43.27, 7001, encrypt-method = aes-256-gcm, password = RexnBgU7EV5ADxG
+TG:@hkaa0|美国_81
+ = ss, 38.121.43.27, 7002, encrypt-method = aes-256-gcm, password = RexnBgU7EV5ADxG
+TG:@hkaa0|美国_82 = vmess, bs.yichueng.org, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, vmess-aead = true, ws-path = linkvws, ws-headers = Host:"bs.yichueng.org", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_83 = vmess, us-new03.daluquan.top, 8880, username = 25bb1d6d-68e6-41a3-85e8-b280ac3f39eb, ws = true, tls = false, vmess-aead = true, ws-path = /itdog?ed=2560, ws-headers = Host:"us-new03.daluquan.top", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_84
+ = trojan, h.522226.xyz, 45800, password = xjN4xcuPGg55, udp-delay = true, skip-cert-verify = true, ws = false
+TG:@hkaa0|美国_85
+ = trojan, f.522226.xyz, 45601, password = xjN4xcuPGg, udp-delay = true, skip-cert-verify = true, ws = false
+TG:@hkaa0|未知_1
+ = ss, 103.174.86.113, 51348, encrypt-method = chacha20-ietf-poly1305, password = vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn
+TG:@hkaa0|美国_86 = vmess, de-new01.daluquan.top, 8080, username = 25bb1d6d-68e6-41a3-85e8-b280ac3f39eb, ws = true, tls = false, vmess-aead = true, ws-path = /, ws-headers = Host:"de-new01.daluquan.top", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_87 = vmess, shs.xiaoqi666.xyz, 2086, username = 3fd7b958-2161-46e1-b6fc-bd6bb2165312, ws = true, tls = false, vmess-aead = true, ws-path = /, ws-headers = Host:"shs.xiaoqi666.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_88 = vmess, obdii.cfd, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = true, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
+TG:@hkaa0|未知_2 = vmess, fkyyg.mmzhk.website, 443, username = df86d394-e937-4777-819d-f71389595696, ws = true, tls = true, vmess-aead = true, ws-path = /, ws-headers = Host:"fkyyg.mmzhk.website", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_89 = vmess, fnujs.whmvmkwuey.store, 443, username = 4d463e12-30d0-4c43-826c-ada171bd81db, ws = true, tls = true, vmess-aead = true, ws-path = /, ws-headers = Host:"fnujs.whmvmkwuey.store", skip-cert-verify = true, tfo = false
+TG:@hkaa0|中国_3
+ = ss, iepl1.forlive.live, 50101, encrypt-method = chacha20-ietf-poly1305, password = 0e91a29a-989d-4934-a1fb-7b653319397f
+TG:@hkaa0|美国_90 = vmess, russia.com, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip26.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|澳大利亚_2
+ = trojan, ent1.imyourdaddy.top, 20983, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, udp-delay = true, skip-cert-verify = true, sni = sale.alibaba.com, ws = false
+TG:@hkaa0|澳大利亚_3
+ = trojan, ent1.imyourdaddy.top, 20982, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, udp-delay = true, skip-cert-verify = true, sni = sale.alibaba.com, ws = false
+TG:@hkaa0|美国_91
+ = ss, 156.146.38.168, 443, encrypt-method = aes-128-gcm, password = shadowsocks
+TG:@hkaa0|美国_92
+ = ss, 208.67.105.196, 42029, encrypt-method = chacha20-ietf-poly1305, password = SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
+TG:@hkaa0|美国_93 = vmess, 172.64.166.16, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip14.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_94 = vmess, 104.19.47.65, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip8.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_95 = vmess, 172.64.175.88, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip6.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_96 = vmess, russia.com, 2082, username = 5f3f09ad-89cb-4e94-a7ad-aa8239913555, ws = true, tls = false, vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip6.6929198.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|澳大利亚_4
+ = trojan, ent1.imyourdaddy.top, 20987, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, udp-delay = true, skip-cert-verify = true, sni = sale.alibaba.com, ws = false
+TG:@hkaa0|德国_6
+ = ss, 45.87.175.192, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+TG:@hkaa0|德国_7
+ = ss, 45.87.175.192, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+TG:@hkaa0|美国_97 = vmess, 104.19.45.17, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_98 = vmess, fbi.gov, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_99 = vmess, singapore.com, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_100 = vmess, 104.19.21.230, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|美国_101 = vmess, 172.64.167.44, 2095, username = 18d96190-c10f-448f-a82a-2d36df5c3cde, ws = true, tls = false, vmess-aead = true, ws-path = /github.com/Alvin9999, ws-headers = Host:"ip20.6016725.xyz", skip-cert-verify = true, tfo = false
+TG:@hkaa0|澳大利亚_5
+ = trojan, ent1.imyourdaddy.top, 20987, password = 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, udp-delay = true, skip-cert-verify = true, ws = false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG:@hkaa0|英国_1,TG:@hkaa0|德国_1,TG:@hkaa0|英国_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|英国_3,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|英国_4,TG:@hkaa0|巴西,TG:@hkaa0|日本_1,TG:@hkaa0|荷兰_1,TG:@hkaa0|荷兰_2,TG:@hkaa0|中国_1,TG:@hkaa0|中国_2,TG:@hkaa0|荷兰_3,TG:@hkaa0|中国_3,TG:@hkaa0|荷兰_4,TG:@hkaa0|中国_4,TG:@hkaa0|法国_1,TG:@hkaa0|法国_2,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|英国_5,TG:@hkaa0|英国_6,TG:@hkaa0|爱尔兰,TG:@hkaa0|韩国,TG:@hkaa0|日本_2,TG:@hkaa0|德国_2,TG:@hkaa0|德国_3,TG:@hkaa0|德国_4,TG:@hkaa0|德国_5,TG:@hkaa0|中国_5,TG:@hkaa0|新加坡,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23,TG:@hkaa0|美国_24,TG:@hkaa0|美国_25,TG:@hkaa0|美国_26,TG:@hkaa0|美国_27,TG:@hkaa0|美国_28,TG:@hkaa0|美国_29,TG:@hkaa0|美国_30,TG:@hkaa0|美国_31,TG:@hkaa0|中国_6,TG:@hkaa0|中国_7,TG:@hkaa0|中国_8,TG:@hkaa0|中国_9,TG:@hkaa0|美国_32,TG:@hkaa0|美国_33,TG:@hkaa0|美国_34,TG:@hkaa0|美国_35,TG:@hkaa0|美国_36,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38,TG:@hkaa0|美国_39,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|中国_10,TG:@hkaa0|英国_7,TG:@hkaa0|荷兰_5,TG:@hkaa0|美国_44,TG:@hkaa0|日本_3
-♻️ 自动选择 = url-test,TG:@hkaa0|英国_1,TG:@hkaa0|德国_1,TG:@hkaa0|英国_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|英国_3,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|英国_4,TG:@hkaa0|巴西,TG:@hkaa0|日本_1,TG:@hkaa0|荷兰_1,TG:@hkaa0|荷兰_2,TG:@hkaa0|中国_1,TG:@hkaa0|中国_2,TG:@hkaa0|荷兰_3,TG:@hkaa0|中国_3,TG:@hkaa0|荷兰_4,TG:@hkaa0|中国_4,TG:@hkaa0|法国_1,TG:@hkaa0|法国_2,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|英国_5,TG:@hkaa0|英国_6,TG:@hkaa0|爱尔兰,TG:@hkaa0|韩国,TG:@hkaa0|日本_2,TG:@hkaa0|德国_2,TG:@hkaa0|德国_3,TG:@hkaa0|德国_4,TG:@hkaa0|德国_5,TG:@hkaa0|中国_5,TG:@hkaa0|新加坡,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23,TG:@hkaa0|美国_24,TG:@hkaa0|美国_25,TG:@hkaa0|美国_26,TG:@hkaa0|美国_27,TG:@hkaa0|美国_28,TG:@hkaa0|美国_29,TG:@hkaa0|美国_30,TG:@hkaa0|美国_31,TG:@hkaa0|中国_6,TG:@hkaa0|中国_7,TG:@hkaa0|中国_8,TG:@hkaa0|中国_9,TG:@hkaa0|美国_32,TG:@hkaa0|美国_33,TG:@hkaa0|美国_34,TG:@hkaa0|美国_35,TG:@hkaa0|美国_36,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38,TG:@hkaa0|美国_39,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|中国_10,TG:@hkaa0|英国_7,TG:@hkaa0|荷兰_5,TG:@hkaa0|美国_44,TG:@hkaa0|日本_3,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG:@hkaa0|英国_1,TG:@hkaa0|德国_1,TG:@hkaa0|英国_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|英国_3,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|英国_4,TG:@hkaa0|巴西,TG:@hkaa0|日本_1,TG:@hkaa0|荷兰_1,TG:@hkaa0|荷兰_2,TG:@hkaa0|中国_1,TG:@hkaa0|中国_2,TG:@hkaa0|荷兰_3,TG:@hkaa0|中国_3,TG:@hkaa0|荷兰_4,TG:@hkaa0|中国_4,TG:@hkaa0|法国_1,TG:@hkaa0|法国_2,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|英国_5,TG:@hkaa0|英国_6,TG:@hkaa0|爱尔兰,TG:@hkaa0|韩国,TG:@hkaa0|日本_2,TG:@hkaa0|德国_2,TG:@hkaa0|德国_3,TG:@hkaa0|德国_4,TG:@hkaa0|德国_5,TG:@hkaa0|中国_5,TG:@hkaa0|新加坡,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23,TG:@hkaa0|美国_24,TG:@hkaa0|美国_25,TG:@hkaa0|美国_26,TG:@hkaa0|美国_27,TG:@hkaa0|美国_28,TG:@hkaa0|美国_29,TG:@hkaa0|美国_30,TG:@hkaa0|美国_31,TG:@hkaa0|中国_6,TG:@hkaa0|中国_7,TG:@hkaa0|中国_8,TG:@hkaa0|中国_9,TG:@hkaa0|美国_32,TG:@hkaa0|美国_33,TG:@hkaa0|美国_34,TG:@hkaa0|美国_35,TG:@hkaa0|美国_36,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38,TG:@hkaa0|美国_39,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|中国_10,TG:@hkaa0|英国_7,TG:@hkaa0|荷兰_5,TG:@hkaa0|美国_44,TG:@hkaa0|日本_3
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG:@hkaa0|英国_1,TG:@hkaa0|德国_1,TG:@hkaa0|英国_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|英国_3,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|英国_4,TG:@hkaa0|巴西,TG:@hkaa0|日本_1,TG:@hkaa0|荷兰_1,TG:@hkaa0|荷兰_2,TG:@hkaa0|中国_1,TG:@hkaa0|中国_2,TG:@hkaa0|荷兰_3,TG:@hkaa0|中国_3,TG:@hkaa0|荷兰_4,TG:@hkaa0|中国_4,TG:@hkaa0|法国_1,TG:@hkaa0|法国_2,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|英国_5,TG:@hkaa0|英国_6,TG:@hkaa0|爱尔兰,TG:@hkaa0|韩国,TG:@hkaa0|日本_2,TG:@hkaa0|德国_2,TG:@hkaa0|德国_3,TG:@hkaa0|德国_4,TG:@hkaa0|德国_5,TG:@hkaa0|中国_5,TG:@hkaa0|新加坡,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23,TG:@hkaa0|美国_24,TG:@hkaa0|美国_25,TG:@hkaa0|美国_26,TG:@hkaa0|美国_27,TG:@hkaa0|美国_28,TG:@hkaa0|美国_29,TG:@hkaa0|美国_30,TG:@hkaa0|美国_31,TG:@hkaa0|中国_6,TG:@hkaa0|中国_7,TG:@hkaa0|中国_8,TG:@hkaa0|中国_9,TG:@hkaa0|美国_32,TG:@hkaa0|美国_33,TG:@hkaa0|美国_34,TG:@hkaa0|美国_35,TG:@hkaa0|美国_36,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38,TG:@hkaa0|美国_39,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|中国_10,TG:@hkaa0|英国_7,TG:@hkaa0|荷兰_5,TG:@hkaa0|美国_44,TG:@hkaa0|日本_3
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG:@hkaa0|英国_1,TG:@hkaa0|德国_1,TG:@hkaa0|英国_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|英国_3,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|英国_4,TG:@hkaa0|巴西,TG:@hkaa0|日本_1,TG:@hkaa0|荷兰_1,TG:@hkaa0|荷兰_2,TG:@hkaa0|中国_1,TG:@hkaa0|中国_2,TG:@hkaa0|荷兰_3,TG:@hkaa0|中国_3,TG:@hkaa0|荷兰_4,TG:@hkaa0|中国_4,TG:@hkaa0|法国_1,TG:@hkaa0|法国_2,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|英国_5,TG:@hkaa0|英国_6,TG:@hkaa0|爱尔兰,TG:@hkaa0|韩国,TG:@hkaa0|日本_2,TG:@hkaa0|德国_2,TG:@hkaa0|德国_3,TG:@hkaa0|德国_4,TG:@hkaa0|德国_5,TG:@hkaa0|中国_5,TG:@hkaa0|新加坡,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23,TG:@hkaa0|美国_24,TG:@hkaa0|美国_25,TG:@hkaa0|美国_26,TG:@hkaa0|美国_27,TG:@hkaa0|美国_28,TG:@hkaa0|美国_29,TG:@hkaa0|美国_30,TG:@hkaa0|美国_31,TG:@hkaa0|中国_6,TG:@hkaa0|中国_7,TG:@hkaa0|中国_8,TG:@hkaa0|中国_9,TG:@hkaa0|美国_32,TG:@hkaa0|美国_33,TG:@hkaa0|美国_34,TG:@hkaa0|美国_35,TG:@hkaa0|美国_36,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38,TG:@hkaa0|美国_39,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|中国_10,TG:@hkaa0|英国_7,TG:@hkaa0|荷兰_5,TG:@hkaa0|美国_44,TG:@hkaa0|日本_3
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG:@hkaa0|英国_1,TG:@hkaa0|德国_1,TG:@hkaa0|英国_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|英国_3,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|英国_4,TG:@hkaa0|巴西,TG:@hkaa0|日本_1,TG:@hkaa0|荷兰_1,TG:@hkaa0|荷兰_2,TG:@hkaa0|中国_1,TG:@hkaa0|中国_2,TG:@hkaa0|荷兰_3,TG:@hkaa0|中国_3,TG:@hkaa0|荷兰_4,TG:@hkaa0|中国_4,TG:@hkaa0|法国_1,TG:@hkaa0|法国_2,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|英国_5,TG:@hkaa0|英国_6,TG:@hkaa0|爱尔兰,TG:@hkaa0|韩国,TG:@hkaa0|日本_2,TG:@hkaa0|德国_2,TG:@hkaa0|德国_3,TG:@hkaa0|德国_4,TG:@hkaa0|德国_5,TG:@hkaa0|中国_5,TG:@hkaa0|新加坡,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23,TG:@hkaa0|美国_24,TG:@hkaa0|美国_25,TG:@hkaa0|美国_26,TG:@hkaa0|美国_27,TG:@hkaa0|美国_28,TG:@hkaa0|美国_29,TG:@hkaa0|美国_30,TG:@hkaa0|美国_31,TG:@hkaa0|中国_6,TG:@hkaa0|中国_7,TG:@hkaa0|中国_8,TG:@hkaa0|中国_9,TG:@hkaa0|美国_32,TG:@hkaa0|美国_33,TG:@hkaa0|美国_34,TG:@hkaa0|美国_35,TG:@hkaa0|美国_36,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38,TG:@hkaa0|美国_39,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|中国_10,TG:@hkaa0|英国_7,TG:@hkaa0|荷兰_5,TG:@hkaa0|美国_44,TG:@hkaa0|日本_3
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG:@hkaa0|美国_1
+,TG:@hkaa0|美国_2
+,TG:@hkaa0|美国_3
+,TG:@hkaa0|美国_4
+,TG:@hkaa0|美国_5
+,TG:@hkaa0|美国_6
+,TG:@hkaa0|美国_7
+,TG:@hkaa0|美国_8
+,TG:@hkaa0|比利时_1,TG:@hkaa0|英国_1
+,TG:@hkaa0|中国_1
+,TG:@hkaa0|德国_1
+,TG:@hkaa0|德国_2
+,TG:@hkaa0|荷兰_1
+,TG:@hkaa0|美国_9
+,TG:@hkaa0|英国_2
+,TG:@hkaa0|美国_10
+,TG:@hkaa0|美国_11
+,TG:@hkaa0|美国_12
+,TG:@hkaa0|美国_13
+,TG:@hkaa0|美国_14
+,TG:@hkaa0|美国_15
+,TG:@hkaa0|美国_16
+,TG:@hkaa0|美国_17
+,TG:@hkaa0|美国_18
+,TG:@hkaa0|美国_19
+,TG:@hkaa0|美国_20
+,TG:@hkaa0|美国_21
+,TG:@hkaa0|美国_22
+,TG:@hkaa0|美国_23
+,TG:@hkaa0|美国_24
+,TG:@hkaa0|美国_25
+,TG:@hkaa0|美国_26
+,TG:@hkaa0|美国_27
+,TG:@hkaa0|美国_28
+,TG:@hkaa0|美国_29
+,TG:@hkaa0|美国_30
+,TG:@hkaa0|美国_31
+,TG:@hkaa0|美国_32
+,TG:@hkaa0|美国_33
+,TG:@hkaa0|美国_34
+,TG:@hkaa0|美国_35
+,TG:@hkaa0|美国_36
+,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38
+,TG:@hkaa0|美国_39
+,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|美国_44,TG:@hkaa0|美国_45,TG:@hkaa0|美国_46,TG:@hkaa0|美国_47,TG:@hkaa0|美国_48,TG:@hkaa0|美国_49,TG:@hkaa0|美国_50,TG:@hkaa0|美国_51,TG:@hkaa0|美国_52,TG:@hkaa0|美国_53,TG:@hkaa0|美国_54,TG:@hkaa0|美国_55,TG:@hkaa0|美国_56,TG:@hkaa0|美国_57,TG:@hkaa0|美国_58,TG:@hkaa0|美国_59,TG:@hkaa0|美国_60,TG:@hkaa0|美国_61,TG:@hkaa0|美国_62,TG:@hkaa0|美国_63,TG:@hkaa0|美国_64,TG:@hkaa0|比利时_2,TG:@hkaa0|美国_65,TG:@hkaa0|加拿大
+,TG:@hkaa0|澳大利亚_1
+,TG:@hkaa0|中国_2
+,TG:@hkaa0|法国,TG:@hkaa0|美国_66
+,TG:@hkaa0|英国_3
+,TG:@hkaa0|英国_4
+,TG:@hkaa0|日本_1,TG:@hkaa0|美国_67
+,TG:@hkaa0|美国_68
+,TG:@hkaa0|日本_2
+,TG:@hkaa0|德国_3
+,TG:@hkaa0|德国_4
+,TG:@hkaa0|德国_5
+,TG:@hkaa0|俄罗斯,TG:@hkaa0|荷兰_2
+,TG:@hkaa0|乌克兰
+,TG:@hkaa0|美国_69
+,TG:@hkaa0|美国_70
+,TG:@hkaa0|美国_71
+,TG:@hkaa0|美国_72
+,TG:@hkaa0|美国_73
+,TG:@hkaa0|美国_74
+,TG:@hkaa0|美国_75
+,TG:@hkaa0|美国_76
+,TG:@hkaa0|美国_77
+,TG:@hkaa0|美国_78
+,TG:@hkaa0|美国_79
+,TG:@hkaa0|美国_80
+,TG:@hkaa0|美国_81
+,TG:@hkaa0|美国_82,TG:@hkaa0|美国_83,TG:@hkaa0|美国_84
+,TG:@hkaa0|美国_85
+,TG:@hkaa0|未知_1
+,TG:@hkaa0|美国_86,TG:@hkaa0|美国_87,TG:@hkaa0|美国_88,TG:@hkaa0|未知_2,TG:@hkaa0|美国_89,TG:@hkaa0|中国_3
+,TG:@hkaa0|美国_90,TG:@hkaa0|澳大利亚_2
+,TG:@hkaa0|澳大利亚_3
+,TG:@hkaa0|美国_91
+,TG:@hkaa0|美国_92
+,TG:@hkaa0|美国_93,TG:@hkaa0|美国_94,TG:@hkaa0|美国_95,TG:@hkaa0|美国_96,TG:@hkaa0|澳大利亚_4
+,TG:@hkaa0|德国_6
+,TG:@hkaa0|德国_7
+,TG:@hkaa0|美国_97,TG:@hkaa0|美国_98,TG:@hkaa0|美国_99,TG:@hkaa0|美国_100,TG:@hkaa0|美国_101,TG:@hkaa0|澳大利亚_5
+♻️ 自动选择 = url-test,TG:@hkaa0|美国_1
+,TG:@hkaa0|美国_2
+,TG:@hkaa0|美国_3
+,TG:@hkaa0|美国_4
+,TG:@hkaa0|美国_5
+,TG:@hkaa0|美国_6
+,TG:@hkaa0|美国_7
+,TG:@hkaa0|美国_8
+,TG:@hkaa0|比利时_1,TG:@hkaa0|英国_1
+,TG:@hkaa0|中国_1
+,TG:@hkaa0|德国_1
+,TG:@hkaa0|德国_2
+,TG:@hkaa0|荷兰_1
+,TG:@hkaa0|美国_9
+,TG:@hkaa0|英国_2
+,TG:@hkaa0|美国_10
+,TG:@hkaa0|美国_11
+,TG:@hkaa0|美国_12
+,TG:@hkaa0|美国_13
+,TG:@hkaa0|美国_14
+,TG:@hkaa0|美国_15
+,TG:@hkaa0|美国_16
+,TG:@hkaa0|美国_17
+,TG:@hkaa0|美国_18
+,TG:@hkaa0|美国_19
+,TG:@hkaa0|美国_20
+,TG:@hkaa0|美国_21
+,TG:@hkaa0|美国_22
+,TG:@hkaa0|美国_23
+,TG:@hkaa0|美国_24
+,TG:@hkaa0|美国_25
+,TG:@hkaa0|美国_26
+,TG:@hkaa0|美国_27
+,TG:@hkaa0|美国_28
+,TG:@hkaa0|美国_29
+,TG:@hkaa0|美国_30
+,TG:@hkaa0|美国_31
+,TG:@hkaa0|美国_32
+,TG:@hkaa0|美国_33
+,TG:@hkaa0|美国_34
+,TG:@hkaa0|美国_35
+,TG:@hkaa0|美国_36
+,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38
+,TG:@hkaa0|美国_39
+,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|美国_44,TG:@hkaa0|美国_45,TG:@hkaa0|美国_46,TG:@hkaa0|美国_47,TG:@hkaa0|美国_48,TG:@hkaa0|美国_49,TG:@hkaa0|美国_50,TG:@hkaa0|美国_51,TG:@hkaa0|美国_52,TG:@hkaa0|美国_53,TG:@hkaa0|美国_54,TG:@hkaa0|美国_55,TG:@hkaa0|美国_56,TG:@hkaa0|美国_57,TG:@hkaa0|美国_58,TG:@hkaa0|美国_59,TG:@hkaa0|美国_60,TG:@hkaa0|美国_61,TG:@hkaa0|美国_62,TG:@hkaa0|美国_63,TG:@hkaa0|美国_64,TG:@hkaa0|比利时_2,TG:@hkaa0|美国_65,TG:@hkaa0|加拿大
+,TG:@hkaa0|澳大利亚_1
+,TG:@hkaa0|中国_2
+,TG:@hkaa0|法国,TG:@hkaa0|美国_66
+,TG:@hkaa0|英国_3
+,TG:@hkaa0|英国_4
+,TG:@hkaa0|日本_1,TG:@hkaa0|美国_67
+,TG:@hkaa0|美国_68
+,TG:@hkaa0|日本_2
+,TG:@hkaa0|德国_3
+,TG:@hkaa0|德国_4
+,TG:@hkaa0|德国_5
+,TG:@hkaa0|俄罗斯,TG:@hkaa0|荷兰_2
+,TG:@hkaa0|乌克兰
+,TG:@hkaa0|美国_69
+,TG:@hkaa0|美国_70
+,TG:@hkaa0|美国_71
+,TG:@hkaa0|美国_72
+,TG:@hkaa0|美国_73
+,TG:@hkaa0|美国_74
+,TG:@hkaa0|美国_75
+,TG:@hkaa0|美国_76
+,TG:@hkaa0|美国_77
+,TG:@hkaa0|美国_78
+,TG:@hkaa0|美国_79
+,TG:@hkaa0|美国_80
+,TG:@hkaa0|美国_81
+,TG:@hkaa0|美国_82,TG:@hkaa0|美国_83,TG:@hkaa0|美国_84
+,TG:@hkaa0|美国_85
+,TG:@hkaa0|未知_1
+,TG:@hkaa0|美国_86,TG:@hkaa0|美国_87,TG:@hkaa0|美国_88,TG:@hkaa0|未知_2,TG:@hkaa0|美国_89,TG:@hkaa0|中国_3
+,TG:@hkaa0|美国_90,TG:@hkaa0|澳大利亚_2
+,TG:@hkaa0|澳大利亚_3
+,TG:@hkaa0|美国_91
+,TG:@hkaa0|美国_92
+,TG:@hkaa0|美国_93,TG:@hkaa0|美国_94,TG:@hkaa0|美国_95,TG:@hkaa0|美国_96,TG:@hkaa0|澳大利亚_4
+,TG:@hkaa0|德国_6
+,TG:@hkaa0|德国_7
+,TG:@hkaa0|美国_97,TG:@hkaa0|美国_98,TG:@hkaa0|美国_99,TG:@hkaa0|美国_100,TG:@hkaa0|美国_101,TG:@hkaa0|澳大利亚_5
+,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG:@hkaa0|美国_1
+,TG:@hkaa0|美国_2
+,TG:@hkaa0|美国_3
+,TG:@hkaa0|美国_4
+,TG:@hkaa0|美国_5
+,TG:@hkaa0|美国_6
+,TG:@hkaa0|美国_7
+,TG:@hkaa0|美国_8
+,TG:@hkaa0|比利时_1,TG:@hkaa0|英国_1
+,TG:@hkaa0|中国_1
+,TG:@hkaa0|德国_1
+,TG:@hkaa0|德国_2
+,TG:@hkaa0|荷兰_1
+,TG:@hkaa0|美国_9
+,TG:@hkaa0|英国_2
+,TG:@hkaa0|美国_10
+,TG:@hkaa0|美国_11
+,TG:@hkaa0|美国_12
+,TG:@hkaa0|美国_13
+,TG:@hkaa0|美国_14
+,TG:@hkaa0|美国_15
+,TG:@hkaa0|美国_16
+,TG:@hkaa0|美国_17
+,TG:@hkaa0|美国_18
+,TG:@hkaa0|美国_19
+,TG:@hkaa0|美国_20
+,TG:@hkaa0|美国_21
+,TG:@hkaa0|美国_22
+,TG:@hkaa0|美国_23
+,TG:@hkaa0|美国_24
+,TG:@hkaa0|美国_25
+,TG:@hkaa0|美国_26
+,TG:@hkaa0|美国_27
+,TG:@hkaa0|美国_28
+,TG:@hkaa0|美国_29
+,TG:@hkaa0|美国_30
+,TG:@hkaa0|美国_31
+,TG:@hkaa0|美国_32
+,TG:@hkaa0|美国_33
+,TG:@hkaa0|美国_34
+,TG:@hkaa0|美国_35
+,TG:@hkaa0|美国_36
+,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38
+,TG:@hkaa0|美国_39
+,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|美国_44,TG:@hkaa0|美国_45,TG:@hkaa0|美国_46,TG:@hkaa0|美国_47,TG:@hkaa0|美国_48,TG:@hkaa0|美国_49,TG:@hkaa0|美国_50,TG:@hkaa0|美国_51,TG:@hkaa0|美国_52,TG:@hkaa0|美国_53,TG:@hkaa0|美国_54,TG:@hkaa0|美国_55,TG:@hkaa0|美国_56,TG:@hkaa0|美国_57,TG:@hkaa0|美国_58,TG:@hkaa0|美国_59,TG:@hkaa0|美国_60,TG:@hkaa0|美国_61,TG:@hkaa0|美国_62,TG:@hkaa0|美国_63,TG:@hkaa0|美国_64,TG:@hkaa0|比利时_2,TG:@hkaa0|美国_65,TG:@hkaa0|加拿大
+,TG:@hkaa0|澳大利亚_1
+,TG:@hkaa0|中国_2
+,TG:@hkaa0|法国,TG:@hkaa0|美国_66
+,TG:@hkaa0|英国_3
+,TG:@hkaa0|英国_4
+,TG:@hkaa0|日本_1,TG:@hkaa0|美国_67
+,TG:@hkaa0|美国_68
+,TG:@hkaa0|日本_2
+,TG:@hkaa0|德国_3
+,TG:@hkaa0|德国_4
+,TG:@hkaa0|德国_5
+,TG:@hkaa0|俄罗斯,TG:@hkaa0|荷兰_2
+,TG:@hkaa0|乌克兰
+,TG:@hkaa0|美国_69
+,TG:@hkaa0|美国_70
+,TG:@hkaa0|美国_71
+,TG:@hkaa0|美国_72
+,TG:@hkaa0|美国_73
+,TG:@hkaa0|美国_74
+,TG:@hkaa0|美国_75
+,TG:@hkaa0|美国_76
+,TG:@hkaa0|美国_77
+,TG:@hkaa0|美国_78
+,TG:@hkaa0|美国_79
+,TG:@hkaa0|美国_80
+,TG:@hkaa0|美国_81
+,TG:@hkaa0|美国_82,TG:@hkaa0|美国_83,TG:@hkaa0|美国_84
+,TG:@hkaa0|美国_85
+,TG:@hkaa0|未知_1
+,TG:@hkaa0|美国_86,TG:@hkaa0|美国_87,TG:@hkaa0|美国_88,TG:@hkaa0|未知_2,TG:@hkaa0|美国_89,TG:@hkaa0|中国_3
+,TG:@hkaa0|美国_90,TG:@hkaa0|澳大利亚_2
+,TG:@hkaa0|澳大利亚_3
+,TG:@hkaa0|美国_91
+,TG:@hkaa0|美国_92
+,TG:@hkaa0|美国_93,TG:@hkaa0|美国_94,TG:@hkaa0|美国_95,TG:@hkaa0|美国_96,TG:@hkaa0|澳大利亚_4
+,TG:@hkaa0|德国_6
+,TG:@hkaa0|德国_7
+,TG:@hkaa0|美国_97,TG:@hkaa0|美国_98,TG:@hkaa0|美国_99,TG:@hkaa0|美国_100,TG:@hkaa0|美国_101,TG:@hkaa0|澳大利亚_5
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG:@hkaa0|美国_1
+,TG:@hkaa0|美国_2
+,TG:@hkaa0|美国_3
+,TG:@hkaa0|美国_4
+,TG:@hkaa0|美国_5
+,TG:@hkaa0|美国_6
+,TG:@hkaa0|美国_7
+,TG:@hkaa0|美国_8
+,TG:@hkaa0|比利时_1,TG:@hkaa0|英国_1
+,TG:@hkaa0|中国_1
+,TG:@hkaa0|德国_1
+,TG:@hkaa0|德国_2
+,TG:@hkaa0|荷兰_1
+,TG:@hkaa0|美国_9
+,TG:@hkaa0|英国_2
+,TG:@hkaa0|美国_10
+,TG:@hkaa0|美国_11
+,TG:@hkaa0|美国_12
+,TG:@hkaa0|美国_13
+,TG:@hkaa0|美国_14
+,TG:@hkaa0|美国_15
+,TG:@hkaa0|美国_16
+,TG:@hkaa0|美国_17
+,TG:@hkaa0|美国_18
+,TG:@hkaa0|美国_19
+,TG:@hkaa0|美国_20
+,TG:@hkaa0|美国_21
+,TG:@hkaa0|美国_22
+,TG:@hkaa0|美国_23
+,TG:@hkaa0|美国_24
+,TG:@hkaa0|美国_25
+,TG:@hkaa0|美国_26
+,TG:@hkaa0|美国_27
+,TG:@hkaa0|美国_28
+,TG:@hkaa0|美国_29
+,TG:@hkaa0|美国_30
+,TG:@hkaa0|美国_31
+,TG:@hkaa0|美国_32
+,TG:@hkaa0|美国_33
+,TG:@hkaa0|美国_34
+,TG:@hkaa0|美国_35
+,TG:@hkaa0|美国_36
+,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38
+,TG:@hkaa0|美国_39
+,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|美国_44,TG:@hkaa0|美国_45,TG:@hkaa0|美国_46,TG:@hkaa0|美国_47,TG:@hkaa0|美国_48,TG:@hkaa0|美国_49,TG:@hkaa0|美国_50,TG:@hkaa0|美国_51,TG:@hkaa0|美国_52,TG:@hkaa0|美国_53,TG:@hkaa0|美国_54,TG:@hkaa0|美国_55,TG:@hkaa0|美国_56,TG:@hkaa0|美国_57,TG:@hkaa0|美国_58,TG:@hkaa0|美国_59,TG:@hkaa0|美国_60,TG:@hkaa0|美国_61,TG:@hkaa0|美国_62,TG:@hkaa0|美国_63,TG:@hkaa0|美国_64,TG:@hkaa0|比利时_2,TG:@hkaa0|美国_65,TG:@hkaa0|加拿大
+,TG:@hkaa0|澳大利亚_1
+,TG:@hkaa0|中国_2
+,TG:@hkaa0|法国,TG:@hkaa0|美国_66
+,TG:@hkaa0|英国_3
+,TG:@hkaa0|英国_4
+,TG:@hkaa0|日本_1,TG:@hkaa0|美国_67
+,TG:@hkaa0|美国_68
+,TG:@hkaa0|日本_2
+,TG:@hkaa0|德国_3
+,TG:@hkaa0|德国_4
+,TG:@hkaa0|德国_5
+,TG:@hkaa0|俄罗斯,TG:@hkaa0|荷兰_2
+,TG:@hkaa0|乌克兰
+,TG:@hkaa0|美国_69
+,TG:@hkaa0|美国_70
+,TG:@hkaa0|美国_71
+,TG:@hkaa0|美国_72
+,TG:@hkaa0|美国_73
+,TG:@hkaa0|美国_74
+,TG:@hkaa0|美国_75
+,TG:@hkaa0|美国_76
+,TG:@hkaa0|美国_77
+,TG:@hkaa0|美国_78
+,TG:@hkaa0|美国_79
+,TG:@hkaa0|美国_80
+,TG:@hkaa0|美国_81
+,TG:@hkaa0|美国_82,TG:@hkaa0|美国_83,TG:@hkaa0|美国_84
+,TG:@hkaa0|美国_85
+,TG:@hkaa0|未知_1
+,TG:@hkaa0|美国_86,TG:@hkaa0|美国_87,TG:@hkaa0|美国_88,TG:@hkaa0|未知_2,TG:@hkaa0|美国_89,TG:@hkaa0|中国_3
+,TG:@hkaa0|美国_90,TG:@hkaa0|澳大利亚_2
+,TG:@hkaa0|澳大利亚_3
+,TG:@hkaa0|美国_91
+,TG:@hkaa0|美国_92
+,TG:@hkaa0|美国_93,TG:@hkaa0|美国_94,TG:@hkaa0|美国_95,TG:@hkaa0|美国_96,TG:@hkaa0|澳大利亚_4
+,TG:@hkaa0|德国_6
+,TG:@hkaa0|德国_7
+,TG:@hkaa0|美国_97,TG:@hkaa0|美国_98,TG:@hkaa0|美国_99,TG:@hkaa0|美国_100,TG:@hkaa0|美国_101,TG:@hkaa0|澳大利亚_5
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG:@hkaa0|美国_1
+,TG:@hkaa0|美国_2
+,TG:@hkaa0|美国_3
+,TG:@hkaa0|美国_4
+,TG:@hkaa0|美国_5
+,TG:@hkaa0|美国_6
+,TG:@hkaa0|美国_7
+,TG:@hkaa0|美国_8
+,TG:@hkaa0|比利时_1,TG:@hkaa0|英国_1
+,TG:@hkaa0|中国_1
+,TG:@hkaa0|德国_1
+,TG:@hkaa0|德国_2
+,TG:@hkaa0|荷兰_1
+,TG:@hkaa0|美国_9
+,TG:@hkaa0|英国_2
+,TG:@hkaa0|美国_10
+,TG:@hkaa0|美国_11
+,TG:@hkaa0|美国_12
+,TG:@hkaa0|美国_13
+,TG:@hkaa0|美国_14
+,TG:@hkaa0|美国_15
+,TG:@hkaa0|美国_16
+,TG:@hkaa0|美国_17
+,TG:@hkaa0|美国_18
+,TG:@hkaa0|美国_19
+,TG:@hkaa0|美国_20
+,TG:@hkaa0|美国_21
+,TG:@hkaa0|美国_22
+,TG:@hkaa0|美国_23
+,TG:@hkaa0|美国_24
+,TG:@hkaa0|美国_25
+,TG:@hkaa0|美国_26
+,TG:@hkaa0|美国_27
+,TG:@hkaa0|美国_28
+,TG:@hkaa0|美国_29
+,TG:@hkaa0|美国_30
+,TG:@hkaa0|美国_31
+,TG:@hkaa0|美国_32
+,TG:@hkaa0|美国_33
+,TG:@hkaa0|美国_34
+,TG:@hkaa0|美国_35
+,TG:@hkaa0|美国_36
+,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38
+,TG:@hkaa0|美国_39
+,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|美国_44,TG:@hkaa0|美国_45,TG:@hkaa0|美国_46,TG:@hkaa0|美国_47,TG:@hkaa0|美国_48,TG:@hkaa0|美国_49,TG:@hkaa0|美国_50,TG:@hkaa0|美国_51,TG:@hkaa0|美国_52,TG:@hkaa0|美国_53,TG:@hkaa0|美国_54,TG:@hkaa0|美国_55,TG:@hkaa0|美国_56,TG:@hkaa0|美国_57,TG:@hkaa0|美国_58,TG:@hkaa0|美国_59,TG:@hkaa0|美国_60,TG:@hkaa0|美国_61,TG:@hkaa0|美国_62,TG:@hkaa0|美国_63,TG:@hkaa0|美国_64,TG:@hkaa0|比利时_2,TG:@hkaa0|美国_65,TG:@hkaa0|加拿大
+,TG:@hkaa0|澳大利亚_1
+,TG:@hkaa0|中国_2
+,TG:@hkaa0|法国,TG:@hkaa0|美国_66
+,TG:@hkaa0|英国_3
+,TG:@hkaa0|英国_4
+,TG:@hkaa0|日本_1,TG:@hkaa0|美国_67
+,TG:@hkaa0|美国_68
+,TG:@hkaa0|日本_2
+,TG:@hkaa0|德国_3
+,TG:@hkaa0|德国_4
+,TG:@hkaa0|德国_5
+,TG:@hkaa0|俄罗斯,TG:@hkaa0|荷兰_2
+,TG:@hkaa0|乌克兰
+,TG:@hkaa0|美国_69
+,TG:@hkaa0|美国_70
+,TG:@hkaa0|美国_71
+,TG:@hkaa0|美国_72
+,TG:@hkaa0|美国_73
+,TG:@hkaa0|美国_74
+,TG:@hkaa0|美国_75
+,TG:@hkaa0|美国_76
+,TG:@hkaa0|美国_77
+,TG:@hkaa0|美国_78
+,TG:@hkaa0|美国_79
+,TG:@hkaa0|美国_80
+,TG:@hkaa0|美国_81
+,TG:@hkaa0|美国_82,TG:@hkaa0|美国_83,TG:@hkaa0|美国_84
+,TG:@hkaa0|美国_85
+,TG:@hkaa0|未知_1
+,TG:@hkaa0|美国_86,TG:@hkaa0|美国_87,TG:@hkaa0|美国_88,TG:@hkaa0|未知_2,TG:@hkaa0|美国_89,TG:@hkaa0|中国_3
+,TG:@hkaa0|美国_90,TG:@hkaa0|澳大利亚_2
+,TG:@hkaa0|澳大利亚_3
+,TG:@hkaa0|美国_91
+,TG:@hkaa0|美国_92
+,TG:@hkaa0|美国_93,TG:@hkaa0|美国_94,TG:@hkaa0|美国_95,TG:@hkaa0|美国_96,TG:@hkaa0|澳大利亚_4
+,TG:@hkaa0|德国_6
+,TG:@hkaa0|德国_7
+,TG:@hkaa0|美国_97,TG:@hkaa0|美国_98,TG:@hkaa0|美国_99,TG:@hkaa0|美国_100,TG:@hkaa0|美国_101,TG:@hkaa0|澳大利亚_5
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG:@hkaa0|美国_1
+,TG:@hkaa0|美国_2
+,TG:@hkaa0|美国_3
+,TG:@hkaa0|美国_4
+,TG:@hkaa0|美国_5
+,TG:@hkaa0|美国_6
+,TG:@hkaa0|美国_7
+,TG:@hkaa0|美国_8
+,TG:@hkaa0|比利时_1,TG:@hkaa0|英国_1
+,TG:@hkaa0|中国_1
+,TG:@hkaa0|德国_1
+,TG:@hkaa0|德国_2
+,TG:@hkaa0|荷兰_1
+,TG:@hkaa0|美国_9
+,TG:@hkaa0|英国_2
+,TG:@hkaa0|美国_10
+,TG:@hkaa0|美国_11
+,TG:@hkaa0|美国_12
+,TG:@hkaa0|美国_13
+,TG:@hkaa0|美国_14
+,TG:@hkaa0|美国_15
+,TG:@hkaa0|美国_16
+,TG:@hkaa0|美国_17
+,TG:@hkaa0|美国_18
+,TG:@hkaa0|美国_19
+,TG:@hkaa0|美国_20
+,TG:@hkaa0|美国_21
+,TG:@hkaa0|美国_22
+,TG:@hkaa0|美国_23
+,TG:@hkaa0|美国_24
+,TG:@hkaa0|美国_25
+,TG:@hkaa0|美国_26
+,TG:@hkaa0|美国_27
+,TG:@hkaa0|美国_28
+,TG:@hkaa0|美国_29
+,TG:@hkaa0|美国_30
+,TG:@hkaa0|美国_31
+,TG:@hkaa0|美国_32
+,TG:@hkaa0|美国_33
+,TG:@hkaa0|美国_34
+,TG:@hkaa0|美国_35
+,TG:@hkaa0|美国_36
+,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38
+,TG:@hkaa0|美国_39
+,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|美国_44,TG:@hkaa0|美国_45,TG:@hkaa0|美国_46,TG:@hkaa0|美国_47,TG:@hkaa0|美国_48,TG:@hkaa0|美国_49,TG:@hkaa0|美国_50,TG:@hkaa0|美国_51,TG:@hkaa0|美国_52,TG:@hkaa0|美国_53,TG:@hkaa0|美国_54,TG:@hkaa0|美国_55,TG:@hkaa0|美国_56,TG:@hkaa0|美国_57,TG:@hkaa0|美国_58,TG:@hkaa0|美国_59,TG:@hkaa0|美国_60,TG:@hkaa0|美国_61,TG:@hkaa0|美国_62,TG:@hkaa0|美国_63,TG:@hkaa0|美国_64,TG:@hkaa0|比利时_2,TG:@hkaa0|美国_65,TG:@hkaa0|加拿大
+,TG:@hkaa0|澳大利亚_1
+,TG:@hkaa0|中国_2
+,TG:@hkaa0|法国,TG:@hkaa0|美国_66
+,TG:@hkaa0|英国_3
+,TG:@hkaa0|英国_4
+,TG:@hkaa0|日本_1,TG:@hkaa0|美国_67
+,TG:@hkaa0|美国_68
+,TG:@hkaa0|日本_2
+,TG:@hkaa0|德国_3
+,TG:@hkaa0|德国_4
+,TG:@hkaa0|德国_5
+,TG:@hkaa0|俄罗斯,TG:@hkaa0|荷兰_2
+,TG:@hkaa0|乌克兰
+,TG:@hkaa0|美国_69
+,TG:@hkaa0|美国_70
+,TG:@hkaa0|美国_71
+,TG:@hkaa0|美国_72
+,TG:@hkaa0|美国_73
+,TG:@hkaa0|美国_74
+,TG:@hkaa0|美国_75
+,TG:@hkaa0|美国_76
+,TG:@hkaa0|美国_77
+,TG:@hkaa0|美国_78
+,TG:@hkaa0|美国_79
+,TG:@hkaa0|美国_80
+,TG:@hkaa0|美国_81
+,TG:@hkaa0|美国_82,TG:@hkaa0|美国_83,TG:@hkaa0|美国_84
+,TG:@hkaa0|美国_85
+,TG:@hkaa0|未知_1
+,TG:@hkaa0|美国_86,TG:@hkaa0|美国_87,TG:@hkaa0|美国_88,TG:@hkaa0|未知_2,TG:@hkaa0|美国_89,TG:@hkaa0|中国_3
+,TG:@hkaa0|美国_90,TG:@hkaa0|澳大利亚_2
+,TG:@hkaa0|澳大利亚_3
+,TG:@hkaa0|美国_91
+,TG:@hkaa0|美国_92
+,TG:@hkaa0|美国_93,TG:@hkaa0|美国_94,TG:@hkaa0|美国_95,TG:@hkaa0|美国_96,TG:@hkaa0|澳大利亚_4
+,TG:@hkaa0|德国_6
+,TG:@hkaa0|德国_7
+,TG:@hkaa0|美国_97,TG:@hkaa0|美国_98,TG:@hkaa0|美国_99,TG:@hkaa0|美国_100,TG:@hkaa0|美国_101,TG:@hkaa0|澳大利亚_5
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG:@hkaa0|英国_1,TG:@hkaa0|德国_1,TG:@hkaa0|英国_2,TG:@hkaa0|美国_1,TG:@hkaa0|美国_2,TG:@hkaa0|美国_3,TG:@hkaa0|美国_4,TG:@hkaa0|英国_3,TG:@hkaa0|美国_5,TG:@hkaa0|美国_6,TG:@hkaa0|美国_7,TG:@hkaa0|美国_8,TG:@hkaa0|美国_9,TG:@hkaa0|美国_10,TG:@hkaa0|美国_11,TG:@hkaa0|美国_12,TG:@hkaa0|美国_13,TG:@hkaa0|英国_4,TG:@hkaa0|巴西,TG:@hkaa0|日本_1,TG:@hkaa0|荷兰_1,TG:@hkaa0|荷兰_2,TG:@hkaa0|中国_1,TG:@hkaa0|中国_2,TG:@hkaa0|荷兰_3,TG:@hkaa0|中国_3,TG:@hkaa0|荷兰_4,TG:@hkaa0|中国_4,TG:@hkaa0|法国_1,TG:@hkaa0|法国_2,TG:@hkaa0|美国_14,TG:@hkaa0|美国_15,TG:@hkaa0|英国_5,TG:@hkaa0|英国_6,TG:@hkaa0|爱尔兰,TG:@hkaa0|韩国,TG:@hkaa0|日本_2,TG:@hkaa0|德国_2,TG:@hkaa0|德国_3,TG:@hkaa0|德国_4,TG:@hkaa0|德国_5,TG:@hkaa0|中国_5,TG:@hkaa0|新加坡,TG:@hkaa0|美国_16,TG:@hkaa0|美国_17,TG:@hkaa0|美国_18,TG:@hkaa0|美国_19,TG:@hkaa0|美国_20,TG:@hkaa0|美国_21,TG:@hkaa0|美国_22,TG:@hkaa0|美国_23,TG:@hkaa0|美国_24,TG:@hkaa0|美国_25,TG:@hkaa0|美国_26,TG:@hkaa0|美国_27,TG:@hkaa0|美国_28,TG:@hkaa0|美国_29,TG:@hkaa0|美国_30,TG:@hkaa0|美国_31,TG:@hkaa0|中国_6,TG:@hkaa0|中国_7,TG:@hkaa0|中国_8,TG:@hkaa0|中国_9,TG:@hkaa0|美国_32,TG:@hkaa0|美国_33,TG:@hkaa0|美国_34,TG:@hkaa0|美国_35,TG:@hkaa0|美国_36,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38,TG:@hkaa0|美国_39,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|中国_10,TG:@hkaa0|英国_7,TG:@hkaa0|荷兰_5,TG:@hkaa0|美国_44,TG:@hkaa0|日本_3
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG:@hkaa0|美国_1
+,TG:@hkaa0|美国_2
+,TG:@hkaa0|美国_3
+,TG:@hkaa0|美国_4
+,TG:@hkaa0|美国_5
+,TG:@hkaa0|美国_6
+,TG:@hkaa0|美国_7
+,TG:@hkaa0|美国_8
+,TG:@hkaa0|比利时_1,TG:@hkaa0|英国_1
+,TG:@hkaa0|中国_1
+,TG:@hkaa0|德国_1
+,TG:@hkaa0|德国_2
+,TG:@hkaa0|荷兰_1
+,TG:@hkaa0|美国_9
+,TG:@hkaa0|英国_2
+,TG:@hkaa0|美国_10
+,TG:@hkaa0|美国_11
+,TG:@hkaa0|美国_12
+,TG:@hkaa0|美国_13
+,TG:@hkaa0|美国_14
+,TG:@hkaa0|美国_15
+,TG:@hkaa0|美国_16
+,TG:@hkaa0|美国_17
+,TG:@hkaa0|美国_18
+,TG:@hkaa0|美国_19
+,TG:@hkaa0|美国_20
+,TG:@hkaa0|美国_21
+,TG:@hkaa0|美国_22
+,TG:@hkaa0|美国_23
+,TG:@hkaa0|美国_24
+,TG:@hkaa0|美国_25
+,TG:@hkaa0|美国_26
+,TG:@hkaa0|美国_27
+,TG:@hkaa0|美国_28
+,TG:@hkaa0|美国_29
+,TG:@hkaa0|美国_30
+,TG:@hkaa0|美国_31
+,TG:@hkaa0|美国_32
+,TG:@hkaa0|美国_33
+,TG:@hkaa0|美国_34
+,TG:@hkaa0|美国_35
+,TG:@hkaa0|美国_36
+,TG:@hkaa0|美国_37,TG:@hkaa0|美国_38
+,TG:@hkaa0|美国_39
+,TG:@hkaa0|美国_40,TG:@hkaa0|美国_41,TG:@hkaa0|美国_42,TG:@hkaa0|美国_43,TG:@hkaa0|美国_44,TG:@hkaa0|美国_45,TG:@hkaa0|美国_46,TG:@hkaa0|美国_47,TG:@hkaa0|美国_48,TG:@hkaa0|美国_49,TG:@hkaa0|美国_50,TG:@hkaa0|美国_51,TG:@hkaa0|美国_52,TG:@hkaa0|美国_53,TG:@hkaa0|美国_54,TG:@hkaa0|美国_55,TG:@hkaa0|美国_56,TG:@hkaa0|美国_57,TG:@hkaa0|美国_58,TG:@hkaa0|美国_59,TG:@hkaa0|美国_60,TG:@hkaa0|美国_61,TG:@hkaa0|美国_62,TG:@hkaa0|美国_63,TG:@hkaa0|美国_64,TG:@hkaa0|比利时_2,TG:@hkaa0|美国_65,TG:@hkaa0|加拿大
+,TG:@hkaa0|澳大利亚_1
+,TG:@hkaa0|中国_2
+,TG:@hkaa0|法国,TG:@hkaa0|美国_66
+,TG:@hkaa0|英国_3
+,TG:@hkaa0|英国_4
+,TG:@hkaa0|日本_1,TG:@hkaa0|美国_67
+,TG:@hkaa0|美国_68
+,TG:@hkaa0|日本_2
+,TG:@hkaa0|德国_3
+,TG:@hkaa0|德国_4
+,TG:@hkaa0|德国_5
+,TG:@hkaa0|俄罗斯,TG:@hkaa0|荷兰_2
+,TG:@hkaa0|乌克兰
+,TG:@hkaa0|美国_69
+,TG:@hkaa0|美国_70
+,TG:@hkaa0|美国_71
+,TG:@hkaa0|美国_72
+,TG:@hkaa0|美国_73
+,TG:@hkaa0|美国_74
+,TG:@hkaa0|美国_75
+,TG:@hkaa0|美国_76
+,TG:@hkaa0|美国_77
+,TG:@hkaa0|美国_78
+,TG:@hkaa0|美国_79
+,TG:@hkaa0|美国_80
+,TG:@hkaa0|美国_81
+,TG:@hkaa0|美国_82,TG:@hkaa0|美国_83,TG:@hkaa0|美国_84
+,TG:@hkaa0|美国_85
+,TG:@hkaa0|未知_1
+,TG:@hkaa0|美国_86,TG:@hkaa0|美国_87,TG:@hkaa0|美国_88,TG:@hkaa0|未知_2,TG:@hkaa0|美国_89,TG:@hkaa0|中国_3
+,TG:@hkaa0|美国_90,TG:@hkaa0|澳大利亚_2
+,TG:@hkaa0|澳大利亚_3
+,TG:@hkaa0|美国_91
+,TG:@hkaa0|美国_92
+,TG:@hkaa0|美国_93,TG:@hkaa0|美国_94,TG:@hkaa0|美国_95,TG:@hkaa0|美国_96,TG:@hkaa0|澳大利亚_4
+,TG:@hkaa0|德国_6
+,TG:@hkaa0|德国_7
+,TG:@hkaa0|美国_97,TG:@hkaa0|美国_98,TG:@hkaa0|美国_99,TG:@hkaa0|美国_100,TG:@hkaa0|美国_101,TG:@hkaa0|澳大利亚_5
 
 [Rule]
 # 本地/局域网地址
